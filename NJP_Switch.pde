@@ -6,11 +6,11 @@ Serial port;
 ControlP5 cp5;
 
 int ROpen_hh = 11 ;
-int ROpen_mm= 00 ;
-int ROpen_ss = 03 ;
+int ROpen_mm = 0 ;
+int ROpen_ss = 3 ;
 int RClose_hh = 14 ;
-int RClose_mm= 00 ;
-int RClose_ss = 03 ;
+int RClose_mm = 0 ;
+int RClose_ss = 3 ;
 
 Textfield P;
 Textfield I;
@@ -42,30 +42,17 @@ String[] baudrates = {
   "1200", "2400", "4800", "9600", "19200", "38400", "57600", "115200" // these are the supported baudrates by a module
 };
 
-DropdownList ROpen_HH;
-int selectedOH = -1; // Used to indicate which baudrate has been selected
-String[] OH = {
-  "00", "01", "02", "03", "04", "05" // Open Hour
-};
-
 boolean connectedSerial;
 boolean aborted;
 boolean isPressedCh1Button = false;
 boolean isPressedCh2Button = false;
 boolean isPressedCh3Button = false;
 boolean isPressedCh4Button = false;
-boolean isPressedCh5Button = false;
-boolean isPressedCh6Button = false;
-boolean isPressedCh7Button = false;
-boolean isPressedCh8Button = false;
-boolean isPressedCh22Button = false;
-boolean isPressedautoButton = false;
-boolean isPressedroofButton = false;
 
 // schduling
 
-int status_text_x = 300 ;
-int status_text_y = 32 ;
+int status_text_x = 20 ;
+int status_text_y = 600 ;
 int ch_button_x0 = 20 ;
 int ch_button_y0 = 300 ;
 int ch_button_w = 90 ;
@@ -86,7 +73,7 @@ void setup()
   } 
   
   cp5 = new ControlP5(this);
-  size(550, 650);
+  size(300, 650);
 
   f = loadFont("Arial-BoldMT-30.vlw");
   textFont(f, 30);
@@ -101,8 +88,8 @@ void setup()
     baudrate = cp5.addDropdownList("Baudrate_dropdown", 120, 70, 55, 200); // Make a dropdown with all the available baudrates   
     customize(baudrate); // Setup the dropdownlist by using a function
 
-    ROpen_HH = cp5.addDropdownList("ROpen_dropdown", 385, 98, 25, 200); // Make a dropdown with all the available RoofOpen   
-    customize(ROpen_HH); // Setup the dropdownlist by using a function
+    //ROpen_HH = cp5.addDropdownList("ROpen_dropdown", 385, 98, 25, 200); // Make a dropdown with all the available RoofOpen   
+    //customize(ROpen_HH); // Setup the dropdownlist by using a function
 
     cp5.addButton("Connect", 0, 185, 70, 52, 15);
     cp5.addButton("Disconnect", 0, 185, 88, 52, 15);
@@ -115,6 +102,7 @@ void setup()
     serial.write("G;"); // Go
   }
   background(0);
+  fill(255);
   set_buttons();
 }
 
@@ -181,12 +169,7 @@ void customize(DropdownList ddl)
     for (int i=0; i<serial.list().length; i++)    
       ddl.addItem(serial.list()[i], i);//This is the line doing the actual adding of items, we use the current loop we are in to determin what place in the char array to access and what item number to add it as.
   }
-  else if (ddl.getName() == "ROpen_dropdown"){
-     ddl.getCaptionLabel().set("Select roof open time");
-     for (int i=0; i<OH.length; i++){
-      ddl.addItem(OH[i],i);
-    }
-  }
+
   ddl.setColorBackground(color(60));
   ddl.setColorActive(color(255, 128));
 }
@@ -200,8 +183,8 @@ void controlEvent(ControlEvent theEvent) {
       portNumber = int(theEvent.getController().getValue());
     else if(theEvent.getName() == "Baudrate_dropdown")
       selectedBaudrate = int(theEvent.getController().getValue());
-    else if(theEvent.getName() == "ROpen_dropdown")
-      selectedOH = int(theEvent.getController().getValue());
+    //else if(theEvent.getName() == "ROpen_dropdown")
+    //selectedOH = int(theEvent.getController().getValue());
   }
 }
 
@@ -240,7 +223,7 @@ void Disconnect(int theValue)
     background(0); // background color change by Kevin
     set_button_texts();
     fill(255,255,255);
-    text("Serial disconnected", 80, 60);
+    text("Serial disconnected", 20, 60);
     println("Serial disconnected");
   }
   else
@@ -251,46 +234,6 @@ void Disconnect(int theValue)
 void createModalDialog(String message) {
     messageBoxResult = JOptionPane.showConfirmDialog(frame, message);
 }
-
-
-/*
-public void auto_on() {
-int hh = hour();
-int mm= minute();
-int ss = second();
-
-int mms=millis();
-  if (isPressedautoButton && connectedSerial && start_hh==hh && start_mm==mm && start_ss==ss )  
-        {
-        ch6_on();
-        }
-    if(isPressedautoButton && connectedSerial && start_hh==hh-3 && start_mm == mm && start_ss == ss )  
-       {
-        ch7_on();
-      }
-    if (isPressedautoButton && connectedSerial && (ss%15==0))
-    {
-      One_shot();
-  } else if (!isPressedautoButton && connectedSerial) {
-  
-  }
-  isPressedautoButton = !isPressedautoButton;
-    ((Toggle)cp5.getController("auto")).setState(true);
-       messageBoxResult = -1;
-}
-
-public void auto_off() {
-  createModalDialog("auto off");
-   if (messageBoxResult >= 1)
-    return;
-  if (isPressedautoButton && connectedSerial) {
-  } else if (!isPressedautoButton && connectedSerial) {
-  }
-  isPressedautoButton = !isPressedautoButton;
-    ((Toggle)cp5.getController("task")).setState(false);
-       messageBoxResult = -1;
-}
-*/
 
 
 int previous_ss;
@@ -307,38 +250,27 @@ void draw(){
 
 void beattime(int hh, int mm, int ss){
   fill(255);
-  rect(275,70,180,20);
+  rect(status_text_x,status_text_y-40,200,25);
   fill(0);
   textFont(f,20);
   textAlign(LEFT);
   textSize(13);
-  text("Com Clock        " + hh + " : " + mm + " : " + ss, 285, 85);
+  text("Com Clock        " + hh + " : " + mm + " : " + ss, status_text_x+20, status_text_y-23);
+  
+  fill(0);
   fill(255);
-  rect(280,ch_button_y0+ch_button_h*0+30,120,20);
-  rect(280,ch_button_y0+ch_button_h*1+25,120,20);
+  
   fill(0);
   textFont(f,20);
   textAlign(LEFT);
   textSize(13);
-  text("Set    " + ROpen_hh  + " : " + ROpen_mm  + " : " + ROpen_ss,  295, ch_button_y0+ch_button_h*0+45);
-  text("Set    " + RClose_hh + " : " + RClose_mm + " : " + RClose_ss, 295, ch_button_y0+ch_button_h*1+40);
   
   if(connectedSerial){
-    if (ROpen_hh==hh && ROpen_mm==mm && ROpen_ss==ss && isPressedroofButton == true) {
-      ch6_on_on(); //open
-    }
-    if (RClose_hh==hh-3 && RClose_mm == mm && RClose_ss == ss && isPressedroofButton == true) {
-      ch7_on_on();  //close
-  }
+    if(previous_ss != ss){
     if (ss==0 || ss==15 || ss==30 || ss==45) {
-      if(previous_ss != ss){
-      if (isPressedCh22Button == true && isPressedCh1Button == true && isPressedroofButton == true){        
-        One_shot();
-        println(ss);
-        }
-      }
-    } else if (!isPressedautoButton) {
-    
+        println();
+        println(hh+":"+mm+":"+ss);  
+       }
     }
   }
   previous_ss = ss;
