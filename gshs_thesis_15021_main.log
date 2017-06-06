@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/W32TeX) (preloaded format=xelatex 2017.6.4)  6 JUN 2017 16:44
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/W32TeX) (preloaded format=xelatex 2017.6.4)  6 JUN 2017 19:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1246,45 +1246,35 @@ or  <return>  to continue without it.
 
 
 ]
-File: ../images/monLAC01.jpg Graphic file (type QTm)
- <use  "../images/monLAC01.jpg" >
+File: images/../images/monLAC01.png Graphic file (type QTm)
+ <use  "images/../images/monLAC01.png" >
+File: images/../images/monGAC01.pdf Graphic file (type QTm)
 
-LaTeX Warning: Float too large for page by 20.48651pt on input line 35.
+<use  "images/../images/monGAC01.pdf" >
+Overfull \hbox (3.2987pt too wide) in paragraph at lines 39--39
+ [][] 
+ []
 
-File: ../images/monGAC01.jpg Graphic file (type QTm)
-<use  "../images/monGAC01.jpg" >
+File: images/../images/monLAC02.png Graphic file (type QTm)
+<use  "images/../images/monLAC02.png" >
+File: images/../images/monGAC02.pdf Graphic file (type QTm)
 
-LaTeX Warning: Float too large for page by 20.48651pt on input line 42.
+<use  "images/../images/monGAC02.pdf" >
+File: images/../images/monLAC03.png Graphic file (type QTm)
 
-File: ../images/monLAC02.jpg Graphic file (type QTm)
-<use  "../images/monLAC02.jpg" >
+<use  "images/../images/monLAC03.png" >
+File: images/../images/monGAC03.pdf Graphic file (type QTm)
 
-LaTeX Warning: Float too large for page by 20.48651pt on input line 50.
+<use  "images/../images/monGAC03.pdf" > [7]
+File: images/../images/monHIS.png Graphic file (type QTm)
 
-File: ../images/monGAC02.jpg Graphic file (type QTm)
-<use  "../images/monGAC02.jpg" >
+<use  "images/../images/monHIS.png" >
+File: images/../images/monHISHI.png Graphic file (type QTm)
+ <use  "images/../images/monHISHI.png" >
+File: images/../images/monHISSPEC.png Graphic file (type QTm)
 
-LaTeX Warning: Float too large for page by 20.48651pt on input line 57.
-
-File: ../images/monLAC03.jpg Graphic file (type QTm)
-<use  "../images/monLAC03.jpg" >
-
-LaTeX Warning: Float too large for page by 20.48651pt on input line 64.
-
-File: ../images/monGAC03.jpg Graphic file (type QTm)
-<use  "../images/monGAC03.jpg" >
-
-LaTeX Warning: Float too large for page by 20.48651pt on input line 71.
-
-[7]
-File: ../images/monHIS.png Graphic file (type QTm)
- <use  "../images/monHIS.png" >
-File: ../images/monHISHI.png Graphic file (type QTm)
- <use  "../images/monHISHI.png" >
-File: ../images/monHISSPEC.png Graphic file (type QTm)
-
-<use  "../images/monHISSPEC.png" >) [8] [9] [10] [11] [12] [13] [14] [15]
-[16]
+<use  "images/../images/monHISSPEC.png" >) [8] [9] [10] [11] [12] [13] [14]
+[15] [16]
 \openout2 = `sub/conclusion.aux'.
 
  (./sub/conclusion.tex) [17
@@ -1302,8 +1292,8 @@ File: ../images/monHISSPEC.png Graphic file (type QTm)
 aux) (./sub/methodology.aux) (./sub/body1.aux)
 (./sub/conclusion.aux) (./sub/footer.aux)) ) 
 Here is how much of TeX's memory you used:
- 18807 strings out of 493068
- 340064 string characters out of 6138949
+ 18808 strings out of 493068
+ 340151 string characters out of 6138949
  412406 words of memory out of 5000000
  22405 multiletter control sequences out of 15000+600000
  22708 words of font info for 107 fonts, out of 8000000 for 9000
