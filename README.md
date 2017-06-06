@@ -15,3 +15,5 @@ xelatex을 사용하여 글꼴을 바꾸었습니다.
 bibtex을 사용하면 정렬, 스타일링 등이 자동으로 됩니다.
 `\bibliographystyle{gshs_thesis}`
 APA style에 최대한 가깝게 구현하였습니다. (gshs_thesis.bst)
+
+## 15021
