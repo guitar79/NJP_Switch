@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/W32TeX) (preloaded format=xelatex 2017.3.16)  6 JUN 2017 12:49
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/W32TeX) (preloaded format=xelatex 2017.3.16)  6 JUN 2017 16:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -932,7 +932,9 @@ Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode not found.
 )))
-(./gshs_thesis_15021_main.aux (./sub/abstract.aux))
+(./gshs_thesis_15021_main.aux (./sub/abstract.aux) (./sub/introduction.aux)
+(./sub/methodology.aux) (./sub/body1.aux) (./sub/conclusion.aux)
+(./sub/footer.aux))
 \openout1 = `gshs_thesis_15021_main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
@@ -1089,27 +1091,39 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
 
 
 ] (./gshs_thesis_15021_main.lof
-Overfull \hbox (4.82535pt too wide) in paragraph at lines 1--1
+Overfull \hbox (4.82535pt too wide) in paragraph at lines 3--3
  [][] []\TU/TimesNewRoman(0)/m/n/10.95 The monthly-mean chlorophyll-a distribut
 ion in the Korean East Sea, LAC. 
  []
 
 
-Overfull \hbox (4.82535pt too wide) in paragraph at lines 2--2
+Overfull \hbox (4.82535pt too wide) in paragraph at lines 4--4
  [][] []\TU/TimesNewRoman(0)/m/n/10.95 The monthly-mean chlorophyll-a distribut
 ion in the Korean East Sea, LAC. 
  []
 
 
-Overfull \hbox (6.04439pt too wide) in paragraph at lines 3--3
+Overfull \hbox (4.82535pt too wide) in paragraph at lines 5--5
  [][] []\TU/TimesNewRoman(0)/m/n/10.95 The monthly-mean chlorophyll-a distribut
-ion in the Korean East Sea, GAC. 
+ion in the Korean East Sea, LAC. 
  []
 
 
-Overfull \hbox (6.04439pt too wide) in paragraph at lines 4--4
+Overfull \hbox (4.82535pt too wide) in paragraph at lines 6--6
  [][] []\TU/TimesNewRoman(0)/m/n/10.95 The monthly-mean chlorophyll-a distribut
-ion in the Korean East Sea, GAC. 
+ion in the Korean East Sea, LAC. 
+ []
+
+
+Overfull \hbox (4.82535pt too wide) in paragraph at lines 7--7
+ [][] []\TU/TimesNewRoman(0)/m/n/10.95 The monthly-mean chlorophyll-a distribut
+ion in the Korean East Sea, LAC. 
+ []
+
+
+Overfull \hbox (4.82535pt too wide) in paragraph at lines 8--8
+ [][] []\TU/TimesNewRoman(0)/m/n/10.95 The monthly-mean chlorophyll-a distribut
+ion in the Korean East Sea, LAC. 
  []
 
 )
@@ -1119,7 +1133,7 @@ ion in the Korean East Sea, GAC.
  [5
 
 
-]
+] [6]
 ! Undefined control sequence.
 l.53 \listofequations
                      
@@ -1132,30 +1146,7 @@ and I'll forget about whatever was undefined.
 )
 \openout2 = `sub/introduction.aux'.
 
- (./sub/introduction.tex
-
-LaTeX Warning: Citation `kyung2013characteristics' on page 1 undefined on input
- line 5.
-
-
-LaTeX Warning: Citation `hooker1992An' on page 1 undefined on input line 5.
-
-
-LaTeX Warning: Citation `kimhc2016surface' on page 1 undefined on input line 7.
-
-
-
-LaTeX Warning: Citation `o2000ocean' on page 1 undefined on input line 9.
-
-
-LaTeX Warning: Citation `yamada2004seasonal' on page 1 undefined on input line 
-11.
-
-
-LaTeX Warning: Citation `chae2009characteristics' on page 1 undefined on input 
-line 11.
-
-[1
+ (./sub/introduction.tex [1
 
 
 
@@ -1166,15 +1157,6 @@ line 11.
 \openout2 = `sub/methodology.aux'.
 
  (./sub/methodology.tex
-
-LaTeX Warning: Reference `table01' on page 3 undefined on input line 5.
-
-
-LaTeX Warning: Reference `table02' on page 3 undefined on input line 5.
-
-
-LaTeX Warning: Citation `hooker1992An' on page 3 undefined on input line 5.
-
 ! Missing number, treated as zero.
 <to be read again> 
                    \let 
@@ -1216,260 +1198,138 @@ I'll assume that you meant to say pt, for printer's points.
 To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
-
-
-LaTeX Warning: Reference `eq001' on page 3 undefined on input line 45.
 
 [3
 
 
-]
-
-LaTeX Warning: Citation `o2000ocean' on page 4 undefined on input line 52.
-
-
-LaTeX Warning: Citation `hu2012chlorophyll' on page 4 undefined on input line 5
-3.
-
-[4]) [5]
+] [4]) [5]
 \openout2 = `sub/body1.aux'.
 
  (./sub/body1.tex
 
-LaTeX Warning: Reference `fig:noname01' on page 6 undefined on input line 16.
+! LaTeX Error: File `../images/annualmon' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 ...[width=0.8\linewidth]{../images/annualmon}
+                                                  \\
+I could not locate the file with any of these extensions:
+.pdf,.PDF,.eps,.EPS,.mps,.MPS,.ps,.PS,.png,.PNG,.jpg,.JPG,.jpeg,.JPEG,.jp2,.JP2
+,.jpf,.JPF,.bmp,.BMP,.pict,.PICT,.psd,.PSD,.mac,.MAC,.TGA,.tga,.gif,.GIF,.tif,.
+TIF,.tiff,.TIFF,
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
 
-LaTeX Warning: Reference `fig:monGAC01' on page 6 undefined on input line 16.
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 ...idth=0.8\linewidth]{../images/annualmon}\\
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
 
-LaTeX Warning: Reference `fig:noname03' on page 6 undefined on input line 16.
+! LaTeX Error: File `../images/annualwky' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 ...[width=0.8\linewidth]{../images/annualwky}
+                                                  \\
+I could not locate the file with any of these extensions:
+.pdf,.PDF,.eps,.EPS,.mps,.MPS,.ps,.PS,.png,.PNG,.jpg,.JPG,.jpeg,.JPEG,.jp2,.JP2
+,.jpf,.JPF,.bmp,.BMP,.pict,.PICT,.psd,.PSD,.mac,.MAC,.TGA,.tga,.gif,.GIF,.tif,.
+TIF,.tiff,.TIFF,
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
 
-LaTeX Warning: Reference `fig:monGAC02' on page 6 undefined on input line 16.
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 ...idth=0.8\linewidth]{../images/annualwky}\\
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
 [6
 
 
 ]
+File: ../images/monLAC01.jpg Graphic file (type QTm)
+ <use  "../images/monLAC01.jpg" >
 
-! LaTeX Error: File `../images/mon_GAC01' not found.
+LaTeX Warning: Float too large for page by 20.48651pt on input line 35.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.20 ...[width=0.8\linewidth]{../images/mon_GAC01}
-                                                  \\
-I could not locate the file with any of these extensions:
-.pdf,.PDF,.eps,.EPS,.mps,.MPS,.ps,.PS,.png,.PNG,.jpg,.JPG,.jpeg,.JPEG,.jp2,.JP2
-,.jpf,.JPF,.bmp,.BMP,.pict,.PICT,.psd,.PSD,.mac,.MAC,.TGA,.tga,.gif,.GIF,.tif,.
-TIF,.tiff,.TIFF,
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+File: ../images/monGAC01.jpg Graphic file (type QTm)
+<use  "../images/monGAC01.jpg" >
 
+LaTeX Warning: Float too large for page by 20.48651pt on input line 42.
 
-! LaTeX Error: There's no line here to end.
+File: ../images/monLAC02.jpg Graphic file (type QTm)
+<use  "../images/monLAC02.jpg" >
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.20 ...idth=0.8\linewidth]{../images/mon_GAC01}\\
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+LaTeX Warning: Float too large for page by 20.48651pt on input line 50.
 
+File: ../images/monGAC02.jpg Graphic file (type QTm)
+<use  "../images/monGAC02.jpg" >
 
-! LaTeX Error: File `../images/mon_LAC01' not found.
+LaTeX Warning: Float too large for page by 20.48651pt on input line 57.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.27 ...[width=0.8\linewidth]{../images/mon_LAC01}
-                                                  \\
-I could not locate the file with any of these extensions:
-.pdf,.PDF,.eps,.EPS,.mps,.MPS,.ps,.PS,.png,.PNG,.jpg,.JPG,.jpeg,.JPEG,.jp2,.JP2
-,.jpf,.JPF,.bmp,.BMP,.pict,.PICT,.psd,.PSD,.mac,.MAC,.TGA,.tga,.gif,.GIF,.tif,.
-TIF,.tiff,.TIFF,
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+File: ../images/monLAC03.jpg Graphic file (type QTm)
+<use  "../images/monLAC03.jpg" >
 
+LaTeX Warning: Float too large for page by 20.48651pt on input line 64.
 
-! LaTeX Error: There's no line here to end.
+File: ../images/monGAC03.jpg Graphic file (type QTm)
+<use  "../images/monGAC03.jpg" >
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.27 ...idth=0.8\linewidth]{../images/mon_LAC01}\\
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+LaTeX Warning: Float too large for page by 20.48651pt on input line 71.
 
+[7]
+File: ../images/monHIS.png Graphic file (type QTm)
+ <use  "../images/monHIS.png" >
+File: ../images/monHISHI.png Graphic file (type QTm)
+ <use  "../images/monHISHI.png" >
+File: ../images/monHISSPEC.png Graphic file (type QTm)
 
-! LaTeX Error: File `../images/mon_GAC02' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.34 ...[width=0.8\linewidth]{../images/mon_GAC02}
-                                                  \\
-I could not locate the file with any of these extensions:
-.pdf,.PDF,.eps,.EPS,.mps,.MPS,.ps,.PS,.png,.PNG,.jpg,.JPG,.jpeg,.JPEG,.jp2,.JP2
-,.jpf,.JPF,.bmp,.BMP,.pict,.PICT,.psd,.PSD,.mac,.MAC,.TGA,.tga,.gif,.GIF,.tif,.
-TIF,.tiff,.TIFF,
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.34 ...idth=0.8\linewidth]{../images/mon_GAC02}\\
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: File `../images/mon_LAC02' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.41 ...[width=0.8\linewidth]{../images/mon_LAC02}
-                                                  \\
-I could not locate the file with any of these extensions:
-.pdf,.PDF,.eps,.EPS,.mps,.MPS,.ps,.PS,.png,.PNG,.jpg,.JPG,.jpeg,.JPEG,.jp2,.JP2
-,.jpf,.JPF,.bmp,.BMP,.pict,.PICT,.psd,.PSD,.mac,.MAC,.TGA,.tga,.gif,.GIF,.tif,.
-TIF,.tiff,.TIFF,
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.41 ...idth=0.8\linewidth]{../images/mon_LAC02}\\
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: File `../images/mon_GAC03' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.48 ...[width=0.8\linewidth]{../images/mon_GAC03}
-                                                  \\
-I could not locate the file with any of these extensions:
-.pdf,.PDF,.eps,.EPS,.mps,.MPS,.ps,.PS,.png,.PNG,.jpg,.JPG,.jpeg,.JPEG,.jp2,.JP2
-,.jpf,.JPF,.bmp,.BMP,.pict,.PICT,.psd,.PSD,.mac,.MAC,.TGA,.tga,.gif,.GIF,.tif,.
-TIF,.tiff,.TIFF,
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.48 ...idth=0.8\linewidth]{../images/mon_GAC03}\\
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: File `../images/mon_LAC03' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.55 ...[width=0.8\linewidth]{../images/mon_LAC03}
-                                                  \\
-I could not locate the file with any of these extensions:
-.pdf,.PDF,.eps,.EPS,.mps,.MPS,.ps,.PS,.png,.PNG,.jpg,.JPG,.jpeg,.JPEG,.jp2,.JP2
-,.jpf,.JPF,.bmp,.BMP,.pict,.PICT,.psd,.PSD,.mac,.MAC,.TGA,.tga,.gif,.GIF,.tif,.
-TIF,.tiff,.TIFF,
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.55 ...idth=0.8\linewidth]{../images/mon_LAC03}\\
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-[7]) [8] [9]
+<use  "../images/monHISSPEC.png" >) [8] [9] [10] [11] [12] [13] [14] [15]
+[16]
 \openout2 = `sub/conclusion.aux'.
 
- (./sub/conclusion.tex
-! Misplaced alignment tab character &.
-l.2 ...a, K., Ishizaka, J., Yoo, S., Kim, H. C., &
-                                                   Chiba, S. (2004). Analysi...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-) [10
+ (./sub/conclusion.tex) [17
 
 
-] (./gshs_thesis_15021_main.bbl
-
-LaTeX Warning: Empty `thebibliography' environment on input line 3.
-
-) [11
+] (./gshs_thesis_15021_main.bbl) [18
 
 ]
 \openout2 = `sub/footer.aux'.
 
- (./sub/footer.tex [12
 
-] [13]) (./gshs_thesis_15021_main.aux
-(./sub/abstract.aux) (./sub/introduction.aux) (./sub/methodology.aux)
-(./sub/body1.aux) (./sub/conclusion.aux) (./sub/footer.aux))
+(./sub/footer.tex [19
 
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+] [20]) (./gshs_thesis_15021_main.aux (./sub/abstract.aux) (./sub/introduction.
+aux) (./sub/methodology.aux) (./sub/body1.aux)
+(./sub/conclusion.aux) (./sub/footer.aux)) ) 
 Here is how much of TeX's memory you used:
- 18737 strings out of 493068
- 338171 string characters out of 6138948
- 409458 words of memory out of 5000000
- 22352 multiletter control sequences out of 15000+600000
- 22700 words of font info for 106 fonts, out of 8000000 for 9000
+ 18775 strings out of 493068
+ 338887 string characters out of 6138948
+ 412105 words of memory out of 5000000
+ 22373 multiletter control sequences out of 15000+600000
+ 22708 words of font info for 107 fonts, out of 8000000 for 9000
  1347 hyphenation exceptions out of 8191
  59i,8n,77p,10530b,2385s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on gshs_thesis_15021_main.pdf (22 pages).
+Output written on gshs_thesis_15021_main.pdf (30 pages).
