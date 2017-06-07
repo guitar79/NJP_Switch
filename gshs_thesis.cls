@@ -53,12 +53,6 @@
 \apptocmd{\thebibliography}{\setlength{\itemsep}{0pt}}{}{}
 %\setstretch{1.5}
 
-
-\makeatletter
-\patchcmd{\ttlh@hang}{\parindent\z@}{\parindent\z@\leavevmode}{}{}
-\patchcmd{\ttlh@hang}{\noindent}{}{}{}
-\makeatother
-
 \renewcommand{\thefootnote}{\fnsymbol{footnote}} 
 % 주석 번호와 참고문헌 번호의 혼동을 막기 위해 arabic 대신 fnsymbol 사용(asterisk, dagger, double dagger, ...)
 
@@ -365,7 +359,7 @@
 }
 \captionsetup[table]{%
 	font=small,labelsep=period,singlelinecheck=off,aboveskip=5pt,% 
-	belowskip=0pt, margin=0pt%
+	margin=0pt%
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%

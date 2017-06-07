@@ -8,24 +8,6 @@
  	\caption{The mission characteristics of SeaWiFS.}
  	\label{table01}
  	\centering
- 	\begin{tabularx}[\textwidth]{X|c}
- 		\hline \setlength{\arrayrulewidth}{0.8pt}. 
- 	Orbit Type	& Sun Synchronous at 705 km \\ \hline
- 	Equator Crossing &	Noon +20 min, descending \\ \hline
- 	Orbital Period &	99 minutes  \\ \hline
- 	Swath Width &	2,801 km LAC/HRPT (58.3 degrees)  \\ \hline
- 	Swath Width &	1,502 km GAC (45 degrees)  \\ \hline
- 	Spatial Resolution &	1.1 km LAC, 4.5 km GAC  \\ \hline
- 	Real-Time Data Rate &	665 kbps  \\ \hline
- 	Revisit Time &	1 day  \\ \hline
- 	Digitization &	10 bits  \\ \hline
- 	\end{tabularx}
- \end{table}
-
- \begin{table}[h]\textwidth
- 	\caption{The mission characteristics of SeaWiFS.}
- 	\label{table01}
- 	\centering
  	\begin{tabular}{c|c}
  		\hline \setlength{\arrayrulewidth}{0.8pt}. 
  	Orbit Type	& Sun Synchronous at 705 km \\ \hline
@@ -60,7 +42,7 @@
 \end{table}
  
  The SeaWiFS Level 2 data of chlorophyll-a was downloaded from NASA Ocean Color Web. Processing Level 1 data to Level 2 data was done by NASA, using NASA SeaDAS program. NASA SeaDAS uses two algorithms to create chlorophyll-a concentration data from the Level 1 data of remote sensing reflectance($\rm R_{rs}$); these algorithms are the OCx band ratio algorithm and the color index(CI) algorithm of Hu. 
- The OCx band ratio algorithm use the ratio of two bands in a fourth-order polynomial equation in a relation with chlorophyll-a It can be expressed as the following equation \eqref{eq001}.
+ The OCx band ratio algorithm use the ratio of two bands in a fourth-order polynomial equation in a relation with chlorophyll-a It can be expressed as the following equation \ref{eq001}.
  
  \begin{equation}
  {\rm log_{10} (chlor_a) = a_0 + \sum_{i=1}^4 a_i ~ log_{10} \left( \frac{(R_{rs}(\lambda_{blue})}{(R_{rs}(\lambda_{green})} \right) ^i }
