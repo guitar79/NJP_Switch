@@ -1,0 +1,61 @@
+\maketitle  % command to print the title page with above variables
+
+\setcounter{page}{1}
+%---------------------------------------------------------------------
+%                  영문 초록을 입력하시오
+%---------------------------------------------------------------------
+\begin{abstracts}     %this creates the heading for the abstract page
+	\addcontentsline{toc}{section}{Abstract}  %%% TOC에 표시
+	\noindent{
+		다시 번역
+		The seasonal variability chlorophyll-a concentration in the Korean East Sea had been obtained by processing SeaWiFS Local Area Coverage(LAC) and Global Area Coverage(GAC) oceancolor data from January 2003 to December 2006. Both data showed similarities in the tendency showing peaks on spring(April) and fall(November). However, the value of chlorophyll-a concentration was different, the maximum/minimum value of LAC and GAC data each being 1.61 $\rm mg/m^3$ / 0.28 $\rm mg/m^3$, and 1.72 $\rm mg/m^3$ / 0.32 $\rm mg/m^3$. Comparing the pixel histogram of LAC and GAC data showed GAC data had more speckle errors. The pixel analysis of chlorophyll-a concentration data on April, 2003 also showed it is more accurate to use LAC data because of its high resolution.
+	}
+\end{abstracts}
+
+%---------------------------------------------------------------------
+%                  국문 초록을 입력하시오
+%---------------------------------------------------------------------
+\begin{abstractskor}        %this creates the heading for the abstract page
+	\addcontentsline{toc}{section}{초록}  %%% TOC에 표시
+	\noindent{
+SeaWiFS LAC (Local Area Coverage) 및 GAC (Global Area Coverage) 자료를 이용하여 2003년 1월부터 2006년 12월까지 동해의 chlorophyll-a 월평균 농도를 산출하였다. 두 자료 모두 봄철(4월)과 가을철(11월)에 월평균 농도가 높게 산출되어 전체적인 경향은 비슷하게 나타났다. 그러나 LAC와 GAC 자료로 산출한 chlorophyll-a 월평균 농도의 최대값/최소값은 각각 1.61 $\rm mg/m^3$ / 0.28 $\rm mg/m^3$ 과 1.72 $\rm mg/m^3$ / 0.32 $\rm mg/m^3$으로 차이가 나타났다. 차이를 구체적으로 분석하기 위하여 LAC와 GAC 데이터의 픽셀 히스토그램을 비교한 결과 GAC 데이터에서 스펙클 오류가 더 크게 나타남을 확인하였다. Chlorophyll-a 월평균 농도가 높았던 2003년 4월 이미지 픽셀을 분석해 본 결과 해상도가 높은 LAC 자료를 이용하는 것이 GAC 자료를 이용하는 것 보다 더 정확함을 확인하였다. 
+	}
+\end{abstractskor}
+
+%----------------------------------------------
+%   Table of Contents (자동 작성됨)
+%----------------------------------------------
+\cleardoublepage
+\addcontentsline{toc}{section}{Contents}
+\setcounter{secnumdepth}{3} % organisational level that receives a numbers
+\setcounter{tocdepth}{3}    % print table of contents for level 3
+\baselineskip=2.2em
+\tableofcontents
+
+
+%----------------------------------------------
+%     List of Figures/Tables (자동 작성됨)
+%----------------------------------------------
+\cleardoublepage
+\clearpage
+\listoftables
+% 표 목록과 캡션을 출력한다. 만약 논문에 표가 없다면 이 위 줄의 맨 앞에 
+% `%' 기호를 넣어서 주석 처리한다.
+
+\cleardoublepage
+\clearpage
+\listoffigures
+% 그림 목록과 캡션을 출력한다. 만약 논문에 그림이 없다면 이 위 줄의 맨 앞에 
+% `%' 기호를 넣어서 주석 처리한다.
+
+\cleardoublepage
+\clearpage
+\listofequations
+% 그림 목록과 캡션을 출력한다. 만약 논문에 그림이 없다면 이 위 줄의 맨 앞에 
+% `%' 기호를 넣어서 주석 처리한다.
+
+
+\cleardoublepage
+\clearpage
+\renewcommand{\thepage}{\arabic{page}}
+\setcounter{page}{1}
