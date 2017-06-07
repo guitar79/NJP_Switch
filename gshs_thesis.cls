@@ -354,12 +354,12 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %\renewcommand{\figurename}{Fig.}
 \captionsetup[figure]{%
-	font=small,labelsep=period,singlelinecheck=off,aboveskip=0pt,% 
-	belowskip=5pt, margin=0pt,subrefformat=parens%
+	font=small,labelsep=period,singlelinecheck=off,aboveskip=5pt,% 
+	belowskip=0pt, margin=0pt,subrefformat=parens%
 }
 \captionsetup[table]{%
-	font=small,labelsep=period,singlelinecheck=off,aboveskip=5pt,% 
-	margin=0pt%
+	font=small,labelsep=period,singlelinecheck=off,aboveskip=0pt,% 
+	belowskip=5pt,margin=0pt%
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%
