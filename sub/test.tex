@@ -38,16 +38,17 @@
 %	xmax=15,
 	ylabel= Strom $\lbrack{}$ \si{kA} $\rbrack$,
 	ymin=0,
-	ystep=.25
+	ystep=0.5,
 	ymax=2.0,
 	scaled y ticks = false,
 	%nodes near coords, % data 값 표시
 	% % % % % Ausrichten der Punktbeschriftung
 	every node near coord/.append style={font=\scriptsize,/pgf/number format/precision=3}]
-	\addplot table [x=Month, y=2003] {momGAC.csv};
-	\addplot table [x=Month, y=2004] {momGAC.csv};
-	\addplot table [x=Month, y=2005] {momGAC.csv};
-	\addplot table [x=Month, y=2006] {momGAC.csv};
+	[legend pos=north east]
+	\addplot table [x=Month, y=2003] {momGAC.csv}; \addlegendentry{2003}
+	\addplot table [x=Month, y=2004] {momGAC.csv}; \addlegendentry{2004}
+	\addplot table [x=Month, y=2005] {momGAC.csv}; \addlegendentry{2005}
+	\addplot table [x=Month, y=2006] {momGAC.csv}; \addlegendentry{2006}
 
 %   \fill[gray,fill opacity=0.25] (axis cs:5,0) rectangle (axis cs:7,12); %Bereich einfügen
 
