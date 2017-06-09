@@ -361,6 +361,10 @@
 	font=small,labelsep=period,singlelinecheck=off,aboveskip=5pt,% 
 	margin=0pt%
 }
+\captionsetup[equation]{%
+	font=small,labelsep=period,singlelinecheck=off,aboveskip=5pt,% 
+	margin=0pt%
+}
 
 %%%%%%%%%%%%%%%%%%%%%%%
 %%%  Summary format %%%

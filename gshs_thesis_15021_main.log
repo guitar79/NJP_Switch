@@ -1,8 +1,8 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2017.6.6)  8 JUN 2017 20:13
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2017.6.7)  9 JUN 2017 10:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**gshs_thesis_15021_main.tex
+**./gshs_thesis_15021_main.tex
 (./gshs_thesis_15021_main.tex
 LaTeX2e <2017-04-15>
 Babel <3.10> and hyphenation patterns for 84 language(s) loaded.
@@ -11,12 +11,12 @@ Babel <3.10> and hyphenation patterns for 84 language(s) loaded.
 
 (./sub/preamble.tex (./gshs_thesis.cls
 Document Class: gshs_thesis 
-(/usr/local/texlive/2017/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+(c:/texlive/2017/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/article.cls
+(c:/texlive/2017/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/size11.clo
+(c:/texlive/2017/texmf-dist/tex/latex/base/size11.clo
 File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -31,17 +31,17 @@ File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/geometry/geometry.sty
+(c:/texlive/2017/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/keyval.sty
+(c:/texlive/2017/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+(c:/texlive/2017/texmf-dist/tex/generic/oberdiek/ifpdf.sty
 Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
 )
-(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+(c:/texlive/2017/texmf-dist/tex/generic/oberdiek/ifvtex.sty
 Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
@@ -58,10 +58,10 @@ Package ifvtex Info: VTeX not detected.
 \Gm@layoutvoffset=\dimen110
 \Gm@dimlist=\toks15
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(c:/texlive/2017/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+(c:/texlive/2017/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks16
 \symAMSa=\mathgroup4
@@ -69,24 +69,24 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsmath.sty
+(c:/texlive/2017/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2016/11/05 v2.16a AMS math features
 \@mathmargin=\skip43
 
 For additional information on amsmath, use the `?' option.
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amstext.sty
+(c:/texlive/2017/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsgen.sty
+(c:/texlive/2017/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks17
 \ex@=\dimen111
 ))
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsbsy.sty
+(c:/texlive/2017/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen112
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsopn.sty
+(c:/texlive/2017/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count90
@@ -127,31 +127,31 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/graphicx.sty
+(c:/texlive/2017/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/graphics.sty
+(c:/texlive/2017/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2017/04/14 v1.1b Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/trig.sty
+(c:/texlive/2017/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+(c:/texlive/2017/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: xetex.def on input line 99.
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-def/xetex.def
+(c:/texlive/2017/texmf-dist/tex/latex/graphics-def/xetex.def
 File: xetex.def 2016/07/11 v4.10 LaTeX color/graphics driver for XeTeX (L3/RRM/
 JK)
 ))
 \Gin@req@height=\dimen120
 \Gin@req@width=\dimen121
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/caption/caption.sty
+(c:/texlive/2017/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/caption/caption3.sty
+(c:/texlive/2017/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 67.
 \captionmargin=\dimen122
@@ -164,31 +164,32 @@ Package caption3 Info: TeX engine: e-TeX on input line 67.
 )
 \c@ContinuedFloat=\count102
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/caption/subcaption.sty
+(c:/texlive/2017/texmf-dist/tex/latex/caption/subcaption.sty
 Package: subcaption 2016/05/22 v1.1-161 Sub-captions (AR)
 \c@subfigure=\count103
 \c@subtable=\count104
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
-Package: fancyhdr 2016/09/06 3.8 Extensive control of page headers and footers
-\fancy@headwidth=\skip46
-\f@ncyO@elh=\skip47
-\f@ncyO@erh=\skip48
-\f@ncyO@olh=\skip49
-\f@ncyO@orh=\skip50
-\f@ncyO@elf=\skip51
-\f@ncyO@erf=\skip52
-\f@ncyO@olf=\skip53
-\f@ncyO@orf=\skip54
+(c:/texlive/2017/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2016/10/11 v3.9 Extensive control of page headers and footers
+
+\f@nch@headwidth=\skip46
+\f@nch@O@elh=\skip47
+\f@nch@O@erh=\skip48
+\f@nch@O@olh=\skip49
+\f@nch@O@orh=\skip50
+\f@nch@O@elf=\skip51
+\f@nch@O@erf=\skip52
+\f@nch@O@olf=\skip53
+\f@nch@O@orf=\skip54
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/tocbibind/tocbibind.sty
+(c:/texlive/2017/texmf-dist/tex/latex/tocbibind/tocbibind.sty
 Package: tocbibind 2010/10/13 v1.5k extra ToC listings
 Package tocbibind Info: The document has section divisions on input line 50.
 
 
 Package tocbibind Note: Using section or other style headings.
 
-) (/usr/local/texlive/2017/texmf-dist/tex/latex/titlesec/titlesec.sty
+) (c:/texlive/2017/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 \ttl@box=\box28
 \beforetitleunit=\skip55
@@ -200,12 +201,12 @@ Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 \titlewidthlast=\dimen132
 \titlewidthfirst=\dimen133
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/cite/cite.sty
+(c:/texlive/2017/texmf-dist/tex/latex/cite/cite.sty
 LaTeX Info: Redefining \cite on input line 302.
 LaTeX Info: Redefining \nocite on input line 332.
 Package: cite 2015/02/27  v 5.5
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/tocloft/tocloft.sty
+(c:/texlive/2017/texmf-dist/tex/latex/tocloft/tocloft.sty
 Package: tocloft 2013/05/02 v2.3f parameterised ToC, etc., typesetting
 Package tocloft Info: The document has section divisions on input line 44.
 \cftparskip=\skip57
@@ -242,13 +243,13 @@ Package tocloft Info: The document has section divisions on input line 44.
 \cfttabindent=\skip86
 \cfttabnumwidth=\skip87
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/appendix/appendix.sty
+(c:/texlive/2017/texmf-dist/tex/latex/appendix/appendix.sty
 Package: appendix 2009/09/02 v1.2b extra appendix facilities
 \c@@pps=\count107
 \c@@ppsavesec=\count108
 \c@@ppsaveapp=\count109
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/mathptmx.sty
+(c:/texlive/2017/texmf-dist/tex/latex/psnfss/mathptmx.sty
 Package: mathptmx 2005/04/12 PSNFSS-v9.2a Times w/ Math, improved (SPQR, WaS) 
 LaTeX Font Info:    Redeclaring symbol font `operators' on input line 28.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
@@ -284,7 +285,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 35.
 LaTeX Info: Redefining \hbar on input line 50.
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/tools/array.sty
+(c:/texlive/2017/texmf-dist/tex/latex/tools/array.sty
 Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
 \col@sep=\dimen134
 \extrarowheight=\dimen135
@@ -292,10 +293,10 @@ Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
 \extratabsurround=\skip88
 \backup@length=\skip89
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/setspace/setspace.sty
+(c:/texlive/2017/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/enumitem/enumitem.sty
+(c:/texlive/2017/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \labelindent=\skip90
 \enit@outerparindent=\dimen136
@@ -303,24 +304,24 @@ Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \enit@inbox=\box29
 \enitdp@description=\count110
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+(c:/texlive/2017/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2017/01/02 v2.4 e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count111
 )
 \mylenfig=\skip91
 \mylentab=\skip92
 
-(/usr/local/texlive/2017/texmf-dist/tex/xetex/xetexko/xetexko.sty
+(c:/texlive/2017/texmf-dist/tex/xetex/xetexko/xetexko.sty
 Package: xetexko 2017/02/06 v2.16 Typesetting Korean with XeTeX
 
-(/usr/local/texlive/2017/texmf-dist/tex/xetex/xetexko/xetexko-space.sty
+(c:/texlive/2017/texmf-dist/tex/xetex/xetexko/xetexko-space.sty
 Package: xetexko-space 2017/02/06 v2.16 Spacings and fonts for XeTeX-ko
 \XeTeXcharclassID=\XeTeXcharclass1
 \XeTeXcharclassOP=\XeTeXcharclass2
 \XeTeXcharclassCL=\XeTeXcharclass3
 
-(/usr/local/texlive/2017/texmf-dist/tex/generic/unicode-data/load-unicode-xetex
--classes.tex 
+(c:/texlive/2017/texmf-dist/tex/generic/unicode-data/load-unicode-xetex-classes
+.tex 
 load-unicode-xetex-classes.tex v1.5 (2016-06-22)
 Reading Unicode east Asian character class data
 # LineBreak-9.0.0.txt 
@@ -349,30 +350,31 @@ Reading Unicode east Asian character class data
 \XKlatinnumber=\XeTeXcharclass22
 \XKhanjacombining=\XeTeXcharclass23
 \XKdotemphbox=\box30
-) (/usr/local/texlive/2017/texmf-dist/tex/xetex/xetexko/xetexko-josa.sty
+) (c:/texlive/2017/texmf-dist/tex/xetex/xetexko/xetexko-josa.sty
 Package: xetexko-josa 2017/02/06 v2.16 Auto-josa for XeTeX-ko
 \@josa=\count112
 )
-(/usr/local/texlive/2017/texmf-dist/tex/xetex/xetexko/xetexko-font.sty
+(c:/texlive/2017/texmf-dist/tex/xetex/xetexko/xetexko-font.sty
 Package: xetexko-font 2017/02/06 v2.16 LaTeX Font commands for XeTeX-ko
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/fontspec/fontspec.sty
-(/usr/local/texlive/2017/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2017/05/13 L3 programming layer (loader) 
+(c:/texlive/2017/texmf-dist/tex/latex/fontspec/fontspec.sty
+(c:/texlive/2017/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2017/05/29 L3 programming layer (loader) 
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/l3kernel/expl3-code.tex
-Package: expl3 2017/05/13 L3 programming layer (code)
+(c:/texlive/2017/texmf-dist/tex/latex/l3kernel/expl3-code.tex
+Package: expl3 2017/05/29 L3 programming layer (code)
 \c_max_int=\count113
 \l_tmpa_int=\count114
 \l_tmpb_int=\count115
 \g_tmpa_int=\count116
 \g_tmpb_int=\count117
-\g__prg_map_int=\count118
-\c_log_iow=\count119
-\l_iow_line_count_int=\count120
-\l__iow_line_target_int=\count121
-\l__iow_one_indent_int=\count122
-\l__iow_indent_int=\count123
+\g__intarray_font_int=\count118
+\g__prg_map_int=\count119
+\c_log_iow=\count120
+\l_iow_line_count_int=\count121
+\l__iow_line_target_int=\count122
+\l__iow_one_indent_int=\count123
+\l__iow_indent_int=\count124
 \c_zero_dim=\dimen137
 \c_max_dim=\dimen138
 \l_tmpa_dim=\dimen139
@@ -391,27 +393,71 @@ Package: expl3 2017/05/13 L3 programming layer (code)
 \l_tmpb_muskip=\muskip14
 \g_tmpa_muskip=\muskip15
 \g_tmpb_muskip=\muskip16
-\l_keys_choice_int=\count124
-\c__fp_leading_shift_int=\count125
-\c__fp_middle_shift_int=\count126
-\c__fp_trailing_shift_int=\count127
-\c__fp_big_leading_shift_int=\count128
-\c__fp_big_middle_shift_int=\count129
-\c__fp_big_trailing_shift_int=\count130
-\c__fp_Bigg_leading_shift_int=\count131
-\c__fp_Bigg_middle_shift_int=\count132
-\c__fp_Bigg_trailing_shift_int=\count133
-\l__sort_length_int=\count134
-\l__sort_min_int=\count135
-\l__sort_top_int=\count136
-\l__sort_max_int=\count137
-\l__sort_true_max_int=\count138
-\l__sort_block_int=\count139
-\l__sort_begin_int=\count140
-\l__sort_end_int=\count141
-\l__sort_A_int=\count142
-\l__sort_B_int=\count143
-\l__sort_C_int=\count144
+\l_keys_choice_int=\count125
+\c__fp_leading_shift_int=\count126
+\c__fp_middle_shift_int=\count127
+\c__fp_trailing_shift_int=\count128
+\c__fp_big_leading_shift_int=\count129
+\c__fp_big_middle_shift_int=\count130
+\c__fp_big_trailing_shift_int=\count131
+\c__fp_Bigg_leading_shift_int=\count132
+\c__fp_Bigg_middle_shift_int=\count133
+\c__fp_Bigg_trailing_shift_int=\count134
+\l__sort_length_int=\count135
+\l__sort_min_int=\count136
+\l__sort_top_int=\count137
+\l__sort_max_int=\count138
+\l__sort_true_max_int=\count139
+\l__sort_block_int=\count140
+\l__sort_begin_int=\count141
+\l__sort_end_int=\count142
+\l__sort_A_int=\count143
+\l__sort_B_int=\count144
+\l__sort_C_int=\count145
+\l__tl_build_start_index_int=\count146
+\l__tl_build_index_int=\count147
+\l__tl_analysis_normal_int=\count148
+\l__tl_analysis_index_int=\count149
+\l__tl_analysis_nesting_int=\count150
+\l__tl_analysis_type_int=\count151
+\l__regex_internal_a_int=\count152
+\l__regex_internal_b_int=\count153
+\l__regex_internal_c_int=\count154
+\l__regex_balance_int=\count155
+\l__regex_group_level_int=\count156
+\l__regex_mode_int=\count157
+\c__regex_cs_in_class_mode_int=\count158
+\c__regex_cs_mode_int=\count159
+\l__regex_catcodes_int=\count160
+\l__regex_default_catcodes_int=\count161
+\c__regex_catcode_L_int=\count162
+\c__regex_catcode_O_int=\count163
+\c__regex_catcode_A_int=\count164
+\c__regex_all_catcodes_int=\count165
+\l__regex_show_lines_int=\count166
+\l__regex_min_state_int=\count167
+\l__regex_max_state_int=\count168
+\l__regex_left_state_int=\count169
+\l__regex_right_state_int=\count170
+\l__regex_capturing_group_int=\count171
+\l__regex_min_pos_int=\count172
+\l__regex_max_pos_int=\count173
+\l__regex_current_pos_int=\count174
+\l__regex_start_pos_int=\count175
+\l__regex_success_pos_int=\count176
+\l__regex_current_char_int=\count177
+\l__regex_current_catcode_int=\count178
+\l__regex_last_char_int=\count179
+\l__regex_case_changed_char_int=\count180
+\l__regex_current_state_int=\count181
+\l__regex_step_int=\count182
+\l__regex_min_active_int=\count183
+\l__regex_max_active_int=\count184
+\l__regex_replacement_csnames_int=\count185
+\l__regex_match_count_int=\count186
+\l__regex_min_submatch_int=\count187
+\l__regex_submatch_int=\count188
+\l__regex_zeroth_submatch_int=\count189
 \c_empty_box=\box31
 \l_tmpa_box=\box32
 \l_tmpb_box=\box33
@@ -453,40 +499,41 @@ Package: expl3 2017/05/13 L3 programming layer (code)
 \l__coffin_scaled_total_height_dim=\dimen166
 \l__coffin_scaled_width_dim=\dimen167
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/l3kernel/l3xdvipdfmx.def
+(c:/texlive/2017/texmf-dist/tex/latex/l3kernel/l3xdvipdfmx.def
 File: l3xdvidpfmx.def 2017/03/18 v L3 Experimental driver: xdvipdfmx
+\g__driver_image_int=\count190
 \l__driver_tmp_box=\box46
 ))
-(/usr/local/texlive/2017/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
-Package: xparse 2017/05/13 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count145
-\g__xparse_grabber_int=\count146
-\l__xparse_m_args_int=\count147
-\l__xparse_mandatory_args_int=\count148
-\l__xparse_v_nesting_int=\count149
+(c:/texlive/2017/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2017/05/29 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count191
+\g__xparse_grabber_int=\count192
+\l__xparse_m_args_int=\count193
+\l__xparse_mandatory_args_int=\count194
+\l__xparse_v_nesting_int=\count195
 )
 Package: fontspec 2017/03/31 v2.6a Font selection for XeLaTeX and LuaLaTeX
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+(c:/texlive/2017/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
 Package: fontspec-xetex 2017/03/31 v2.6a Font selection for XeLaTeX and LuaLaTe
 X
-\l__fontspec_script_int=\count150
-\l__fontspec_language_int=\count151
-\l__fontspec_strnum_int=\count152
-\l__fontspec_tmp_int=\count153
-\l__fontspec_em_int=\count154
-\l__fontspec_emdef_int=\count155
-\l__fontspec_strong_int=\count156
-\l__fontspec_strongdef_int=\count157
+\l__fontspec_script_int=\count196
+\l__fontspec_language_int=\count197
+\l__fontspec_strnum_int=\count198
+\l__fontspec_tmp_int=\count199
+\l__fontspec_em_int=\count266
+\l__fontspec_emdef_int=\count267
+\l__fontspec_strong_int=\count268
+\l__fontspec_strongdef_int=\count269
 \l__fontspec_tmpa_dim=\dimen168
 \l__fontspec_tmpb_dim=\dimen169
 \l__fontspec_tmpc_dim=\dimen170
 \g__file_internal_ior=\read1
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/fontenc.sty
+(c:/texlive/2017/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/tuenc.def
+(c:/texlive/2017/texmf-dist/tex/latex/base/tuenc.def
 File: tuenc.def 2017/04/05 v2.0i Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding TU on input line 82.
 ))
@@ -646,7 +693,7 @@ LaTeX Font Info:    Redeclaring font encoding TU on input line 82.
 . Defining command \UndeclareComposite with sig. 'mm' on line 3501.
 .................................................
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/fontspec/fontspec.cfg)
+(c:/texlive/2017/texmf-dist/tex/latex/fontspec/fontspec.cfg)
 LaTeX Info: Redefining \itshape on input line 3686.
 LaTeX Info: Redefining \slshape on input line 3691.
 LaTeX Info: Redefining \scshape on input line 3696.
@@ -771,14 +818,14 @@ LaTeX Info: Redefining \- on input line 3807.
 . Redefining command \setmonofont with sig. 'O{}mO{}' on line 432.
 .................................................
 )
-(/usr/local/texlive/2017/texmf-dist/tex/xetex/xetexko/xetexko-vertical.sty
+(c:/texlive/2017/texmf-dist/tex/xetex/xetexko/xetexko-vertical.sty
 Package: xetexko-vertical 2017/02/06 v2.16 Vertical environment for XeTeX-ko
 \verticalem=\dimen171
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/cjk-ko/kolabels-utf.sty
+(c:/texlive/2017/texmf-dist/tex/latex/cjk-ko/kolabels-utf.sty
 Package: kolabels-utf 2015/03/20 v1.5 UTF-8 Hangul item labels
 ))
-\g__fontspec_family_TimesNewRoman_int=\count158
+\g__fontspec_family_TimesNewRoman_int=\count270
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -789,46 +836,28 @@ Package: kolabels-utf 2015/03/20 v1.5 UTF-8 Hangul item labels
 .  
 . - 'normal' (m/n) with NFSS spec.: <->"Times New
 . Roman/OT:script=latn;language=DFLT;mapping=tex-text;"
-. - 'small caps'  (m/sc) with NFSS spec.: 
+. - 'small caps'  (m/sc) with NFSS spec.: <->"Times New
+. Roman/OT:script=latn;language=DFLT;+smcp;mapping=tex-text;"
 . - 'bold' (bx/n) with NFSS spec.: <->"Times New
 . Roman/B/OT:script=latn;language=DFLT;mapping=tex-text;"
-. - 'bold small caps'  (bx/sc) with NFSS spec.: 
+. - 'bold small caps'  (bx/sc) with NFSS spec.: <->"Times New
+. Roman/B/OT:script=latn;language=DFLT;+smcp;mapping=tex-text;"
 . - 'italic' (m/it) with NFSS spec.: <->"Times New
 . Roman/I/OT:script=latn;language=DFLT;mapping=tex-text;"
-. - 'italic small caps'  (m/itsc) with NFSS spec.: 
+. - 'italic small caps'  (m/itsc) with NFSS spec.: <->"Times New
+. Roman/I/OT:script=latn;language=DFLT;+smcp;mapping=tex-text;"
 . - 'bold italic' (bx/it) with NFSS spec.: <->"Times New
 . Roman/BI/OT:script=latn;language=DFLT;mapping=tex-text;"
-. - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
+. - 'bold italic small caps'  (bx/itsc) with NFSS spec.: <->"Times New
+. Roman/BI/OT:script=latn;language=DFLT;+smcp;mapping=tex-text;"
 .................................................
-LaTeX Info: Redefining \rmfamily on input line 411.
-
-
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!
-! fontspec error: "font-not-found"
-! 
-! The font "Batang" cannot be found.
-! 
-! See the fontspec documentation for further information.
-! 
-! For immediate help type H <return>.
-!...............................................  
-                                                  
-l.413 ...cFont=*,ItalicFeatures=FakeSlant]{Batang}
-                                                  
-|'''''''''''''''''''''''''''''''''''''''''''''''
-| A font might not be found for many reasons.
-|  Check the spelling, where the font is installed etc. etc.
-| 
-|  When in doubt, ask someone for help!
-|...............................................
-
+LaTeX Info: Redefining \rmfamily on input line 415.
 .................................................
 . fontspec info: "no-scripts"
 . 
 . Font "Batang" does not contain any OpenType `Script' information.
 .................................................
-\g__fontspec_family_Batang_int=\count159
+\g__fontspec_family_Batang_int=\count271
 .................................................
 . fontspec info: "no-font-shape"
 . 
@@ -844,132 +873,6 @@ l.413 ...cFont=*,ItalicFeatures=FakeSlant]{Batang}
 . 
 . Could not resolve font "Batang/BI" (it probably doesn't exist).
 .................................................
-
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!
-! fontspec error: "font-not-found"
-! 
-! The font "Batang" cannot be found.
-! 
-! See the fontspec documentation for further information.
-! 
-! For immediate help type H <return>.
-!...............................................  
-                                                  
-l.413 ...cFont=*,ItalicFeatures=FakeSlant]{Batang}
-                                                  
-|'''''''''''''''''''''''''''''''''''''''''''''''
-| A font might not be found for many reasons.
-|  Check the spelling, where the font is installed etc. etc.
-| 
-|  When in doubt, ask someone for help!
-|...............................................
-
-
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!
-! fontspec error: "font-not-found"
-! 
-! The font "Batang" cannot be found.
-! 
-! See the fontspec documentation for further information.
-! 
-! For immediate help type H <return>.
-!...............................................  
-                                                  
-l.413 ...cFont=*,ItalicFeatures=FakeSlant]{Batang}
-                                                  
-|'''''''''''''''''''''''''''''''''''''''''''''''
-| A font might not be found for many reasons.
-|  Check the spelling, where the font is installed etc. etc.
-| 
-|  When in doubt, ask someone for help!
-|...............................................
-
-
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!
-! fontspec error: "font-not-found"
-! 
-! The font "Batang" cannot be found.
-! 
-! See the fontspec documentation for further information.
-! 
-! For immediate help type H <return>.
-!...............................................  
-                                                  
-l.413 ...cFont=*,ItalicFeatures=FakeSlant]{Batang}
-                                                  
-|'''''''''''''''''''''''''''''''''''''''''''''''
-| A font might not be found for many reasons.
-|  Check the spelling, where the font is installed etc. etc.
-| 
-|  When in doubt, ask someone for help!
-|...............................................
-
-
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!
-! fontspec error: "font-not-found"
-! 
-! The font "Batang" cannot be found.
-! 
-! See the fontspec documentation for further information.
-! 
-! For immediate help type H <return>.
-!...............................................  
-                                                  
-l.413 ...cFont=*,ItalicFeatures=FakeSlant]{Batang}
-                                                  
-|'''''''''''''''''''''''''''''''''''''''''''''''
-| A font might not be found for many reasons.
-|  Check the spelling, where the font is installed etc. etc.
-| 
-|  When in doubt, ask someone for help!
-|...............................................
-
-
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!
-! fontspec error: "font-not-found"
-! 
-! The font "Batang" cannot be found.
-! 
-! See the fontspec documentation for further information.
-! 
-! For immediate help type H <return>.
-!...............................................  
-                                                  
-l.413 ...cFont=*,ItalicFeatures=FakeSlant]{Batang}
-                                                  
-|'''''''''''''''''''''''''''''''''''''''''''''''
-| A font might not be found for many reasons.
-|  Check the spelling, where the font is installed etc. etc.
-| 
-|  When in doubt, ask someone for help!
-|...............................................
-
-
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!
-! fontspec error: "font-not-found"
-! 
-! The font "Batang" cannot be found.
-! 
-! See the fontspec documentation for further information.
-! 
-! For immediate help type H <return>.
-!...............................................  
-                                                  
-l.413 ...cFont=*,ItalicFeatures=FakeSlant]{Batang}
-                                                  
-|'''''''''''''''''''''''''''''''''''''''''''''''
-| A font might not be found for many reasons.
-|  Check the spelling, where the font is installed etc. etc.
-| 
-|  When in doubt, ask someone for help!
-|...............................................
-
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -979,63 +882,531 @@ ures={FakeSlant}].
 .  
 .  This font family consists of the following NFSS series/shapes:
 .  
-. - 'normal' (m/n) with NFSS spec.: <->"Batang"
-. - 'small caps'  (m/sc) with NFSS spec.: <->"Batang"
-. - 'bold' (bx/n) with NFSS spec.: <->"Batang:embolden=1.5;"
-. - 'bold small caps'  (bx/sc) with NFSS spec.: <->"Batang:embolden=1.5;"
-. - 'italic' (m/it) with NFSS spec.: <->"Batang:slant=0.2;"
-. - 'italic small caps'  (m/itsc) with NFSS spec.: <->"Batang:slant=0.2;"
+. - 'normal' (m/n) with NFSS spec.: <->"Batang/OT:mapping=tex-text;"
+. - 'small caps'  (m/sc) with NFSS spec.: 
+. - 'bold' (bx/n) with NFSS spec.:
+. <->"Batang/OT:embolden=1.5;mapping=tex-text;"
+. - 'bold small caps'  (bx/sc) with NFSS spec.: 
+. - 'italic' (m/it) with NFSS spec.:
+. <->"Batang/OT:slant=0.2;mapping=tex-text;"
+. - 'italic small caps'  (m/itsc) with NFSS spec.: 
 .................................................
-) (/usr/local/texlive/2017/texmf-dist/tex/latex/tools/verbatim.sty
+)
+(c:/texlive/2017/texmf-dist/tex/latex/tools/verbatim.sty
 Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks25
 \verbatim@line=\toks26
 \verbatim@in@stream=\read2
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/spverbatim/spverbatim.sty
+(c:/texlive/2017/texmf-dist/tex/latex/spverbatim/spverbatim.sty
 Package: spverbatim 2009/08/10 v1.0 Verbatim with breakable spaces
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count160
-\lst@gtempboxa=\box47
-\lst@token=\toks27
-\lst@length=\count161
-\lst@currlwidth=\dimen172
-\lst@column=\count162
-\lst@pos=\count163
-\lst@lostspace=\dimen173
-\lst@width=\dimen174
-\lst@newlines=\count164
-\lst@lineno=\count165
-\lst@maxwidth=\dimen175
+(c:/texlive/2017/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(c:/texlive/2017/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(c:/texlive/2017/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks27
+\pgfutil@tempdima=\dimen172
+\pgfutil@tempdimb=\dimen173
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
-\c@lstnumber=\count166
-\lst@skipnumbers=\count167
-\lst@framebox=\box48
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.tex)
+) (c:/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box47
+
+(c:/texlive/2017/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
+))
+Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
+
+(c:/texlive/2017/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(c:/texlive/2017/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
+
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks28
+\pgfkeys@temptoks=\toks29
+
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
+\pgfkeys@tmptoks=\toks30
+))
+\pgf@x=\dimen174
+\pgf@y=\dimen175
+\pgf@xa=\dimen176
+\pgf@ya=\dimen177
+\pgf@xb=\dimen178
+\pgf@yb=\dimen179
+\pgf@xc=\dimen180
+\pgf@yc=\dimen181
+\w@pgf@writea=\write3
+\r@pgf@reada=\read3
+\c@pgf@counta=\count272
+\c@pgf@countb=\count273
+\c@pgf@countc=\count274
+\c@pgf@countd=\count275
+\t@pgf@toka=\toks31
+\t@pgf@tokb=\toks32
+\t@pgf@tokc=\toks33
+ (c:/texlive/2017/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/listings/listings.cfg
+Driver file for pgf: pgfsys-xetex.def
+
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-xetex.def
+File: pgfsys-xetex.def 2014/07/09  (rcs-revision 1.11)
+
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-dvipdfmx.def
+File: pgfsys-dvipdfmx.def 2014/07/09  (rcs-revision 1.14)
+
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
+)
+\pgfsys@objnum=\count276
+)))
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
+\pgfsyssoftpath@smallbuffer@items=\count277
+\pgfsyssoftpath@bigbuffer@items=\count278
+)
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
+)) (c:/texlive/2017/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(c:/texlive/2017/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: xetex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
+
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen182
+\pgfmath@count=\count279
+\pgfmath@box=\box48
+\pgfmath@toks=\toks34
+\pgfmath@stack@operand=\toks35
+\pgfmath@stack@operation=\toks36
+)
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.te
+x)
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric
+.code.tex)
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.t
+ex)
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.co
+de.tex)
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex
+)
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.te
+x)
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex
+)
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithm
+etics.code.tex)))
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count280
+))
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
+\pgf@picminx=\dimen183
+\pgf@picmaxx=\dimen184
+\pgf@picminy=\dimen185
+\pgf@picmaxy=\dimen186
+\pgf@pathminx=\dimen187
+\pgf@pathmaxx=\dimen188
+\pgf@pathminy=\dimen189
+\pgf@pathmaxy=\dimen190
+\pgf@xx=\dimen191
+\pgf@xy=\dimen192
+\pgf@yx=\dimen193
+\pgf@yy=\dimen194
+\pgf@zx=\dimen195
+\pgf@zy=\dimen196
+)
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.cod
+e.tex
+File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
+\pgf@path@lastx=\dimen197
+\pgf@path@lasty=\dimen198
+)
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.te
+x
+File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
+\pgf@shorten@end@additional=\dimen199
+\pgf@shorten@start@additional=\dimen256
+)
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
+\pgfpic=\box49
+\pgf@hbox=\box50
+\pgf@layerbox@main=\box51
+\pgf@picture@serial@count=\count281
+)
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code
+.tex
+File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
+\pgflinewidth=\dimen257
+)
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.c
+ode.tex
+File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
+\pgf@pt@x=\dimen258
+\pgf@pt@y=\dimen259
+\pgf@pt@temp=\dimen260
+)
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
+)
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
+)
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.co
+de.tex
+File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
+)
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
+\pgfarrowsep=\dimen261
+)
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
+\pgf@max=\dimen262
+\pgf@sys@shading@range@num=\count282
+)
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
+
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
+\pgfexternal@startupbox=\box52
+))
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
+)
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code
+.tex
+File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
+)
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
+)))
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
+\pgfnodeparttextbox=\box53
+)
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
+)
+(c:/texlive/2017/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.st
+y
+Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
+\pgf@nodesepstart=\dimen263
+\pgf@nodesepend=\dimen264
+)
+(c:/texlive/2017/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.st
+y
+Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
+)) (c:/texlive/2017/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(c:/texlive/2017/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
+(c:/texlive/2017/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
+
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen265
+\pgffor@skip=\dimen266
+\pgffor@stack=\toks37
+\pgffor@toks=\toks38
+))
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
+
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.co
+de.tex
+File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
+\pgf@plot@mark@count=\count283
+\pgfplotmarksize=\dimen267
+)
+\tikz@lastx=\dimen268
+\tikz@lasty=\dimen269
+\tikz@lastxsaved=\dimen270
+\tikz@lastysaved=\dimen271
+\tikzleveldistance=\dimen272
+\tikzsiblingdistance=\dimen273
+\tikz@figbox=\box54
+\tikz@figbox@bg=\box55
+\tikz@tempbox=\box56
+\tikz@tempbox@bg=\box57
+\tikztreelevel=\count284
+\tikznumberofchildren=\count285
+\tikznumberofcurrentchild=\count286
+\tikz@fig@count=\count287
+
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
+\pgfmatrixcurrentrow=\count288
+\pgfmatrixcurrentcolumn=\count289
+\pgf@matrix@numberofcolumns=\count290
+)
+\tikz@expandcount=\count291
+
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+brarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
+))) (c:/texlive/2017/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count292
+\float@exts=\toks39
+\float@box=\box58
+\@float@everytoks=\toks40
+\@floatcapt=\box59
+) (c:/texlive/2017/texmf-dist/tex/latex/pgfplots/pgfplots.sty
+(c:/texlive/2017/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
+Package: pgfplots 2017/06/05 v1.15 Data Visualization (1.15)
+
+(c:/texlive/2017/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex
+(c:/texlive/2017/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex
+\t@pgfplots@toka=\toks41
+\t@pgfplots@tokb=\toks42
+\t@pgfplots@tokc=\toks43
+\pgfplots@tmpa=\dimen274
+\c@pgfplots@coordindex=\count293
+\c@pgfplots@scanlineindex=\count294
+
+(c:/texlive/2017/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code.te
+x))
+(c:/texlive/2017/texmf-dist/tex/generic/pgfplots/libs/pgfplotslibrary.code.tex)
+
+(c:/texlive/2017/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfs
+upp_loader.code.tex
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex)
+Package pgfplots: loading complementary arithmetics for your pgf version...
+
+(c:/texlive/2017/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfs
+upp_pgflibraryfpu.code.tex)
+(c:/texlive/2017/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfs
+upp_pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count295
+))
+(c:/texlive/2017/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.code.tex
+(c:/texlive/2017/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststru
+cture.code.tex)
+(c:/texlive/2017/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststru
+ctureext.code.tex)
+(c:/texlive/2017/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsarray.co
+de.tex
+\c@pgfplotsarray@tmp=\count296
+)
+(c:/texlive/2017/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsmatrix.c
+ode.tex)
+(c:/texlive/2017/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstableshared.c
+ode.tex
+\c@pgfplotstable@counta=\count297
+\t@pgfplotstable@a=\toks44
+)
+(c:/texlive/2017/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsdeque.co
+de.tex)
+(c:/texlive/2017/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.code.tex
+(c:/texlive/2017/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.data.code.
+tex))
+(c:/texlive/2017/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.verb.code.te
+x)
+(c:/texlive/2017/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.surfsh
+ading.code.tex
+\c@pgfplotslibrarysurf@no=\count298
+
+(c:/texlive/2017/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surfsha
+ding.pgfsys-xetex.def
+(c:/texlive/2017/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surfsha
+ding.pgfsys-dvipdfmx.def
+\c@pgfplotslibrarysurf@streamlen=\count299
+))))
+(c:/texlive/2017/texmf-dist/tex/generic/pgfplots/util/pgfplotscolormap.code.tex
+(c:/texlive/2017/texmf-dist/tex/generic/pgfplots/util/pgfplotscolor.code.tex))
+(c:/texlive/2017/texmf-dist/tex/generic/pgfplots/pgfplotsstackedplots.code.tex)
+(c:/texlive/2017/texmf-dist/tex/generic/pgfplots/pgfplotsplothandlers.code.tex
+(c:/texlive/2017/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplothandler.code.t
+ex
+(c:/texlive/2017/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplotimage.code.tex
+))) (c:/texlive/2017/texmf-dist/tex/generic/pgfplots/pgfplots.scaling.code.tex)
+
+(c:/texlive/2017/texmf-dist/tex/generic/pgfplots/pgfplotscoordprocessing.code.t
+ex)
+(c:/texlive/2017/texmf-dist/tex/generic/pgfplots/pgfplots.errorbars.code.tex)
+(c:/texlive/2017/texmf-dist/tex/generic/pgfplots/pgfplots.markers.code.tex)
+(c:/texlive/2017/texmf-dist/tex/generic/pgfplots/pgfplotsticks.code.tex)
+(c:/texlive/2017/texmf-dist/tex/generic/pgfplots/pgfplots.paths.code.tex)
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+brarydecorations.code.tex
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.code.t
+ex
+\pgfdecoratedcompleteddistance=\dimen275
+\pgfdecoratedremainingdistance=\dimen276
+\pgfdecoratedinputsegmentcompleteddistance=\dimen277
+\pgfdecoratedinputsegmentremainingdistance=\dimen278
+\pgf@decorate@distancetomove=\dimen279
+\pgf@decorate@repeatstate=\count300
+\pgfdecorationsegmentamplitude=\dimen280
+\pgfdecorationsegmentlength=\dimen281
+)
+\tikz@lib@dec@box=\box60
+)
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+brarydecorations.pathmorphing.code.tex
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydec
+orations.pathmorphing.code.tex))
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+brarydecorations.pathreplacing.code.tex
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydec
+orations.pathreplacing.code.tex))
+\pgfplots@numplots=\count301
+\pgfplots@xmin@reg=\dimen282
+\pgfplots@xmax@reg=\dimen283
+\pgfplots@ymin@reg=\dimen284
+\pgfplots@ymax@reg=\dimen285
+\pgfplots@zmin@reg=\dimen286
+\pgfplots@zmax@reg=\dimen287
+)
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+braryplotmarks.code.tex
+File: tikzlibraryplotmarks.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.code.
+tex
+File: pgflibraryplotmarks.code.tex 2015/08/03 v3.0.1a (rcs-revision 1.14)
+)))
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+braryshapes.code.tex
+File: tikzlibraryshapes.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+braryshapes.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1
+)
+
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.g
+eometric.code.tex
+File: pgflibraryshapes.geometric.code.tex 2008/06/26 v3.0.1a (rcs-revision 1.1)
+
+))
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+braryshapes.misc.code.tex
+File: tikzlibraryshapes.misc.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.m
+isc.code.tex
+File: pgflibraryshapes.misc.code.tex 2013/07/18 v3.0.1a (rcs-revision 1.5)
+))
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+braryshapes.symbols.code.tex
+File: tikzlibraryshapes.symbols.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.s
+ymbols.code.tex
+File: pgflibraryshapes.symbols.code.tex 2013/09/11 v3.0.1a (rcs-revision 1.6)
+))
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+braryshapes.arrows.code.tex
+File: tikzlibraryshapes.arrows.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.a
+rrows.code.tex
+File: pgflibraryshapes.arrows.code.tex 2008/06/26 v3.0.1a (rcs-revision 1.1)
+))
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+braryshapes.callouts.code.tex
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.c
+allouts.code.tex))
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+braryshapes.multipart.code.tex
+File: tikzlibraryshapes.multipart.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1
+)
+
+(c:/texlive/2017/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.m
+ultipart.code.tex
+File: pgflibraryshapes.multipart.code.tex 2010/01/07 v3.0.1a (rcs-revision 1.2)
+
+\pgfnodepartlowerbox=\box61
+\pgfnodeparttwobox=\box62
+\pgfnodepartthreebox=\box63
+\pgfnodepartfourbox=\box64
+\pgfnodeparttwentybox=\box65
+\pgfnodepartnineteenbox=\box66
+\pgfnodeparteighteenbox=\box67
+\pgfnodepartseventeenbox=\box68
+\pgfnodepartsixteenbox=\box69
+\pgfnodepartfifteenbox=\box70
+\pgfnodepartfourteenbox=\box71
+\pgfnodepartthirteenbox=\box72
+\pgfnodeparttwelvebox=\box73
+\pgfnodepartelevenbox=\box74
+\pgfnodeparttenbox=\box75
+\pgfnodepartninebox=\box76
+\pgfnodeparteightbox=\box77
+\pgfnodepartsevenbox=\box78
+\pgfnodepartsixbox=\box79
+\pgfnodepartfivebox=\box80
+)))
+(c:/texlive/2017/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count302
+\lst@gtempboxa=\box81
+\lst@token=\toks45
+\lst@length=\count303
+\lst@currlwidth=\dimen288
+\lst@column=\count304
+\lst@pos=\count305
+\lst@lostspace=\dimen289
+\lst@width=\dimen290
+\lst@newlines=\count306
+\lst@lineno=\count307
+\lst@maxwidth=\dimen291
+
+(c:/texlive/2017/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+\c@lstnumber=\count308
+\lst@skipnumbers=\count309
+\lst@framebox=\box82
+)
+(c:/texlive/2017/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2015/06/04 1.6 listings configuration
 ))
 Package: listings 2015/06/04 1.6 (Carsten Heinz)
 
-(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/hologo.sty
+(c:/texlive/2017/texmf-dist/tex/generic/oberdiek/hologo.sty
 Package: hologo 2016/05/16 v1.12 A logo collection with bookmark support (HO)
 
-(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+(c:/texlive/2017/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )
-(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+(c:/texlive/2017/texmf-dist/tex/generic/oberdiek/infwarerr.sty
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 )
-(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+(c:/texlive/2017/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 
-(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+(c:/texlive/2017/texmf-dist/tex/generic/oberdiek/etexcmds.sty
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 
-(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+(c:/texlive/2017/texmf-dist/tex/generic/oberdiek/ifluatex.sty
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
@@ -1044,10 +1415,10 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 ))
-(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+(c:/texlive/2017/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
 )
-(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+(c:/texlive/2017/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
 )
 Package pdftexcmds Info: LuaTeX not detected.
@@ -1055,8 +1426,24 @@ Package pdftexcmds Info: pdfTeX >= 1.30 not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode not found.
-)))
-(./gshs_thesis_15021_main.aux (./sub/abstract.aux) (./sub/introduction.aux)
+))
+
+LaTeX Warning: File `monLAC.csv' already exists on the system.
+               Not generating it from this source.
+
+
+LaTeX Warning: File `monGAC.csv' already exists on the system.
+               Not generating it from this source.
+
+
+LaTeX Warning: File `wkyLAC.csv' already exists on the system.
+               Not generating it from this source.
+
+
+LaTeX Warning: File `wkyGAC.csv' already exists on the system.
+               Not generating it from this source.
+
+) (./gshs_thesis_15021_main.aux (./sub/abstract.aux) (./sub/introduction.aux)
 (./sub/methodology.aux) (./sub/body1.aux) (./sub/conclusion.aux)
 (./sub/footer.aux))
 \openout1 = `gshs_thesis_15021_main.aux'.
@@ -1111,26 +1498,15 @@ LaTeX Font Info:    ... okay on input line 19.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
-! Font TU/Batang(0)/m/n/10.95=Batang at 10.95pt not loadable: Metric (TFM) file
- or installed font not found.
-<to be read again> 
-                   relax 
-l.19 \begin{document}
-                     
-I wasn't able to read the size data for this font,
-so I will ignore the font specification.
-[Wizards can fix TFM files using TFtoPL/PLtoTF.]
-You might try inserting a different font spec;
-e.g., type `I\font<same font id>=<substitute font name>'.
-
 .................................................
 . fontspec info: "no-scripts"
 . 
 . Font "NanumGothic" does not contain any OpenType `Script' information.
 .................................................
-\g__fontspec_family_NanumGothic_int=\count168
+\g__fontspec_family_NanumGothic_int=\count310
 .................................................
 . fontspec info: "no-font-shape"
 . 
@@ -1152,103 +1528,47 @@ e.g., type `I\font<same font id>=<substitute font name>'.
 . <->"NanumGothic/BI/OT:mapping=tex-text;"
 . - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
 .................................................
-.................................................
-. fontspec info: "no-scripts"
-. 
-. Font "NanumGothic" does not contain any OpenType `Script' information.
-.................................................
 \symmathhangul=\mathgroup8
 LaTeX Font Info:    Overwriting symbol font `mathhangul' in version `bold'
 (Font)                  TU/Batang(0)/m/n --> TU/Batang(0)/bx/n on input line 19
 .
-\c@lstlisting=\count169
+ABD: EveryShipout initializing macros
+
+Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
+ick labels; missing features). Consider writing \pgfplotsset{compat=1.15} into 
+your preamble.
+ on input line 19.
+
+\c@lstlisting=\count311
 \openout2 = `sub/abstract.aux'.
 
 (./sub/abstract.tex
-! Font TU/Batang(0)/m/n/14.4=Batang at 14.4pt not loadable: Metric (TFM) file o
-r installed font not found.
-<to be read again> 
-                   relax 
-l.1 \maketitle
-                % command to print the title page with above variables
-I wasn't able to read the size data for this font,
-so I will ignore the font specification.
-[Wizards can fix TFM files using TFtoPL/PLtoTF.]
-You might try inserting a different font spec;
-e.g., type `I\font<same font id>=<substitute font name>'.
-
-Missing character: There is no 졸 in font nullfont!
-Missing character: There is no 업 in font nullfont!
-Missing character: There is no 논 in font nullfont!
-Missing character: There is no 문 in font nullfont!
-Missing character: There is no 청 in font nullfont!
-Missing character: There is no 구 in font nullfont!
-Missing character: There is no 논 in font nullfont!
-Missing character: There is no 문 in font nullfont!
-! Font TU/Batang(0)/bx/n/20.74=Batang:embolden=1.5; at 20.74pt not loadable: Me
-tric (TFM) file or installed font not found.
-<to be read again> 
-                   relax 
-l.1 \maketitle
-                % command to print the title page with above variables
-I wasn't able to read the size data for this font,
-so I will ignore the font specification.
-[Wizards can fix TFM files using TFtoPL/PLtoTF.]
-You might try inserting a different font spec;
-e.g., type `I\font<same font id>=<substitute font name>'.
-
-Missing character: There is no 해 in font nullfont!
-Missing character: There is no 색 in font nullfont!
-Missing character: There is no 자 in font nullfont!
-Missing character: There is no 료 in font nullfont!
-Missing character: There is no 를 in font nullfont!
-Missing character: There is no 이 in font nullfont!
-Missing character: There is no 용 in font nullfont!
-Missing character: There is no 한 in font nullfont!
-Missing character: There is no 동 in font nullfont!
-Missing character: There is no 해 in font nullfont!
-Missing character: There is no 에 in font nullfont!
-Missing character: There is no 서 in font nullfont!
-Missing character: There is no 의 in font nullfont!
-Missing character: There is no 농 in font nullfont!
-Missing character: There is no 도 in font nullfont!
-Missing character: There is no 분 in font nullfont!
-Missing character: There is no 석 in font nullfont!
-Missing character: There is no : in font nullfont!
-Missing character: There is no 자 in font nullfont!
-Missing character: There is no 료 in font nullfont!
-Missing character: There is no 와 in font nullfont!
-Missing character: There is no 자 in font nullfont!
-Missing character: There is no 료 in font nullfont!
-Missing character: There is no 의 in font nullfont!
-Missing character: There is no 비 in font nullfont!
-Missing character: There is no 교 in font nullfont!
 LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 1.
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
+ (c:/texlive/2017/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
 LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 1.
 
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/omlztmcm.fd
+(c:/texlive/2017/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
 LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 1.
 
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/omsztmcm.fd
+(c:/texlive/2017/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
 LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 1.
 
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/omxztmcm.fd
+(c:/texlive/2017/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
 LaTeX Font Info:    Try loading font information for OT1+ptm on input line 1.
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+(c:/texlive/2017/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
@@ -1257,764 +1577,89 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
-
-! Font TU/Batang(0)/m/n/8=Batang at 8.0pt not loadable: Metric (TFM) file or in
-stalled font not found.
-<to be read again> 
-                   relax 
-l.1 \maketitle
-                % command to print the title page with above variables
-I wasn't able to read the size data for this font,
-so I will ignore the font specification.
-[Wizards can fix TFM files using TFtoPL/PLtoTF.]
-You might try inserting a different font spec;
-e.g., type `I\font<same font id>=<substitute font name>'.
-
-! Font TU/Batang(0)/m/n/6=Batang at 6.0pt not loadable: Metric (TFM) file or in
-stalled font not found.
-<to be read again> 
-                   relax 
-l.1 \maketitle
-                % command to print the title page with above variables
-I wasn't able to read the size data for this font,
-so I will ignore the font specification.
-[Wizards can fix TFM files using TFtoPL/PLtoTF.]
-You might try inserting a different font spec;
-e.g., type `I\font<same font id>=<substitute font name>'.
-
-! Font TU/Batang(0)/bx/n/17.28=Batang:embolden=1.5; at 17.28pt not loadable: Me
-tric (TFM) file or installed font not found.
-<to be read again> 
-                   relax 
-l.1 \maketitle
-                % command to print the title page with above variables
-I wasn't able to read the size data for this font,
-so I will ignore the font specification.
-[Wizards can fix TFM files using TFtoPL/PLtoTF.]
-You might try inserting a different font spec;
-e.g., type `I\font<same font id>=<substitute font name>'.
-
-Missing character: There is no 김 in font nullfont!
-Missing character: There is no 병 in font nullfont!
-Missing character: There is no 현 in font nullfont!
-Missing character: There is no 과 in font nullfont!
-Missing character: There is no 학 in font nullfont!
-Missing character: There is no 영 in font nullfont!
-Missing character: There is no 재 in font nullfont!
-Missing character: There is no 학 in font nullfont!
-Missing character: There is no 교 in font nullfont!
-Missing character: There is no 경 in font nullfont!
-Missing character: There is no 기 in font nullfont!
-Missing character: There is no 과 in font nullfont!
-Missing character: There is no 학 in font nullfont!
-Missing character: There is no 고 in font nullfont!
-Missing character: There is no 등 in font nullfont!
-Missing character: There is no 학 in font nullfont!
-Missing character: There is no 교 in font nullfont!
-[1
+ [1
 
 
 
 
-]
-Missing character: There is no 해 in font nullfont!
-Missing character: There is no 색 in font nullfont!
-Missing character: There is no 자 in font nullfont!
-Missing character: There is no 료 in font nullfont!
-Missing character: There is no 를 in font nullfont!
-Missing character: There is no 이 in font nullfont!
-Missing character: There is no 용 in font nullfont!
-Missing character: There is no 한 in font nullfont!
-Missing character: There is no 동 in font nullfont!
-Missing character: There is no 해 in font nullfont!
-Missing character: There is no 에 in font nullfont!
-Missing character: There is no 서 in font nullfont!
-Missing character: There is no 의 in font nullfont!
-Missing character: There is no 농 in font nullfont!
-Missing character: There is no 도 in font nullfont!
-Missing character: There is no 분 in font nullfont!
-Missing character: There is no 석 in font nullfont!
-Missing character: There is no : in font nullfont!
-Missing character: There is no 자 in font nullfont!
-Missing character: There is no 료 in font nullfont!
-Missing character: There is no 와 in font nullfont!
-Missing character: There is no 자 in font nullfont!
-Missing character: There is no 료 in font nullfont!
-Missing character: There is no 의 in font nullfont!
-Missing character: There is no 비 in font nullfont!
-Missing character: There is no 교 in font nullfont!
-
-! Font TU/Batang(0)/m/n/12=Batang at 12.0pt not loadable: Metric (TFM) file or 
-installed font not found.
-<to be read again> 
-                   relax 
-l.1 \maketitle
-                % command to print the title page with above variables
-I wasn't able to read the size data for this font,
-so I will ignore the font specification.
-[Wizards can fix TFM files using TFtoPL/PLtoTF.]
-You might try inserting a different font spec;
-e.g., type `I\font<same font id>=<substitute font name>'.
-
-Missing character: There is no 논 in font nullfont!
-Missing character: There is no 문 in font nullfont!
-Missing character: There is no 제 in font nullfont!
-Missing character: There is no 출 in font nullfont!
-Missing character: There is no 전 in font nullfont!
-Missing character: There is no 체 in font nullfont!
-Missing character: There is no 크 in font nullfont!
-Missing character: There is no 리 in font nullfont!
-Missing character: There is no 스 in font nullfont!
-Missing character: There is no 트 in font nullfont!
-Missing character: There is no 이 in font nullfont!
-Missing character: There is no 논 in font nullfont!
-Missing character: There is no 문 in font nullfont!
-Missing character: There is no 은 in font nullfont!
-Missing character: There is no 내 in font nullfont!
-Missing character: There is no 가 in font nullfont!
-Missing character: There is no 직 in font nullfont!
-Missing character: There is no 접 in font nullfont!
-Missing character: There is no 연 in font nullfont!
-Missing character: There is no 구 in font nullfont!
-Missing character: There is no 하 in font nullfont!
-Missing character: There is no 고 in font nullfont!
-Missing character: There is no 작 in font nullfont!
-Missing character: There is no 성 in font nullfont!
-Missing character: There is no 한 in font nullfont!
-Missing character: There is no 것 in font nullfont!
-Missing character: There is no 이 in font nullfont!
-Missing character: There is no 다 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 인 in font nullfont!
-Missing character: There is no 용 in font nullfont!
-Missing character: There is no 한 in font nullfont!
-Missing character: There is no 모 in font nullfont!
-Missing character: There is no 든 in font nullfont!
-Missing character: There is no 자 in font nullfont!
-Missing character: There is no 료 in font nullfont!
-Missing character: There is no 책 in font nullfont!
-Missing character: There is no , in font nullfont!
-Missing character: There is no 논 in font nullfont!
-Missing character: There is no 문 in font nullfont!
-Missing character: There is no , in font nullfont!
-Missing character: There is no 인 in font nullfont!
-Missing character: There is no 터 in font nullfont!
-Missing character: There is no 넷 in font nullfont!
-Missing character: There is no 자 in font nullfont!
-Missing character: There is no 료 in font nullfont!
-Missing character: There is no 등 in font nullfont!
-Missing character: There is no 의 in font nullfont!
-Missing character: There is no 인 in font nullfont!
-Missing character: There is no 용 in font nullfont!
-Missing character: There is no 표 in font nullfont!
-Missing character: There is no 시 in font nullfont!
-Missing character: There is no 를 in font nullfont!
-Missing character: There is no 바 in font nullfont!
-Missing character: There is no 르 in font nullfont!
-Missing character: There is no 게 in font nullfont!
-Missing character: There is no 하 in font nullfont!
-Missing character: There is no 였 in font nullfont!
-Missing character: There is no 다 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 인 in font nullfont!
-Missing character: There is no 용 in font nullfont!
-Missing character: There is no 한 in font nullfont!
-Missing character: There is no 자 in font nullfont!
-Missing character: There is no 료 in font nullfont!
-Missing character: There is no 의 in font nullfont!
-Missing character: There is no 표 in font nullfont!
-Missing character: There is no 현 in font nullfont!
-Missing character: There is no 이 in font nullfont!
-Missing character: There is no 나 in font nullfont!
-Missing character: There is no 내 in font nullfont!
-Missing character: There is no 용 in font nullfont!
-Missing character: There is no 을 in font nullfont!
-Missing character: There is no 왜 in font nullfont!
-Missing character: There is no 곡 in font nullfont!
-Missing character: There is no 하 in font nullfont!
-Missing character: There is no 지 in font nullfont!
-Missing character: There is no 않 in font nullfont!
-Missing character: There is no 았 in font nullfont!
-Missing character: There is no 다 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 정 in font nullfont!
-Missing character: There is no 확 in font nullfont!
-Missing character: There is no 한 in font nullfont!
-Missing character: There is no 출 in font nullfont!
-Missing character: There is no 처 in font nullfont!
-Missing character: There is no 제 in font nullfont!
-Missing character: There is no 시 in font nullfont!
-Missing character: There is no 없 in font nullfont!
-Missing character: There is no 이 in font nullfont!
-Missing character: There is no 다 in font nullfont!
-Missing character: There is no 른 in font nullfont!
-Missing character: There is no 사 in font nullfont!
-Missing character: There is no 람 in font nullfont!
-Missing character: There is no 의 in font nullfont!
-Missing character: There is no 글 in font nullfont!
-Missing character: There is no 이 in font nullfont!
-Missing character: There is no 나 in font nullfont!
-Missing character: There is no 아 in font nullfont!
-Missing character: There is no 이 in font nullfont!
-Missing character: There is no 디 in font nullfont!
-Missing character: There is no 어 in font nullfont!
-Missing character: There is no 를 in font nullfont!
-Missing character: There is no 가 in font nullfont!
-Missing character: There is no 져 in font nullfont!
-Missing character: There is no 오 in font nullfont!
-Missing character: There is no 지 in font nullfont!
-Missing character: There is no 않 in font nullfont!
-Missing character: There is no 았 in font nullfont!
-Missing character: There is no 다 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 논 in font nullfont!
-Missing character: There is no 문 in font nullfont!
-Missing character: There is no 작 in font nullfont!
-Missing character: There is no 성 in font nullfont!
-Missing character: There is no 중 in font nullfont!
-Missing character: There is no 도 in font nullfont!
-Missing character: There is no 표 in font nullfont!
-Missing character: There is no 나 in font nullfont!
-Missing character: There is no 데 in font nullfont!
-Missing character: There is no 이 in font nullfont!
-Missing character: There is no 터 in font nullfont!
-Missing character: There is no 를 in font nullfont!
-Missing character: There is no 조 in font nullfont!
-Missing character: There is no 작 in font nullfont!
-Missing character: There is no 위 in font nullfont!
-Missing character: There is no 조 in font nullfont!
-Missing character: There is no 혹 in font nullfont!
-Missing character: There is no 은 in font nullfont!
-Missing character: There is no 변 in font nullfont!
-Missing character: There is no 조 in font nullfont!
-Missing character: There is no 하 in font nullfont!
-Missing character: There is no 지 in font nullfont!
-Missing character: There is no 않 in font nullfont!
-Missing character: There is no 았 in font nullfont!
-Missing character: There is no 다 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 다 in font nullfont!
-Missing character: There is no 른 in font nullfont!
-Missing character: There is no 친 in font nullfont!
-Missing character: There is no 구 in font nullfont!
-Missing character: There is no 와 in font nullfont!
-Missing character: There is no 같 in font nullfont!
-Missing character: There is no 은 in font nullfont!
-Missing character: There is no 내 in font nullfont!
-Missing character: There is no 용 in font nullfont!
-Missing character: There is no 의 in font nullfont!
-Missing character: There is no 논 in font nullfont!
-Missing character: There is no 문 in font nullfont!
-Missing character: There is no 을 in font nullfont!
-Missing character: There is no 제 in font nullfont!
-Missing character: There is no 출 in font nullfont!
-Missing character: There is no 하 in font nullfont!
-Missing character: There is no 지 in font nullfont!
-Missing character: There is no 않 in font nullfont!
-Missing character: There is no 았 in font nullfont!
-Missing character: There is no 다 in font nullfont!
-Missing character: There is no . in font nullfont!
-[2]
+] [2]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
-
-! Font TU/Batang(0)/m/n/10=Batang at 10.0pt not loadable: Metric (TFM) file or 
-installed font not found.
-<to be read again> 
-                   relax 
-l.1 \maketitle
-                % command to print the title page with above variables
-I wasn't able to read the size data for this font,
-so I will ignore the font specification.
-[Wizards can fix TFM files using TFtoPL/PLtoTF.]
-You might try inserting a different font spec;
-e.g., type `I\font<same font id>=<substitute font name>'.
-
-! Font TU/Batang(0)/m/n/7.4=Batang at 7.4pt not loadable: Metric (TFM) file or 
-installed font not found.
-<to be read again> 
-                   relax 
-l.1 \maketitle
-                % command to print the title page with above variables
-I wasn't able to read the size data for this font,
-so I will ignore the font specification.
-[Wizards can fix TFM files using TFtoPL/PLtoTF.]
-You might try inserting a different font spec;
-e.g., type `I\font<same font id>=<substitute font name>'.
-
-[3]
-Missing character: There is no 해 in font nullfont!
-Missing character: There is no 색 in font nullfont!
-Missing character: There is no 자 in font nullfont!
-Missing character: There is no 료 in font nullfont!
-Missing character: There is no 를 in font nullfont!
-Missing character: There is no 이 in font nullfont!
-Missing character: There is no 용 in font nullfont!
-Missing character: There is no 한 in font nullfont!
-Missing character: There is no 동 in font nullfont!
-Missing character: There is no 해 in font nullfont!
-Missing character: There is no 에 in font nullfont!
-Missing character: There is no 서 in font nullfont!
-Missing character: There is no 의 in font nullfont!
-Missing character: There is no 농 in font nullfont!
-Missing character: There is no 도 in font nullfont!
-Missing character: There is no 분 in font nullfont!
-Missing character: There is no 석 in font nullfont!
-Missing character: There is no : in font nullfont!
-Missing character: There is no 자 in font nullfont!
-Missing character: There is no 료 in font nullfont!
-Missing character: There is no 와 in font nullfont!
-Missing character: There is no 자 in font nullfont!
-Missing character: There is no 료 in font nullfont!
-Missing character: There is no 의 in font nullfont!
-Missing character: There is no 비 in font nullfont!
-Missing character: There is no 교 in font nullfont!
-
-! Font TU/Batang(0)/m/n/17.28=Batang at 17.28pt not loadable: Metric (TFM) file
- or installed font not found.
-<to be read again> 
-                   relax 
-l.1 \maketitle
-                % command to print the title page with above variables
-I wasn't able to read the size data for this font,
-so I will ignore the font specification.
-[Wizards can fix TFM files using TFtoPL/PLtoTF.]
-You might try inserting a different font spec;
-e.g., type `I\font<same font id>=<substitute font name>'.
-
-Missing character: There is no 김 in font nullfont!
-Missing character: There is no 병 in font nullfont!
-Missing character: There is no 현 in font nullfont!
-Missing character: There is no 위 in font nullfont!
-Missing character: There is no 논 in font nullfont!
-Missing character: There is no 문 in font nullfont!
-Missing character: There is no 은 in font nullfont!
-Missing character: There is no 과 in font nullfont!
-Missing character: There is no 학 in font nullfont!
-Missing character: There is no 영 in font nullfont!
-Missing character: There is no 재 in font nullfont!
-Missing character: There is no 학 in font nullfont!
-Missing character: There is no 교 in font nullfont!
-Missing character: There is no 경 in font nullfont!
-Missing character: There is no 기 in font nullfont!
-Missing character: There is no 과 in font nullfont!
-Missing character: There is no 학 in font nullfont!
-Missing character: There is no 고 in font nullfont!
-Missing character: There is no 등 in font nullfont!
-Missing character: There is no 학 in font nullfont!
-Missing character: There is no 교 in font nullfont!
-Missing character: There is no 졸 in font nullfont!
-Missing character: There is no 업 in font nullfont!
-Missing character: There is no 논 in font nullfont!
-Missing character: There is no 문 in font nullfont!
-Missing character: There is no 으 in font nullfont!
-Missing character: There is no 로 in font nullfont!
-Missing character: There is no 졸 in font nullfont!
-Missing character: There is no 업 in font nullfont!
-Missing character: There is no 논 in font nullfont!
-Missing character: There is no 문 in font nullfont!
-Missing character: There is no 심 in font nullfont!
-Missing character: There is no 사 in font nullfont!
-Missing character: There is no 위 in font nullfont!
-Missing character: There is no 원 in font nullfont!
-Missing character: There is no 회 in font nullfont!
-Missing character: There is no 에 in font nullfont!
-Missing character: There is no 서 in font nullfont!
-Missing character: There is no 심 in font nullfont!
-Missing character: There is no 사 in font nullfont!
-Missing character: There is no 통 in font nullfont!
-Missing character: There is no 과 in font nullfont!
-Missing character: There is no 하 in font nullfont!
-Missing character: There is no 였 in font nullfont!
-Missing character: There is no 음 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 년 in font nullfont!
-Missing character: There is no 월 in font nullfont!
-Missing character: There is no 일 in font nullfont!
-Missing character: There is no 심 in font nullfont!
-Missing character: There is no 사 in font nullfont!
-Missing character: There is no 위 in font nullfont!
-Missing character: There is no 원 in font nullfont!
-Missing character: There is no 장 in font nullfont!
-Missing character: There is no 박 in font nullfont!
-Missing character: There is no 경 in font nullfont!
-Missing character: There is no 애 in font nullfont!
-Missing character: There is no 인 in font nullfont!
-Missing character: There is no 심 in font nullfont!
-Missing character: There is no 사 in font nullfont!
-Missing character: There is no 위 in font nullfont!
-Missing character: There is no 원 in font nullfont!
-Missing character: There is no 김 in font nullfont!
-Missing character: There is no 학 in font nullfont!
-Missing character: There is no 성 in font nullfont!
-Missing character: There is no 인 in font nullfont!
-Missing character: There is no 심 in font nullfont!
-Missing character: There is no 사 in font nullfont!
-Missing character: There is no 위 in font nullfont!
-Missing character: There is no 원 in font nullfont!
-Missing character: There is no 박 in font nullfont!
-Missing character: There is no 기 in font nullfont!
-Missing character: There is no 현 in font nullfont!
-Missing character: There is no 인 in font nullfont!
-[4]
-Missing character: There is no 다 in font nullfont!
-Missing character: There is no 시 in font nullfont!
-Missing character: There is no 번 in font nullfont!
-Missing character: There is no 역 in font nullfont!
- [1]
-Missing character: There is no 해 in font nullfont!
-Missing character: There is no 색 in font nullfont!
-Missing character: There is no 자 in font nullfont!
-Missing character: There is no 료 in font nullfont!
-Missing character: There is no 를 in font nullfont!
-Missing character: There is no 이 in font nullfont!
-Missing character: There is no 용 in font nullfont!
-Missing character: There is no 한 in font nullfont!
-Missing character: There is no 동 in font nullfont!
-Missing character: There is no 해 in font nullfont!
-Missing character: There is no 에 in font nullfont!
-Missing character: There is no 서 in font nullfont!
-Missing character: There is no 의 in font nullfont!
-Missing character: There is no 농 in font nullfont!
-Missing character: There is no 도 in font nullfont!
-Missing character: There is no 분 in font nullfont!
-Missing character: There is no 석 in font nullfont!
-Missing character: There is no : in font nullfont!
-Missing character: There is no 자 in font nullfont!
-Missing character: There is no 료 in font nullfont!
-Missing character: There is no 와 in font nullfont!
-Missing character: There is no 자 in font nullfont!
-Missing character: There is no 료 in font nullfont!
-Missing character: There is no 의 in font nullfont!
-Missing character: There is no 비 in font nullfont!
-Missing character: There is no 교 in font nullfont!
-Missing character: There is no 초 in font nullfont!
-Missing character: There is no 록 in font nullfont!
-Missing character: There is no 및 in font nullfont!
-Missing character: There is no 자 in font nullfont!
-Missing character: There is no 료 in font nullfont!
-Missing character: There is no 를 in font nullfont!
-Missing character: There is no 이 in font nullfont!
-Missing character: There is no 용 in font nullfont!
-Missing character: There is no 하 in font nullfont!
-Missing character: There is no 여 in font nullfont!
-Missing character: There is no 년 in font nullfont!
-Missing character: There is no 월 in font nullfont!
-Missing character: There is no 부 in font nullfont!
-Missing character: There is no 터 in font nullfont!
-Missing character: There is no 년 in font nullfont!
-Missing character: There is no 월 in font nullfont!
-Missing character: There is no 까 in font nullfont!
-Missing character: There is no 지 in font nullfont!
-Missing character: There is no 동 in font nullfont!
-Missing character: There is no 해 in font nullfont!
-Missing character: There is no 의 in font nullfont!
-Missing character: There is no 월 in font nullfont!
-Missing character: There is no 평 in font nullfont!
-Missing character: There is no 균 in font nullfont!
-Missing character: There is no 농 in font nullfont!
-Missing character: There is no 도 in font nullfont!
-Missing character: There is no 를 in font nullfont!
-Missing character: There is no 산 in font nullfont!
-Missing character: There is no 출 in font nullfont!
-Missing character: There is no 하 in font nullfont!
-Missing character: There is no 였 in font nullfont!
-Missing character: There is no 다 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 두 in font nullfont!
-Missing character: There is no 자 in font nullfont!
-Missing character: There is no 료 in font nullfont!
-Missing character: There is no 모 in font nullfont!
-Missing character: There is no 두 in font nullfont!
-Missing character: There is no 봄 in font nullfont!
-Missing character: There is no 철 in font nullfont!
-Missing character: There is no 월 in font nullfont!
-Missing character: There is no 과 in font nullfont!
-Missing character: There is no 가 in font nullfont!
-Missing character: There is no 을 in font nullfont!
-Missing character: There is no 철 in font nullfont!
-Missing character: There is no 월 in font nullfont!
-Missing character: There is no 에 in font nullfont!
-Missing character: There is no 월 in font nullfont!
-Missing character: There is no 평 in font nullfont!
-Missing character: There is no 균 in font nullfont!
-Missing character: There is no 농 in font nullfont!
-Missing character: There is no 도 in font nullfont!
-Missing character: There is no 가 in font nullfont!
-Missing character: There is no 높 in font nullfont!
-Missing character: There is no 게 in font nullfont!
-Missing character: There is no 산 in font nullfont!
-Missing character: There is no 출 in font nullfont!
-Missing character: There is no 되 in font nullfont!
-Missing character: There is no 어 in font nullfont!
-Missing character: There is no 전 in font nullfont!
-Missing character: There is no 체 in font nullfont!
-Missing character: There is no 적 in font nullfont!
-Missing character: There is no 인 in font nullfont!
-Missing character: There is no 경 in font nullfont!
-Missing character: There is no 향 in font nullfont!
-Missing character: There is no 은 in font nullfont!
-Missing character: There is no 비 in font nullfont!
-Missing character: There is no 슷 in font nullfont!
-Missing character: There is no 하 in font nullfont!
-Missing character: There is no 게 in font nullfont!
-Missing character: There is no 나 in font nullfont!
-Missing character: There is no 타 in font nullfont!
-Missing character: There is no 났 in font nullfont!
-Missing character: There is no 다 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 그 in font nullfont!
-Missing character: There is no 러 in font nullfont!
-Missing character: There is no 나 in font nullfont!
-Missing character: There is no 와 in font nullfont!
-Missing character: There is no 자 in font nullfont!
-Missing character: There is no 료 in font nullfont!
-Missing character: There is no 로 in font nullfont!
-Missing character: There is no 산 in font nullfont!
-Missing character: There is no 출 in font nullfont!
-Missing character: There is no 한 in font nullfont!
-Missing character: There is no 월 in font nullfont!
-Missing character: There is no 평 in font nullfont!
-Missing character: There is no 균 in font nullfont!
-Missing character: There is no 농 in font nullfont!
-Missing character: There is no 도 in font nullfont!
-Missing character: There is no 의 in font nullfont!
-Missing character: There is no 최 in font nullfont!
-Missing character: There is no 대 in font nullfont!
-Missing character: There is no 값 in font nullfont!
-Missing character: There is no 최 in font nullfont!
-Missing character: There is no 소 in font nullfont!
-Missing character: There is no 값 in font nullfont!
-Missing character: There is no 은 in font nullfont!
-Missing character: There is no 각 in font nullfont!
-Missing character: There is no 각 in font nullfont!
-Missing character: There is no 과 in font nullfont!
-Missing character: There is no 으 in font nullfont!
-Missing character: There is no 로 in font nullfont!
-Missing character: There is no 차 in font nullfont!
-Missing character: There is no 이 in font nullfont!
-Missing character: There is no 가 in font nullfont!
-Missing character: There is no 나 in font nullfont!
-Missing character: There is no 타 in font nullfont!
-Missing character: There is no 났 in font nullfont!
-Missing character: There is no 다 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 차 in font nullfont!
-Missing character: There is no 이 in font nullfont!
-Missing character: There is no 를 in font nullfont!
-Missing character: There is no 구 in font nullfont!
-Missing character: There is no 체 in font nullfont!
-Missing character: There is no 적 in font nullfont!
-Missing character: There is no 으 in font nullfont!
-Missing character: There is no 로 in font nullfont!
-Missing character: There is no 분 in font nullfont!
-Missing character: There is no 석 in font nullfont!
-Missing character: There is no 하 in font nullfont!
-Missing character: There is no 기 in font nullfont!
-Missing character: There is no 위 in font nullfont!
-Missing character: There is no 하 in font nullfont!
-Missing character: There is no 여 in font nullfont!
-Missing character: There is no 와 in font nullfont!
-Missing character: There is no 데 in font nullfont!
-Missing character: There is no 이 in font nullfont!
-Missing character: There is no 터 in font nullfont!
-Missing character: There is no 의 in font nullfont!
-Missing character: There is no 픽 in font nullfont!
-Missing character: There is no 셀 in font nullfont!
-Missing character: There is no 히 in font nullfont!
-Missing character: There is no 스 in font nullfont!
-Missing character: There is no 토 in font nullfont!
-Missing character: There is no 그 in font nullfont!
-Missing character: There is no 램 in font nullfont!
-Missing character: There is no 을 in font nullfont!
-Missing character: There is no 비 in font nullfont!
-Missing character: There is no 교 in font nullfont!
-Missing character: There is no 한 in font nullfont!
-Missing character: There is no 결 in font nullfont!
-Missing character: There is no 과 in font nullfont!
-Missing character: There is no 데 in font nullfont!
-Missing character: There is no 이 in font nullfont!
-Missing character: There is no 터 in font nullfont!
-Missing character: There is no 에 in font nullfont!
-Missing character: There is no 서 in font nullfont!
-Missing character: There is no 스 in font nullfont!
-Missing character: There is no 펙 in font nullfont!
-Missing character: There is no 클 in font nullfont!
-Missing character: There is no 오 in font nullfont!
-Missing character: There is no 류 in font nullfont!
-Missing character: There is no 가 in font nullfont!
-Missing character: There is no 더 in font nullfont!
-Missing character: There is no 크 in font nullfont!
-Missing character: There is no 게 in font nullfont!
-Missing character: There is no 나 in font nullfont!
-Missing character: There is no 타 in font nullfont!
-Missing character: There is no 남 in font nullfont!
-Missing character: There is no 을 in font nullfont!
-Missing character: There is no 확 in font nullfont!
-Missing character: There is no 인 in font nullfont!
-Missing character: There is no 하 in font nullfont!
-Missing character: There is no 였 in font nullfont!
-Missing character: There is no 다 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 월 in font nullfont!
-Missing character: There is no 평 in font nullfont!
-Missing character: There is no 균 in font nullfont!
-Missing character: There is no 농 in font nullfont!
-Missing character: There is no 도 in font nullfont!
-Missing character: There is no 가 in font nullfont!
-Missing character: There is no 높 in font nullfont!
-Missing character: There is no 았 in font nullfont!
-Missing character: There is no 던 in font nullfont!
-Missing character: There is no 년 in font nullfont!
-Missing character: There is no 월 in font nullfont!
-Missing character: There is no 이 in font nullfont!
-Missing character: There is no 미 in font nullfont!
-Missing character: There is no 지 in font nullfont!
-Missing character: There is no 픽 in font nullfont!
-Missing character: There is no 셀 in font nullfont!
-Missing character: There is no 을 in font nullfont!
-Missing character: There is no 분 in font nullfont!
-Missing character: There is no 석 in font nullfont!
-Missing character: There is no 해 in font nullfont!
-Missing character: There is no 본 in font nullfont!
-Missing character: There is no 결 in font nullfont!
-Missing character: There is no 과 in font nullfont!
-Missing character: There is no 해 in font nullfont!
-Missing character: There is no 상 in font nullfont!
-Missing character: There is no 도 in font nullfont!
-Missing character: There is no 가 in font nullfont!
-Missing character: There is no 높 in font nullfont!
-Missing character: There is no 은 in font nullfont!
-Missing character: There is no 자 in font nullfont!
-Missing character: There is no 료 in font nullfont!
-Missing character: There is no 를 in font nullfont!
-Missing character: There is no 이 in font nullfont!
-Missing character: There is no 용 in font nullfont!
-Missing character: There is no 하 in font nullfont!
-Missing character: There is no 는 in font nullfont!
-Missing character: There is no 것 in font nullfont!
-Missing character: There is no 이 in font nullfont!
-Missing character: There is no 자 in font nullfont!
-Missing character: There is no 료 in font nullfont!
-Missing character: There is no 를 in font nullfont!
-Missing character: There is no 이 in font nullfont!
-Missing character: There is no 용 in font nullfont!
-Missing character: There is no 하 in font nullfont!
-Missing character: There is no 는 in font nullfont!
-Missing character: There is no 것 in font nullfont!
-Missing character: There is no 보 in font nullfont!
-Missing character: There is no 다 in font nullfont!
-Missing character: There is no 더 in font nullfont!
-Missing character: There is no 정 in font nullfont!
-Missing character: There is no 확 in font nullfont!
-Missing character: There is no 함 in font nullfont!
-Missing character: There is no 을 in font nullfont!
-Missing character: There is no 확 in font nullfont!
-Missing character: There is no 인 in font nullfont!
-Missing character: There is no 하 in font nullfont!
-Missing character: There is no 였 in font nullfont!
-Missing character: There is no 다 in font nullfont!
-Missing character: There is no . in font nullfont!
-
-Overfull \hbox (1.75905pt too wide) in paragraph at lines 20--23
- \TU/TimesNewRoman(0)/m/n/10.95 SeaWiFS LAC (Local Area Coverage)  GAC (Global 
-Area Coverage)   2003  1  2006  12   chlorophyll-
- []
-
-[2] (./gshs_thesis_15021_main.toc
-! Font TU/Batang(0)/bx/n/10.95=Batang:embolden=1.5; at 10.95pt not loadable: Me
-tric (TFM) file or installed font not found.
-<to be read again> 
-                   relax 
-l.2 \contentsline {section}{초록}{ii}
-                                       
-I wasn't able to read the size data for this font,
-so I will ignore the font specification.
-[Wizards can fix TFM files using TFtoPL/PLtoTF.]
-You might try inserting a different font spec;
-e.g., type `I\font<same font id>=<substitute font name>'.
-
-Missing character: There is no 초 in font nullfont!
-Missing character: There is no 록 in font nullfont!
-Missing character: There is no 감 in font nullfont!
-Missing character: There is no 사 in font nullfont!
-Missing character: There is no 의 in font nullfont!
-Missing character: There is no 글 in font nullfont!
-Missing character: There is no 연 in font nullfont!
-Missing character: There is no 구 in font nullfont!
-Missing character: There is no 활 in font nullfont!
-Missing character: There is no 동 in font nullfont!
-)
-\tf@toc=\write3
-\openout3 = `gshs_thesis_15021_main.toc'.
+ [3] [4]
+[1] [2] (./gshs_thesis_15021_main.toc)
+\tf@toc=\write4
+\openout4 = `gshs_thesis_15021_main.toc'.
 
  [3
 
 ] (./gshs_thesis_15021_main.lot)
-\tf@lot=\write4
-\openout4 = `gshs_thesis_15021_main.lot'.
+\tf@lot=\write5
+\openout5 = `gshs_thesis_15021_main.lot'.
 
- [4
+
+[4
 
 
 ] (./gshs_thesis_15021_main.lof
-Overfull \hbox (4.82535pt too wide) in paragraph at lines 3--3
+Overfull \hbox (6.76192pt too wide) in paragraph at lines 1--1
  [][] []\TU/TimesNewRoman(0)/m/n/10.95 The monthly-mean chlorophyll-a distribut
-ion in the Korean East Sea, LAC. 
+ion in the East Sea (Sea of Japan), 
  []
 
 
-Overfull \hbox (4.82535pt too wide) in paragraph at lines 4--4
+Overfull \hbox (6.76192pt too wide) in paragraph at lines 2--2
  [][] []\TU/TimesNewRoman(0)/m/n/10.95 The monthly-mean chlorophyll-a distribut
-ion in the Korean East Sea, LAC. 
+ion in the East Sea (Sea of Japan), 
  []
 
 
-Overfull \hbox (4.82535pt too wide) in paragraph at lines 5--5
+Overfull \hbox (6.76192pt too wide) in paragraph at lines 3--3
  [][] []\TU/TimesNewRoman(0)/m/n/10.95 The monthly-mean chlorophyll-a distribut
-ion in the Korean East Sea, LAC. 
+ion in the East Sea (Sea of Japan), 
  []
 
 
-Overfull \hbox (4.82535pt too wide) in paragraph at lines 6--6
+Overfull \hbox (6.76192pt too wide) in paragraph at lines 4--4
  [][] []\TU/TimesNewRoman(0)/m/n/10.95 The monthly-mean chlorophyll-a distribut
-ion in the Korean East Sea, LAC. 
+ion in the East Sea (Sea of Japan), 
  []
 
 
-Overfull \hbox (4.82535pt too wide) in paragraph at lines 7--7
+Overfull \hbox (6.76192pt too wide) in paragraph at lines 5--5
  [][] []\TU/TimesNewRoman(0)/m/n/10.95 The monthly-mean chlorophyll-a distribut
-ion in the Korean East Sea, LAC. 
+ion in the East Sea (Sea of Japan), 
  []
 
 
-Overfull \hbox (4.82535pt too wide) in paragraph at lines 8--8
+Overfull \hbox (6.76192pt too wide) in paragraph at lines 6--6
  [][] []\TU/TimesNewRoman(0)/m/n/10.95 The monthly-mean chlorophyll-a distribut
-ion in the Korean East Sea, LAC. 
+ion in the East Sea (Sea of Japan), 
+ []
+
+[5
+
+
+]
+Overfull \hbox (2.203pt too wide) in paragraph at lines 10--10
+ [][] []\TU/TimesNewRoman(0)/m/n/10.95 The monthly chlorophyll-a mean distribut
+ion in the East Sea (Sea of Japan) 
+ []
+
+
+Overfull \hbox (2.203pt too wide) in paragraph at lines 11--11
+ [][] []\TU/TimesNewRoman(0)/m/n/10.95 The monthly chlorophyll-a mean distribut
+ion in the East Sea (Sea of Japan) 
  []
 
 )
-\tf@lof=\write5
-\openout5 = `gshs_thesis_15021_main.lof'.
+\tf@lof=\write6
+\openout6 = `gshs_thesis_15021_main.lof'.
 
- [5
-
-
-] [6]
-! Undefined control sequence.
-l.53 \listofequations
-                     
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-)
+ [6])
 \openout2 = `sub/introduction.aux'.
 
  (./sub/introduction.tex [1
@@ -2027,361 +1672,158 @@ and I'll forget about whatever was undefined.
 ]) [2]
 \openout2 = `sub/methodology.aux'.
 
- (./sub/methodology.tex
-! Missing number, treated as zero.
-<to be read again> 
-                   \let 
-l.8  ^^I\caption
-                {The mission characteristics of SeaWiFS.}
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \let 
-l.8  ^^I\caption
-                {The mission characteristics of SeaWiFS.}
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \let 
-l.26 ^^I\caption
-                {Cahracteristics of the DeaWiFS ocean color sensor.}
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \let 
-l.26 ^^I\caption
-                {Cahracteristics of the DeaWiFS ocean color sensor.}
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-[3
+ (./sub/methodology.tex [3
 
 
-]
-! Cannot use \XeTeXglyphbounds with nullfont; not a native platform font.
-\XK@side@bearing #1#2->\ifdim \XeTeXglyphbounds 
-                                                #2\XeTeXcharglyph #1>.5em \d...
-l.52 ...lgorithm was proved to be accurate by O’
-                                                  Reilly et. al\cite{o2000oc...
-
-
-! Missing = inserted for \ifdim.
-<to be read again> 
-                   \thr@@ 
-l.52 ...lgorithm was proved to be accurate by O’
-                                                  Reilly et. al\cite{o2000oc...
-I was expecting to see `<', `=', or `>'. Didn't.
-
-! Cannot use \XeTeXcharglyph with nullfont; not a native platform font.
-\XK@side@bearing ...glyphbounds #2\XeTeXcharglyph 
-                                                  #1>.5em \dimen@ .5em \else...
-l.52 ...lgorithm was proved to be accurate by O’
-                                                  Reilly et. al\cite{o2000oc...
-
-
-! Missing number, treated as zero.
-<to be read again> 
-                   >
-l.52 ...lgorithm was proved to be accurate by O’
-                                                  Reilly et. al\cite{o2000oc...
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-[4]) [5]
+] [4])
+[5]
 \openout2 = `sub/body1.aux'.
 
  (./sub/body1.tex
-File: images/../images/annualmon.png Graphic file (type QTm)
- <use  "images/../images/annualmon.png" >
-File: images/../images/annualwky.png Graphic file (type QTm)
+File: images/monLAC01.pdf Graphic file (type QTm)
+ <use  "images/monLAC01.pdf" >
+File: images/../images/monLAC02.pdf Graphic file (type QTm)
 
-<use  "images/../images/annualwky.png" > [6
+<use  "images/../images/monLAC02.pdf" >
+File: images/../images/monLAC03.pdf Graphic file (type QTm)
+
+<use  "images/../images/monLAC03.pdf" >
+File: images/../images/monGAC01.pdf Graphic file (type QTm)
+
+<use  "images/../images/monGAC01.pdf" >
+File: images/../images/monGAC02.pdf Graphic file (type QTm)
+
+<use  "images/../images/monGAC02.pdf" >
+File: images/../images/monGAC03.pdf Graphic file (type QTm)
+
+<use  "images/../images/monGAC03.pdf" > [6
 
 
-]
-File: images/../images/monLAC01.png Graphic file (type QTm)
+] [7] [8] [9] [10] [11] [12]
+PGFPlots: reading {monLAC.csv}
+PGFPlots: reading {monLAC.csv}
+PGFPlots: reading {monLAC.csv}
+PGFPlots: reading {monLAC.csv}
+Missing character: There is no [ in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no ] in font nullfont!
+PGFPlots: reading {monGAC.csv}
+PGFPlots: reading {monGAC.csv}
+PGFPlots: reading {monGAC.csv}
+PGFPlots: reading {monGAC.csv}
+ [13]
+Missing character: There is no [ in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no ] in font nullfont!
+PGFPlots: reading {wkyLAC.csv}
+PGFPlots: reading {wkyLAC.csv}
+PGFPlots: reading {wkyLAC.csv}
+PGFPlots: reading {wkyLAC.csv}
+Missing character: There is no [ in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no ] in font nullfont!
+PGFPlots: reading {wkyGAC.csv}
+PGFPlots: reading {wkyGAC.csv}
+PGFPlots: reading {wkyGAC.csv}
+PGFPlots: reading {wkyGAC.csv}
 
-<use  "images/../images/monLAC01.png" >
-File: images/../images/monGAC01.png Graphic file (type QTm)
 
-<use  "images/../images/monGAC01.png" >
-Overfull \hbox (3.2987pt too wide) in paragraph at lines 39--39
- [][] 
- []
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-File: images/../images/monLAC02.png Graphic file (type QTm)
-<use  "images/../images/monLAC02.png" >
-File: images/../images/monGAC02.png Graphic file (type QTm)
-
-<use  "images/../images/monGAC02.png" >
-File: images/../images/monLAC03.png Graphic file (type QTm)
-
-<use  "images/../images/monLAC03.png" >
-File: images/../images/monGAC03.png Graphic file (type QTm)
-
-<use  "images/../images/monGAC03.png" > [7]
 File: images/../images/monHIS.png Graphic file (type QTm)
+<use  "images/../images/monHIS.png" > [14]
 
-<use  "images/../images/monHIS.png" >
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[15]
 File: images/../images/monHISHI.png Graphic file (type QTm)
  <use  "images/../images/monHISHI.png" >
-File: images/../images/monHISSPEC.png Graphic file (type QTm)
 
-<use  "images/../images/monHISSPEC.png" >) [8] [9] [10] [11] [12] [13] [14]
-[15] [16] [17]
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: images/../images/monHISSPEC.png Graphic file (type QTm)
+<use  "images/../images/monHISSPEC.png" >
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [16] [17]
 \openout2 = `sub/conclusion.aux'.
 
  (./sub/conclusion.tex) [18
 
 
-] (./gshs_thesis_15021_main.bbl
-! Cannot use \XeTeXglyphbounds with nullfont; not a native platform font.
-\XK@side@bearing #1#2->\ifdim \XeTeXglyphbounds 
-                                                #2\XeTeXcharglyph #1>.5em \d...
-l.20 O’
-         Reilly, J.~E., Maritorena, S., Siegel, D.~A., O’Brien, M.~C., Too...
-
-
-! Missing = inserted for \ifdim.
-<to be read again> 
-                   \thr@@ 
-l.20 O’
-         Reilly, J.~E., Maritorena, S., Siegel, D.~A., O’Brien, M.~C., Too...
-I was expecting to see `<', `=', or `>'. Didn't.
-
-! Cannot use \XeTeXcharglyph with nullfont; not a native platform font.
-\XK@side@bearing ...glyphbounds #2\XeTeXcharglyph 
-                                                  #1>.5em \dimen@ .5em \else...
-l.20 O’
-         Reilly, J.~E., Maritorena, S., Siegel, D.~A., O’Brien, M.~C., Too...
-
-
-! Missing number, treated as zero.
-<to be read again> 
-                   >
-l.20 O’
-         Reilly, J.~E., Maritorena, S., Siegel, D.~A., O’Brien, M.~C., Too...
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Cannot use \XeTeXglyphbounds with nullfont; not a native platform font.
-\XK@side@bearing #1#2->\ifdim \XeTeXglyphbounds 
-                                                #2\XeTeXcharglyph #1>.5em \d...
-l.20 ...J.~E., Maritorena, S., Siegel, D.~A., O’
-                                                  Brien, M.~C., Toole, D.,
-
-! Missing = inserted for \ifdim.
-<to be read again> 
-                   \thr@@ 
-l.20 ...J.~E., Maritorena, S., Siegel, D.~A., O’
-                                                  Brien, M.~C., Toole, D.,
-I was expecting to see `<', `=', or `>'. Didn't.
-
-! Cannot use \XeTeXcharglyph with nullfont; not a native platform font.
-\XK@side@bearing ...glyphbounds #2\XeTeXcharglyph 
-                                                  #1>.5em \dimen@ .5em \else...
-l.20 ...J.~E., Maritorena, S., Siegel, D.~A., O’
-                                                  Brien, M.~C., Toole, D.,
-
-! Missing number, treated as zero.
-<to be read again> 
-                   >
-l.20 ...J.~E., Maritorena, S., Siegel, D.~A., O’
-                                                  Brien, M.~C., Toole, D.,
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-[19
-
-]) [20]
-\openout2 = `sub/footer.aux'.
-
- (./sub/footer.tex
-Missing character: There is no 감 in font nullfont!
-Missing character: There is no 사 in font nullfont!
-Missing character: There is no 의 in font nullfont!
-Missing character: There is no 글 in font nullfont!
-Missing character: There is no 정 in font nullfont!
-Missing character: There is no 말 in font nullfont!
-Missing character: There is no 감 in font nullfont!
-Missing character: There is no 사 in font nullfont!
-Missing character: There is no 합 in font nullfont!
-Missing character: There is no 니 in font nullfont!
-Missing character: There is no 다 in font nullfont!
-Missing character: There is no . in font nullfont!
- [21
+] (./gshs_thesis_15021_main.bbl) [19
 
 ]
-Missing character: There is no 연 in font nullfont!
-Missing character: There is no 구 in font nullfont!
-Missing character: There is no 활 in font nullfont!
-Missing character: There is no 동 in font nullfont!
-Missing character: There is no 학 in font nullfont!
-Missing character: There is no 년 in font nullfont!
-Missing character: There is no 도 in font nullfont!
-Missing character: There is no 교 in font nullfont!
-Missing character: There is no 내 in font nullfont!
-Missing character: There is no 발 in font nullfont!
-Missing character: There is no 표 in font nullfont!
-Missing character: There is no 대 in font nullfont!
-Missing character: There is no 회 in font nullfont!
-Missing character: There is no 에 in font nullfont!
-Missing character: There is no 서 in font nullfont!
-Missing character: There is no 장 in font nullfont!
-Missing character: There is no 려 in font nullfont!
-Missing character: There is no 상 in font nullfont!
-Missing character: There is no 수 in font nullfont!
-Missing character: There is no 상 in font nullfont!
-Missing character: There is no 학 in font nullfont!
-Missing character: There is no 년 in font nullfont!
-Missing character: There is no 도 in font nullfont!
-Missing character: There is no 교 in font nullfont!
-Missing character: There is no 내 in font nullfont!
-Missing character: There is no 발 in font nullfont!
-Missing character: There is no 표 in font nullfont!
-Missing character: There is no 대 in font nullfont!
-Missing character: There is no 회 in font nullfont!
-Missing character: There is no 에 in font nullfont!
-Missing character: There is no 서 in font nullfont!
-Missing character: There is no 장 in font nullfont!
-Missing character: There is no 려 in font nullfont!
-Missing character: There is no 상 in font nullfont!
-Missing character: There is no 수 in font nullfont!
-Missing character: There is no 상 in font nullfont!
-Missing character: There is no 학 in font nullfont!
-Missing character: There is no 년 in font nullfont!
-Missing character: There is no 도 in font nullfont!
-Missing character: There is no 교 in font nullfont!
-Missing character: There is no 내 in font nullfont!
-Missing character: There is no 발 in font nullfont!
-Missing character: There is no 표 in font nullfont!
-Missing character: There is no 대 in font nullfont!
-Missing character: There is no 회 in font nullfont!
-Missing character: There is no 에 in font nullfont!
-Missing character: There is no 서 in font nullfont!
-Missing character: There is no 장 in font nullfont!
-Missing character: There is no 려 in font nullfont!
-Missing character: There is no 상 in font nullfont!
-Missing character: There is no 수 in font nullfont!
-Missing character: There is no 상 in font nullfont!
-Missing character: There is no 학 in font nullfont!
-Missing character: There is no 년 in font nullfont!
-Missing character: There is no 도 in font nullfont!
-Missing character: There is no 교 in font nullfont!
-Missing character: There is no 내 in font nullfont!
-Missing character: There is no 발 in font nullfont!
-Missing character: There is no 표 in font nullfont!
-Missing character: There is no 대 in font nullfont!
-Missing character: There is no 회 in font nullfont!
-Missing character: There is no 에 in font nullfont!
-Missing character: There is no 서 in font nullfont!
-Missing character: There is no 장 in font nullfont!
-Missing character: There is no 려 in font nullfont!
-Missing character: There is no 상 in font nullfont!
-Missing character: There is no 수 in font nullfont!
-Missing character: There is no 상 in font nullfont!
-Missing character: There is no 학 in font nullfont!
-Missing character: There is no 년 in font nullfont!
-Missing character: There is no 도 in font nullfont!
-Missing character: There is no 교 in font nullfont!
-Missing character: There is no 내 in font nullfont!
-Missing character: There is no 발 in font nullfont!
-Missing character: There is no 표 in font nullfont!
-Missing character: There is no 대 in font nullfont!
-Missing character: There is no 회 in font nullfont!
-Missing character: There is no 에 in font nullfont!
-Missing character: There is no 서 in font nullfont!
-Missing character: There is no 장 in font nullfont!
-Missing character: There is no 려 in font nullfont!
-Missing character: There is no 상 in font nullfont!
-Missing character: There is no 수 in font nullfont!
-Missing character: There is no 상 in font nullfont!
-Missing character: There is no 학 in font nullfont!
-Missing character: There is no 년 in font nullfont!
-Missing character: There is no 도 in font nullfont!
-Missing character: There is no 교 in font nullfont!
-Missing character: There is no 내 in font nullfont!
-Missing character: There is no 발 in font nullfont!
-Missing character: There is no 표 in font nullfont!
-Missing character: There is no 대 in font nullfont!
-Missing character: There is no 회 in font nullfont!
-Missing character: There is no 에 in font nullfont!
-Missing character: There is no 서 in font nullfont!
-Missing character: There is no 장 in font nullfont!
-Missing character: There is no 려 in font nullfont!
-Missing character: There is no 상 in font nullfont!
-Missing character: There is no 수 in font nullfont!
-Missing character: There is no 상 in font nullfont!
-Missing character: There is no 학 in font nullfont!
-Missing character: There is no 년 in font nullfont!
-Missing character: There is no 도 in font nullfont!
-Missing character: There is no 교 in font nullfont!
-Missing character: There is no 내 in font nullfont!
-Missing character: There is no 발 in font nullfont!
-Missing character: There is no 표 in font nullfont!
-Missing character: There is no 대 in font nullfont!
-Missing character: There is no 회 in font nullfont!
-Missing character: There is no 에 in font nullfont!
-Missing character: There is no 서 in font nullfont!
-Missing character: There is no 장 in font nullfont!
-Missing character: There is no 려 in font nullfont!
-Missing character: There is no 상 in font nullfont!
-Missing character: There is no 수 in font nullfont!
-Missing character: There is no 상 in font nullfont!
-Missing character: There is no 학 in font nullfont!
-Missing character: There is no 년 in font nullfont!
-Missing character: There is no 도 in font nullfont!
-Missing character: There is no 교 in font nullfont!
-Missing character: There is no 내 in font nullfont!
-Missing character: There is no 발 in font nullfont!
-Missing character: There is no 표 in font nullfont!
-Missing character: There is no 대 in font nullfont!
-Missing character: There is no 회 in font nullfont!
-Missing character: There is no 에 in font nullfont!
-Missing character: There is no 서 in font nullfont!
-Missing character: There is no 장 in font nullfont!
-Missing character: There is no 려 in font nullfont!
-Missing character: There is no 상 in font nullfont!
-Missing character: There is no 수 in font nullfont!
-Missing character: There is no 상 in font nullfont!
-Missing character: There is no 년 in font nullfont!
-Missing character: There is no 노 in font nullfont!
-Missing character: There is no 벨 in font nullfont!
-Missing character: There is no 물 in font nullfont!
-Missing character: There is no 리 in font nullfont!
-Missing character: There is no 학 in font nullfont!
-Missing character: There is no 상 in font nullfont!
-Missing character: There is no 수 in font nullfont!
-Missing character: There is no 상 in font nullfont!
- [22]) (./gshs_thesis_15021_main.aux
-(./sub/abstract.aux) (./sub/introduction.aux) (./sub/methodology.aux)
-(./sub/body1.aux) (./sub/conclusion.aux) (./sub/footer.aux)) ) 
-Here is how much of TeX's memory you used:
- 18781 strings out of 493005
- 341032 string characters out of 6134597
- 419261 words of memory out of 5000000
- 22471 multiletter control sequences out of 15000+600000
- 22612 words of font info for 95 fonts, out of 8000000 for 9000
- 1348 hyphenation exceptions out of 8191
- 59i,8n,77p,10528b,2385s stack positions out of 5000i,500n,10000p,200000b,80000s
+\openout2 = `sub/footer.aux'.
 
-Output written on gshs_thesis_15021_main.pdf (32 pages).
+
+(./sub/footer.tex [20
+
+] [21]) (./gshs_thesis_15021_main.aux (./sub/abstract.aux) (./sub/introduction.
+aux) (./sub/methodology.aux) (./sub/body1.aux)
+(./sub/conclusion.aux) (./sub/footer.aux)) ) 
+Here is how much of TeX's memory you used:
+ 41482 strings out of 493005
+ 966541 string characters out of 6137957
+ 1342661 words of memory out of 5000000
+ 44750 multiletter control sequences out of 15000+600000
+ 549356 words of font info for 117 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 66i,17n,105p,10530b,2385s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on gshs_thesis_15021_main.pdf (31 pages).

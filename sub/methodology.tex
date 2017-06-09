@@ -4,7 +4,7 @@
 
  This research used SeaWiFS ocean color data to derive chlorophyll-a concentration since SeaWiFS is a satellite that was created to collect global ocean biological data. Moreover, SeaWiFS creates data with two different resolutions that can be compared. However, research on recent years is not possible since SeaWiFS had been activating from September 1997 to December 2010. {Table \ref{table01}.} shows the mission charactoristics of SeaWiFS and Table \ref{table02} shows the Cahracteristics of the SeaWiFS ocean color sensor \cite{hooker1992An}.
 
- \begin{table}[h]\textwidth
+ \begin{table}[h]%[width=1.0\linewidth]
  	\caption{The mission characteristics of SeaWiFS.}
  	\label{table01}
  	\centering
@@ -22,7 +22,7 @@
  	\end{tabular}
  \end{table}
 
- \begin{table}[h]\textwidth
+ \begin{table}[h]%[width=1.0\linewidth]
 	\caption{Cahracteristics of the DeaWiFS ocean color sensor.}
 	\label{table02}
 	\centering
@@ -37,23 +37,22 @@
 		6 & 660-680 & 4.20 & 2.46 & 442  \\ \hline
 		7 & 745-785 & 3.00 & 1.61 & 455 \\ \hline
 		8 & 845-885 & 2.13 & 1.09 & 467  \\ \hline
-
 	\end{tabular}
 \end{table}
  
  The SeaWiFS Level 2 data of chlorophyll-a was downloaded from NASA Ocean Color Web. Processing Level 1 data to Level 2 data was done by NASA, using NASA SeaDAS program. NASA SeaDAS uses two algorithms to create chlorophyll-a concentration data from the Level 1 data of remote sensing reflectance ($\rm R_{rs}$); these algorithms are the OCx band ratio algorithm and the color index (CI) algorithm of Hu. 
- The OCx band ratio algorithm use the ratio of two bands in a fourth-order polynomial equation in a relation with chlorophyll-a It can be expressed as \eqref{eq001}.
+ The OCx band ratio algorithm use the ratio of two bands in a fourth-order polynomial equation in a relation with chlorophyll-a It can be expressed as \eqref{eq:001}.
  
  \begin{equation}
  {\rm log_{10} (chlor_a) = a_0 + \sum_{i=1}^4 a_i ~ log_{10} \left( \frac{(R_{rs}(\lambda_{blue})}{(R_{rs}(\lambda_{green})} \right) ^i }
- \label{eq001}
+ \label{eq:001}
  \end{equation}
  
-The coefficients $\rm a_0$ - $\rm a_4$ are values for each sensor acquired from experiments. The OCx algorithm was proved to be accurate by O’Reilly et. al\cite{o2000ocean}. The CI algorithm uses three bands and can be expressed as \eqref{eq002}.
+The coefficients $\rm a_0$ - $\rm a_4$ are values for each sensor acquired from experiments. The OCx algorithm was proved to be accurate by O’Reilly et. al\cite{o2000ocean}. The CI algorithm uses three bands and can be expressed as \eqref{eq:002}.
 
  \begin{equation}
 {\rm log_{10} (chlor_a) = a_0 + \sum_{i=1}^4 a_i ~ log_{10} \left( \frac{(R_{rs}(\lambda_{blue})}{(R_{rs}(\lambda_{green})} \right) ^i }
-\label{eq002}
+\label{eq:002}
 \end{equation}
 
 The $\rm {\lambda}_{blue}$, $\rm {\lambda}_{green}$, $\rm {\lambda}_{red}$ are wavelengths closest to 443 $\rm nm$, 555 $\rm nm$ and 670 $\rm nm$, different for each sensor. According to Hu, C., Lee, Z., and Franz, B., for the lower concentration of chlorophyll-a (less than 0.25 $\rm mg/m^3$), it is more accurate to use CI algorithm \cite{hu2012chlorophyll}. The NASA SeaDAS software uses CI algorithm for chlorophyll retrievals below 0.15 $\rm mg/m^3$, and OCx band ratio algorithm for retrievals above 0.2 $\rm mg/m^3$. For the concentration between 0.15 $\rm mg/m^3$ and 0.2 $\rm mg/m^3$, it blends both algorithm.
