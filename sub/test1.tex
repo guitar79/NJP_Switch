@@ -20,10 +20,10 @@
 	%nodes near coords, % data 값 표시
 	% % % % % Ausrichten der Punktbeschriftung
 	every node near coord/.append style={font=\scriptsize,/pgf/number format/precision=3}]
-	\addplot table [x=Month, y=2003] {monLAC.csv}; \addlegendentry{\sffamily\scriptsize 2003}
-	\addplot table [x=Month, y=2004] {monLAC.csv}; \addlegendentry{\sffamily\scriptsize 2004}
-	\addplot table [x=Month, y=2005] {monLAC.csv}; \addlegendentry{\sffamily\scriptsize 2005}
-	\addplot table [x=Month, y=2006] {monLAC.csv}; \addlegendentry{\sffamily\scriptsize 2006}
+	\addplot table [x=Month, y=2003] {./data/monLAC.csv}; \addlegendentry{\sffamily\scriptsize 2003}
+	\addplot table [x=Month, y=2004] {./data/monLAC.csv}; \addlegendentry{\sffamily\scriptsize 2004}
+	\addplot table [x=Month, y=2005] {./data/monLAC.csv}; \addlegendentry{\sffamily\scriptsize 2005}
+	\addplot table [x=Month, y=2006] {./data/monLAC.csv}; \addlegendentry{\sffamily\scriptsize 2006}
 	%   \fill[gray,fill opacity=0.25] (axis cs:5,0) rectangle (axis cs:7,12); %Bereich einfügen
 	\end{axis}
 	\end{tikzpicture}
@@ -47,10 +47,10 @@
 	% % % % % Ausrichten der Punktbeschriftung
 	every node near coord/.append style={font=\scriptsize,/pgf/number format/precision=3},]
 	[legend pos=north east]
-	\addplot table [x=Month, y=2003] {monGAC.csv}; \addlegendentry{\sffamily\scriptsize 2003}
-	\addplot table [x=Month, y=2004] {monGAC.csv}; \addlegendentry{\sffamily\scriptsize 2004}
-	\addplot table [x=Month, y=2005] {monGAC.csv}; \addlegendentry{\sffamily\scriptsize 2005}
-	\addplot table [x=Month, y=2006] {monGAC.csv}; \addlegendentry{\sffamily\scriptsize 2006}
+	\addplot table [x=Month, y=2003] {./data/monGAC.csv}; \addlegendentry{\sffamily\scriptsize 2003}
+	\addplot table [x=Month, y=2004] {./data/monGAC.csv}; \addlegendentry{\sffamily\scriptsize 2004}
+	\addplot table [x=Month, y=2005] {./data/monGAC.csv}; \addlegendentry{\sffamily\scriptsize 2005}
+	\addplot table [x=Month, y=2006] {./data/monGAC.csv}; \addlegendentry{\sffamily\scriptsize 2006}
 	
 	%   \fill[gray,fill opacity=0.25] (axis cs:5,0) rectangle (axis cs:7,12); %Bereich einfügen
 	\end{axis}
@@ -79,8 +79,8 @@
 	%nodes near coords, % data 값 표시
 	% % % % % Ausrichten der Punktbeschriftung
 	every node near coord/.append style={font=\scriptsize,/pgf/number format/precision=3}]
-	\addplot table [x=Month, y=2003] {monLAC.csv}; \addlegendentry{\sffamily\scriptsize 2003 LAC}
-	\addplot table [x=Month, y=2003] {monGAC.csv}; \addlegendentry{\sffamily\scriptsize 2003 GAC}
+	\addplot table [x=Month, y=2003] {./data/monLAC.csv}; \addlegendentry{\sffamily\scriptsize 2003 LAC}
+	\addplot table [x=Month, y=2003] {./data/monGAC.csv}; \addlegendentry{\sffamily\scriptsize 2003 GAC}
 %   \fill[gray,fill opacity=0.25] (axis cs:5,0) rectangle (axis cs:7,12); %Bereich einfügen
 	\end{axis}
 	\end{tikzpicture}
@@ -104,7 +104,7 @@
 	% % % % % Ausrichten der Punktbeschriftung
 	every node near coord/.append style={font=\scriptsize,/pgf/number format/precision=3},]
 	[legend pos=north east]
-	\addplot table [x=Month, y=2003] {monDIFF.csv}; %\addlegendentry{\sffamily\scriptsize 2003}
+	\addplot table [x=Month, y=2003] {./data/monDIFF.csv}; %\addlegendentry{\sffamily\scriptsize 2003}
 
 	%   \fill[gray,fill opacity=0.25] (axis cs:5,0) rectangle (axis cs:7,12); %Bereich einfügen
 	\end{axis}
@@ -117,7 +117,6 @@
 
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%   
 
 \begin{figure}[h]
 	\begin{tikzpicture}
@@ -136,10 +135,10 @@
 	%nodes near coords, % data 값 표시
 	% % % % % Ausrichten der Punktbeschriftung
 	every node near coord/.append style={font=\scriptsize,/pgf/number format/precision=3}]
-	\addplot table [x=Month, y=2003] {monLAC.csv}; \addlegendentry{\sffamily\scriptsize 2003}
-	\addplot table [x=Month, y=2004] {monLAC.csv}; \addlegendentry{\sffamily\scriptsize 2004}
-	\addplot table [x=Month, y=2005] {monLAC.csv}; \addlegendentry{\sffamily\scriptsize 2005}
-	\addplot table [x=Month, y=2006] {monLAC.csv}; \addlegendentry{\sffamily\scriptsize 2006}
+	\addplot table [x=Month, y=2003] {./data/monLAC.csv}; \addlegendentry{\sffamily\scriptsize 2003}
+	\addplot table [x=Month, y=2004] {./data/monLAC.csv}; \addlegendentry{\sffamily\scriptsize 2004}
+	\addplot table [x=Month, y=2005] {./data/monLAC.csv}; \addlegendentry{\sffamily\scriptsize 2005}
+	\addplot table [x=Month, y=2006] {./data/monLAC.csv}; \addlegendentry{\sffamily\scriptsize 2006}
 	%   \fill[gray,fill opacity=0.25] (axis cs:5,0) rectangle (axis cs:7,12); %Bereich einfügen
 	\end{axis}
 	\end{tikzpicture}
@@ -165,8 +164,7 @@
 		column sep=1ex
 	}
 	]
-  \addplot[style={bblue,fill=bblue,mark=none}]
-table [x=Month, y=2004] {monGAC.csv};
+  \addplot[style={bblue,fill=bblue,mark=none}] table [x=Month, y=2004] {./data/monGAC.csv};
 
 	%   \fill[gray,fill opacity=0.25] (axis cs:5,0) rectangle (axis cs:7,12); %Bereich einfügen
 	\end{axis}
@@ -174,6 +172,5 @@ table [x=Month, y=2004] {monGAC.csv};
 	\caption{The annual variability of monthly-mean chlorophyll-a concentration in the East Sea (Sea of Japan) from 2003 to 2006, (a) LAC (b) GAC.}
 	\label{fig:annualmon}
 \end{figure}
-
 
 

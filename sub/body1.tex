@@ -14,14 +14,14 @@ The monthly-mean chlorophyll-a concentration of LAC from 2003 to 2006 is shown i
 
 \begin{figure}[p]
 	\centering
-	\includegraphics[width=1.00\linewidth]{../images/monLAC02}\\
+	\includegraphics[width=1.00\linewidth]{monLAC02}\\
 	\caption{The monthly-mean chlorophyll-a distribution in the East Sea (Sea of Japan), LAC. From 2003 to 2006, May to August. The unit of the color bar is $\rm mg/m^3$.}
 	\label{fig:monLAC02}
 \end{figure}
 
 \begin{figure}[p]
 	\centering
-	\includegraphics[width=1.00\linewidth]{../images/monLAC03}\\
+	\includegraphics[width=1.00\linewidth]{monLAC03}\\
 	\caption{The monthly-mean chlorophyll-a distribution in the East Sea (Sea of Japan), LAC. From 2003 to 2006, September to December. The unit of the color bar is $\rm mg/m^3$.}
 	\label{fig:monLAC03}
 \end{figure}
@@ -29,7 +29,7 @@ The monthly-mean chlorophyll-a concentration of LAC from 2003 to 2006 is shown i
 
 \begin{figure}[p]
 	\centering
-	\includegraphics[width=1.0\linewidth]{../images/monGAC01}\\
+	\includegraphics[width=1.0\linewidth]{monGAC01}\\
 	\caption{The monthly-mean chlorophyll-a distribution in the East Sea (Sea of Japan), LAC. From 2003 to 2006, January to April. The unit of the color bar is $\rm mg/m^3$.}
 	\label{fig:monGAC01}
 \end{figure}
@@ -37,7 +37,7 @@ The monthly-mean chlorophyll-a concentration of LAC from 2003 to 2006 is shown i
 
 \begin{figure}[p]
 	\centering
-	\includegraphics[width=1.00\linewidth]{../images/monGAC02}\\
+	\includegraphics[width=1.00\linewidth]{monGAC02}\\
 	\caption{The monthly-mean chlorophyll-a distribution in the East Sea (Sea of Japan), LAC. From 2003 to 2006, May to August. The unit of the color bar is $\rm mg/m^3$.}
 	\label{fig:monGAC02}
 \end{figure}
@@ -45,7 +45,7 @@ The monthly-mean chlorophyll-a concentration of LAC from 2003 to 2006 is shown i
 
 \begin{figure}[p]
 	\centering
-	\includegraphics[width=1.00\linewidth]{../images/monGAC03}\\
+	\includegraphics[width=1.00\linewidth]{monGAC03}\\
 	\caption{The monthly-mean chlorophyll-a distribution in the East Sea (Sea of Japan), LAC. From 2003 to 2006, September to December. The unit of the color bar is $\rm mg/m^3$.}
 	\label{fig:monGAC03}
 \end{figure}
@@ -77,16 +77,16 @@ The monthly-mean chlorophyll-a concentration of LAC from 2003 to 2006 is shown i
 	symbolic x coords={Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec},
 	%	xlabel= Kraft $\lbrack{}$ \si{F} $\rbrack$, 
 	%xmin=0, xstep=4, xmax=47,
-	ylabel= chlorophyll-a concentration ($\rm mg/m^3$),
+	ylabel= {\sffamily\small chlorophyll-a concentration ($\rm mg/m^3$)},
 	ymin=0,	ystep=0.5, 	ymax=3.1,
 	scaled y ticks = false,
 	%nodes near coords, % data 값 표시
 	% % % % % Ausrichten der Punktbeschriftung
 	every node near coord/.append style={font=\scriptsize,/pgf/number format/precision=3}]
-	\addplot table [x=Month, y=2003] {monLAC.csv}; \addlegendentry{2003}
-	\addplot table [x=Month, y=2004] {monLAC.csv}; \addlegendentry{2004}
-	\addplot table [x=Month, y=2005] {monLAC.csv}; \addlegendentry{2005}
-	\addplot table [x=Month, y=2006] {monLAC.csv}; \addlegendentry{2006}
+	\addplot table [x=Month, y=2003] {./data/monLAC.csv}; \addlegendentry{\sffamily\scriptsize 2003}
+	\addplot table [x=Month, y=2004] {./data/monLAC.csv}; \addlegendentry{\sffamily\scriptsize 2004}
+	\addplot table [x=Month, y=2005] {./data/monLAC.csv}; \addlegendentry{\sffamily\scriptsize 2005}
+	\addplot table [x=Month, y=2006] {./data/monLAC.csv}; \addlegendentry{\sffamily\scriptsize 2006}
 	%   \fill[gray,fill opacity=0.25] (axis cs:5,0) rectangle (axis cs:7,12); %Bereich einfügen
 	\end{axis}
 	\end{tikzpicture}
@@ -102,7 +102,7 @@ The monthly-mean chlorophyll-a concentration of LAC from 2003 to 2006 is shown i
 	%	xlabel= Kraft $\lbrack{}$ \si{F} $\rbrack$, 
 	%	xmin=0,
 	%	xmax=15,
-	ylabel= chlorophyll-a concentration ($\rm mg/m^3$),
+	ylabel= {\sffamily\small chlorophyll-a concentration ($\rm mg/m^3$)},
 	ymin=0,	ystep=0.5, 	ymax=3.1,
 	%xmin=0, xstep=4, xmax=47,
 	scaled y ticks = false,
@@ -110,10 +110,10 @@ The monthly-mean chlorophyll-a concentration of LAC from 2003 to 2006 is shown i
 	% % % % % Ausrichten der Punktbeschriftung
 	every node near coord/.append style={font=\scriptsize,/pgf/number format/precision=3},]
 	[legend pos=north east]
-	\addplot table [x=Month, y=2003] {monGAC.csv}; \addlegendentry{2003}
-	\addplot table [x=Month, y=2004] {monGAC.csv}; \addlegendentry{2004}
-	\addplot table [x=Month, y=2005] {monGAC.csv}; \addlegendentry{2005}
-	\addplot table [x=Month, y=2006] {monGAC.csv}; \addlegendentry{2006}
+	\addplot table [x=Month, y=2003] {./data/monGAC.csv}; \addlegendentry{\sffamily\scriptsize 2003}
+	\addplot table [x=Month, y=2004] {./data/monGAC.csv}; \addlegendentry{\sffamily\scriptsize 2004}
+	\addplot table [x=Month, y=2005] {./data/monGAC.csv}; \addlegendentry{\sffamily\scriptsize 2005}
+	\addplot table [x=Month, y=2006] {./data/monGAC.csv}; \addlegendentry{\sffamily\scriptsize 2006}
 
 	%   \fill[gray,fill opacity=0.25] (axis cs:5,0) rectangle (axis cs:7,12); %Bereich einfügen
 	\end{axis}
@@ -159,10 +159,10 @@ scaled y ticks = false,
 % % % % % Ausrichten der Punktbeschriftung
 every node near coord/.append style={font=\scriptsize,/pgf/number format/precision=3}]
 [legend pos=north east]
-\addplot table [x=Week, y=2003] {wkyLAC.csv}; \addlegendentry{\sffamily\scriptsize 2003}
-\addplot table [x=Week, y=2004] {wkyLAC.csv}; \addlegendentry{\sffamily\scriptsize 2004}
-\addplot table [x=Week, y=2005] {wkyLAC.csv}; \addlegendentry{\sffamily\scriptsize 2005}
-\addplot table [x=Week, y=2006] {wkyLAC.csv}; \addlegendentry{\sffamily\scriptsize 2006}
+\addplot table [x=Week, y=2003] {./data/wkyLAC.csv}; \addlegendentry{\sffamily\scriptsize 2003}
+\addplot table [x=Week, y=2004] {./data/wkyLAC.csv}; \addlegendentry{\sffamily\scriptsize 2004}
+\addplot table [x=Week, y=2005] {./data/wkyLAC.csv}; \addlegendentry{\sffamily\scriptsize 2005}
+\addplot table [x=Week, y=2006] {./data/wkyLAC.csv}; \addlegendentry{\sffamily\scriptsize 2006}
 %   \fill[gray,fill opacity=0.25] (axis cs:5,0) rectangle (axis cs:7,12); %Bereich einfügen
 \end{axis}
 \end{tikzpicture}
@@ -184,10 +184,10 @@ scaled y ticks = false,
 % % % % % Ausrichten der Punktbeschriftung
 every node near coord/.append style={font=\scriptsize,/pgf/number format/precision=3}]
 [legend pos=north east]
-\addplot table [x=Week, y=2003] {wkyGAC.csv}; \addlegendentry{\sffamily\scriptsize 2003}
-\addplot table [x=Week, y=2004] {wkyGAC.csv}; \addlegendentry{\sffamily\scriptsize 2004}
-\addplot table [x=Week, y=2005] {wkyGAC.csv}; \addlegendentry{\sffamily\scriptsize 2005}
-\addplot table [x=Week, y=2006] {wkyGAC.csv}; \addlegendentry{\sffamily\scriptsize 2006}
+\addplot table [x=Week, y=2003] {./data/wkyGAC.csv}; \addlegendentry{\sffamily\scriptsize 2003}
+\addplot table [x=Week, y=2004] {./data/wkyGAC.csv}; \addlegendentry{\sffamily\scriptsize 2004}
+\addplot table [x=Week, y=2005] {./data/wkyGAC.csv}; \addlegendentry{\sffamily\scriptsize 2005}
+\addplot table [x=Week, y=2006] {./data/wkyGAC.csv}; \addlegendentry{\sffamily\scriptsize 2006}
 %   \fill[gray,fill opacity=0.25] (axis cs:5,0) rectangle (axis cs:7,12); %Bereich einfügen
 
 \end{axis}

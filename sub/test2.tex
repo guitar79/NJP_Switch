@@ -4,12 +4,12 @@
 
 \begin{figure}[h]
 	\begin{tikzpicture}
+%	\node [below left,text width=3cm,align=center] at (img.north wast){(a)\footnotemark} % 글자 넣기 위해 추가했으나 에러뜸.
 	\begin{axis} [
 	width=1.0\linewidth,   height = 6cm, 
 	major x tick style = transparent,
 	xtick = data,
 	%grid=major, 
-	%zeichnet Koordinatengitter
 	symbolic x coords={Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec},
 	%	xlabel= Kraft $\lbrack{}$ \si{F} $\rbrack$, 
 	%xmin=0, xstep=4, xmax=47,
@@ -33,7 +33,6 @@
 	major x tick style = transparent,
 	xtick = data,
 	%grid=major, 
-	%zeichnet Koordinatengitter
 	symbolic x coords={Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec},
 	%	xlabel= Kraft $\lbrack{}$ \si{F} $\rbrack$, 
 	%	xmin=0,
@@ -68,7 +67,6 @@
 	major x tick style = transparent,
 	xtick = data,
 	%grid=major, 
-	%zeichnet Koordinatengitter
 	symbolic x coords={Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec},
 	%	xlabel= Kraft $\lbrack{}$ \si{F} $\rbrack$, 
 	%xmin=0, xstep=4, xmax=47,
@@ -90,7 +88,6 @@
 	major x tick style = transparent,
 	xtick = data,
 	%grid=major, 
-	%zeichnet Koordinatengitter
 	symbolic x coords={Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec},
 	%	xlabel= Kraft $\lbrack{}$ \si{F} $\rbrack$, 
 	%	xmin=0,
@@ -121,7 +118,6 @@
 	major x tick style = transparent,
 	xtick = data,
 	%grid=major, 
-	%zeichnet Koordinatengitter
 	symbolic x coords={Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec},
 	%	xlabel= Kraft $\lbrack{}$ \si{F} $\rbrack$, 
 	%xmin=0, xstep=4, xmax=47,
@@ -143,7 +139,6 @@
 	major x tick style = transparent,
 	xtick = data,
 	%grid=major, 
-	%zeichnet Koordinatengitter
 	symbolic x coords={Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec},
 	%	xlabel= Kraft $\lbrack{}$ \si{F} $\rbrack$, 
 	%	xmin=0,
@@ -168,7 +163,6 @@
 	major x tick style = transparent,
 	xtick = data,
 	%grid=major, 
-	%zeichnet Koordinatengitter
 	symbolic x coords={Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec},
 	%	xlabel= Kraft $\lbrack{}$ \si{F} $\rbrack$, 
 	%xmin=0, xstep=4, xmax=47,
@@ -190,7 +184,6 @@
 	major x tick style = transparent,
 	xtick = data,
 	%grid=major, 
-	%zeichnet Koordinatengitter
 	symbolic x coords={Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec},
 	%	xlabel= Kraft $\lbrack{}$ \si{F} $\rbrack$, 
 	%	xmin=0,
@@ -225,7 +218,6 @@
 	major x tick style = transparent,
 	xtick = data,
 	%grid=major, 
-	%zeichnet Koordinatengitter
 	symbolic x coords={Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec},
 	%	xlabel= Kraft $\lbrack{}$ \si{F} $\rbrack$, 
 	%xmin=0, xstep=4, xmax=47,
@@ -247,7 +239,6 @@
 	major x tick style = transparent,
 	xtick = data,
 	%grid=major, 
-	%zeichnet Koordinatengitter
 	symbolic x coords={Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec},
 	%	xlabel= Kraft $\lbrack{}$ \si{F} $\rbrack$, 
 	%	xmin=0,
@@ -272,7 +263,6 @@
 	major x tick style = transparent,
 	xtick = data,
 	%grid=major, 
-	%zeichnet Koordinatengitter
 	symbolic x coords={Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec},
 	%	xlabel= Kraft $\lbrack{}$ \si{F} $\rbrack$, 
 	%xmin=0, xstep=4, xmax=47,
@@ -281,10 +271,9 @@
 	scaled y ticks = false,
 	%nodes near coords, % data 값 표시
 	% % % % % Ausrichten der Punktbeschriftung
-	every node near coord/.append style={font=\scriptsize,/pgf/number format/precision=3}]
+	every node near coord/.append style={font=\sffamily\scriptsize,/pgf/number format/precision=3}]
 	\addplot table [x=Month, y=2006] {./data/monLAC.csv}; \addlegendentry{\sffamily\scriptsize 2006 LAC}
 	\addplot table [x=Month, y=2006] {./data/monGAC.csv}; \addlegendentry{\sffamily\scriptsize 2006 GAC}
-	%   \fill[gray,fill opacity=0.25] (axis cs:5,0) rectangle (axis cs:7,12); %Bereich einfügen
 	\end{axis}
 	\end{tikzpicture}
 	
@@ -294,7 +283,6 @@
 	major x tick style = transparent,
 	xtick = data,
 	%grid=major, 
-	%zeichnet Koordinatengitter
 	symbolic x coords={Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec},
 	%	xlabel= Kraft $\lbrack{}$ \si{F} $\rbrack$, 
 	%	xmin=0,

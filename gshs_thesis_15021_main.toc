@@ -11,7 +11,9 @@
 \contentsline {subsection}{\numberline {3.1}Calculation of the Monthly mean of Chlorophyll-a Concentration in the East Sea (Sea of Japan)}{6}
 \contentsline {subsection}{\numberline {3.2}The Annual Variability of Chlorophyll-a Concentration in the East Sea (Sea of Japan)}{13}
 \contentsline {subsection}{\numberline {3.3}The Effect of Spatial Resolution on the Data}{14}
-\contentsline {section}{\numberline {4}Discussion}{18}
-\contentsline {section}{References}{19}
-\contentsline {section}{감사의 글}{20}
-\contentsline {section}{연구활동}{21}
+\contentsline {section}{\numberline {4}test}{18}
+\contentsline {section}{\numberline {5}test}{22}
+\contentsline {section}{\numberline {6}Discussion}{26}
+\contentsline {section}{References}{27}
+\contentsline {section}{감사의 글}{28}
+\contentsline {section}{연구활동}{29}
