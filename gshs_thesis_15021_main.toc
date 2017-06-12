@@ -8,8 +8,10 @@
 \contentsline {subsection}{\numberline {2.1}Acquiring SeaWiFS data}{3}
 \contentsline {subsection}{\numberline {2.2}Deriving Chlorophyll-a Concentration using LAC data and GAC data}{5}
 \contentsline {section}{\numberline {3}test}{6}
-\contentsline {section}{\numberline {4}test}{10}
-\contentsline {section}{\numberline {5}Discussion}{14}
-\contentsline {section}{References}{15}
-\contentsline {section}{감사의 글}{16}
-\contentsline {section}{연구활동}{17}
+\contentsline {section}{\numberline {4}test2}{10}
+\contentsline {section}{\numberline {5}test3}{14}
+\contentsline {section}{\numberline {6}test4}{18}
+\contentsline {section}{\numberline {7}Discussion}{19}
+\contentsline {section}{References}{20}
+\contentsline {section}{감사의 글}{21}
+\contentsline {section}{연구활동}{22}
