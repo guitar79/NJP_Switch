@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2017.6.7)  13 JUN 2017 12:13
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2017.6.7)  14 JUN 2017 01:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1477,9 +1477,6 @@ LaTeX Warning: Label `fig:annualmon' multiply defined.
 
 LaTeX Warning: Label `fig:annualmon' multiply defined.
 
-
-LaTeX Warning: Label `fig:annualmon' multiply defined.
-
 ) (./sub/test4.aux
 
 LaTeX Warning: Label `fig:annualmon' multiply defined.
@@ -1704,11 +1701,11 @@ Overfull \hbox (2.203pt too wide) in paragraph at lines 11--11
 ion in the East Sea (Sea of Japan) 
  []
 
-[7] [8])
+[7] [8] [9])
 \tf@lof=\write6
 \openout6 = `gshs_thesis_15021_main.lof'.
 
- [9])
+ [10])
 \openout2 = `sub/introduction.aux'.
 
  (./sub/introduction.tex [1
@@ -1721,11 +1718,11 @@ ion in the East Sea (Sea of Japan)
 ]) [2]
 \openout2 = `sub/methodology.aux'.
 
- (./sub/methodology.tex [3
+ (./sub/methodology.tex
+[3
 
 
-]
-[4]) [5]
+] [4]) [5]
 \openout2 = `sub/body1.aux'.
 
  (./sub/body1.tex
@@ -2276,10 +2273,8 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 \openout2 = `sub/test3.aux'.
 
  (./sub/test3.tex
-PGFPlots: reading {./data/mon_over00_year.csv}
-PGFPlots: reading {./data/mon_over00_year.csv}
-PGFPlots: reading {./data/mon_over00_year.csv}
-PGFPlots: reading {./data/mon_over00_year.csv}
+PGFPlots: reading {./data/mon_over03_year.csv}
+PGFPlots: reading {./data/mon_over03_year.csv}
 Missing character: There is no [ in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no e in font nullfont!
@@ -2301,17 +2296,15 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no ] in font nullfont!
-PGFPlots: reading {./data/mon_over00_year.csv}
-PGFPlots: reading {./data/mon_over00_year.csv}
-PGFPlots: reading {./data/mon_over00_year.csv}
-PGFPlots: reading {./data/mon_over00_year.csv}
-PGFPlots: reading {./data/monGAC.csv}
+PGFPlots: reading {./data/mon_over03_year.csv}
+PGFPlots: reading {./data/mon_over03_year.csv}
+PGFPlots: reading {./data/mon_over03_year.csv}
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-PGFPlots: reading {./data/mon_over00_year.csv}
-PGFPlots: reading {./data/mon_over00_year.csv}
+PGFPlots: reading {./data/mon_over03_year.csv}
+PGFPlots: reading {./data/mon_over03_year.csv}
 Missing character: There is no [ in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no e in font nullfont!
@@ -2333,35 +2326,14 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no ] in font nullfont!
-PGFPlots: reading {./data/mon_over00_year.csv}
-Missing character: There is no [ in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no g in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no ] in font nullfont!
-PGFPlots: reading {./data/mon_over00_year.csv}
-PGFPlots: reading {./data/mon_over00_year.csv}
+PGFPlots: reading {./data/mon_over03_year.csv}
+PGFPlots: reading {./data/mon_over03_year.csv}
+PGFPlots: reading {./data/mon_over03_year.csv}
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-PGFPlots: reading {./data/monLAC.csv}
-PGFPlots: reading {./data/monGAC.csv}
+PGFPlots: reading {./data/mon_over03_year.csv}
+PGFPlots: reading {./data/mon_over03_year.csv}
 Missing character: There is no [ in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no e in font nullfont!
@@ -2383,12 +2355,83 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no ] in font nullfont!
-PGFPlots: reading {./data/monDIFF.csv}
+PGFPlots: reading {./data/mon_over03_year.csv}
+PGFPlots: reading {./data/mon_over03_year.csv}
+PGFPlots: reading {./data/mon_over03_year.csv}
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-PGFPlots: reading {./data/monLAC.csv}
-PGFPlots: reading {./data/monGAC.csv}
+PGFPlots: reading {./data/mon_over03_year.csv}
+PGFPlots: reading {./data/mon_over03_year.csv}
+Missing character: There is no e in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no ] in font nullfont!
 Missing character: There is no [ in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no e in font nullfont!
@@ -2410,66 +2453,16 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no ] in font nullfont!
-PGFPlots: reading {./data/monDIFF.csv}
-PGFPlots: reading {./data/monGAC.csv}
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-PGFPlots: reading {./data/monLAC.csv}
-PGFPlots: reading {./data/monGAC.csv}
-Missing character: There is no [ in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no g in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no ] in font nullfont!
-PGFPlots: reading {./data/monDIFF.csv}
-PGFPlots: reading {./data/monLAC.csv}
-PGFPlots: reading {./data/monGAC.csv}
-Missing character: There is no [ in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no g in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no ] in font nullfont!
-PGFPlots: reading {./data/monDIFF.csv}
+PGFPlots: reading {./data/mon_over03_year.csv}
+PGFPlots: reading {./data/mon_over03_year.csv}
+PGFPlots: reading {./data/mon_over03_year.csv}
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 ) [29
 
 
-] [30] [31] [32] [33] [34]
+] [30] [31] [32] [33]
 \openout2 = `sub/test4.aux'.
 
  (./sub/test4.tex
@@ -6532,10 +6525,10 @@ PGFPlots: reading {./data/mon_over03_all.csv}
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [35
+) [34
 
 
-] [36] [37]
+] [35] [36]
 \openout2 = `sub/test5.aux'.
 
  (./sub/test5.tex
@@ -7889,24 +7882,24 @@ Missing character: There is no s in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no ] in font nullfont!
 PGFPlots: reading {./data/mon_over00_all.csv}
-) [38
+) [37
 
 
 ]
 \openout2 = `sub/conclusion.aux'.
 
- (./sub/conclusion.tex) [39
+ (./sub/conclusion.tex) [38
 
 
-] (./gshs_thesis_15021_main.bbl) [40
+] (./gshs_thesis_15021_main.bbl) [39
 
 ]
 \openout2 = `sub/footer.aux'.
 
 
-(./sub/footer.tex [41
+(./sub/footer.tex [40
 
-] [42]) (./gshs_thesis_15021_main.aux (./sub/abstract.aux) (./sub/introduction.
+] [41]) (./gshs_thesis_15021_main.aux (./sub/abstract.aux) (./sub/introduction.
 aux) (./sub/methodology.aux) (./sub/body1.aux)
 (./sub/test0.aux) (./sub/test1.aux) (./sub/test2.aux) (./sub/test3.aux)
 (./sub/test4.aux) (./sub/test5.aux) (./sub/conclusion.aux) (./sub/footer.aux))
@@ -7915,11 +7908,11 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 42725 strings out of 493005
- 1002081 string characters out of 6137957
- 1504269 words of memory out of 5000000
- 45937 multiletter control sequences out of 15000+600000
- 549356 words of font info for 117 fonts, out of 8000000 for 9000
+ 42724 strings out of 493005
+ 1002282 string characters out of 6137957
+ 1499679 words of memory out of 5000000
+ 45933 multiletter control sequences out of 15000+600000
+ 549364 words of font info for 118 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  66i,17n,110p,10530b,2387s stack positions out of 5000i,500n,10000p,200000b,80000s
 
