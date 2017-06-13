@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 fig=plt.figure()
 ax=fig.add_axes([0.1,0.1,0.8,0.8])
 # setup mercator map projection.
-m = Basemap(llcrnrlon=111.,llcrnrlat=25.,urcrnrlon=145.,urcrnrlat=50.,\
+m = Basemap(llcrnrlon=127.,llcrnrlat=34.,urcrnrlon=135.,urcrnrlat=44.,\
             rsphere=(6378137.00,6356752.3142),\
             resolution='l',projection='merc',\
             lat_0=40.,lon_0=-20.,lat_ts=20.)
@@ -19,8 +19,8 @@ m.drawcoastlines()
 m.drawcountries()
 m.fillcontinents()
 # draw parallels
-m.drawparallels(np.arange(10,90,10),labels=[1,1,0,1])
+#m.drawparallels(np.arange(10,90,10),labels=[1,1,0,1])
 # draw meridians
-m.drawmeridians(np.arange(-180,180,10),labels=[1,1,0,1])
+#m.drawmeridians(np.arange(-180,180,10),labels=[1,1,0,1])
 #ax.set_title('Great Circle from New York to London')
 plt.show()
