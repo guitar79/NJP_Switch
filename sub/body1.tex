@@ -82,6 +82,7 @@ The monthly-mean chlorophyll-a concentration of LAC from 2003 to 2006 is shown i
 	%nodes near coords, % data 값 표시
 	% % % % % Ausrichten der Punktbeschriftung
 	every node near coord/.append style={font=\scriptsize,/pgf/number format/precision=3}]
+	[legend pos=north east]
 	\addplot table [x=Month, y=2003] {./data/monLAC.csv}; \addlegendentry{\sffamily\scriptsize 2003}
 	\addplot table [x=Month, y=2004] {./data/monLAC.csv}; \addlegendentry{\sffamily\scriptsize 2004}
 	\addplot table [x=Month, y=2005] {./data/monLAC.csv}; \addlegendentry{\sffamily\scriptsize 2005}

@@ -1,6 +1,7 @@
 \section{test2}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%   
+%2-1  2-1  2-1  2-1  2-1  2-1
 
 \begin{figure}[h]
 	\begin{tikzpicture}
@@ -19,11 +20,13 @@
 	%nodes near coords, % data 값 표시
 	% % % % % Ausrichten der Punktbeschriftung
 	every node near coord/.append style={font=\scriptsize,/pgf/number format/precision=3}]
-	\addplot table [x=Month, y=2003] {./data/monLAC.csv}; \addlegendentry{\sffamily\scriptsize 2003}
-	\addplot table [x=Month, y=2004] {./data/monLAC.csv}; \addlegendentry{\sffamily\scriptsize 2004}
-	\addplot table [x=Month, y=2005] {./data/monLAC.csv}; \addlegendentry{\sffamily\scriptsize 2005}
-	\addplot table [x=Month, y=2006] {./data/monLAC.csv}; \addlegendentry{\sffamily\scriptsize 2006}
+	\addplot table [x=Month, y=meanLAC_2003] {./data/mon_over00_year.csv}; \addlegendentry{\sffamily\scriptsize 2003}
+	\addplot table [x=Month, y=meanLAC_2004] {./data/mon_over00_year.csv}; \addlegendentry{\sffamily\scriptsize 2004}
+	\addplot table [x=Month, y=meanLAC_2005] {./data/mon_over00_year.csv}; \addlegendentry{\sffamily\scriptsize 2005}
+	\addplot table [x=Month, y=meanLAC_2006] {./data/mon_over00_year.csv}; \addlegendentry{\sffamily\scriptsize 2006}
 	%   \fill[gray,fill opacity=0.25] (axis cs:5,0) rectangle (axis cs:7,12); %Bereich einfügen
+		%Month,YMonth,FileLAC_2003,sumLAC_2003,meanLAC_2003,medianLAC_2003,stdLAC_2003,varLAC_2003,maxLAC_2003,minLAC_2003,totalpixLAC_2003,nanpixLAC_2003,statipixLAC_2003,percentLAC_2003,fileGAC_2003,sumGAC_2003,meanGAC_2003,medianGAC_2003,stdGAC_2003,varGAC_2003,maxGAC_2003,minGAC_2003,totalpixGAC_2003,nanpixGAC_2003,statipixGAC_2003,percentGAC_2003,sumDIFF_2003,meanDIFF_2003,medianDIFF_2003,stdDIFF_2003,varDIFF_2003,maxDIFF_2003,minDIFF_2003,totalpixDIFF_2003,nanpixDIFF_2003,statipixDIFF_2003,percentDIFF_2003,
+	
 	\end{axis}
 	\end{tikzpicture}
 	
@@ -45,21 +48,24 @@
 	% % % % % Ausrichten der Punktbeschriftung
 	every node near coord/.append style={font=\scriptsize,/pgf/number format/precision=3},]
 	[legend pos=north east]
-	\addplot table [x=Month, y=2003] {./data/monGAC.csv}; \addlegendentry{\sffamily\scriptsize 2003}
-	\addplot table [x=Month, y=2004] {./data/monGAC.csv}; \addlegendentry{\sffamily\scriptsize 2004}
-	\addplot table [x=Month, y=2005] {./data/monGAC.csv}; \addlegendentry{\sffamily\scriptsize 2005}
-	\addplot table [x=Month, y=2006] {./data/monGAC.csv}; \addlegendentry{\sffamily\scriptsize 2006}
+	\addplot table [x=Month, y=meanGAC_2003] {./data/mon_over00_year.csv}; \addlegendentry{\sffamily\scriptsize 2003}
+	\addplot table [x=Month, y=meanGAC_2004] {./data/mon_over00_year.csv}; \addlegendentry{\sffamily\scriptsize 2004}
+	\addplot table [x=Month, y=meanLAC_2005] {./data/mon_over00_year.csv}; \addlegendentry{\sffamily\scriptsize 2005}
+	\addplot table [x=Month, y=meanGAC_2006] {./data/mon_over00_year.csv}; \addlegendentry{\sffamily\scriptsize 2006}
+	%   \fill[gray,fill opacity=0.25] (axis cs:5,0) rectangle (axis cs:7,12); %Bereich einfügen
+	%Month,YMonth,FileLAC_2003,sumLAC_2003,meanLAC_2003,medianLAC_2003,stdLAC_2003,varLAC_2003,maxLAC_2003,minLAC_2003,totalpixLAC_2003,nanpixLAC_2003,statipixLAC_2003,percentLAC_2003,fileGAC_2003,sumGAC_2003,meanGAC_2003,medianGAC_2003,stdGAC_2003,varGAC_2003,maxGAC_2003,minGAC_2003,totalpixGAC_2003,nanpixGAC_2003,statipixGAC_2003,percentGAC_2003,sumDIFF_2003,meanDIFF_2003,medianDIFF_2003,stdDIFF_2003,varDIFF_2003,maxDIFF_2003,minDIFF_2003,totalpixDIFF_2003,nanpixDIFF_2003,statipixDIFF_2003,percentDIFF_2003,
+
 	
 	%   \fill[gray,fill opacity=0.25] (axis cs:5,0) rectangle (axis cs:7,12); %Bereich einfügen
 	\end{axis}
 	\end{tikzpicture}
-	\caption{The annual variability of monthly-mean chlorophyll-a concentration in the East Sea (Sea of Japan) from 2003 to 2006, (a) LAC (b) GAC.}
+	\caption{The annual variability of monthly-mean chlorophyll-a concentration in the East Sea (Sea of Japan) from 2003 to 2006, (a) LAC (b) GAC.(2-1  2-1  2-1  2-1  2-1  2-1)}
 	\label{fig:annualmon}
 \end{figure}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%   
-
+%2-2  2-2  2-2  2-2  2-2  
 \begin{figure}[h]
 	\begin{tikzpicture}
 	\begin{axis} [
@@ -76,8 +82,8 @@
 	%nodes near coords, % data 값 표시
 	% % % % % Ausrichten der Punktbeschriftung
 	every node near coord/.append style={font=\scriptsize,/pgf/number format/precision=3}]
-	\addplot table [x=Month, y=2003] {./data/monLAC.csv}; \addlegendentry{\sffamily\scriptsize 2003 LAC}
-	\addplot table [x=Month, y=2003] {./data/monGAC.csv}; \addlegendentry{\sffamily\scriptsize 2003 GAC}
+	\addplot table [x=Month, y=meanLAC_2003] {./data/mon_over00_year.csv}; \addlegendentry{\sffamily\scriptsize LAC 2003}
+	\addplot table [x=Month, y=meanGAC_2003] {./data/mon_over00_year.csv}; \addlegendentry{\sffamily\scriptsize GAC 2003}
 	%   \fill[gray,fill opacity=0.25] (axis cs:5,0) rectangle (axis cs:7,12); %Bereich einfügen
 	\end{axis}
 	\end{tikzpicture}
@@ -105,12 +111,13 @@
 	%   \fill[gray,fill opacity=0.25] (axis cs:5,0) rectangle (axis cs:7,12); %Bereich einfügen
 	\end{axis}
 	\end{tikzpicture}
-	\caption{(a) monthly mean values of chlorophyll-a concentration in 2003 using LAC (blue line) and GAC (red line) and (b) its differences between the LAC and GAC data}
+	\caption{(a) monthly mean values of chlorophyll-a concentration in 2003 using LAC (blue line) and GAC (red line) and (b) its differences between the LAC and GAC data (2-2  2-2  2-2  2-2  2-2  )}
 	\label{fig:annualmon}
 \end{figure}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%   
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%   
+%2-3  2-3  2-3  2-3  2-3  
 \begin{figure}[h]
 	\begin{tikzpicture}
 	\begin{axis} [
@@ -203,12 +210,13 @@
 	\end{tikzpicture}
 	
 	
-	\caption{(a) monthly mean values of chlorophyll-a concentration in 2003 using LAC (blue line) and GAC (red line) and (b) its differences between the LAC and GAC data}
+	\caption{(a) monthly mean values of chlorophyll-a concentration in 2003 using LAC (blue line) and GAC (red line) and (b) its differences between the LAC and GAC data(2-3  2-3  2-3  2-3  2-3  )}
 	\label{fig:annualmon}
 \end{figure}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%   
+%2-4  2-4  2-4  2-4  2-4  
 
 \begin{figure}[h]
 	
@@ -301,7 +309,7 @@
 	\end{axis}
 	\end{tikzpicture}
 	
-	\caption{(a) monthly mean values of chlorophyll-a concentration in 2003 using LAC (blue line) and GAC (red line) and (b) its differences between the LAC and GAC data}
+	\caption{(a) monthly mean values of chlorophyll-a concentration in 2003 using LAC (blue line) and GAC (red line) and (b) its differences between the LAC and GAC data (2-4  2-4  2-4  2-4  2-4 )}
 	\label{fig:annualmon}
 \end{figure}
 

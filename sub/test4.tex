@@ -1,0 +1,212 @@
+\section{test4}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%   
+%4-1 4-1 4-1 4-1
+
+\begin{figure}[h]
+	\begin{tikzpicture}
+	%	\node [below left,text width=3cm,align=center] at (img.north wast){(a)\footnotemark} % 글자 넣기 위해 추가했으나 에러뜸.
+	\begin{axis} [
+	width=1.0\linewidth,   height = 6cm, 
+	major x tick style = transparent,
+%xtick = data,
+xtick = {03Jan, , , , , , 03Jul, , , , , ,
+	04Jan, , , , , , 04Jul, , , , , ,
+	05Jan, , , , , , 05Jul, , , , , ,
+	06Jan, , , , , , 06Jul, , , , , 06Dec},
+	%grid=major, 
+	symbolic x coords={	03Jan, 03Feb, 03Mar, 03Apr, 03May, 03Jun, 03Jul, 03Aug, 03Sep, 03Oct, 03Nov, 03Dec,
+		04Jan, 04Feb, 04Mar, 04Apr, 04May, 04Jun, 04Jul, 04Aug, 04Sep, 04Oct, 04Nov,  04Dec, 
+		05Jan, 05Feb,05Mar, 05Apr, 05May, 05Jun, 05Jul, 05Aug, 05Sep, 05Oct, 05Nov, 		05Dec,
+		06Jan, 06Feb, 06Mar, 06Apr, 06May, 06Jun, 06Jul, 06Aug, 06Sep, 06Oct, 06Nov, 06Dec
+	},
+	%	xlabel= Kraft $\lbrack{}$ \si{F} $\rbrack$, 
+	%xmin=0, xstep=4, xmax=47,
+	ylabel= {\sffamily\small chlorophyll-a concentration ($\rm mg/m^3$)},
+	ymin=0,	ystep=0.5, 	ymax=4.1,
+	scaled y ticks = false,
+	%nodes near coords, % data 값 표시
+	% % % % % Ausrichten der Punktbeschriftung
+	every node near coord/.append style={font=\scriptsize,/pgf/number format/precision=3}]
+	\addplot table [x=YMonth, y=meanLAC] {./data/mon_over00_all.csv}; \addlegendentry{\sffamily\scriptsize LAC}
+	\addplot table [x=YMonth, y=meanGAC] {./data/mon_over00_all.csv}; \addlegendentry{\sffamily\scriptsize GAC}	%   \fill[gray,fill opacity=0.25] (axis cs:5,0) rectangle (axis cs:7,12); %Bereich einfügen
+	\end{axis}
+	\end{tikzpicture}
+	
+	\begin{tikzpicture}
+	\begin{axis} [
+	width=1.0\linewidth,   height = 6cm, 
+	major x tick style = transparent,
+%xtick = data,
+xtick = {03Jan, , , , , , 03Jul, , , , , ,
+	04Jan, , , , , , 04Jul, , , , , ,
+	05Jan, , , , , , 05Jul, , , , , ,
+	06Jan, , , , , , 06Jul, , , , , 06Dec},
+	%grid=major, 
+	symbolic x coords={	03Jan, 03Feb, 03Mar, 03Apr, 03May, 03Jun, 03Jul, 03Aug, 03Sep, 03Oct, 03Nov, 03Dec,
+		04Jan, 04Feb, 04Mar, 04Apr, 04May, 04Jun, 04Jul, 04Aug, 04Sep, 04Oct, 04Nov, 04Dec, 
+		05Jan, 05Feb, 05Mar, 05Apr, 05May, 05Jun, 05Jul, 05Aug, 05Sep, 05Oct, 05Nov, 05Dec,
+		06Jan, 06Feb, 06Mar, 06Apr, 06May, 06Jun, 06Jul, 06Aug, 06Sep, 06Oct, 06Nov, 06Dec },
+	%	xlabel= Kraft $\lbrack{}$ \si{F} $\rbrack$, 
+	%	xmin=0,
+	%	xmax=15,
+	ylabel= {\sffamily\small difference ($\rm mg/m^3$)},
+	ymin=-2.0,	ystep=0.1, 	ymax=2.0,
+	%xmin=0, xstep=4, xmax=47,
+	scaled y ticks = false,
+	%nodes near coords, % data 값 표시
+	% % % % % Ausrichten der Punktbeschriftung
+	every node near coord/.append style={font=\scriptsize,/pgf/number format/precision=3},]
+	[legend pos=north east]
+	\addplot table [x=YMonth, y=meanDIFF] {./data/mon_over00_all.csv}; %\addlegendentry{\sffamily\scriptsize 2003}
+	%Month,YMonth,fileLAC,sumLAC,meanLAC,medianLAC,stdLAC,varLAC,maxLAC,minLAC,totalpixLAC,nanpixLAC,statipixLAC,percentLAC,fileGAC,sumGAC,meanGAC,medianGAC,stdGAC,varGAC,maxGAC,minGAC,totalpixGAC,nanpixGAC,statipixGAC,percentGAC,sumDIFF,meanDIFF,medianDIFF,stdDIFF,varDIFF,maxDIFF,minDIFF,totalpixDIFF,nanpixDIFF,statipixDIFF,percentDIFF
+	
+	%   \fill[gray,fill opacity=0.25] (axis cs:5,0) rectangle (axis cs:7,12); %Bereich einfügen
+	\end{axis}
+	\end{tikzpicture}
+	\caption{The annual variability of monthly-mean chlorophyll-a concentration ( > 0 $\rm mg/m^3$) of in the East Sea (Sea of Japan) from 2003 to 2006.(4-2 4-2 4-2 4-2)}
+	\label{fig:annualmon}
+\end{figure}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%   
+%4-2 4-2 4-2 4-2
+
+\begin{figure}[h]
+	\begin{tikzpicture}
+	%	\node [below left,text width=3cm,align=center] at (img.north wast){(a)\footnotemark} % 글자 넣기 위해 추가했으나 에러뜸.
+	\begin{axis} [
+	width=1.0\linewidth,   height = 6cm, 
+	major x tick style = transparent,
+%xtick = data,
+xtick = {03Jan, , , , , , 03Jul, , , , , ,
+	04Jan, , , , , , 04Jul, , , , , ,
+	05Jan, , , , , , 05Jul, , , , , ,
+	06Jan, , , , , , 06Jul, , , , , 06Dec},
+	%grid=major, 
+	symbolic x coords={	03Jan, 03Feb, 03Mar, 03Apr, 03May, 03Jun, 03Jul, 03Aug, 03Sep, 03Oct, 03Nov, 03Dec,
+		04Jan, 04Feb, 04Mar, 04Apr, 04May, 04Jun, 04Jul, 04Aug, 04Sep, 04Oct, 04Nov,  04Dec, 
+		05Jan, 05Feb,05Mar, 05Apr, 05May, 05Jun, 05Jul, 05Aug, 05Sep, 05Oct, 05Nov, 		05Dec,
+		06Jan, 06Feb, 06Mar, 06Apr, 06May, 06Jun, 06Jul, 06Aug, 06Sep, 06Oct, 06Nov, 06Dec
+	},
+	%	xlabel= Kraft $\lbrack{}$ \si{F} $\rbrack$, 
+	%xmin=0, xstep=4, xmax=47,
+	ylabel= {\sffamily\small chlorophyll-a concentration ($\rm mg/m^3$)},
+	ymin=0,	ystep=0.5, 	ymax=4.1,
+	scaled y ticks = false,
+	%nodes near coords, % data 값 표시
+	% % % % % Ausrichten der Punktbeschriftung
+	every node near coord/.append style={font=\scriptsize,/pgf/number format/precision=3}]
+	\addplot table [x=YMonth, y=meanLAC] {./data/mon_over01_all.csv}; \addlegendentry{\sffamily\scriptsize LAC}
+	\addplot table [x=YMonth, y=meanGAC] {./data/mon_over01_all.csv}; \addlegendentry{\sffamily\scriptsize GAC}	%   \fill[gray,fill opacity=0.25] (axis cs:5,0) rectangle (axis cs:7,12); %Bereich einfügen
+	\end{axis}
+	\end{tikzpicture}
+	
+	\begin{tikzpicture}
+	\begin{axis} [
+	width=1.0\linewidth,   height = 6cm, 
+	major x tick style = transparent,
+%xtick = data,
+xtick = {03Jan, , , , , , 03Jul, , , , , ,
+	04Jan, , , , , , 04Jul, , , , , ,
+	05Jan, , , , , , 05Jul, , , , , ,
+	06Jan, , , , , , 06Jul, , , , , 06Dec},
+	%grid=major, 
+	symbolic x coords={	03Jan, 03Feb, 03Mar, 03Apr, 03May, 03Jun, 03Jul, 03Aug, 03Sep, 03Oct, 03Nov, 03Dec,
+		04Jan, 04Feb, 04Mar, 04Apr, 04May, 04Jun, 04Jul, 04Aug, 04Sep, 04Oct, 04Nov, 04Dec, 
+		05Jan, 05Feb, 05Mar, 05Apr, 05May, 05Jun, 05Jul, 05Aug, 05Sep, 05Oct, 05Nov, 05Dec,
+		06Jan, 06Feb, 06Mar, 06Apr, 06May, 06Jun, 06Jul, 06Aug, 06Sep, 06Oct, 06Nov, 06Dec },
+	%	xlabel= Kraft $\lbrack{}$ \si{F} $\rbrack$, 
+	%	xmin=0,
+	%	xmax=15,
+	ylabel= {\sffamily\small difference ($\rm mg/m^3$)},
+	ymin=-2.0,	ystep=0.1, 	ymax=2.0,
+	%xmin=0, xstep=4, xmax=47,
+	scaled y ticks = false,
+	%nodes near coords, % data 값 표시
+	% % % % % Ausrichten der Punktbeschriftung
+	every node near coord/.append style={font=\scriptsize,/pgf/number format/precision=3},]
+	[legend pos=north east]
+	\addplot table [x=YMonth, y=meanDIFF] {./data/mon_over01_all.csv}; %\addlegendentry{\sffamily\scriptsize 2003}
+	%Month,YMonth,fileLAC,sumLAC,meanLAC,medianLAC,stdLAC,varLAC,maxLAC,minLAC,totalpixLAC,nanpixLAC,statipixLAC,percentLAC,fileGAC,sumGAC,meanGAC,medianGAC,stdGAC,varGAC,maxGAC,minGAC,totalpixGAC,nanpixGAC,statipixGAC,percentGAC,sumDIFF,meanDIFF,medianDIFF,stdDIFF,varDIFF,maxDIFF,minDIFF,totalpixDIFF,nanpixDIFF,statipixDIFF,percentDIFF
+
+	%   \fill[gray,fill opacity=0.25] (axis cs:5,0) rectangle (axis cs:7,12); %Bereich einfügen
+	\end{axis}
+	\end{tikzpicture}
+	\caption{The annual variability of monthly-mean chlorophyll-a concentration ( > 1 $\rm mg/m^3$) of in the East Sea (Sea of Japan) from 2003 to 2006.(4-2 4-2 4-2 4-2)}
+	\label{fig:annualmon}
+\end{figure}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%   
+%4-3 4-3 4-3 4-3
+
+\begin{figure}[h]
+	\begin{tikzpicture}
+%	\node [below left,text width=3cm,align=center] at (img.north wast){(a)\footnotemark} % 글자 넣기 위해 추가했으나 에러뜸.
+	\begin{axis} [
+	width=1.0\linewidth,   height = 6cm, 
+	major x tick style = transparent,
+%xtick = data,
+xtick = {03Jan, , , , , , 03Jul, , , , , ,
+	04Jan, , , , , , 04Jul, , , , , ,
+	05Jan, , , , , , 05Jul, , , , , ,
+	06Jan, , , , , , 06Jul, , , , , 06Dec},
+	%grid=major, 
+	symbolic x coords={	03Jan, 03Feb, 03Mar, 03Apr, 03May, 03Jun, 03Jul, 03Aug, 03Sep, 03Oct, 03Nov, 03Dec,
+						04Jan, 04Feb, 04Mar, 04Apr, 04May, 04Jun, 04Jul, 04Aug, 04Sep, 04Oct, 04Nov,  04Dec, 
+						05Jan, 05Feb,05Mar, 05Apr, 05May, 05Jun, 05Jul, 05Aug, 05Sep, 05Oct, 05Nov, 		05Dec,
+						06Jan, 06Feb, 06Mar, 06Apr, 06May, 06Jun, 06Jul, 06Aug, 06Sep, 06Oct, 06Nov, 06Dec
+						},
+	%	xlabel= Kraft $\lbrack{}$ \si{F} $\rbrack$, 
+	%xmin=0, xstep=4, xmax=47,
+	ylabel= {\sffamily\small chlorophyll-a concentration ($\rm mg/m^3$)},
+	ymin=0,	ystep=0.5, 	ymax=10.1,
+	scaled y ticks = false,
+	%nodes near coords, % data 값 표시
+	% % % % % Ausrichten der Punktbeschriftung
+	every node near coord/.append style={font=\scriptsize,/pgf/number format/precision=3}]
+	\addplot table [x=Month, y=mean] {./data/over03LAC.csv}; \addlegendentry{\sffamily\scriptsize LAC}
+	\addplot table [x=Month, y=mean] {./data/over03GAC.csv}; \addlegendentry{\sffamily\scriptsize GAC}
+	
+	%   \fill[gray,fill opacity=0.25] (axis cs:5,0) rectangle (axis cs:7,12); %Bereich einfügen
+	\end{axis}
+	\end{tikzpicture}
+	
+	\begin{tikzpicture}
+	\begin{axis} [
+			width=1.0\linewidth,   height = 6cm, 
+			major x tick style = transparent,
+%xtick = data,
+xtick = {03Jan, , , , , , 03Jul, , , , , ,
+	04Jan, , , , , , 04Jul, , , , , ,
+	05Jan, , , , , , 05Jul, , , , , ,
+	06Jan, , , , , , 06Jul, , , , , 06Dec},
+			%grid=major, 
+			symbolic x coords={	03Jan, 03Feb, 03Mar, 03Apr, 03May, 03Jun, 03Jul, 03Aug, 03Sep, 03Oct, 03Nov, 03Dec,
+			04Jan, 04Feb, 04Mar, 04Apr, 04May, 04Jun, 04Jul, 04Aug, 04Sep, 04Oct, 04Nov, 04Dec, 
+			05Jan, 05Feb, 05Mar, 05Apr, 05May, 05Jun, 05Jul, 05Aug, 05Sep, 05Oct, 05Nov, 05Dec,
+			06Jan, 06Feb, 06Mar, 06Apr, 06May, 06Jun, 06Jul, 06Aug, 06Sep, 06Oct, 06Nov, 06Dec },
+		%	xlabel= Kraft $\lbrack{}$ \si{F} $\rbrack$, 
+		%	xmin=0,
+		%	xmax=15,
+		ylabel= {\sffamily\small difference ($\rm mg/m^3$)},
+		ymin=-2.0,	ystep=0.1, 	ymax=2.0,
+		%xmin=0, xstep=4, xmax=47,
+		scaled y ticks = false,
+		%nodes near coords, % data 값 표시
+		% % % % % Ausrichten der Punktbeschriftung
+		every node near coord/.append style={font=\scriptsize,/pgf/number format/precision=3},]
+		[legend pos=north east]
+		\addplot table [x=YMonth, y=meanDIFF] {./data/mon_over03_all.csv}; %\addlegendentry{\sffamily\scriptsize 2003}
+		%Month,YMonth,fileLAC,sumLAC,meanLAC,medianLAC,stdLAC,varLAC,maxLAC,minLAC,totalpixLAC,nanpixLAC,statipixLAC,percentLAC,fileGAC,sumGAC,meanGAC,medianGAC,stdGAC,varGAC,maxGAC,minGAC,totalpixGAC,nanpixGAC,statipixGAC,percentGAC,sumDIFF,meanDIFF,medianDIFF,stdDIFF,varDIFF,maxDIFF,minDIFF,totalpixDIFF,nanpixDIFF,statipixDIFF,percentDIFF
+
+		%   \fill[gray,fill opacity=0.25] (axis cs:5,0) rectangle (axis cs:7,12); %Bereich einfügen
+		\end{axis}
+		\end{tikzpicture}
+
+		\caption{The annual variability of monthly-mean chlorophyll-a concentration ( > 1 $\rm mg/m^3$) of in the East Sea (Sea of Japan) from 2003 to 2006. (4-3 4-3 4-3 4-3)}
+		\label{fig:annualmon}
+		\end{figure}
+
