@@ -1,6 +1,7 @@
 from mpl_toolkits.basemap import Basemap
-import numpy as np
 import matplotlib.pyplot as plt
+import numpy as np
+
 # create new figure, axes instances.
 fig=plt.figure()
 ax=fig.add_axes([0.1,0.1,0.8,0.8])
@@ -22,7 +23,8 @@ m.plot(x, y, 'D-', markersize=0, linewidth=2, color='k', markerfacecolor='b')
 m.drawcoastlines()
 m.drawcountries()
 m.fillcontinents()
-
+#print country.attributes['name_long'], earth_colors.next()
+#plt.annotate('Korea', xy=(1, 1), ha="center")
 # draw parallels
 m.drawparallels(np.arange(10,90,10),labels=[1,1,0,1])
 # draw meridians
