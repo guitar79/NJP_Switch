@@ -2,7 +2,7 @@
 
 \subsection{Acquiring SeaWiFS data}
 
- This research used SeaWiFS ocean color data to derive chlorophyll-a concentration since SeaWiFS is a satellite that was created to collect global ocean biological data. Moreover, SeaWiFS creates data with two different resolutions that can be compared. However, research on recent years is not possible since SeaWiFS had been activating from September 1997 to December 2010. {Table \ref{table01}.} shows the mission charactoristics of SeaWiFS and Table \ref{table02} shows the Cahracteristics of the SeaWiFS ocean color sensor \cite{hooker1992An}.
+ This research used SeaWiFS ocean color data to derive chlorophyll-a concentration since SeaWiFS is a satellite created to collect global ocean biological data. However, it is not able to obtain recent measurements  since SeaWiFS had only activated from September 1997 to December 2010. {Table \ref{table01}.} shows the mission charactoristics of SeaWiFS and Table \ref{table02} shows the Cahracteristics of the SeaWiFS ocean color sensor \cite{hooker1992An}.
 
  \begin{table}[h]%[width=1.0\linewidth]
  	\caption{The mission characteristics of SeaWiFS.}
@@ -40,15 +40,18 @@
 	\end{tabular}
 \end{table}
  
- The SeaWiFS Level 2 data of chlorophyll-a was downloaded from NASA Ocean Color Web. Processing Level 1 data to Level 2 data was done by NASA, using NASA SeaDAS program. NASA SeaDAS uses two algorithms to create chlorophyll-a concentration data from the Level 1 data of remote sensing reflectance ($\rm R_{rs}$); these algorithms are the OCx band ratio algorithm and the color index (CI) algorithm of Hu. 
- The OCx band ratio algorithm use the ratio of two bands in a fourth-order polynomial equation in a relation with chlorophyll-a It can be expressed as \eqref{eq:001}.
+.  
+ Remote sensing data are processed to higher levels of data for specific purposes, starting from level 0 data. Level 1 data is obtained through radiometric and geometric calibration. Level 2 data is made of geophysical variables processed from level 1 data using developed algorithms. In this research, chlorophyll-a concentration is the geophyscial variable we choose to process. 
+ 
+ The SeaWiFS Level 2 data of chlorophyll-a was downloaded from NASA Ocean Color Web. Processing Level 1 data to Level 2 data was conducted by NASA, using NASA SeaDAS program. NASA SeaDAS uses two algorithms to create chlorophyll-a concentration data from the Level 1 data of remote sensing reflectance ($\rm R_{rs}$); these algorithms are the OCx band ratio algorithm and the color index (CI) algorithm of Hu. 
+ The OCx band ratio algorithm use the ratio of two bands in a fourth-order polynomial equation in a relation with chlorophyll-a. It can be expressed as \eqref{eq:001}.
  
  \begin{equation}
  {\rm log_{10} (chlor_a) = a_0 + \sum_{i=1}^4 a_i ~ log_{10} \left( \frac{(R_{rs}(\lambda_{blue})}{(R_{rs}(\lambda_{green})} \right) ^i }
  \label{eq:001}
  \end{equation}
  
-The coefficients $\rm a_0$ - $\rm a_4$ are values for each sensor acquired from experiments. The OCx algorithm was proved to be accurate by O’Reilly et. al\cite{o2000ocean}. The CI algorithm uses three bands and can be expressed as \eqref{eq:002}.
+The coefficients $\rm a_0$ - $\rm a_4$ are values for each sensor acquired experimentally. The OCx algorithm was proved to be accurate by O’Reilly et. al\cite{o2000ocean}. The CI algorithm uses three bands and can be expressed as \eqref{eq:002}.
 
  \begin{equation}
 {\rm log_{10} (chlor_a) = a_0 + \sum_{i=1}^4 a_i ~ log_{10} \left( \frac{(R_{rs}(\lambda_{blue})}{(R_{rs}(\lambda_{green})} \right) ^i }
@@ -61,8 +64,8 @@ The area of interest was chosen as 32.31°N - 45.00°N, 126.74°E - 135.00°E wh
 
  \subsection{Deriving Chlorophyll-a Concentration using LAC data and GAC data}
  
-  NASA SeaDAS is used to process the level 2 data of chlorophyll-a to level 3 data of monthly-mean/ 8-day-mean of chlorophyll-a concentration data. Monthly-mean data is created to show the overall tendency, while 8-day-mean data is created to see more specific tendency. Simple average method had been used to create the mean files. This method sum pixel values of chlorophyll-a at the same location and divide it by the number of data that has been compiled. This process also gives latitude longitude value to the pixels, creating a Standard Mapped Image (SMI). Chae, H. J., \& Park, K. (2009) used weighted average method to process data. However, according to Park, K. A., Park, J. E., Lee, M. S., \& Kang, C. K. (2012), both the weighted average method and the simple average method are suitable for processing SeaWiFS data in the East Sea (Sea of Japan). In addition, we use the more general method which is the simple average method.
- Since running each process using SeaDAS is inconvenient, so we automate the process by using python batch processing. This commands SeaDAS to repeat the process. Python can also create png files from the SMI. We use the obtained monthly-mean and 8-day-mean data to find the annual variability of chlorophyll-a concentration.
+  NASA SeaDAS is used to process the level 2 data of chlorophyll-a to level 3 data of monthly-mean/ 8-day-mean of chlorophyll-a concentration data. Monthly-mean data is created to show the overall tendency, while 8-day-mean data is created to see more specific tendency. Simple average method had been used to create the mean files. This method sums pixel values of chlorophyll-a at the same location and divides it by the number of data that have been compiled. This process also gives latitude longitude value to the pixels, creating a Standard Mapped Image (SMI). Chae, H. J., \& Park, K. (2009) used weighted average method to process data. However, according to Park, K. A., Park, J. E., Lee, M. S., \& Kang, C. K. (2012), both the weighted average method and the simple average method are suitable for processing SeaWiFS data in the East Sea (Sea of Japan). In addition, the more general method, the simple average method is used in this research
+ Since running each process using SeaDAS is inconvenient, so the process is automated by using python batch processing. This commands SeaDAS to repeat the process. Python can also create png files from the SMI. We use the obtained monthly-mean and 8-day-mean data to find the annual variability of chlorophyll-a concentration.
  The effect of spatial resolution on the data was also progressed. The histograms for chlorophyll-a concentration were compared between LAC data and GAC data. Then, the SMI data itself was enlarged to find the difference between them.
  
  
