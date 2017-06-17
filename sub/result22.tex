@@ -1,0 +1,264 @@
+\subsection{The Annual Variability of Chlorophyll-a Concentration in the East Sea (Sea of Japan)}
+ 
+sfsaffdsafsdsfa
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%   
+%7-1 7--1  7-1  7-1  7-1  
+%Month,YMonth,FileLAC_2003,sumLAC_2003,meanLAC_2003,medianLAC_2003,stdLAC_2003,varLAC_2003,maxLAC_2003,minLAC_2003,totalpixLAC_2003,nanpixLAC_2003,statipixLAC_2003,percentLAC_2003,fileGAC_2003,sumGAC_2003,meanGAC_2003,medianGAC_2003,stdGAC_2003,varGAC_2003,maxGAC_2003,minGAC_2003,totalpixGAC_2003,nanpixGAC_2003,statipixGAC_2003,percentGAC_2003,sumDIFF_2003,meanDIFF_2003,medianDIFF_2003,stdDIFF_2003,varDIFF_2003,maxDIFF_2003,minDIFF_2003,totalpixDIFF_2003,nanpixDIFF_2003,statipixDIFF_2003,percentDIFF_2003,
+
+\definecolor{bblue}{HTML}{4F81BD}
+\definecolor{rred}{HTML}{C0504D}
+\definecolor{ggreen}{HTML}{9BBB59}
+\definecolor{ppurple}{HTML}{9F4C7C}
+
+\begin{figure}[b]
+\begin{tikzpicture}
+\begin{axis} [
+width=1.00\textwidth,   height = 6cm, 
+%major x tick style = transparent,
+xtick = data,
+%grid=major, 
+symbolic x coords={Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec},
+%xmin=0, xstep=1, xmax=47,
+ylabel= {\sffamily\scriptsize chlorophyll-a concentration ( ${\sffamily\scriptsize\rm mg/m^3}$)},
+ymin=0,	ystep=0.5, 	ymax=2.0,
+scaled y ticks = false,
+%every node near coord/.append style={font=\scriptsize,/pgf/number format/precision=3}
+ymajorgrids = true
+]
+	\addplot table [x=Month, y=meanLAC_2003] {./data/mon_over00_year.csv}; \addlegendentry{\sffamily\tiny {2003 LAC}}
+	\addplot table [x=Month, y=meanGAC_2003] {./data/mon_over00_year.csv}; \addlegendentry{\sffamily\tiny {2003 GAC}}
+	\end{axis}
+	\end{tikzpicture}
+	
+	\begin{tikzpicture}
+	\begin{axis} [
+width=1.00\textwidth,   height = 6cm, 
+	%major x tick style = transparent, 	%xmin=0, xstep=4, xmax=47,
+	xtick = data, %grid=major, 
+	symbolic x coords={Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec}, 	%	xlabel= Kraft $\lbrack{}$ \si{F} $\rbrack$,  	
+	ylabel= {\sffamily\scriptsize difference (${\sffamily\scriptsize\rm mg/m^3}$)},
+	ystep=0.1, 	ymax=0.3, 	ymin=-0.3,	
+	scaled y ticks = false,
+	ymajorgrids = true]
+	[legend pos=north east]
+	\addplot table [x=Month, y=meanDIFF_2003] {./data/mon_over00_year.csv}; 
+	\end{axis}
+
+	\end{tikzpicture}
+	
+	\begin{tikzpicture}	
+	\begin{axis} [
+width=1.00\textwidth,   height = 6cm, 
+	major x tick style = transparent,
+	xtick = data,
+	symbolic x coords={Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec},
+	ybar=4*\pgflinewidth,
+	bar width=8pt,
+	ymajorgrids = true,
+	ylabel= {\sffamily\scriptsize Number of pixels ( > 10 ${\sffamily\scriptsize\rm {mg/m^3}})$},
+	scaled y ticks = false,
+	ymin=0, ystep=1, %ymax=100,
+	      ymode=log, 
+    %nodes near coords,
+	legend style={at={(0.5,-0.15)},
+	anchor=north,legend columns=-1}]
+	\addplot[style={blue,fill=blue,mark=none}] table [x=Month, y=statipixLAC_2003] {./data/mon_over10_year.csv}; \addlegendentry{\sffamily\tiny 2003 LAC}
+	\addplot[style={red,fill=red,mark=none}] table [x=Month, y=statipixGAC_2003] {./data/mon_over10_year.csv}; \addlegendentry{\sffamily\tiny 2003 GAC}
+	\end{axis}
+	\end{tikzpicture}
+	\scriptsize\caption{(a) monthly mean values of chlorophyll-a concentration in 2003 using LAC (blue line) and GAC (red line) and (b) its differences between the LAC and GAC data and (c) is shown a number of pixels ( > 10 ${\rm {mg/m^3}}$ ) (7-1  7-1  7-1  7-1  7-1  )}
+	\label{fig:diff_2003}
+\end{figure}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%   
+%7-2  7-2  7-2  7-2  7-2  
+
+\begin{figure}[b]
+	\begin{tikzpicture}
+	\begin{axis} [
+	width=1.00\textwidth,   height = 6cm, 
+	%major x tick style = transparent,
+	xtick = data,
+	%grid=major, 
+	symbolic x coords={Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec},
+	%xmin=0, xstep=1, xmax=47,
+	ylabel= {\sffamily\scriptsize chlorophyll-a concentration ( ${\sffamily\scriptsize\rm mg/m^3}$)},
+ymin=0,	ystep=0.5, 	ymax=2.0,
+	scaled y ticks = false,
+	%every node near coord/.append style={font=\scriptsize,/pgf/number format/precision=3}
+	ymajorgrids = true
+	]
+	\addplot table [x=Month, y=meanLAC_2004] {./data/mon_over00_year.csv}; \addlegendentry{\sffamily\tiny {2004 LAC}}
+	\addplot table [x=Month, y=meanGAC_2004] {./data/mon_over00_year.csv}; \addlegendentry{\sffamily\tiny {2004 GAC}}
+	\end{axis}
+	\end{tikzpicture}
+	
+	\begin{tikzpicture}
+	\begin{axis} [
+	width=1.00\textwidth,   height = 6cm, 
+	%major x tick style = transparent, 	%xmin=0, xstep=4, xmax=47,
+	xtick = data, %grid=major, 
+	symbolic x coords={Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec}, 	%	xlabel= Kraft $\lbrack{}$ \si{F} $\rbrack$,  	
+	ylabel= {\sffamily\scriptsize difference (${\sffamily\scriptsize\rm mg/m^3}$)},
+	ystep=0.1, 	ymax=0.3, 	ymin=-0.3,	
+	scaled y ticks = false,
+	ymajorgrids = true]
+	[legend pos=north east]
+	\addplot table [x=Month, y=meanDIFF_2004] {./data/mon_over00_year.csv}; 
+	\end{axis}
+	
+	\end{tikzpicture}
+	
+	\begin{tikzpicture}	
+	\begin{axis} [
+	width=1.00\textwidth,   height = 6cm, 
+	major x tick style = transparent,
+	xtick = data,
+	symbolic x coords={Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec},
+	ybar=4*\pgflinewidth,
+	bar width=8pt,
+	ymajorgrids = true,
+	ylabel= {\sffamily\scriptsize Number of pixels ( > 10 ${\sffamily\scriptsize\rm {mg/m^3}})$},
+	scaled y ticks = false,
+	ymin=0, ystep=1, %ymax=100,
+	ymode=log, 
+	%nodes near coords,
+	legend style={at={(0.5,-0.15)},
+		anchor=north,legend columns=-1}]
+	\addplot[style={blue,fill=blue,mark=none}] table [x=Month, y=statipixLAC_2004] {./data/mon_over10_year.csv}; \addlegendentry{\sffamily\tiny 2004 LAC}
+	\addplot[style={red,fill=red,mark=none}] table [x=Month, y=statipixGAC_2004] {./data/mon_over10_year.csv}; \addlegendentry{\sffamily\tiny 2004 GAC}
+	\end{axis}
+	\end{tikzpicture}
+	\scriptsize\caption{(a) monthly mean values of chlorophyll-a concentration in 2004 using LAC (blue line) and GAC (red line) and (b) its differences between the LAC and GAC data and (c) is shown a number of pixels ( > 10 ${\rm {mg/m^3}}$ )}
+	\label{fig:diff_2004}
+\end{figure}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%   
+%7-3  7-3  7-3  7-3  7-3  
+
+
+\begin{figure}[b]
+	\begin{tikzpicture}
+	\begin{axis} [
+	width=1.00\textwidth,   height = 6cm, 
+	%major x tick style = transparent,
+	xtick = data,
+	%grid=major, 
+	symbolic x coords={Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec},
+	%xmin=0, xstep=1, xmax=47,
+	ylabel= {\sffamily\scriptsize chlorophyll-a concentration ( ${\sffamily\scriptsize\rm mg/m^3}$)},
+ymin=0,	ystep=0.5, 	ymax=2.0,
+	scaled y ticks = false,
+	%every node near coord/.append style={font=\scriptsize,/pgf/number format/precision=3}
+	ymajorgrids = true
+	]
+	\addplot table [x=Month, y=meanLAC_2005] {./data/mon_over00_year.csv}; \addlegendentry{\sffamily\tiny {2005 LAC}}
+	\addplot table [x=Month, y=meanGAC_2005] {./data/mon_over00_year.csv}; \addlegendentry{\sffamily\tiny {2005 GAC}}
+	\end{axis}
+	\end{tikzpicture}
+	
+	\begin{tikzpicture}
+	\begin{axis} [
+	width=1.00\textwidth,   height = 6cm, 
+	%major x tick style = transparent, 	%xmin=0, xstep=4, xmax=47,
+	xtick = data, %grid=major, 
+	symbolic x coords={Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec}, 	%	xlabel= Kraft $\lbrack{}$ \si{F} $\rbrack$,  	
+	ylabel= {\sffamily\scriptsize difference (${\sffamily\scriptsize\rm mg/m^3}$)},
+	ystep=0.1, 	ymax=0.3, 	ymin=-0.3,	
+	scaled y ticks = false,
+	ymajorgrids = true]
+	[legend pos=north east]
+	\addplot table [x=Month, y=meanDIFF_2005] {./data/mon_over00_year.csv}; 
+	\end{axis}
+	
+	\end{tikzpicture}
+	
+	\begin{tikzpicture}	
+	\begin{axis} [
+	width=1.00\textwidth,   height = 6cm, 
+	major x tick style = transparent,
+	xtick = data,
+	symbolic x coords={Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec},
+	ybar=4*\pgflinewidth,
+	bar width=8pt,
+	ymajorgrids = true,
+	ylabel= {\sffamily\scriptsize Number of pixels ( > 10 ${\sffamily\scriptsize\rm {mg/m^3}})$},
+	scaled y ticks = false,
+	ymin=0, ystep=1, %ymax=100,
+	ymode=log, 
+	%nodes near coords,
+	legend style={at={(0.5,-0.15)},
+		anchor=north,legend columns=-1}]
+	\addplot[style={blue,fill=blue,mark=none}] table [x=Month, y=statipixLAC_2005] {./data/mon_over10_year.csv}; \addlegendentry{\sffamily\tiny 2005 LAC}
+	\addplot[style={red,fill=red,mark=none}] table [x=Month, y=statipixGAC_2005] {./data/mon_over10_year.csv}; \addlegendentry{\sffamily\tiny 2005 GAC}
+	\end{axis}
+	\end{tikzpicture}
+	\scriptsize\caption{(a) monthly mean values of chlorophyll-a concentration in 2005 using LAC (blue line) and GAC (red line) and (b) its differences between the LAC and GAC data and (c) is shown a number of pixels ( > 10 ${\rm {mg/m^3}}$ )}
+	\label{fig:diff_2005}
+\end{figure}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%   
+%7-4  7-4  7-4  7-4  7-4  
+
+\begin{figure}[b]
+	\begin{tikzpicture}
+	\begin{axis} [
+	width=1.00\textwidth,   height = 6cm, 
+	%major x tick style = transparent,
+	xtick = data,
+	%grid=major, 
+	symbolic x coords={Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec},
+	%xmin=0, xstep=1, xmax=47,
+	ylabel= {\sffamily\scriptsize chlorophyll-a concentration ( ${\sffamily\scriptsize\rm mg/m^3}$)},
+ymin=0,	ystep=0.5, 	ymax=2.0,
+	scaled y ticks = false,
+	%every node near coord/.append style={font=\scriptsize,/pgf/number format/precision=3}
+	ymajorgrids = true
+	]
+	\addplot table [x=Month, y=meanLAC_2006] {./data/mon_over00_year.csv}; \addlegendentry{\sffamily\tiny {2006 LAC}}
+	\addplot table [x=Month, y=meanGAC_2006] {./data/mon_over00_year.csv}; \addlegendentry{\sffamily\tiny {2006 GAC}}
+	\end{axis}
+	\end{tikzpicture}
+	
+	\begin{tikzpicture}
+	\begin{axis} [
+	width=1.00\textwidth,   height = 6cm, 
+	%major x tick style = transparent, 	%xmin=0, xstep=4, xmax=47,
+	xtick = data, %grid=major, 
+	symbolic x coords={Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec}, 	%	xlabel= Kraft $\lbrack{}$ \si{F} $\rbrack$,  	
+	ylabel= {\sffamily\scriptsize difference (${\sffamily\scriptsize\rm mg/m^3}$)},
+	ystep=0.1, 	ymax=0.3, 	ymin=-0.3,	
+	scaled y ticks = false,
+	ymajorgrids = true]
+	[legend pos=north east]
+	\addplot table [x=Month, y=meanDIFF_2006] {./data/mon_over00_year.csv}; 
+	\end{axis}
+	
+	\end{tikzpicture}
+	
+	\begin{tikzpicture}	
+	\begin{axis} [
+	width=1.00\textwidth,   height = 6cm, 
+	major x tick style = transparent,
+	xtick = data,
+	symbolic x coords={Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec},
+	ybar=4*\pgflinewidth,
+	bar width=8pt,
+	ymajorgrids = true,
+	ylabel= {\sffamily\scriptsize Number of pixels ( > 10 ${\sffamily\scriptsize\rm {mg/m^3}})$},
+	scaled y ticks = false,
+	ymin=0, ystep=1, %ymax=100,
+	ymode=log, 
+	%nodes near coords,
+	legend style={at={(0.5,-0.15)},
+		anchor=north,legend columns=-1}]
+	\addplot[style={blue,fill=blue,mark=none}] table [x=Month, y=statipixLAC_2006] {./data/mon_over10_year.csv}; \addlegendentry{\sffamily\tiny 2006 LAC}
+	\addplot[style={red,fill=red,mark=none}] table [x=Month, y=statipixGAC_2006] {./data/mon_over10_year.csv}; \addlegendentry{\sffamily\tiny 2006 GAC}
+	\end{axis}
+	\end{tikzpicture}
+	\scriptsize\caption{(a) monthly mean values of chlorophyll-a concentration in 2006 using LAC (blue line) and GAC (red line) and (b) its differences between the LAC and GAC data and (c) is shown a number of pixels ( > 10 ${\rm {mg/m^3}}$ )}
+	\label{fig:diff_2006}
+\end{figure}
