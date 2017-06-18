@@ -1,0 +1,323 @@
+\section{test6}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%   
+%% 0-1  0-1  0-1  0-1  0-1  
+
+\begin{figure}[ht]
+	\begin{tikzpicture}
+	\begin{axis} [
+	width=1.0\linewidth,   height = 6cm, 
+	major x tick style = transparent,
+	xtick = data,
+	%grid=major, 
+	%zeichnet Koordinatengitter
+	symbolic x coords={Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec},
+	%	xlabel= Kraft $\lbrack{}$ \si{F} $\rbrack$, 
+	%xmin=0, xstep=4, xmax=47,
+	ylabel= {\sffamily\small chlorophyll-a concentration ($\rm mg/m^3$)},
+	ymin=0,	ystep=0.5, 	ymax=3.1,
+	scaled y ticks = false,
+	%nodes near coords, % data 값 표시
+	% % % % % Ausrichten der Punktbeschriftung
+	every node near coord/.append style={font=\scriptsize,/pgf/number format/precision=3}]
+	\addplot table [x=Month, y=2003] {./data/monLAC.csv}; \addlegendentry{\sffamily\scriptsize 2003}
+	\addplot table [x=Month, y=2004] {./data/monLAC.csv}; \addlegendentry{\sffamily\scriptsize 2004}
+	\addplot table [x=Month, y=2005] {./data/monLAC.csv}; \addlegendentry{\sffamily\scriptsize 2005}
+	\addplot table [x=Month, y=2006] {./data/monLAC.csv}; \addlegendentry{\sffamily\scriptsize 2006}
+	%   \fill[gray,fill opacity=0.25] (axis cs:5,0) rectangle (axis cs:7,12); %Bereich einfügen
+	\end{axis}
+	\end{tikzpicture}
+	
+	\begin{tikzpicture}
+	\begin{axis} [
+	width=1.0\linewidth,   height = 6cm, 
+	major x tick style = transparent,
+	xtick = data,
+	%grid=major, 
+	%zeichnet Koordinatengitter
+	symbolic x coords={Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec},
+	%	xlabel= Kraft $\lbrack{}$ \si{F} $\rbrack$, 
+	%	xmin=0,
+	%	xmax=15,
+	ylabel= {\sffamily\small chlorophyll-a concentration ($\rm mg/m^3$)},
+	ymin=0,	ystep=0.5, 	ymax=3.1,
+	%xmin=0, xstep=4, xmax=47,
+	scaled y ticks = false,
+	%nodes near coords, % data 값 표시
+	% % % % % Ausrichten der Punktbeschriftung
+	every node near coord/.append style={font=\scriptsize,/pgf/number format/precision=3},]
+	[legend pos=north east]
+	\addplot table [x=Month, y=2003] {./data/monGAC.csv}; \addlegendentry{\sffamily\scriptsize 2003}
+	\addplot table [x=Month, y=2004] {./data/monGAC.csv}; \addlegendentry{\sffamily\scriptsize 2004}
+	\addplot table [x=Month, y=2005] {./data/monGAC.csv}; \addlegendentry{\sffamily\scriptsize 2005}
+	\addplot table [x=Month, y=2006] {./data/monGAC.csv}; \addlegendentry{\sffamily\scriptsize 2006}
+	
+	%   \fill[gray,fill opacity=0.25] (axis cs:5,0) rectangle (axis cs:7,12); %Bereich einfügen
+	\end{axis}
+	\end{tikzpicture}
+	\caption{The annual variability of monthly-mean chlorophyll-a concentration in the East Sea (Sea of Japan) from 2003 to 2006, (a) LAC (b) GAC.   (0-1  0-1  0-1  0-1  0-1)}
+	\label{fig:annualmon}
+\end{figure}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%   
+%0-2  0-2  0-2  0-2  0-2  
+
+\begin{figure}[h]
+	\begin{tikzpicture}
+	\begin{axis} [
+	width=1.0\linewidth,   height = 6cm, 
+	major x tick style = transparent,
+	xtick = data,
+	%grid=major, 
+	%zeichnet Koordinatengitter
+	symbolic x coords={Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec},
+	%	xlabel= Kraft $\lbrack{}$ \si{F} $\rbrack$, 
+	%xmin=0, xstep=4, xmax=47,
+	ylabel= {\sffamily\small chlorophyll-a concentration ($\rm mg/m^3$)},
+	ymin=0,	ystep=0.5, 	ymax=2.1,
+	scaled y ticks = false,
+	%nodes near coords, % data 값 표시
+	% % % % % Ausrichten der Punktbeschriftung
+	every node near coord/.append style={font=\scriptsize,/pgf/number format/precision=3}]
+	\addplot table [x=Month, y=2003] {./data/monLAC.csv}; \addlegendentry{\sffamily\scriptsize 2003 LAC}
+	\addplot table [x=Month, y=2003] {./data/monGAC.csv}; \addlegendentry{\sffamily\scriptsize 2003 GAC}
+	%   \fill[gray,fill opacity=0.25] (axis cs:5,0) rectangle (axis cs:7,12); %Bereich einfügen
+	\end{axis}
+	\end{tikzpicture}
+	
+	\begin{tikzpicture}
+	\begin{axis} [
+	width=1.0\linewidth,   height = 6cm, 
+	major x tick style = transparent,
+	xtick = data,
+	%grid=major, 
+	%zeichnet Koordinatengitter
+	symbolic x coords={Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec},
+	%	xlabel= Kraft $\lbrack{}$ \si{F} $\rbrack$, 
+	%	xmin=0,
+	%	xmax=15,
+	ylabel= {\sffamily\small difference ($\rm mg/m^3$)},
+	ymin=-0.2,	ystep=0.1, 	ymax=0.2,
+	%xmin=0, xstep=4, xmax=47,
+	scaled y ticks = false,
+	%nodes near coords, % data 값 표시
+	% % % % % Ausrichten der Punktbeschriftung
+	every node near coord/.append style={font=\scriptsize,/pgf/number format/precision=3},]
+	[legend pos=north east]
+	\addplot table [x=Month, y=2003] {./data/monDIFF.csv}; %\addlegendentry{\sffamily\scriptsize 2003}
+	
+	%   \fill[gray,fill opacity=0.25] (axis cs:5,0) rectangle (axis cs:7,12); %Bereich einfügen
+	\end{axis}
+	\end{tikzpicture}
+	\caption{(a) monthly mean values of chlorophyll-a concentration in 2003 using LAC (blue line) and GAC (red line) and (b) its differences between the LAC and GAC data (0-2  0-2  0-2  0-2  0-2)}
+	\label{fig:annualmon}
+\end{figure}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%   
+%0-3  0-3  0-3  0-3  0-3  
+
+\begin{figure}[h]
+	\begin{tikzpicture}
+	\begin{axis} [
+	width=1.0\linewidth,   height = 6cm, 
+	major x tick style = transparent,
+	xtick = data,
+	%grid=major, 
+	%zeichnet Koordinatengitter
+	symbolic x coords={Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec},
+	%	xlabel= Kraft $\lbrack{}$ \si{F} $\rbrack$, 
+	%xmin=0, xstep=4, xmax=47,
+	ylabel= {\sffamily\small chlorophyll-a concentration ($\rm mg/m^3$)},
+	ymin=0,	ystep=0.5, 	ymax=2.1,
+	scaled y ticks = false,
+	%nodes near coords, % data 값 표시
+	% % % % % Ausrichten der Punktbeschriftung
+	every node near coord/.append style={font=\scriptsize,/pgf/number format/precision=3}]
+	\addplot table [x=Month, y=2003] {./data/monLAC.csv}; \addlegendentry{\sffamily\scriptsize 2003 LAC}
+	\addplot table [x=Month, y=2003] {./data/monGAC.csv}; \addlegendentry{\sffamily\scriptsize 2003 GAC}
+	%   \fill[gray,fill opacity=0.25] (axis cs:5,0) rectangle (axis cs:7,12); %Bereich einfügen
+	\end{axis}
+	\end{tikzpicture}
+	
+	\begin{tikzpicture}
+	\begin{axis} [
+	width=1.0\linewidth,   height = 4cm, 
+	major x tick style = transparent,
+	xtick = data,
+	%grid=major, 
+	%zeichnet Koordinatengitter
+	symbolic x coords={Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec},
+	%	xlabel= Kraft $\lbrack{}$ \si{F} $\rbrack$, 
+	%	xmin=0,
+	%	xmax=15,
+	ylabel= {\sffamily\small difference ($\rm mg/m^3$)},
+	ymin=-0.2,	ystep=0.1, 	ymax=0.2,
+	%xmin=0, xstep=4, xmax=47,
+	scaled y ticks = false,
+	%nodes near coords, % data 값 표시
+	% % % % % Ausrichten der Punktbeschriftung
+	every node near coord/.append style={font=\scriptsize,/pgf/number format/precision=3},]
+	[legend pos=north east]
+	\addplot table [x=Month, y=2003] {./data/monDIFF.csv}; %\addlegendentry{\sffamily\scriptsize 2003}
+	
+	%   \fill[gray,fill opacity=0.25] (axis cs:5,0) rectangle (axis cs:7,12); %Bereich einfügen
+	\end{axis}
+	\end{tikzpicture}
+	
+	\begin{tikzpicture}
+	\begin{axis} [
+	width=1.0\linewidth,   height = 6cm, 
+	major x tick style = transparent,
+	xtick = data,
+	%grid=major, 
+	%zeichnet Koordinatengitter
+	symbolic x coords={Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec},
+	%	xlabel= Kraft $\lbrack{}$ \si{F} $\rbrack$, 
+	%xmin=0, xstep=4, xmax=47,
+	ylabel= {\sffamily\small chlorophyll-a concentration ($\rm mg/m^3$)},
+	ymin=0,	ystep=0.5, 	ymax=2.1,
+	scaled y ticks = false,
+	%nodes near coords, % data 값 표시
+	% % % % % Ausrichten der Punktbeschriftung
+	every node near coord/.append style={font=\scriptsize,/pgf/number format/precision=3}]
+	\addplot table [x=Month, y=2004] {./data/monLAC.csv}; \addlegendentry{\sffamily\scriptsize 2004 LAC}
+	\addplot table [x=Month, y=2004] {./data/monGAC.csv}; \addlegendentry{\sffamily\scriptsize 2004 GAC}
+	%   \fill[gray,fill opacity=0.25] (axis cs:5,0) rectangle (axis cs:7,12); %Bereich einfügen
+	\end{axis}
+	\end{tikzpicture}
+	
+	\begin{tikzpicture}
+	\begin{axis} [
+	width=1.0\linewidth,   height = 4cm, 
+	major x tick style = transparent,
+	xtick = data,
+	%grid=major, 
+	%zeichnet Koordinatengitter
+	symbolic x coords={Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec},
+	%	xlabel= Kraft $\lbrack{}$ \si{F} $\rbrack$, 
+	%	xmin=0,
+	%	xmax=15,
+	ylabel= {\sffamily\small difference ($\rm mg/m^3$)},
+	ymin=-0.2,	ystep=0.1, 	ymax=0.2,
+	%xmin=0, xstep=4, xmax=47,
+	scaled y ticks = false,
+	%nodes near coords, % data 값 표시
+	% % % % % Ausrichten der Punktbeschriftung
+	every node near coord/.append style={font=\scriptsize,/pgf/number format/precision=3},]
+	[legend pos=north east]
+	\addplot table [x=Month, y=2004] {./data/monDIFF.csv}; %\addlegendentry{\sffamily\scriptsize 2003}
+	
+	%   \fill[gray,fill opacity=0.25] (axis cs:5,0) rectangle (axis cs:7,12); %Bereich einfügen
+	\end{axis}
+	\end{tikzpicture}
+	
+	
+	\caption{(a) monthly mean values of chlorophyll-a concentration in 2003 using LAC (blue line) and GAC (red line) and (b) its differences between the LAC and GAC data (0-3  0-3  0-3  0-3  0-3)}
+	\label{fig:annualmon}
+\end{figure}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%   
+%0-4  0-4  0-4  0-4  0-4  
+
+\begin{figure}[h]
+	
+	\begin{tikzpicture}
+	\begin{axis} [
+	width=1.0\linewidth,   height = 6cm, 
+	major x tick style = transparent,
+	xtick = data,
+	%grid=major, 
+	%zeichnet Koordinatengitter
+	symbolic x coords={Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec},
+	%	xlabel= Kraft $\lbrack{}$ \si{F} $\rbrack$, 
+	%xmin=0, xstep=4, xmax=47,
+	ylabel= {\sffamily\small chlorophyll-a concentration ($\rm mg/m^3$)},
+	ymin=0,	ystep=0.5, 	ymax=2.1,
+	scaled y ticks = false,
+	%nodes near coords, % data 값 표시
+	% % % % % Ausrichten der Punktbeschriftung
+	every node near coord/.append style={font=\sffamily\scriptsize,/pgf/number format/precision=3}]
+	\addplot table [x=Month, y=2005] {./data/monLAC.csv}; \addlegendentry{\sffamily\scriptsize 2005 LAC}
+	\addplot table [x=Month, y=2005] {./data/monGAC.csv}; \addlegendentry{\sffamily\scriptsize 2005 GAC}
+	%   \fill[gray,fill opacity=0.25] (axis cs:5,0) rectangle (axis cs:7,12); %Bereich einfügen
+	\end{axis}
+	\end{tikzpicture}
+	
+	\begin{tikzpicture}
+	\begin{axis} [
+	width=1.0\linewidth,   height = 4cm, 
+	major x tick style = transparent,
+	xtick = data,
+	%grid=major, 
+	%zeichnet Koordinatengitter
+	symbolic x coords={Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec},
+	%	xlabel= Kraft $\lbrack{}$ \si{F} $\rbrack$, 
+	%	xmin=0,
+	%	xmax=15,
+	ylabel= {\sffamily\small difference ($\rm mg/m^3$)},
+	ymin=-0.2,	ystep=0.1, 	ymax=0.2,
+	%xmin=0, xstep=4, xmax=47,
+	scaled y ticks = false,
+	%nodes near coords, % data 값 표시
+	% % % % % Ausrichten der Punktbeschriftung
+	every node near coord/.append style={font=\scriptsize,/pgf/number format/precision=3},]
+	[legend pos=north east]
+	\addplot table [x=Month, y=2005] {./data/monDIFF.csv}; %\addlegendentry{\sffamily\scriptsize 2003}
+	
+	%   \fill[gray,fill opacity=0.25] (axis cs:5,0) rectangle (axis cs:7,12); %Bereich einfügen
+	\end{axis}
+	\end{tikzpicture}
+	
+	\begin{tikzpicture}
+	\begin{axis} [
+	width=1.0\linewidth,   height = 6cm, 
+	major x tick style = transparent,
+	xtick = data,
+	%grid=major, 
+	%zeichnet Koordinatengitter
+	symbolic x coords={Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec},
+	%	xlabel= Kraft $\lbrack{}$ \si{F} $\rbrack$, 
+	%xmin=0, xstep=4, xmax=47,
+	ylabel= {\sffamily\small chlorophyll-a concentration ($\rm mg/m^3$)},
+	ymin=0,	ystep=0.5, 	ymax=2.1,
+	scaled y ticks = false,
+	%nodes near coords, % data 값 표시
+	% % % % % Ausrichten der Punktbeschriftung
+	every node near coord/.append style={font=\scriptsize,/pgf/number format/precision=3}]
+	\addplot table [x=Month, y=2006] {./data/monLAC.csv}; \addlegendentry{\sffamily\scriptsize 2006 LAC}
+	\addplot table [x=Month, y=2006] {./data/monGAC.csv}; \addlegendentry{\sffamily\scriptsize 2006 GAC}
+	%   \fill[gray,fill opacity=0.25] (axis cs:5,0) rectangle (axis cs:7,12); %Bereich einfügen
+	\end{axis}
+	\end{tikzpicture}
+	
+	\begin{tikzpicture}
+	\begin{axis} [
+	width=1.0\linewidth,   height = 4cm, 
+	major x tick style = transparent,
+	xtick = data,
+	%grid=major, 
+	%zeichnet Koordinatengitter
+	symbolic x coords={Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec},
+	%	xlabel= Kraft $\lbrack{}$ \si{F} $\rbrack$, 
+	%	xmin=0,
+	%	xmax=15,
+	ylabel= {\sffamily\small difference ($\rm mg/m^3$)},
+	ymin=-0.2,	ystep=0.1, 	ymax=0.2,
+	%xmin=0, xstep=4, xmax=47,
+	scaled y ticks = false,
+	%nodes near coords, % data 값 표시
+	% % % % % Ausrichten der Punktbeschriftung
+	every node near coord/.append style={font=\scriptsize,/pgf/number format/precision=3},]
+	[legend pos=north east]
+	\addplot table [x=Month, y=2006] {./data/monDIFF.csv}; %\addlegendentry{\sffamily\scriptsize 2003}
+	
+	%   \fill[gray,fill opacity=0.25] (axis cs:5,0) rectangle (axis cs:7,12); %Bereich einfügen
+	\end{axis}
+	\end{tikzpicture}
+	
+	\caption{(a) monthly mean values of chlorophyll-a concentration in 2003 using LAC (blue line) and GAC (red line) and (b) its differences between the LAC and GAC data (0-4  0-4  0-4  0-4  0-4)}
+	\label{fig:annualmon}
+\end{figure}
+

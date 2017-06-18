@@ -1,0 +1,176 @@
+
+\section{test1}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%   
+
+\begin{figure}[h]
+	\begin{tikzpicture}
+	\begin{axis} [
+	width=1.0\linewidth,   height = 5cm, 
+	major x tick style = transparent,
+	xtick = data,
+	%grid=major, 
+	%zeichnet Koordinatengitter
+	symbolic x coords={Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec},
+	%	xlabel= Kraft $\lbrack{}$ \si{F} $\rbrack$, 
+	%xmin=0, xstep=4, xmax=47,
+	ylabel= {\sffamily\small chlorophyll-a concentration ($\rm mg/m^3$)},
+	ymin=0,	ystep=0.5, 	ymax=3.1,
+	scaled y ticks = false,
+	%nodes near coords, % data 값 표시
+	% % % % % Ausrichten der Punktbeschriftung
+	every node near coord/.append style={font=\scriptsize,/pgf/number format/precision=3}]
+	\addplot table [x=Month, y=2003] {./data/monLAC.csv}; \addlegendentry{\sffamily\scriptsize 2003}
+	\addplot table [x=Month, y=2004] {./data/monLAC.csv}; \addlegendentry{\sffamily\scriptsize 2004}
+	\addplot table [x=Month, y=2005] {./data/monLAC.csv}; \addlegendentry{\sffamily\scriptsize 2005}
+	\addplot table [x=Month, y=2006] {./data/monLAC.csv}; \addlegendentry{\sffamily\scriptsize 2006}
+	%   \fill[gray,fill opacity=0.25] (axis cs:5,0) rectangle (axis cs:7,12); %Bereich einfügen
+	\end{axis}
+	\end{tikzpicture}
+	
+	\begin{tikzpicture}
+	\begin{axis} [
+	width=1.0\linewidth,   height = 5cm, 
+	major x tick style = transparent,
+	xtick = data,
+	%grid=major, 
+	%zeichnet Koordinatengitter
+	symbolic x coords={Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec},
+	%	xlabel= Kraft $\lbrack{}$ \si{F} $\rbrack$, 
+	%	xmin=0,
+	%	xmax=15,
+	ylabel= {\sffamily\small chlorophyll-a concentration ($\rm mg/m^3$)},
+	ymin=0,	ystep=0.5, 	ymax=3.1,
+	%xmin=0, xstep=4, xmax=47,
+	scaled y ticks = false,
+	%nodes near coords, % data 값 표시
+	% % % % % Ausrichten der Punktbeschriftung
+	every node near coord/.append style={font=\scriptsize,/pgf/number format/precision=3},]
+	[legend pos=north east]
+	\addplot table [x=Month, y=2003] {./data/monGAC.csv}; \addlegendentry{\sffamily\scriptsize 2003}
+	\addplot table [x=Month, y=2004] {./data/monGAC.csv}; \addlegendentry{\sffamily\scriptsize 2004}
+	\addplot table [x=Month, y=2005] {./data/monGAC.csv}; \addlegendentry{\sffamily\scriptsize 2005}
+	\addplot table [x=Month, y=2006] {./data/monGAC.csv}; \addlegendentry{\sffamily\scriptsize 2006}
+	
+	%   \fill[gray,fill opacity=0.25] (axis cs:5,0) rectangle (axis cs:7,12); %Bereich einfügen
+	\end{axis}
+	\end{tikzpicture}
+	\caption{The annual variability of monthly-mean chlorophyll-a concentration in the East Sea (Sea of Japan) from 2003 to 2006, (a) LAC (b) GAC.}
+	\label{fig:annualmon}
+\end{figure}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%   
+
+\begin{figure}[h]
+	\begin{tikzpicture}
+	\begin{axis} [
+	width=1.0\linewidth,   height = 6cm, 
+	major x tick style = transparent,
+	xtick = data,
+	%grid=major, 
+	%zeichnet Koordinatengitter
+	symbolic x coords={Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec},
+	%	xlabel= Kraft $\lbrack{}$ \si{F} $\rbrack$, 
+	%xmin=0, xstep=4, xmax=47,
+	ylabel= {\sffamily\small chlorophyll-a concentration ($\rm mg/m^3$)},
+	ymin=0,	ystep=0.5, 	ymax=2.1,
+	scaled y ticks = false,
+	%nodes near coords, % data 값 표시
+	% % % % % Ausrichten der Punktbeschriftung
+	every node near coord/.append style={font=\scriptsize,/pgf/number format/precision=3}]
+	\addplot table [x=Month, y=2003] {./data/monLAC.csv}; \addlegendentry{\sffamily\scriptsize 2003 LAC}
+	\addplot table [x=Month, y=2003] {./data/monGAC.csv}; \addlegendentry{\sffamily\scriptsize 2003 GAC}
+%   \fill[gray,fill opacity=0.25] (axis cs:5,0) rectangle (axis cs:7,12); %Bereich einfügen
+	\end{axis}
+	\end{tikzpicture}
+	
+	\begin{tikzpicture}
+	\begin{axis} [
+	width=1.0\linewidth,   height = 5cm, 
+	major x tick style = transparent,
+	xtick = data,
+	%grid=major, 
+	%zeichnet Koordinatengitter
+	symbolic x coords={Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec},
+	%	xlabel= Kraft $\lbrack{}$ \si{F} $\rbrack$, 
+	%	xmin=0,
+	%	xmax=15,
+	ylabel= {\sffamily\small difference ($\rm mg/m^3$)},
+	ymin=0,	ystep=0.5, 	ymax=2.1,
+	%xmin=0, xstep=4, xmax=47,
+	scaled y ticks = false,
+	%nodes near coords, % data 값 표시
+	% % % % % Ausrichten der Punktbeschriftung
+	every node near coord/.append style={font=\scriptsize,/pgf/number format/precision=3},]
+	[legend pos=north east]
+	\addplot table [x=Month, y=2003] {./data/monDIFF.csv}; %\addlegendentry{\sffamily\scriptsize 2003}
+
+	%   \fill[gray,fill opacity=0.25] (axis cs:5,0) rectangle (axis cs:7,12); %Bereich einfügen
+	\end{axis}
+	\end{tikzpicture}
+	\caption{(a) monthly mean values of chlorophyll-a concentration in 2003 using LAC (blue line) and GAC (red line) and (b) its differences between the LAC and GAC data}
+	\label{fig:annualmon}
+\end{figure}
+
+
+
+
+
+
+\begin{figure}[h]
+	\begin{tikzpicture}
+	\begin{axis} [
+	width=1.0\linewidth,   height = 5cm, 
+	major x tick style = transparent,
+	xtick = data,
+	%grid=major, 
+	%zeichnet Koordinatengitter
+	symbolic x coords={Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec},
+	%	xlabel= Kraft $\lbrack{}$ \si{F} $\rbrack$, 
+	%xmin=0, xstep=4, xmax=47,
+	ylabel= {\sffamily\small chlorophyll-a concentration ($\rm mg/m^3$)},
+	ymin=0,	ystep=0.5, 	ymax=3.1,
+	scaled y ticks = false,
+	%nodes near coords, % data 값 표시
+	% % % % % Ausrichten der Punktbeschriftung
+	every node near coord/.append style={font=\scriptsize,/pgf/number format/precision=3}]
+	\addplot table [x=Month, y=2003] {./data/monLAC.csv}; \addlegendentry{\sffamily\scriptsize 2003}
+	\addplot table [x=Month, y=2004] {./data/monLAC.csv}; \addlegendentry{\sffamily\scriptsize 2004}
+	\addplot table [x=Month, y=2005] {./data/monLAC.csv}; \addlegendentry{\sffamily\scriptsize 2005}
+	\addplot table [x=Month, y=2006] {./data/monLAC.csv}; \addlegendentry{\sffamily\scriptsize 2006}
+	%   \fill[gray,fill opacity=0.25] (axis cs:5,0) rectangle (axis cs:7,12); %Bereich einfügen
+	\end{axis}
+	\end{tikzpicture}
+	
+	\begin{tikzpicture}
+	\begin{axis} [
+	  width  = 1.00*\textwidth,
+	height = 8cm,
+	major x tick style = transparent,
+	ybar=2*\pgflinewidth,
+	bar width=14pt,
+	ymajorgrids = true,
+	ylabel = {Run time speed},
+	symbolic x coords={EgyptHD,Hover,Navi},
+	xtick = data,
+	scaled y ticks = false,
+	enlarge x limits=0.25,
+	ymin=0,
+	legend cell align=left,
+	legend style={
+		at={(1,1.05)},
+		anchor=south east,
+		column sep=1ex
+	}
+	]
+  \addplot[style={bblue,fill=bblue,mark=none}] table [x=Month, y=2004] {./data/monGAC.csv};
+
+	%   \fill[gray,fill opacity=0.25] (axis cs:5,0) rectangle (axis cs:7,12); %Bereich einfügen
+	\end{axis}
+	\end{tikzpicture}
+	\caption{The annual variability of monthly-mean chlorophyll-a concentration in the East Sea (Sea of Japan) from 2003 to 2006, (a) LAC (b) GAC.}
+	\label{fig:annualmon}
+\end{figure}
+
+

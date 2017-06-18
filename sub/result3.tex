@@ -1,42 +1,61 @@
 
-\subsection{8-days mean of Chlorophyll-a Concentration in the East Sea (Sea of Japan)}
+\subsection{Monthly maximum vlaues}
  
-Figure \ref{fig:weekly_mean}. shows 8-days mean of Chlorophyll-a Concentration in the East Sea (Sea of Japan)
-and and and
-and and and
+Figure \ref{fig:monthly_max}. shows monthly maximum values of Chlorophyll-a Concentration in the East Sea (Sea of Japan). 
+대부분의 경우에 the LAC 자료로 구한 값이 GAC 자료로 구한 값 보다 월등히 크게 나타났다. 
+
 
 
 \begin{figure}[h]	
 	\begin{tikzpicture}	
 	\begin{axis} [
-	width=1.00\textwidth,   height = 6cm, 
+	width=1.00\textwidth,   height = 9cm, 
 	major x tick style = transparent,
-	xtick = {03Jan, , , , , , 03Jul, , , , , ,
-		04Jan, , , , , , 04Jul, , , , , ,
-		05Jan, , , , , , 05Jul, , , , , ,
-		06Jan, , , , , , 06Jul, , , , , 06Dec},
+	xtick = data,%
+	symbolic x coords={Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec},%
 	%grid=major, 
-	symbolic x coords={	
-		03Jan, 03Feb, 03Mar, 03Apr, 03May, 03Jun, 03Jul, 03Aug, 03Sep, 03Oct, 03Nov, 03Dec,
-		04Jan, 04Feb, 04Mar, 04Apr, 04May, 04Jun, 04Jul, 04Aug, 04Sep, 04Oct, 04Nov, 04Dec, 
-		05Jan, 05Feb, 05Mar, 05Apr, 05May, 05Jun, 05Jul, 05Aug, 05Sep, 05Oct, 05Nov, 05Dec,
-		06Jan, 06Feb, 06Mar, 06Apr, 06May, 06Jun, 06Jul, 06Aug, 06Sep, 06Oct, 06Nov, 06Dec
-	},
 	scaled y ticks = false,
-	ymin=0, ystep=0.5, ymax=2,
+	ymin=0, ystep=0.5, %ymax=2,
 	%ymode=log,
 	ybar=4*\pgflinewidth,
 	bar width=1.5pt,
+	ylabel= {Chlorophyll-a concentration (${\rm mg/m^3}$)},%
 	ymajorgrids = true,
-	ylabel= {Chlorophyll-a concentration ( ${\rm mg/m^3}$)},%
-	ymin=0,	ystep=0.5, 	ymax=2.0,%
-	scaled y ticks = false,%
-	ymajorgrids = true]%
 	%nodes near coords,
-	\addplot[style={blue,fill=blue,mark=none}] table [x=YMonth, y=meanLAC] {./data/mon_over00_all.csv}; \addlegendentry{LAC}
-	\addplot[style={red,fill=red,mark=none}] table [x=YMonth, y=meanGAC] {./data/mon_over00_all.csv}; \addlegendentry{GAC}
+	legend style={at={(0.9,-0.095)}},anchor=south,legend columns=-1]
+	\addplot[style={blue,fill=blue,mark=none}] table [x=Month, y=maxLAC_2003] {./data/mon_over00_year.csv}; \addlegendentry{2003 LAC}
+	\addplot[style={blue,fill=none,mark=none}] table [x=Month, y=maxGAC_2003] {./data/mon_over00_year.csv}; \addlegendentry{2003 GAC}
+	\addplot[style={red,fill=red,mark=none}] table [x=Month, y=maxLAC_2004] {./data/mon_over00_year.csv}; \addlegendentry{2004 LAC}
+	\addplot[style={red,fill=none,mark=none}] table [x=Month, y=maxGAC_2004] {./data/mon_over00_year.csv}; \addlegendentry{2004 GAC}
+	\addplot[style={green,fill=green,mark=none}] table [x=Month, y=maxLAC_2005] {./data/mon_over00_year.csv}; \addlegendentry{2005 LAC}
+	\addplot[style={green,fill=none,mark=none}] table [x=Month, y=maxGAC_2005] {./data/mon_over00_year.csv}; \addlegendentry{2005 GAC}
+	\addplot[style={orange,fill=orange,mark=none}] table [x=Month, y=maxLAC_2006] {./data/mon_over00_year.csv}; \addlegendentry{2006 LAC}
+	\addplot[style={orange,fill=none,mark=none}] table [x=Month, y=maxGAC_2006] {./data/mon_over00_year.csv}; \addlegendentry{2006 GAC}
 	\end{axis}
 	\end{tikzpicture}
-	\scriptsize\caption{(a) monthly mean values of chlorophyll-a concentration in 2003 using LAC (blue line) and GAC (red line) and its differences between the LAC and GAC data and (b) is shown a number of pixels with a vlaue over 10 ${\rm {mg/m^3}}$.}
-	\label{fig:weekly_mean}
+	\scriptsize\caption{(a) Comparison monthly maximum values of chlorophyll-a concentration between the LAC and GAC data.}
+	\label{fig:monthly_max}
 \end{figure}
+
+
+ \begin{table}[h]%[width=1.0\linewidth]
+	\caption{A frequency of monthly mean of the LAC and GAC data in Apr. 2004}
+	\label{frequency_04apr}
+	\centering
+	\begin{tabular}{c c c c c}%[width=1.0\linewidth]
+		\hline \setlength{\arrayrulewidth}{0.8pt}. 
+		&\multicolumn{2}{c}{LAC} 		&\multicolumn{2}{c}{GAC}\\ \hline
+			& pixel number & sum of consentration & pixel number & sum of consentration \\ \hline
+		0-5	&571512	&832500.36	&534732	&757353.17 \\ \hline
+		5-10	&20240	&129920.50	&23564	&159908.92 \\ \hline
+		10-15	&1121	&13058.07	&3507	&41654.51 \\ \hline
+		15-20	&112	&1890.09	&1037	&17506.49 \\ \hline
+		20-25	&25	&577.76	&112	&2382.42 \\ \hline
+		25-30	&9	&248.71	&34	&935.21 \\ \hline
+		30-35	&2	&61.17	&28	&864.28 \\ \hline 
+		35-40	&1	&37.39	&27	&952.98 \\ \hline
+		40-45	&0	&0	&0	&0 \\ \hline
+		45-50	&1	&47.95	&12	&541.82 \\ \hline
+%		50-55	&0	&0	&0	&0 \\ \hline
+		\end{tabular}
+\end{table}
