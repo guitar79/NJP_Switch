@@ -1,0 +1,83 @@
+\subsection{TEST11}
+ 
+The GAC and LAC 자료를 이용하여 구한 chlorophyll-a concentration의 월평균 농도를 구하여 2003년 부터 2006년 까지의 매월 월평균 값과 그 차이를 Figure \ref{fig:diff_2003} - Figure \ref{fig:diff_2006}에 나타내었다. 또한 그림에는 농도 값이 10  ${\rm mg/m^3}$ 보다 큰 픽셀의 수도 나타내었다. 2003년부터 2006년 까지의 자료 분석 결과로 LAC 자료를 이용하여 구한 월평균 농도 값이 GAC 자료를 이용하여 구한 값 보다 더 크게 나타났으며, 가장 차이가 컸던 달은 204년 5월 이었다.
+ 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%   
+%11-1  11-1 11-1  11-1  11-1  
+%Month,YMonth,FileLAC_2003,sumLAC_2003,meanLAC_2003,medianLAC_2003,stdLAC_2003,varLAC_2003,maxLAC_2003,minLAC_2003,totalpixLAC_2003,nanpixLAC_2003,statipixLAC_2003,percentLAC_2003,fileGAC_2003,sumGAC_2003,meanGAC_2003,medianGAC_2003,stdGAC_2003,varGAC_2003,maxGAC_2003,minGAC_2003,totalpixGAC_2003,nanpixGAC_2003,statipixGAC_2003,percentGAC_2003,sumDIFF_2003,meanDIFF_2003,medianDIFF_2003,stdDIFF_2003,varDIFF_2003,maxDIFF_2003,minDIFF_2003,totalpixDIFF_2003,nanpixDIFF_2003,statipixDIFF_2003,percentDIFF_2003,
+%Month YMonth fileLAC sumLAC meanLAC medianLAC stdLAC varLAC maxLAC minLAC totalpixLAC nanpixLAC statipixLAC percentLAC fileGAC sumGAC meanGAC medianGAC stdGAC varGAC maxGAC minGAC totalpixGAC nanpixGAC statipixGAC percentGAC sumDIFF meanDIFF medianDIFF stdDIFF varDIFF maxDIFF minDIFF totalpixDIFF nanpixDIFF statipixDIFF percentDIFF
+
+
+\begin{figure}[h]	
+	\begin{tikzpicture}	
+	\begin{axis} [
+	width=1.00\textwidth,   height = 6cm, 
+	major x tick style = transparent,
+	xtick = {
+		03Jan, , , , , , 03Jul, , , , , ,
+		04Jan, , , , , , 04Jul, , , , , ,
+		05Jan, , , , , , 05Jul, , , , , ,
+		06Jan, , , , , , 06Jul, , , , , 06Dec},
+	%grid=major, 
+	symbolic x coords={	
+		03Jan, 03Feb, 03Mar, 03Apr, 03May, 03Jun, 03Jul, 03Aug, 03Sep, 03Oct, 03Nov, 03Dec,
+		04Jan, 04Feb, 04Mar, 04Apr, 04May, 04Jun, 04Jul, 04Aug, 04Sep, 04Oct, 04Nov, 04Dec, 
+		05Jan, 05Feb, 05Mar, 05Apr, 05May, 05Jun, 05Jul, 05Aug, 05Sep, 05Oct, 05Nov, 05Dec,
+		06Jan, 06Feb, 06Mar, 06Apr, 06May, 06Jun, 06Jul, 06Aug, 06Sep, 06Oct, 06Nov, 06Dec
+	},
+	scaled y ticks = false,
+	ymin=0, ystep=0.5, %ymax=2,
+	%ymode=log,
+	ybar=4*\pgflinewidth,
+	bar width=1.0pt,
+	ylabel= {Chlorophyll-a concentration ( ${\rm mg/m^3}$)},%
+	ymajorgrids = true]%
+	%nodes near coords,
+	\addplot[style={blue,fill=blue,mark=none}] table [x=YMonth, y=maxLAC] {./data/mon_over00_all.csv}; \addlegendentry{LAC}
+	\addplot[style={red,fill=red,mark=none}] table [x=YMonth, y=maxGAC] {./data/mon_over00_all.csv}; \addlegendentry{GAC}
+	\end{axis}
+	\end{tikzpicture}
+	\scriptsize\caption{(a) monthly maximum values of chlorophyll-a concentration in 2003 using the LAC (blue line) and GAC (red line) data.}
+	\label{fig:weekly_mean}
+\end{figure}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%   
+%11-2  11-2 11-2 11-2  11-2  
+%Month,YMonth,FileLAC_2003,sumLAC_2003,meanLAC_2003,medianLAC_2003,stdLAC_2003,varLAC_2003,maxLAC_2003,minLAC_2003,totalpixLAC_2003,nanpixLAC_2003,statipixLAC_2003,percentLAC_2003,fileGAC_2003,sumGAC_2003,meanGAC_2003,medianGAC_2003,stdGAC_2003,varGAC_2003,maxGAC_2003,minGAC_2003,totalpixGAC_2003,nanpixGAC_2003,statipixGAC_2003,percentGAC_2003,sumDIFF_2003,meanDIFF_2003,medianDIFF_2003,stdDIFF_2003,varDIFF_2003,maxDIFF_2003,minDIFF_2003,totalpixDIFF_2003,nanpixDIFF_2003,statipixDIFF_2003,percentDIFF_2003,
+%Month YMonth fileLAC sumLAC meanLAC medianLAC stdLAC varLAC maxLAC minLAC totalpixLAC nanpixLAC statipixLAC percentLAC fileGAC sumGAC meanGAC medianGAC stdGAC varGAC maxGAC minGAC totalpixGAC nanpixGAC statipixGAC percentGAC sumDIFF meanDIFF medianDIFF stdDIFF varDIFF maxDIFF minDIFF totalpixDIFF nanpixDIFF statipixDIFF percentDIFF
+
+
+\begin{figure}[h]	
+	\begin{tikzpicture}	
+	\begin{axis} [
+	width=1.00\textwidth,   height = 6cm, 
+	major x tick style = transparent,
+	xtick = data,%
+	symbolic x coords={Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec},%
+	%grid=major, 
+	scaled y ticks = false,
+	ymin=0, ystep=0.5, %ymax=2,
+	%ymode=log,
+	ybar=4*\pgflinewidth,
+	bar width=1.5pt,
+	ylabel= {Chlorophyll-a concentration ( ${\rm mg/m^3}$)},%
+	ymajorgrids = true]%
+	%nodes near coords,
+	[legend style={at={(-10,0.02)}},
+	anchor=south west,legend columns=-1]
+	\addplot[style={blue,fill=blue,mark=none}] table [x=Month, y=maxLAC_2003] {./data/mon_over00_year.csv}; \addlegendentry{2003 LAC}
+	\addplot[style={blue,fill=none,mark=none}] table [x=Month, y=maxGAC_2003] {./data/mon_over00_year.csv}; \addlegendentry{2003 GAC}
+	\addplot[style={red,fill=red,mark=none}] table [x=Month, y=maxLAC_2004] {./data/mon_over00_year.csv}; \addlegendentry{2004 LAC}
+	\addplot[style={red,fill=none,mark=none}] table [x=Month, y=maxGAC_2004] {./data/mon_over00_year.csv}; \addlegendentry{2004 GAC}
+	\addplot[style={green,fill=green,mark=none}] table [x=Month, y=maxLAC_2005] {./data/mon_over00_year.csv}; \addlegendentry{2005 LAC}
+	\addplot[style={green,fill=none,mark=none}] table [x=Month, y=maxGAC_2005] {./data/mon_over00_year.csv}; \addlegendentry{2005 GAC}
+	\addplot[style={orange,fill=orange,mark=none}] table [x=Month, y=maxLAC_2006] {./data/mon_over00_year.csv}; \addlegendentry{2006 LAC}
+	\addplot[style={orange,fill=none,mark=none}] table [x=Month, y=maxGAC_2006] {./data/mon_over00_year.csv}; \addlegendentry{2006 GAC}
+	\end{axis}
+	\end{tikzpicture}
+	\scriptsize\caption{(a) Comparison monthly maximum values of chlorophyll-a concentration between the LAC and GAC data.}
+	\label{fig:monthly_max}
+\end{figure}

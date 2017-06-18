@@ -1,29 +1,25 @@
-\subsection{The Monthly-Mean Chlorophyll-a Concentration in the East Sea (Sea of Japan)}
+\subsection{TEST8}
  
- The GAC and the LAC data have been used to create monthly-mean chlorophyll-a concentration and its difference from 2003 to 2006 as shown in Figure \ref{fig:diff_2003} - Figure \ref{fig:diff_2006}. Both the LAC data and the GAC data had similar tendency, showing peaks on spring (April) and fall (November). The maximum/minimum value of LAC and GAC data was each 1.61 $\rm mg/m^3$ / 0.28 $\rm mg/m^3$, and 1.72 $\rm mg/m^3$ / 0.32 $\rm mg/m^3$. 
- Although difference between the two data was less than 2.1 $\rm mg/m^3$ was not ignorable. This infers that the effect of spatial resolution on the data has to be considered.
- 
- Pixels with a value over 10 $\rm mg/m^3$ is also shown in the Figures. LAC data was found to have more pixels over 10 $\rm mg/m^3$, compared to the GAC data except on April 2003 and July 2006. 
-
-
+The GAC and LAC 자료를 이용하여 chlorophyll-a concentration의 월평균 농도를 구하여 2003년 부터 2006년 까지의 매월 월평균 값과 그 차이를 Figure \ref{fig:diff_2003} - Figure \ref{fig:diff_2006}에 나타내었다. 또한 그림에는 농도 값이 10  ${\rm mg/m^3}$ 보다 큰 픽셀의 수도 나타내었다. 2003년부터 2006년 까지의 자료 분석 결과로 LAC 자료를 이용하여 구한 월평균 농도 값이 GAC 자료를 이용하여 구한 값 보다 더 크게 나타났으며, 가장 차이가 컸던 달은 2004년 5월 이었다.
  
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%   
-%7-1 7--1  7-1  7-1  7-1  
+%8-1 8--1  8-1  8-1  8-1  
 %Month,YMonth,FileLAC_2003,sumLAC_2003,meanLAC_2003,medianLAC_2003,stdLAC_2003,varLAC_2003,maxLAC_2003,minLAC_2003,totalpixLAC_2003,nanpixLAC_2003,statipixLAC_2003,percentLAC_2003,fileGAC_2003,sumGAC_2003,meanGAC_2003,medianGAC_2003,stdGAC_2003,varGAC_2003,maxGAC_2003,minGAC_2003,totalpixGAC_2003,nanpixGAC_2003,statipixGAC_2003,percentGAC_2003,sumDIFF_2003,meanDIFF_2003,medianDIFF_2003,stdDIFF_2003,varDIFF_2003,maxDIFF_2003,minDIFF_2003,totalpixDIFF_2003,nanpixDIFF_2003,statipixDIFF_2003,percentDIFF_2003,
 
 
-\pgfdeclarelayer{foreground}
-\pgfsetlayers{foreground,main}
 
-\begin{figure}[h]
+	\pgfdeclarelayer{foreground}
+	\pgfsetlayers{foreground,main}
+
+	\begin{figure}[h]
 	\begin{pgfonlayer}{foreground}
-		\begin{tikzpicture} [remember picture,overlay]
-		\node at (0.35,3.0) {(a)};
-		\node at (0.35,-1.0) {(b)};
-		\end{tikzpicture}
+	\begin{tikzpicture} [remember picture,overlay]
+	\node at (0.35,3.0) {(a)};
+	\node at (0.35,-1.0) {(b)};
+	\end{tikzpicture}
 	\end{pgfonlayer}
-	
+
 	\begin{tikzpicture}
 	\begin{axis} [
 	width=1.00\textwidth,%
@@ -71,8 +67,8 @@
 	\addplot[style={red,fill=red,mark=none}] table [x=Month, y=statipixGAC_2003] {./data/mon_over10_year.csv}; \addlegendentry{2003 GAC}
 	\end{axis}
 	\end{tikzpicture}
-	%	\end{pgfonlayer}
-	\scriptsize\caption{(a) monthly mean values of chlorophyll-a concentration in 2003 using LAC (blue line) and GAC (red line) and its differences between the LAC and GAC data and (b) the number of pixels with a value over 10 ${\rm {mg/m^3}}$.}
+%	\end{pgfonlayer}
+	\scriptsize\caption{(a) monthly mean values of chlorophyll-a concentration in 2003 using LAC (blue line) and GAC (red line) and its differences between the LAC and GAC data and (b) is shown a number of pixels with a vlaue over 10 ${\rm {mg/m^3}}$.}
 	\label{fig:diff_2003}
 \end{figure}
 
@@ -88,7 +84,7 @@
 		\node at (0.35,-1.0) {(b)};
 		\end{tikzpicture}
 	\end{pgfonlayer}
-	
+
 	\begin{tikzpicture}
 	\begin{axis} [
 	width=1.00\textwidth,%
@@ -136,11 +132,11 @@
 	\addplot[style={red,fill=red,mark=none}] table [x=Month, y=statipixGAC_2004] {./data/mon_over10_year.csv}; \addlegendentry{2004 GAC}
 	\end{axis}
 	\end{tikzpicture}
-	\scriptsize\caption{(a) monthly mean values of chlorophyll-a concentration in 2004 using LAC (blue line) and GAC (red line) and its differences between the LAC and GAC data and (b) the number of pixels with a value over 10 ${\rm {mg/m^3}}$.}
+	\scriptsize\caption{(a) monthly mean values of chlorophyll-a concentration in 2004 using LAC (blue line) and GAC (red line) and its differences between the LAC and GAC data and (b) is shown a number of pixels with a vlaue over 10 ${\rm {mg/m^3}}$.}
 	\label{fig:diff_2004}
 \end{figure}
 
-\pgfdeclarelayer{foreground}
+	\pgfdeclarelayer{foreground}
 \pgfsetlayers{foreground,main}
 
 \begin{figure}[h]
@@ -150,7 +146,7 @@
 		\node at (0.35,-1.0) {(b)};
 		\end{tikzpicture}
 	\end{pgfonlayer}
-	
+
 	\begin{tikzpicture}
 	\begin{axis} [
 	width=1.00\textwidth,%
@@ -198,11 +194,11 @@
 	\addplot[style={red,fill=red,mark=none}] table [x=Month, y=statipixGAC_2005] {./data/mon_over10_year.csv}; \addlegendentry{2005 GAC}
 	\end{axis}
 	\end{tikzpicture}
-	\scriptsize\caption{(a) monthly mean values of chlorophyll-a concentration in 2005 using LAC (blue line) and GAC (red line) and its differences between the LAC and GAC data and (b) the number of pixels with a value over 10 ${\rm {mg/m^3}}$.}
+	\scriptsize\caption{(a) monthly mean values of chlorophyll-a concentration in 2005 using LAC (blue line) and GAC (red line) and its differences between the LAC and GAC data and (b) is shown a number of pixels with a vlaue over 10 ${\rm {mg/m^3}}$.}
 	\label{fig:diff_2005}
 \end{figure}
 
-\pgfdeclarelayer{foreground}
+	\pgfdeclarelayer{foreground}
 \pgfsetlayers{foreground,main}
 
 \begin{figure}[h]
@@ -212,7 +208,7 @@
 		\node at (0.35,-1.0) {(b)};
 		\end{tikzpicture}
 	\end{pgfonlayer}
-	
+
 	\begin{tikzpicture}
 	\begin{axis} [
 	width=1.00\textwidth,%
@@ -260,6 +256,6 @@
 	\addplot[style={red,fill=red,mark=none}] table [x=Month, y=statipixGAC_2006] {./data/mon_over10_year.csv}; \addlegendentry{2006 GAC}
 	\end{axis}
 	\end{tikzpicture}
-	\scriptsize\caption{(a) monthly mean values of chlorophyll-a concentration in 2006 using LAC (blue line) and GAC (red line) and its differences between the LAC and GAC data and (b) the number of pixels with a value over 10 ${\rm {mg/m^3}}$.}
+	\scriptsize\caption{(a) monthly mean values of chlorophyll-a concentration in 2006 using LAC (blue line) and GAC (red line) and its differences between the LAC and GAC data and (b) is shown a number of pixels with a vlaue over 10 ${\rm {mg/m^3}}$.}
 	\label{fig:diff_2006}
 \end{figure}
