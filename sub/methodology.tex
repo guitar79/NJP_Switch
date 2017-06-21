@@ -2,10 +2,9 @@
 
 \subsection{Study area}
 
-<<<<<<< HEAD
-The East Sea (Sea of Japan) was chosen to calculate chlorophyll-a concentration using the ocean color data. The study area is shown in Figure \ref{fig:Map_of_Research_Area}. as 34.00°N - 44.00°N, 127.°E - 135.00°E which covers the whole East Sea (Sea of Japan) near Korea. The South Sea and the Yellow Sea was excluded from the study area because it is difficult to calculate the chlorophyll-a concentration using the ocean color algorithm due to their shallow depth. 
+The East Sea (Sea of Japan) was chosen in order to calculate chlorophyll-a concentration using the ocean color data. The study area is shown in Figure \ref{fig:Map_of_Research_Area}. as 34.00°N - 44.00°N, 127.00°E - 135.00°E which covers the whole East Sea (Sea of Japan) near Korea. The reasons for excluding the South Sea and the Yellow Sea from the study area are that it is difficult to calculate the chlorophyll-a concentration using the ocean color algorithm because of shallow depth. 
 
-The depth of the East Sea rapidly increases from the east coast. The East has a surface area of about 978,000 $\rm km^2$, a mean depth of 1,752 $\rm m $ and a maximum depth of 3,742 $\rm m$. Such depth allows to use the developed chlorophyll-a algorithms. Terrains under the East Sea near Korean Peninsula is complex and the area of the continental shelf is steep.
+The depth of the East Sea is rapidly increase  from the east coast. And the East has a surface area of about 978,000 $\rm km^2$, a mean depth of 1,752 $\rm m $ and a maximum depth of 3,742 $\rm m$. The Terrains under the East Sea near Korean Peninsula is complex and the area of the continental shelf is steep.
 
 \begin{figure}[h]
 
@@ -22,15 +21,16 @@ The depth of the East Sea rapidly increases from the east coast. The East has a 
 
 \subsection{SeaWiFS data and Study period}
 
-SeaWiFS ocean color data is used in order to calculate chlorophyll-a concentration of the East Sea (Sea of Japan) in this study. However, it is not able to obtain recent measurements since SeaWiFS had only activated from September 1997 to December 2010. {Table \ref{table01}.} shows the mission charactoristics of SeaWiFS and Table \ref{table02} shows the Cahracteristics of the SeaWiFS ocean color sensor \cite{hooker1992An}.
+This research used SeaWiFS ocean color data to derive chlorophyll-a concentration since SeaWiFS is a satellite created to collect global ocean biological data. However, it is not able to obtain recent measurements  since SeaWiFS had only activated from September 1997 to December 2010. {Table \ref{table01}.} shows the mission characteristics of SeaWiFS and Table \ref{table02}. shows the characteristics of the SeaWiFS ocean color sensor \cite{hooker1992An}.
 
- \begin{table}[h]%[width=1.0\linewidth]
+ \begin{table}[h!]
  	\caption{The mission characteristics of SeaWiFS.}
  	\label{table01}
  	\centering
- 	\begin{tabular}{c|c}
- 		\hline \setlength{\arrayrulewidth}{0.8pt}. 
- 	Orbit Type	& Sun Synchronous at 705 km \\ \hline
+ 	\begin{tabular}{c  c}
+  	\toprule%[width=0.9\textwidth]
+  	 	Orbit Type	& Sun Synchronous at 705 km \\ \hline
+  	%\midrule
  	Equator Crossing &	Noon +20 min, descending \\ \hline
  	Orbital Period &	99 minutes  \\ \hline
  	Swath Width &	2,801 km LAC/HRPT (58.3 degrees)  \\ \hline
@@ -38,33 +38,39 @@ SeaWiFS ocean color data is used in order to calculate chlorophyll-a concentrati
  	Spatial Resolution &	1.1 km LAC, 4.5 km GAC  \\ \hline
  	Real-Time Data Rate &	665 kbps  \\ \hline
  	Revisit Time &	1 day  \\ \hline
- 	Digitization &	10 bits  \\ \hline
+ 	Digitization &	10 bits  \\ 
+ 	\bottomrule
  	\end{tabular}
  \end{table}
 
- \begin{table}[h]%[width=1.0\linewidth]
-	\caption{Cahracteristics of the DeaWiFS ocean color sensor.}
+ \begin{table}[h!]%[width=1.0\linewidth]
+	\caption{Characteristics of the SeaWiFS ocean color sensor.}
 	\label{table02}
 	\centering
-	\begin{tabular}{c|c|c|c|c}
-		\hline \setlength{\arrayrulewidth}{0.8pt}. 
-		Band	& Wavelength FWHM[nm] & Saturation Radiance & Input Radiance & SNR\\ \hline{5.0pt}
-		1 & 402-422 & 13.63 & 9.10 & 499 \\ \hline
-		2 & 433-453 & 13.25 & 8.41 & 674  \\ \hline
-		3 & 480-500 & 10.50 & 6.56 & 667 \\ \hline
-		4 & 500-520 & 9.08 & 5.64 & 640  \\ \hline
-		5 & 545-565 & 7.44 & 4.57 & 596 \\ \hline
-		6 & 660-680 & 4.20 & 2.46 & 442  \\ \hline
-		7 & 745-785 & 3.00 & 1.61 & 455 \\ \hline
-		8 & 845-885 & 2.13 & 1.09 & 467  \\ \hline
+	\begin{tabular}{c  c  c  c  c}
+		\toprule
+		%\hline \setlength{\arrayrulewidth}{0.8pt}. 
+		Band	& Wavelength FWHM[nm] & Saturation Radiance & Input Radiance & SNR\\ %\hline{5.0pt}
+		\midrule
+		1 & 402-422 & 13.63 & 9.10 & 499 \\ %\hline
+		2 & 433-453 & 13.25 & 8.41 & 674  \\ %\hline
+		3 & 480-500 & 10.50 & 6.56 & 667 \\ %\hline
+		4 & 500-520 & 9.08 & 5.64 & 640  \\ %\hline
+		5 & 545-565 & 7.44 & 4.57 & 596 \\ %\hline
+		6 & 660-680 & 4.20 & 2.46 & 442  \\ %\hline
+		7 & 745-785 & 3.00 & 1.61 & 455 \\ %\hline
+		8 & 845-885 & 2.13 & 1.09 & 467  \\ %\hline
+		 	\bottomrule
 	\end{tabular}
 \end{table}
  
- The Ocean Biology Processing Group collects and processes data from Earth-viewing satellites. These data are organized in various ways reflecting different spatial, temporal, and parameter groupings. Over the years, certain terminology about remote sensing data has arisen to describe these organizational conventions. Level-0 is unprocessed data from remote sensing instruments at a full resolution. Level-1 data is obtained through radiometric and geometric calibration. Level-2 data is made of geophysical variables processed from level-1 data using developed algorithms \cite{feldman2017ocean}. In this research, chlorophyll-a concentration is the geophyscial variable we choose to process.
+ 
 
+The Ocean Biology Processing Group collects and processes data from Earth-viewing satellites. These data are organized in various ways reflecting different spatial, temporal, and parameter groupings. Over the years, certain terminology about remote sensing data has arisen to describe these organizational conventions. Level-0 is unprocessed data from remote sensing instruments at a full resolution. Level-1 data is obtained through radiometric and geometric calibration. Level-2 data is made of geophysical variables processed from level-1 data using developed algorithms \cite{feldman2017ocean}. In this research, chlorophyll-a concentration is the geophyscial variable we choose to process.
 
 The SeaWiFS Level-2 Ocean Color chlorophyll-a Data Version 2014 can be downloaded from the NASA Goddard Space Flight Center (GSFC) Distributed Active Archive Center (DAAC). Processing Level-1 data to Level-2 data was conducted by NASA, using NASA SeaDAS program\cite{NASASeaFiWSdata}. NASA SeaDAS uses two algorithms to create chlorophyll-a concentration data from the Level-1 data of remote sensing reflectance ($\rm R_{rs}$); these algorithms are the OCx band ratio algorithm and the color index (CI) algorithm of Hu. 
- The OCx band ratio algorithm use the ratio of two bands in a fourth-order polynomial equation in a relation with chlorophyll-a. It can be expressed as \eqref{eq:001}.
+
+The OCx band ratio algorithm use the ratio of two bands in a fourth-order polynomial equation in a relation with chlorophyll-a. It can be expressed as \eqref{eq:001}.
  
  \begin{equation}
  {\rm log_{10} (chlor_a) = a_0 + \sum_{i=1}^4 a_i ~ log_{10} \left( \frac{(R_{rs}(\lambda_{blue})}{(R_{rs}(\lambda_{green})} \right) ^i }
@@ -74,42 +80,46 @@ The SeaWiFS Level-2 Ocean Color chlorophyll-a Data Version 2014 can be downloade
 The coefficients $\rm a_0$ - $\rm a_4$ are values for each sensor acquired experimentally. The OCx algorithm was proved to be accurate by O’Reilly et. al\cite{o2000ocean}. The CI algorithm uses three bands and can be expressed as \eqref{eq:002}.
 
  \begin{equation}
-{\rm CI = R_rs ({\lambda}_{green}) - [R_rs ({\lambda}_{blue}) + \frac {({\lambda}_{green}) - {\lambda}_{blue})} {({\lambda}_{red}) - {\lambda}_{blue}} * ({\lambda}_{red}) - R_rs ({\lambda}_{blue}) ]}
+{\rm CI = R_{rs} ({\lambda}_{green}) - [R_{rs} ({\lambda}_{blue}) + \frac {({\lambda}_{green} - {\lambda}_{blue})} {({\lambda}_{red} - {\lambda}_{blue})} * (R_{rs}{\lambda}_{red} - R_{rs} ({\lambda}_{blue}) ]}
 \label{eq:002}
 \end{equation}
 
 The $\rm {\lambda}_{blue}$, $\rm {\lambda}_{green}$, $\rm {\lambda}_{red}$ are wavelengths closest to 443 $\rm nm$, 555 $\rm nm$ and 670 $\rm nm$, different for each sensor. According to Hu, C., Lee, Z., and Franz, B., for the lower concentration of chlorophyll-a (less than 0.25 $\rm mg/m^3$), it is more accurate to use CI algorithm \cite{hu2012chlorophyll}. The NASA SeaDAS software uses CI algorithm for chlorophyll retrievals below 0.15 $\rm mg/m^3$, and OCx band ratio algorithm for retrievals above 0.2 $\rm mg/m^3$. For the concentration between 0.15 $\rm mg/m^3$ and 0.2 $\rm mg/m^3$, it blends both algorithm.
 
+
 The level-2 GAC data of the East sea (Sea of Japan) can be obtained from 1997 to 2010 but the level-2 LAC data can be obtained only from 2003 to 2006. Only a few LAC data files of the East Sea (Sea of Japan) are available after 2007. That is why the study period was set from 2003 to 2006. The information of on used data is shown in Table \ref{data_information}.
+
 The level-3 LAC and GAC data are derived geophysical variables that have been aggregated onto a well-defined over a well-defined time period and projected onto a well-defined spatial grid.
 
-start 박기현 추가
  \begin{table}[h]
+	\centering
 	\caption{The number of Level-2 files for analysis.}
 	\label{data_information}
-	\centering
-	\begin{tabular}{c | c | c }
-		\hline \setlength{\arrayrulewidth}{3.5pt}. 
-			& LAC  & GAC \\ \hline
-		2003 (N) & 482 & 490 \\ \hline
-		2004 (N) & 441 & 497 \\ \hline
-		2005 (N) & 270 & 494 \\ \hline
-		2006 (N) & 313 & 498 \\ \hline
-		total (N) & 1,506 & 1,979 \\ \hline
+	\begin{tabular}{c  c  c  }
+		%\hline \setlength{\arrayrulewidth}{3.5pt}. 
+		\toprule
+		year & LAC data  & GAC data \\ %\hline
+		\midrule
+		2003 (N) & 482 & 490 \\ %\hline
+		2004 (N) & 441 & 497 \\ %\hline
+		2005 (N) & 270 & 494 \\ %\hline
+		2006 (N) & 313 & 498 \\ %\hline
+			\midrule
+		total (N) & 1,506 & 1,979 \\ %\hline
+		\bottomrule
 	\end{tabular}
 \end{table}
-end 박기현추가
 
-\hfill \break
+
+
+
 \hfill \break
 
 
  \subsection{Deriving Chlorophyll-a Concentration using LAC data and GAC data}
  
-NASA SeaDAS is used to process the level-2 data of chlorophyll-a to level-3 data of monthly-mean/ 8-day-mean of chlorophyll-a concentration data. Monthly-mean data is created to show the overall tendency, while 8-day-mean data is created to see more specific tendency. Simple average method had been used to create the mean files. This method sums pixel values of chlorophyll-a at the same location and divides it by the number of data that have been compiled. This process also gives latitude longitude value to the pixels, creating a Standard Mapped Image (SMI). Chae, H. J., \& Park, K. (2009) used weighted average method to process data. However, according to Park, K. A., Park, J. E., Lee, M. S., \& Kang, C. K. (2012), both the weighted average method and the simple average method are suitable for processing SeaWiFS data in the East Sea (Sea of Japan). In addition, the more general method, the simple average method is used in this research.
-  
- Since running each process using SeaDAS is inconvenient, so the process is automated by using python batch processing. This commands SeaDAS to repeat the process. Python can also create png files from the SMI. We use the obtained monthly-mean and 8-day-mean data to find the annual variability of chlorophyll-a concentration.
- 
- The effect of spatial resolution on the data was studied by comparing the LAC and the GAC data. The monthly average data was compared and the differences of the values were calculated. Further analysis was done on pixels with a value over 10 $\rm mg/m^3$. The maximun value of each month was also compared. These research were done to find out which data was more reliable.
- 
- 
+NASA SeaDAS is used to process the level-2 data of chlorophyll-a to level-3 data of monthly-mean/ 8-day-mean of chlorophyll-a concentration data. Monthly-mean data is created to show the overall tendency, while 8-day-mean data is created to see more specific tendency. Simple average method had been used to create the mean files. This method sums pixel values of chlorophyll-a at the same location and divides it by the number of data that have been compiled. This process also gives latitude longitude value to the pixels, creating a Standard Mapped Image (SMI). Chae, H. J., \& Park, K. (2009) used weighted average method to process data. However, according to Park, K. A., Park, J. E., Lee, M. S., \& Kang, C. K. (2012), both the weighted average method and the simple average method are suitable for processing SeaWiFS data in the East Sea (Sea of Japan). In addition, the more general method, the simple average method is used in this research
+
+Since running each process using SeaDAS is inconvenient, so the process is automated by using python batch processing. This commands SeaDAS to repeat the process. Python can also create png files from the SMI. We use the obtained monthly-mean and 8-day-mean data to find the annual variability of chlorophyll-a concentration.
+
+The effect of spatial resolution on the data was studied by comparing the LAC and the GAC data. The monthly average data was compared and the differences of the values were calculated. Further analysis was done on pixels with a value over 10 $\rm mg/m^3$. The maximum value of each month was also compared. These research were done to find out which data was more reliable.
