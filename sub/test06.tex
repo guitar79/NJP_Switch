@@ -1,0 +1,341 @@
+\section{test6}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%   
+%6-1 6-1  6-1  6-1  6-1  
+
+\begin{figure}[h]
+	\begin{tikzpicture}
+	\begin{axis} [
+	width=1.0\linewidth,   height = 6cm, 
+	major x tick style = transparent,
+	xtick = data,
+	%grid=major, 
+	symbolic x coords={Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec},
+	%	xlabel= Kraft $\lbrack{}$ \si{F} $\rbrack$, 
+	%xmin=0, xstep=4, xmax=47,
+	ylabel= {\sffamily\small chlorophyll-a concentration ($\rm mg/m^3$)},
+	ymin=0,	ystep=0.5, 	%ymax=2.1,
+	scaled y ticks = false,
+	ymajorgrids = true,
+	%nodes near coords, % data 값 표시
+	% % % % % Ausrichten der Punktbeschriftung
+	every node near coord/.append style={font=\scriptsize,/pgf/number format/precision=3}]
+	\addplot table [x=Month, y=maxLAC_2003] {./data/mon_over03_year.csv}; \addlegendentry{\sffamily\scriptsize 2003 LAC}
+	\addplot table [x=Month, y=maxGAC_2003] {./data/mon_over03_year.csv}; \addlegendentry{\sffamily\scriptsize 2003 GAC}
+	%Month,YMonth,FileLAC_2003,sumLAC_2003,meanLAC_2003,medianLAC_2003,stdLAC_2003,varLAC_2003,maxLAC_2003,minLAC_2003,totalpixLAC_2003,nanpixLAC_2003,statipixLAC_2003,percentLAC_2003,fileGAC_2003,sumGAC_2003,meanGAC_2003,medianGAC_2003,stdGAC_2003,varGAC_2003,maxGAC_2003,minGAC_2003,totalpixGAC_2003,nanpixGAC_2003,statipixGAC_2003,percentGAC_2003,sumDIFF_2003,meanDIFF_2003,medianDIFF_2003,stdDIFF_2003,varDIFF_2003,maxDIFF_2003,minDIFF_2003,totalpixDIFF_2003,nanpixDIFF_2003,statipixDIFF_2003,percentDIFF_2003,
+	
+	%   \fill[gray,fill opacity=0.25] (axis cs:5,0) rectangle (axis cs:7,12); %Bereich einfügen
+	\end{axis}
+	\end{tikzpicture}
+	
+	\begin{tikzpicture}
+	\begin{axis} [
+	width=1.0\linewidth,   height = 5cm, 
+	major x tick style = transparent,
+	%xmin=0, xstep=4, xmax=47,
+	xtick = data,
+	%grid=major, 
+	symbolic x coords={Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec},
+	%	xlabel= Kraft $\lbrack{}$ \si{F} $\rbrack$, 
+	%	xmin=0,
+	%	xmax=15,
+	ylabel= {\sffamily\small difference ($\rm mg/m^3$)},
+	%ymin=-0.2,	
+	ystep=0.1, 	%ymax=0.2,
+	scaled y ticks = false,
+	ymajorgrids = true,
+	%nodes near coords, % data 값 표시
+	% % % % % Ausrichten der Punktbeschriftung
+	every node near coord/.append style={font=\scriptsize,/pgf/number format/precision=3},]
+	[legend pos=north east]
+	\addplot table [x=Month, y=maxDIFF_2003] {./data/mon_over03_year.csv}; %\addlegendentry{\sffamily\scriptsize 2003 LAC}
+	
+	%Month,YMonth,FileLAC_2003,sumLAC_2003,meanLAC_2003,medianLAC_2003,stdLAC_2003,varLAC_2003,maxLAC_2003,minLAC_2003,totalpixLAC_2003,nanpixLAC_2003,statipixLAC_2003,percentLAC_2003,fileGAC_2003,sumGAC_2003,meanGAC_2003,medianGAC_2003,stdGAC_2003,varGAC_2003,maxGAC_2003,minGAC_2003,totalpixGAC_2003,nanpixGAC_2003,statipixGAC_2003,percentGAC_2003,sumDIFF_2003,meanDIFF_2003,medianDIFF_2003,stdDIFF_2003,varDIFF_2003,maxDIFF_2003,minDIFF_2003,totalpixDIFF_2003,nanpixDIFF_2003,statipixDIFF_2003,percentDIFF_2003,
+	
+	%   \fill[gray,fill opacity=0.25] (axis cs:5,0) rectangle (axis cs:7,12); %Bereich einfügen
+	\end{axis}
+	\end{tikzpicture}
+	
+	\begin{tikzpicture}	
+	\begin{axis} [
+	width=1.0\linewidth,   height = 6cm, 
+	major x tick style = transparent,
+	xtick = data,
+	symbolic x coords={Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec},
+	ybar=4*\pgflinewidth,
+	bar width=8pt,
+	ymajorgrids = true,
+	ylabel= {\sffamily\small Number (\%)},
+	scaled y ticks = false,
+	%enlarge x limits=0.25,
+	ymin=0, ystep=10, %ymax=100,
+	%legend cell align=left,
+	%legend style={	%at={(1,1.05)},		anchor=south east, 		%column sep=1ex, 	}]
+	legend pos=north east
+	]
+	\addplot[style={blue,fill=bblue,mark=none}] table [x=Month, y=percentLAC_2003] {./data/mon_over03_year.csv}; \addlegendentry{\sffamily\scriptsize 2003 LAC}
+	\addplot[style={red,fill=rred,mark=none}] table [x=Month, y=percentGAC_2003] {./data/mon_over03_year.csv}; \addlegendentry{\sffamily\scriptsize 2003 GAC}
+	
+	%Month,YMonth,FileLAC_2003,sumLAC_2003,meanLAC_2003,medianLAC_2003,stdLAC_2003,varLAC_2003,maxLAC_2003,minLAC_2003,totalpixLAC_2003,nanpixLAC_2003,statipixLAC_2003,percentLAC_2003,fileGAC_2003,sumGAC_2003,meanGAC_2003,medianGAC_2003,stdGAC_2003,varGAC_2003,maxGAC_2003,minGAC_2003,totalpixGAC_2003,nanpixGAC_2003,statipixGAC_2003,percentGAC_2003,sumDIFF_2003,meanDIFF_2003,medianDIFF_2003,stdDIFF_2003,varDIFF_2003,maxDIFF_2003,minDIFF_2003,totalpixDIFF_2003,nanpixDIFF_2003,statipixDIFF_2003,percentDIFF_2003,
+	\end{axis}
+	\end{tikzpicture}
+	
+	\caption{(a) monthly mean values of chlorophyll-a concentration in 2003 using LAC (blue line) and GAC (red line) and (b) its differences between the LAC and GAC data and (c) is shown the percent of pixel number ( > 3 ) (6-1  6-1  6-1  6-1  6-1  )}
+	\label{fig:annualmon}
+\end{figure}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%   
+%6-2  6-2  6-2  6-2  6-2  
+
+\begin{figure}[h]
+	\begin{tikzpicture}
+	\begin{axis} [
+	width=1.0\linewidth,   height = 6cm, 
+	major x tick style = transparent,
+	xtick = data,
+	%grid=major, 
+	symbolic x coords={Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec},
+	%	xlabel= Kraft $\lbrack{}$ \si{F} $\rbrack$, 
+	%xmin=0, xstep=4, xmax=47,
+	ylabel= {\sffamily\small chlorophyll-a concentration ($\rm mg/m^3$)},
+	ymin=0,	ystep=0.5, 	%ymax=2.1,
+	scaled y ticks = false,
+	ymajorgrids = true,
+	%nodes near coords, % data 값 표시
+	% % % % % Ausrichten der Punktbeschriftung
+	every node near coord/.append style={font=\scriptsize,/pgf/number format/precision=3}]
+	\addplot table [x=Month, y=maxLAC_2004] {./data/mon_over03_year.csv}; \addlegendentry{\sffamily\scriptsize 2004 LAC}
+	\addplot table [x=Month, y=maxGAC_2004] {./data/mon_over03_year.csv}; \addlegendentry{\sffamily\scriptsize 2004 GAC}
+	%Month,YMonth,FileLAC_2003,sumLAC_2003,meanLAC_2003,medianLAC_2003,stdLAC_2003,varLAC_2003,maxLAC_2003,minLAC_2003,totalpixLAC_2003,nanpixLAC_2003,statipixLAC_2003,percentLAC_2003,fileGAC_2003,sumGAC_2003,meanGAC_2003,medianGAC_2003,stdGAC_2003,varGAC_2003,maxGAC_2003,minGAC_2003,totalpixGAC_2003,nanpixGAC_2003,statipixGAC_2003,percentGAC_2003,sumDIFF_2003,meanDIFF_2003,medianDIFF_2003,stdDIFF_2003,varDIFF_2003,maxDIFF_2003,minDIFF_2003,totalpixDIFF_2003,nanpixDIFF_2003,statipixDIFF_2003,percentDIFF_2003,
+	
+	%   \fill[gray,fill opacity=0.25] (axis cs:5,0) rectangle (axis cs:7,12); %Bereich einfügen
+	\end{axis}
+	\end{tikzpicture}
+	
+	\begin{tikzpicture}
+	\begin{axis} [
+	width=1.0\linewidth,   height = 4cm, 
+	major x tick style = transparent,
+	%xmin=0, xstep=4, xmax=47,
+	xtick = data,
+	%grid=major, 
+	symbolic x coords={Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec},
+	%	xlabel= Kraft $\lbrack{}$ \si{F} $\rbrack$, 
+	%	xmin=0,
+	%	xmax=15,
+	ylabel= {\sffamily\small difference ($\rm mg/m^3$)},
+	%ymin=-0.2,	
+	ystep=0.1, 		%ymax=0.2,
+	scaled y ticks = false,
+	ymajorgrids = true,
+	%nodes near coords, % data 값 표시
+	% % % % % Ausrichten der Punktbeschriftung
+	every node near coord/.append style={font=\scriptsize,/pgf/number format/precision=3},]
+	[legend pos=north east]
+	\addplot table [x=Month, y=maxDIFF_2004] {./data/mon_over03_year.csv}; %\addlegendentry{\sffamily\scriptsize 2004 LAC}
+	
+	%Month,YMonth,FileLAC_2003,sumLAC_2003,meanLAC_2003,medianLAC_2003,stdLAC_2003,varLAC_2003,maxLAC_2003,minLAC_2003,totalpixLAC_2003,nanpixLAC_2003,statipixLAC_2003,percentLAC_2003,fileGAC_2003,sumGAC_2003,meanGAC_2003,medianGAC_2003,stdGAC_2003,varGAC_2003,maxGAC_2003,minGAC_2003,totalpixGAC_2003,nanpixGAC_2003,statipixGAC_2003,percentGAC_2003,sumDIFF_2003,meanDIFF_2003,medianDIFF_2003,stdDIFF_2003,varDIFF_2003,maxDIFF_2003,minDIFF_2003,totalpixDIFF_2003,nanpixDIFF_2003,statipixDIFF_2003,percentDIFF_2003,
+	
+	%   \fill[gray,fill opacity=0.25] (axis cs:5,0) rectangle (axis cs:7,12); %Bereich einfügen
+	\end{axis}
+	\end{tikzpicture}
+	
+	\begin{tikzpicture}	
+	\begin{axis} [
+	width=1.0\linewidth,   height = 6cm, 
+	major x tick style = transparent,
+	xtick = data,
+	symbolic x coords={Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec},
+	ybar=4*\pgflinewidth,
+	bar width=8pt,
+	ymajorgrids = true,
+	ylabel= {\sffamily\small Number (\%)},
+	scaled y ticks = false,
+	%enlarge x limits=0.25,
+	ymin=0, ystep=10, %ymax=100,
+	%legend cell align=left,
+	%legend style={	%at={(1,1.05)},		anchor=south east, 		%column sep=1ex, 	}]
+	legend pos=north east
+	]
+	\addplot[style={blue,fill=bblue,mark=none}] table [x=Month, y=percentLAC_2004] {./data/mon_over03_year.csv}; \addlegendentry{\sffamily\scriptsize 2004 LAC}
+	\addplot[style={red,fill=rred,mark=none}] table [x=Month, y=percentGAC_2004] {./data/mon_over03_year.csv}; \addlegendentry{\sffamily\scriptsize 2004 GAC}
+	
+	%Month,YMonth,FileLAC_2003,sumLAC_2003,meanLAC_2003,medianLAC_2003,stdLAC_2003,varLAC_2003,maxLAC_2003,minLAC_2003,totalpixLAC_2003,nanpixLAC_2003,statipixLAC_2003,percentLAC_2003,fileGAC_2003,sumGAC_2003,meanGAC_2003,medianGAC_2003,stdGAC_2003,varGAC_2003,maxGAC_2003,minGAC_2003,totalpixGAC_2003,nanpixGAC_2003,statipixGAC_2003,percentGAC_2003,sumDIFF_2003,meanDIFF_2003,medianDIFF_2003,stdDIFF_2003,varDIFF_2003,maxDIFF_2003,minDIFF_2003,totalpixDIFF_2003,nanpixDIFF_2003,statipixDIFF_2003,percentDIFF_2003,
+	\end{axis}
+	\end{tikzpicture}
+	
+	\caption{(a) monthly mean values of chlorophyll-a concentration in 2003 using LAC (blue line) and GAC (red line) and (b) its differences between the LAC and GAC data and (c) is shown the percent of pixel number ( > 3 ) (6-2  6-2  6-2  6-2  6-2  )}
+	\label{fig:annualmon}
+\end{figure}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%   
+%6-3  6-3  6-3  6-3  6-3  
+
+\begin{figure}[h]
+	\begin{tikzpicture}
+	\begin{axis} [
+	width=1.0\linewidth,   height = 6cm, 
+	major x tick style = transparent,
+	xtick = data,
+	%grid=major, 
+	symbolic x coords={Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec},
+	%	xlabel= Kraft $\lbrack{}$ \si{F} $\rbrack$, 
+	%xmin=0, xstep=4, xmax=47,
+	ylabel= {\sffamily\small chlorophyll-a concentration ($\rm mg/m^3$)},
+	ymin=0,	ystep=0.5, 	%ymax=2.1,
+	scaled y ticks = false,
+	ymajorgrids = true,
+	%nodes near coords, % data 값 표시
+	% % % % % Ausrichten der Punktbeschriftung
+	every node near coord/.append style={font=\scriptsize,/pgf/number format/precision=3}]
+	\addplot table [x=Month, y=maxLAC_2005] {./data/mon_over03_year.csv}; \addlegendentry{\sffamily\scriptsize 2005 LAC}
+	\addplot table [x=Month, y=maxGAC_2005] {./data/mon_over03_year.csv}; \addlegendentry{\sffamily\scriptsize 2005 GAC}
+	%Month,YMonth,FileLAC_2003,sumLAC_2003,meanLAC_2003,medianLAC_2003,stdLAC_2003,varLAC_2003,maxLAC_2003,minLAC_2003,totalpixLAC_2003,nanpixLAC_2003,statipixLAC_2003,percentLAC_2003,fileGAC_2003,sumGAC_2003,meanGAC_2003,medianGAC_2003,stdGAC_2003,varGAC_2003,maxGAC_2003,minGAC_2003,totalpixGAC_2003,nanpixGAC_2003,statipixGAC_2003,percentGAC_2003,sumDIFF_2003,meanDIFF_2003,medianDIFF_2003,stdDIFF_2003,varDIFF_2003,maxDIFF_2003,minDIFF_2003,totalpixDIFF_2003,nanpixDIFF_2003,statipixDIFF_2003,percentDIFF_2003,
+	
+	%   \fill[gray,fill opacity=0.25] (axis cs:5,0) rectangle (axis cs:7,12); %Bereich einfügen
+	\end{axis}
+	\end{tikzpicture}
+	
+	\begin{tikzpicture}
+	\begin{axis} [
+	width=1.0\linewidth,   height = 5cm, 
+	major x tick style = transparent,
+	%xmin=0, xstep=4, xmax=47,
+	xtick = data,
+	%grid=major, 
+	symbolic x coords={Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec},
+	%	xlabel= Kraft $\lbrack{}$ \si{F} $\rbrack$, 
+	%	xmin=0,
+	%	xmax=15,
+	ylabel= {\sffamily\small difference ($\rm mg/m^3$)},
+	%ymin=-0.2,	
+	ystep=0.1, 	%ymax=0.2,
+	scaled y ticks = false,
+	ymajorgrids = true,
+	%nodes near coords, % data 값 표시
+	% % % % % Ausrichten der Punktbeschriftung
+	every node near coord/.append style={font=\scriptsize,/pgf/number format/precision=3},]
+	[legend pos=north east]
+	\addplot table [x=Month, y=maxDIFF_2005] {./data/mon_over03_year.csv}; %\addlegendentry{\sffamily\scriptsize 2005 LAC}
+	
+	%Month,YMonth,FileLAC_2003,sumLAC_2003,meanLAC_2003,medianLAC_2003,stdLAC_2003,varLAC_2003,maxLAC_2003,minLAC_2003,totalpixLAC_2003,nanpixLAC_2003,statipixLAC_2003,percentLAC_2003,fileGAC_2003,sumGAC_2003,meanGAC_2003,medianGAC_2003,stdGAC_2003,varGAC_2003,maxGAC_2003,minGAC_2003,totalpixGAC_2003,nanpixGAC_2003,statipixGAC_2003,percentGAC_2003,sumDIFF_2003,meanDIFF_2003,medianDIFF_2003,stdDIFF_2003,varDIFF_2003,maxDIFF_2003,minDIFF_2003,totalpixDIFF_2003,nanpixDIFF_2003,statipixDIFF_2003,percentDIFF_2003,
+	
+	%   \fill[gray,fill opacity=0.25] (axis cs:5,0) rectangle (axis cs:7,12); %Bereich einfügen
+	\end{axis}
+	\end{tikzpicture}
+	
+	\begin{tikzpicture}	
+	\begin{axis} [
+	width=1.0\linewidth,   height = 6cm, 
+	major x tick style = transparent,
+	xtick = data,
+	symbolic x coords={Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec},
+	ybar=4*\pgflinewidth,
+	bar width=8pt,
+	ymajorgrids = true,
+	ylabel= {\sffamily\small Number (\%)},
+	scaled y ticks = false,
+	%enlarge x limits=0.25,
+	ymin=0, ystep=10, %ymax=100,
+	%legend cell align=left,
+	%legend style={	%at={(1,1.05)},		anchor=south east, 		%column sep=1ex, 	}]
+	legend pos=north east
+	]
+	\addplot[style={blue,fill=bblue,mark=none}] table [x=Month, y=percentLAC_2005] {./data/mon_over03_year.csv}; \addlegendentry{\sffamily\scriptsize 2005 LAC}
+	\addplot[style={red,fill=rred,mark=none}] table [x=Month, y=percentGAC_2005] {./data/mon_over03_year.csv}; \addlegendentry{\sffamily\scriptsize 2005 GAC}
+	
+	%Month,YMonth,FileLAC_2003,sumLAC_2003,meanLAC_2003,medianLAC_2003,stdLAC_2003,varLAC_2003,maxLAC_2003,minLAC_2003,totalpixLAC_2003,nanpixLAC_2003,statipixLAC_2003,percentLAC_2003,fileGAC_2003,sumGAC_2003,meanGAC_2003,medianGAC_2003,stdGAC_2003,varGAC_2003,maxGAC_2003,minGAC_2003,totalpixGAC_2003,nanpixGAC_2003,statipixGAC_2003,percentGAC_2003,sumDIFF_2003,meanDIFF_2003,medianDIFF_2003,stdDIFF_2003,varDIFF_2003,maxDIFF_2003,minDIFF_2003,totalpixDIFF_2003,nanpixDIFF_2003,statipixDIFF_2003,percentDIFF_2003,
+	\end{axis}
+	\end{tikzpicture}
+	
+	\caption{(a) monthly mean values of chlorophyll-a concentration in 2003 using LAC (blue line) and GAC (red line) and (b) its differences between the LAC and GAC data and (c) is shown the percent of pixel number ( > 3 )(6-3  6-3  6-3  6-3  6-3  )}
+	\label{fig:annualmon}
+\end{figure}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%   
+%6-4  6-4  6-4  6-4  6-4  
+
+\begin{figure}[h]
+	\begin{tikzpicture}
+	\begin{axis} [
+	width=1.0\linewidth,   height = 6cm, 
+	major x tick style = transparent,
+	xtick = data,
+	%grid=major, 
+	symbolic x coords={Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec},
+	%	xlabel= Kraft $\lbrack{}$ \si{F} $\rbrack$, 
+	%xmin=0, xstep=4, xmax=47,
+	ylabel= {\sffamily\small chlorophyll-a concentration ($\rm mg/m^3$)},
+	ymin=0,	ystep=0.5, 	%ymax=2.1,
+	scaled y ticks = false,
+	ymajorgrids = true,
+	%nodes near coords, % data 값 표시
+	% % % % % Ausrichten der Punktbeschriftung
+	every node near coord/.append style={font=\scriptsize,/pgf/number format/precision=3}]
+	\addplot table [x=Month, y=maxLAC_2006] {./data/mon_over03_year.csv}; \addlegendentry{\sffamily\scriptsize 2006 LAC}
+	\addplot table [x=Month, y=maxGAC_2006] {./data/mon_over03_year.csv}; \addlegendentry{\sffamily\scriptsize 2006 GAC}
+	%Month,YMonth,FileLAC_2003,sumLAC_2003,meanLAC_2003,medianLAC_2003,stdLAC_2003,varLAC_2003,maxLAC_2003,minLAC_2003,totalpixLAC_2003,nanpixLAC_2003,statipixLAC_2003,percentLAC_2003,fileGAC_2003,sumGAC_2003,meanGAC_2003,medianGAC_2003,stdGAC_2003,varGAC_2003,maxGAC_2003,minGAC_2003,totalpixGAC_2003,nanpixGAC_2003,statipixGAC_2003,percentGAC_2003,sumDIFF_2003,meanDIFF_2003,medianDIFF_2003,stdDIFF_2003,varDIFF_2003,maxDIFF_2003,minDIFF_2003,totalpixDIFF_2003,nanpixDIFF_2003,statipixDIFF_2003,percentDIFF_2003,
+	
+	%   \fill[gray,fill opacity=0.25] (axis cs:5,0) rectangle (axis cs:7,12); %Bereich einfügen
+	\end{axis}
+	\end{tikzpicture}
+	
+	\begin{tikzpicture}
+	\begin{axis} [
+	width=1.0\linewidth,   height = 5cm, 
+	major x tick style = transparent,
+	%xmin=0, xstep=4, xmax=47,
+	xtick = data,
+	%grid=major, 
+	%\sffamily\tiny
+	{symbolic x coords={Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec}},
+	%	xlabel= Kraft $\lbrack{}$ \si{F} $\rbrack$, 
+	%	xmin=0,
+	%	xmax=15,
+	ylabel= {\sffamily\small difference ($\rm mg/m^3$)},
+	%ymin=-0.2,	
+	ystep=0.1, 	%ymax=0.2,
+	scaled y ticks = false,
+	ymajorgrids = true,
+	y tick label style={/pgf/number format/.cd,sci,precision=5}]
+	%nodes near coords, % data 값 표시
+	% % % % % Ausrichten der Punktbeschriftung
+	every node near coord/.append style={font=\scriptsize,/pgf/number format/precision=1},]
+	[legend pos=north east]
+	\addplot table [x=Month, y=maxDIFF_2006] {./data/mon_over03_year.csv}; %\addlegendentry{\sffamily\scriptsize 2006 LAC}
+	
+	%Month,YMonth,FileLAC_2003,sumLAC_2003,meanLAC_2003,medianLAC_2003,stdLAC_2003,varLAC_2003,maxLAC_2003,minLAC_2003,totalpixLAC_2003,nanpixLAC_2003,statipixLAC_2003,percentLAC_2003,fileGAC_2003,sumGAC_2003,meanGAC_2003,medianGAC_2003,stdGAC_2003,varGAC_2003,maxGAC_2003,minGAC_2003,totalpixGAC_2003,nanpixGAC_2003,statipixGAC_2003,percentGAC_2003,sumDIFF_2003,meanDIFF_2003,medianDIFF_2003,stdDIFF_2003,varDIFF_2003,maxDIFF_2003,minDIFF_2003,totalpixDIFF_2003,nanpixDIFF_2003,statipixDIFF_2003,percentDIFF_2003,
+	
+	%   \fill[gray,fill opacity=0.25] (axis cs:5,0) rectangle (axis cs:7,12); %Bereich einfügen
+	\end{axis}
+	\end{tikzpicture}
+	
+	\begin{tikzpicture}	
+	\begin{axis} [
+	width=1.0\linewidth,   height = 6cm, 
+	major x tick style = transparent,
+	xtick = data,
+	symbolic x coords={Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec},
+	ybar=4*\pgflinewidth,
+	bar width=8pt,
+	ymajorgrids = true,
+	ylabel= {\sffamily\small Number (\%)},
+	scaled y ticks = false,
+	%enlarge x limits=0.25,
+	ymin=0, ystep=10, %ymax=100,
+	%legend cell align=left,
+	%legend style={	%at={(1,1.05)},		anchor=south east, 		%column sep=1ex, 	}]
+	legend pos=north east
+	]
+	\addplot[style={blue,fill=bblue,mark=none}] table [x=Month, y=percentLAC_2006] {./data/mon_over03_year.csv}; \addlegendentry{\sffamily\scriptsize 2006 LAC}
+	\addplot[style={red,fill=rred,mark=none}] table [x=Month, y=percentGAC_2006] {./data/mon_over03_year.csv}; \addlegendentry{\sffamily\scriptsize 2006 GAC}
+	
+	%Month,YMonth,FileLAC_2003,sumLAC_2003,meanLAC_2003,medianLAC_2003,stdLAC_2003,varLAC_2003,maxLAC_2003,minLAC_2003,totalpixLAC_2003,nanpixLAC_2003,statipixLAC_2003,percentLAC_2003,fileGAC_2003,sumGAC_2003,meanGAC_2003,medianGAC_2003,stdGAC_2003,varGAC_2003,maxGAC_2003,minGAC_2003,totalpixGAC_2003,nanpixGAC_2003,statipixGAC_2003,percentGAC_2003,sumDIFF_2003,meanDIFF_2003,medianDIFF_2003,stdDIFF_2003,varDIFF_2003,maxDIFF_2003,minDIFF_2003,totalpixDIFF_2003,nanpixDIFF_2003,statipixDIFF_2003,percentDIFF_2003,
+	\end{axis}
+	\end{tikzpicture}
+	
+	\caption{(a) monthly mean values of chlorophyll-a concentration in 2003 using LAC (blue line) and GAC (red line) and (b) its differences between the LAC and GAC data and (c) is shown the percent of pixel number ( > 3 ) (6-4  6-4  6-4  6-4  6-4  )}
+	\label{fig:annualmon}
+\end{figure}

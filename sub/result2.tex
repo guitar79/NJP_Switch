@@ -1,0 +1,57 @@
+
+\subsection{Analysis the monthly mean of Chlorophyll-a Concentration in the East Sea (Sea of Japan)}
+
+
+The annual variability of chlorophyll-a concentration in the East Sea (Sea of Japan) from 2003 - 2006 is shown in Figure \ref{fig:monLACGAC}. It was done to analyze the monthly mean of chlorophyll-a concentration in the East Sea (Sea of Japan) more quantitatively. Both the LAC data and the GAC data showed similar tendency, showing peaks on spring (April) and fall (November). The maximum/minimum value of the LAC and GAC data was each 1.61 $\rm mg/m^3$ / 0.28 $\rm mg/m^3$, and 1.72 $\rm mg/m^3$ / 0.32 $\rm mg/m^3$.  However, the difference between these two data was not ignorable.
+
+
+\pgfdeclarelayer{foreground}
+\pgfsetlayers{foreground,main}
+
+\begin{figure}[h]
+	\begin{pgfonlayer}{foreground}
+		\begin{tikzpicture} [remember picture,overlay]
+		\node at (0.35,4.1) {(a)};
+		\node at (0.35,-1.2) {(b)};
+		\end{tikzpicture}
+	\end{pgfonlayer}
+	
+	\begin{tikzpicture}
+	\begin{axis} [
+	width=1.00\textwidth,%
+	height = 6cm,%
+	xtick = data,%
+	symbolic x coords={Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec},%
+	ylabel= {Chlorophyll-a concentration (${\rm mg/m^3}$)},%
+	ymin=0,ystep=0.5,ymax=2.0,%
+	scaled y ticks = false,%
+	ymajorgrids = true,
+	legend style={at={(0.02,10)}},legend pos=north east]%
+	\addplot table [x=Month, y=meanLAC_2003] {./data/mon_over00_year.csv}; \addlegendentry {2003 LAC}%
+	\addplot table [x=Month, y=meanLAC_2004] {./data/mon_over00_year.csv}; \addlegendentry {2004 LAC}%
+	\addplot table [x=Month, y=meanLAC_2005] {./data/mon_over00_year.csv}; \addlegendentry {2005 LAC}%
+	\addplot table [x=Month, y=meanLAC_2006] {./data/mon_over00_year.csv}; \addlegendentry {2006 LAC}%
+	\end{axis}
+	\end{tikzpicture}
+	\begin{tikzpicture}
+	\begin{axis} [
+	width=1.00\textwidth,%
+	height = 6cm,%
+	xtick = data,%
+	symbolic x coords={Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec},%
+	ylabel= {Chlorophyll-a concentration ( ${\rm mg/m^3}$)},%
+	ymin=0,ystep=0.5,ymax=2.0,%
+	scaled y ticks = false,%
+	ymajorgrids = true,
+	legend style={at={(0.02,10)}},legend pos=north east]%
+	\addplot table [x=Month, y=meanGAC_2003] {./data/mon_over00_year.csv}; \addlegendentry {2003 GAC}%
+	\addplot table [x=Month, y=meanGAC_2004] {./data/mon_over00_year.csv}; \addlegendentry {2004 GAC}%
+	\addplot table [x=Month, y=meanGAC_2005] {./data/mon_over00_year.csv}; \addlegendentry {2005 GAC}%
+	\addplot table [x=Month, y=meanGAC_2006] {./data/mon_over00_year.csv}; \addlegendentry {2006 GAC}%
+		\end{axis}
+	\end{tikzpicture}
+	%	\end{pgfonlayer}
+	\scriptsize\caption{Monthly mean values of chlorophyll-a concentration from 2003 to 2006 using (a) the LAC data and (b) the GAC data.}
+	\label{fig:monLACGAC}
+\end{figure}
+

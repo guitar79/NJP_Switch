@@ -1,3 +1,5 @@
+
+
 \documentclass{gshs_thesis}
 
 \graphicspath{{images/}}
@@ -7,20 +9,48 @@
 \usepackage{spverbatim} % automatic linebreak verbatim environment
 %\usepacakge{indentfirst}
 \usepackage{tikz}
+%\tikzset{
+%	image label/.style={
+%		every node/.style={
+			%fill=black,
+			%text=white,
+%			font=\sffamily\scriptsize,
+%			anchor=south west,
+%			xshift=0,
+%			yshift=0,
+%			at={(0,0)}
+%		}
+%	}
+%}
 \usepackage{amsmath}
 \usepackage{amsfonts}
 \usepackage{amssymb}
 \usepackage{float}
 \usepackage{graphicx}
+\usepackage{tabularx}
+\usepackage{multirow}
+\usepackage{booktabs}
+\usepackage{longtable}
+%\usepackage{subcaption}
+%\usepackage{floatrow}
+%\usepackage{pict2e}
 
 \usepackage{pgfplots}
+\pgfplotsset{
+	compat=newest,
+	label style={font=\sffamily\scriptsize},
+	ticklabel style={font=\sffamily\scriptsize},
+	legend style={font=\sffamily\tiny},
+	major tick length=0.1cm,
+	minor tick length=0.05cm,
+	every x tick/.style={black},
+}
+
 \usetikzlibrary{shapes}
 \usetikzlibrary{plotmarks}
-
 \usepackage{listings}
-
 \usepackage{hologo}
-\usetikzlibrary{plotmarks}
+\usepackage{makecell}
 
 \lstset{
 	basicstyle=\small\ttfamily,
@@ -31,9 +61,6 @@
 \citation
 \bibdata
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%   
-% Define bar chart colors
-%
 
 
 % -----------------------------------------------------------------------
@@ -97,4 +124,3 @@
 \checklistVI{6. 다른 친구와 같은 내용의 논문을 제출하지 않았다.} %수정하지 마시오
 % 이 항목이 사실이라면 다음 줄 앞에 "%"기호 삽입, 다다음 줄 앞의 "%"기호 제거하시오
 \checklistmarkVI{$\square$}
-%\checklistmarkVI{$\text{\rlap{$\checkmark$}}\square$}
