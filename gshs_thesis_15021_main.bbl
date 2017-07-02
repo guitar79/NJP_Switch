@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{99}
 
 \bibitem[1]{kyung2013characteristics}
 Kyung-Ae~Park, Hwa-Jeong~Chae, J.-E.~P. (2013).
@@ -37,16 +37,18 @@ Chae, H.-J., \& Park, K. (2009).
 \newblock {\em Journal of the Korean earth science society}, {\em 30\/}(2),
   234--246.
 
-\bibitem[7]{hu2012chlorophyll}
+\bibitem[7]{feldman2017ocean}
+Feldman, G.~C. (2016).
+\newblock Sea-viewing wide field-of-view sensor (seawifs) ocean color data.
+
+\bibitem[8]{NASASeaFiWSdata}
+NASA Goddard Space Flight~Center, Ocean Ecology~Laboratory, O. B. P.~G. (2014).
+\newblock Sea-viewing wide field-of-view sensor (seawifs) ocean color data.
+
+\bibitem[9]{hu2012chlorophyll}
 Hu, C., Lee, Z., \& Franz, B. (2012).
 \newblock Chlorophyll aalgorithms for oligotrophic oceans: A novel approach
   based on three-band reflectance difference.
 \newblock {\em Journal of Geophysical Research: Oceans}, {\em 117\/}(C1).
-
-\bibitem[8]{hu2001precise}
-Hu, C., Carder, K.~L., \& Muller-Karger, F.~E. (2001).
-\newblock How precise are seawifs ocean color estimates? implications of
-  digitization-noise errors.
-\newblock {\em Remote Sensing of Environment}, {\em 76\/}(2), 239--249.
 
 \end{thebibliography}

@@ -1,64 +1,261 @@
-
-\subsection{Monthly maximum values}
+\subsection{The Annual Variability of Chlorophyll-a Concentration in the East Sea (Sea of Japan)}
  
-Figure \ref{fig:monthly_max}. shows monthly maximum values of chlorophyll-a concentration in the East Sea (Sea of Japan). LAC data was found out to have higher maximum value of chlorophyll-a concentration compared to the GAC data. The differences between the two data were large showing the maximum difference of 80 $\rm mg/m^3$ on June, 2003. The maximum value of the both LAC and the GAC data did not show a temporal tendency.
+The GAC and the LAC data have been used to create monthly-mean chlorophyll-a concentration and its difference from 2003 to 2006 as shown in Figure \ref{fig:diff_2003} - Figure \ref{fig:diff_2006}. The difference between the LAC and GAC data was less than 0.21 $\rm mg/m^3$ for every month, but it was not an small value. It could be inferred that the spatial resolution of a data must be considered more deeply. The maximum value of the difference between the LAC and GAC data was appeared on April, 2004. 
+  
+ Pixel number with a value over 10 $\rm mg/m^3$ is also shown in the Figures. The LAC data was found to have more pixels over 10 $\rm mg/m^3$, compared to the GAC data except on April 2003 and July 2006. The number of pixels did not show a clear tendency. This could mean these data include many speckles or the number of high chlorophyll-a concentration is just not consistent. The GAC data had dates which did not have any pixels over 10 $\rm mg/m^3$. It was on May and June, when the chlorophyll-a concentration is the lowest. 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%   
+%7-1 7--1  7-1  7-1  7-1  
+%Month,YMonth,FileLAC_2003,sumLAC_2003,meanLAC_2003,medianLAC_2003,stdLAC_2003,varLAC_2003,maxLAC_2003,minLAC_2003,totalpixLAC_2003,nanpixLAC_2003,statipixLAC_2003,percentLAC_2003,fileGAC_2003,sumGAC_2003,meanGAC_2003,medianGAC_2003,stdGAC_2003,varGAC_2003,maxGAC_2003,minGAC_2003,totalpixGAC_2003,nanpixGAC_2003,statipixGAC_2003,percentGAC_2003,sumDIFF_2003,meanDIFF_2003,medianDIFF_2003,stdDIFF_2003,varDIFF_2003,maxDIFF_2003,minDIFF_2003,totalpixDIFF_2003,nanpixDIFF_2003,statipixDIFF_2003,percentDIFF_2003,
 
 
- 
+\pgfdeclarelayer{foreground}
+\pgfsetlayers{foreground,main}
 
-
-
-
-\begin{figure}[h]	
-	\begin{tikzpicture}	
+\begin{figure}[h]
+	\begin{pgfonlayer}{foreground}
+		\begin{tikzpicture} [remember picture,overlay]
+		\node at (0.35,3.0) {(a)};
+		\node at (0.35,-1.0) {(b)};
+		\end{tikzpicture}
+	\end{pgfonlayer}
+	
+	\begin{tikzpicture}
 	\begin{axis} [
-	width=1.00\textwidth,   height = 9cm, 
-	major x tick style = transparent,
+	width=1.00\textwidth,%
+	height = 6cm,%
 	xtick = data,%
 	symbolic x coords={Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec},%
-	%grid=major, 
-	scaled y ticks = false,
-	ymin=0, ystep=0.5, %ymax=2,
-	%ymode=log,
-	ybar=4*\pgflinewidth,
-	bar width=1.5pt,
-	ylabel= {Chlorophyll-a concentration (${\rm mg/m^3}$)},%
+	ylabel= {Chlorophyll-a concentration ( ${\rm mg/m^3}$)},%
+	ymin=0,ystep=0.5,ymax=2.0,%
+	scaled y ticks = false,%
 	ymajorgrids = true,
-	%nodes near coords,
-	legend style={at={(0.9,-0.095)}},anchor=south,legend columns=-1]
-	\addplot[style={blue,fill=blue,mark=none}] table [x=Month, y=maxLAC_2003] {./data/mon_over00_year.csv}; \addlegendentry{2003 LAC}
-	\addplot[style={blue,fill=none,mark=none}] table [x=Month, y=maxGAC_2003] {./data/mon_over00_year.csv}; \addlegendentry{2003 GAC}
-	\addplot[style={red,fill=red,mark=none}] table [x=Month, y=maxLAC_2004] {./data/mon_over00_year.csv}; \addlegendentry{2004 LAC}
-	\addplot[style={red,fill=none,mark=none}] table [x=Month, y=maxGAC_2004] {./data/mon_over00_year.csv}; \addlegendentry{2004 GAC}
-	\addplot[style={green,fill=green,mark=none}] table [x=Month, y=maxLAC_2005] {./data/mon_over00_year.csv}; \addlegendentry{2005 LAC}
-	\addplot[style={green,fill=none,mark=none}] table [x=Month, y=maxGAC_2005] {./data/mon_over00_year.csv}; \addlegendentry{2005 GAC}
-	\addplot[style={orange,fill=orange,mark=none}] table [x=Month, y=maxLAC_2006] {./data/mon_over00_year.csv}; \addlegendentry{2006 LAC}
-	\addplot[style={orange,fill=none,mark=none}] table [x=Month, y=maxGAC_2006] {./data/mon_over00_year.csv}; \addlegendentry{2006 GAC}
+	legend style={at={(0.02,10)}},legend pos=north west]%
+	\addplot table [x=Month, y=meanLAC_2003] {./data/mon_over00_year.csv}; \addlegendentry {2003 LAC}%
+	\addplot table [x=Month, y=meanGAC_2003] {./data/mon_over00_year.csv}; \addlegendentry {2003 GAC}%
+	\end{axis}
+	
+	\begin{axis} [
+	width=1.00\textwidth,height=6cm,%
+	axis y line*=right,%
+	xtick=data,%
+	symbolic x coords={Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec},%
+	ylabel={Difference (${\rm mg/m^3}$)},%
+	ystep=0.1,ymax=0.4,ymin=-0.4,%
+	scaled y ticks=false,%
+	legend style={at={(0.02,0.02)}},legend pos=north east]
+	\addplot [smooth,mark=x,black] table [x=Month, y=meanDIFF_2003] {./data/mon_over00_year.csv}; 
+	\addlegendentry {Difference}
 	\end{axis}
 	\end{tikzpicture}
-	\scriptsize\caption{(a) Comparison monthly maximum values of chlorophyll-a concentration between the LAC and GAC data.}
-	\label{fig:monthly_max}
+	
+	\begin{tikzpicture}	
+	\begin{axis} [
+	width=1.00\textwidth,   height = 6cm, 
+	major x tick style = transparent,
+	xtick = data,
+	symbolic x coords={Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec},
+	ybar=4*\pgflinewidth,
+	bar width=8pt,
+	ymajorgrids = true,
+	ylabel= {Number of pixels ( > 10 ${\rm mg/m^3})$},
+	scaled y ticks = false,
+	ymin=0, ystep=1, %ymax=100,
+	ymode=log]
+	%nodes near coords,
+	\addplot[style={blue,fill=blue,mark=none}] table [x=Month, y=statipixLAC_2003] {./data/mon_over10_year.csv}; \addlegendentry{2003 LAC}
+	\addplot[style={red,fill=red,mark=none}] table [x=Month, y=statipixGAC_2003] {./data/mon_over10_year.csv}; \addlegendentry{2003 GAC}
+	\end{axis}
+	\end{tikzpicture}
+	%	\end{pgfonlayer}
+	\scriptsize\caption{(a) monthly mean values of chlorophyll-a concentration in 2003 using LAC (blue line) and GAC (red line) and its differences between the LAC and GAC data and (b) is shown a number of pixels with a vlaue over 10 ${\rm {mg/m^3}}$.}
+	\label{fig:diff_2003}
 \end{figure}
 
 
- \begin{table}[h]%[width=1.0\linewidth]
-	\caption{A frequency of monthly mean of the LAC and GAC data in Apr. 2003}
-	\label{frequency_04apr}
-	\centering
-	\begin{tabular}{c c c c c}%[width=1.0\linewidth]
-		\hline \setlength{\arrayrulewidth}{0.8pt}. 
-		&\multicolumn{2}{c}{LAC} 		&\multicolumn{2}{c}{GAC}\\ \hline
-			& pixel number & sum of concentration & pixel number & sum of concentration \\ \hline
-		0-5	&571512	&832500.36	&534732	&757353.17 \\ \hline
-		5-10	&20240	&129920.50	&23564	&159908.92 \\ \hline
-		10-15	&1121	&13058.07	&3507	&41654.51 \\ \hline
-		15-20	&112	&1890.09	&1037	&17506.49 \\ \hline
-		20-25	&25	&577.76	&112	&2382.42 \\ \hline
-		25-30	&9	&248.71	&34	&935.21 \\ \hline
-		30-35	&2	&61.17	&28	&864.28 \\ \hline 
-		35-40	&1	&37.39	&27	&952.98 \\ \hline
-		40-45	&0	&0	&0	&0 \\ \hline
-		45-50	&1	&47.95	&12	&541.82 \\ \hline
-%		50-55	&0	&0	&0	&0 \\ \hline
-		\end{tabular}
-\end{table}
+
+\pgfdeclarelayer{foreground}
+\pgfsetlayers{foreground,main}
+
+\begin{figure}[h]
+	\begin{pgfonlayer}{foreground}
+		\begin{tikzpicture} [remember picture,overlay]
+		\node at (0.35,3.0) {(a)};
+		\node at (0.35,-1.0) {(b)};
+		\end{tikzpicture}
+	\end{pgfonlayer}
+	
+	\begin{tikzpicture}
+	\begin{axis} [
+	width=1.00\textwidth,%
+	height = 6cm,%
+	xtick = data,%
+	symbolic x coords={Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec},%
+	ylabel= {Chlorophyll-a concentration (${\rm mg/m^3}$)},%
+	ymin=0,	ystep=0.5, 	ymax=2.0,%
+	scaled y ticks = false,%
+	ymajorgrids = true,
+	legend style={at={(0.02,0.02)}},legend pos=north west]%
+	\addplot table [x=Month, y=meanLAC_2004] {./data/mon_over00_year.csv}; \addlegendentry {2004 LAC}%
+	\addplot table [x=Month, y=meanGAC_2004] {./data/mon_over00_year.csv}; \addlegendentry {2004 GAC}%
+	\end{axis}
+	
+	\begin{axis} [
+	width=1.00\textwidth,height = 6cm,%
+	axis y line*=right,
+	xtick = data,%
+	symbolic x coords={Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec},%
+	ylabel= {Difference (${\rm mg/m^3}$)},%
+	ystep=0.1,ymax=0.4,ymin=-0.4,%
+	scaled y ticks = false,%
+	legend style={at={(0.02,0.02)}},legend pos=north east]
+	\addplot [smooth,mark=x,black] table [x=Month, y=meanDIFF_2004] {./data/mon_over00_year.csv}; 
+	\addlegendentry {Difference}
+	\end{axis}
+	\end{tikzpicture}
+	
+	\begin{tikzpicture}	
+	\begin{axis} [
+	width=1.00\textwidth,   height = 6cm, 
+	major x tick style = transparent,
+	xtick = data,
+	symbolic x coords={Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec},
+	ybar=4*\pgflinewidth,
+	bar width=8pt,
+	ymajorgrids = true,
+	ylabel= {Number of pixels ( > 10 ${\rm mg/m^3})$},
+	scaled y ticks = false,
+	ymin=0, ystep=1, %ymax=100,
+	ymode=log]
+	%nodes near coords,
+	\addplot[style={blue,fill=blue,mark=none}] table [x=Month, y=statipixLAC_2004] {./data/mon_over10_year.csv}; \addlegendentry{2004 LAC}
+	\addplot[style={red,fill=red,mark=none}] table [x=Month, y=statipixGAC_2004] {./data/mon_over10_year.csv}; \addlegendentry{2004 GAC}
+	\end{axis}
+	\end{tikzpicture}
+	\scriptsize\caption{(a) monthly mean values of chlorophyll-a concentration in 2004 using LAC (blue line) and GAC (red line) and its differences between the LAC and GAC data and (b) is shown a number of pixels with a vlaue over 10 ${\rm {mg/m^3}}$.}
+	\label{fig:diff_2004}
+\end{figure}
+
+\pgfdeclarelayer{foreground}
+\pgfsetlayers{foreground,main}
+
+\begin{figure}[h]
+	\begin{pgfonlayer}{foreground}
+		\begin{tikzpicture} [remember picture,overlay]
+		\node at (0.35,3.0) {(a)};
+		\node at (0.35,-1.0) {(b)};
+		\end{tikzpicture}
+	\end{pgfonlayer}
+	
+	\begin{tikzpicture}
+	\begin{axis} [
+	width=1.00\textwidth,%
+	height = 6cm,%
+	xtick = data,%
+	symbolic x coords={Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec},%
+	ylabel= {Chlorophyll-a concentration ( ${\rm mg/m^3}$)},%
+	ymin=0,	ystep=0.5, 	ymax=2.0,%
+	scaled y ticks = false,%
+	ymajorgrids = true,%
+	legend style={at={(0.02,0.02)}},legend pos=north west]%
+	\addplot table [x=Month, y=meanLAC_2005] {./data/mon_over00_year.csv}; \addlegendentry {2005 LAC}%
+	\addplot table [x=Month, y=meanGAC_2005] {./data/mon_over00_year.csv}; \addlegendentry {2005 GAC}%
+	\end{axis}
+	
+	\begin{axis} [
+	width=1.00\textwidth,  height = 6cm, 
+	axis y line*=right,
+	xtick = data, 
+	symbolic x coords={Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec}, 
+	ylabel= {Difference (${\rm mg/m^3}$)},
+	ystep=0.1, 	ymax=0.4, 	ymin=-0.4,	
+	scaled y ticks = false,
+	legend style={at={(0.02,0.02)}},legend pos=north east]
+	\addplot [smooth,mark=x,black] table [x=Month, y=meanDIFF_2005] {./data/mon_over00_year.csv}; 
+	\addlegendentry {Difference}
+	\end{axis}
+	\end{tikzpicture}
+	
+	\begin{tikzpicture}	
+	\begin{axis} [
+	width=1.00\textwidth,   height = 6cm, 
+	major x tick style = transparent,
+	xtick = data,
+	symbolic x coords={Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec},
+	ybar=4*\pgflinewidth,
+	bar width=8pt,
+	ymajorgrids = true,
+	ylabel= {Number of pixels ( > 10 ${\rm mg/m^3})$},
+	scaled y ticks = false,
+	ymin=0, ystep=1, %ymax=100,
+	ymode=log]
+	%nodes near coords,
+	\addplot[style={blue,fill=blue,mark=none}] table [x=Month, y=statipixLAC_2005] {./data/mon_over10_year.csv}; \addlegendentry{2005 LAC}
+	\addplot[style={red,fill=red,mark=none}] table [x=Month, y=statipixGAC_2005] {./data/mon_over10_year.csv}; \addlegendentry{2005 GAC}
+	\end{axis}
+	\end{tikzpicture}
+	\scriptsize\caption{(a) monthly mean values of chlorophyll-a concentration in 2005 using LAC (blue line) and GAC (red line) and its differences between the LAC and GAC data and (b) is shown a number of pixels with a vlaue over 10 ${\rm {mg/m^3}}$.}
+	\label{fig:diff_2005}
+\end{figure}
+
+\pgfdeclarelayer{foreground}
+\pgfsetlayers{foreground,main}
+
+\begin{figure}[h]
+	\begin{pgfonlayer}{foreground}
+		\begin{tikzpicture} [remember picture,overlay]
+		\node at (0.35,3.0) {(a)};
+		\node at (0.35,-1.0) {(b)};
+		\end{tikzpicture}
+	\end{pgfonlayer}
+	
+	\begin{tikzpicture}
+	\begin{axis} [
+	width=1.00\textwidth,%
+	height = 6cm,%
+	xtick = data,%
+	symbolic x coords={Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec},%
+	ylabel= {Chlorophyll-a concentration ( ${\rm mg/m^3}$)},%
+	ymin=0,	ystep=0.5, 	ymax=2.0,%
+	scaled y ticks = false,%
+	ymajorgrids = true, 
+	legend style={at={(0.02,0.02)}},legend pos=north west]%
+	\addplot table [x=Month, y=meanLAC_2006] {./data/mon_over00_year.csv}; \addlegendentry {2006 LAC}%
+	\addplot table [x=Month, y=meanGAC_2006] {./data/mon_over00_year.csv}; \addlegendentry {2006 GAC}%
+	\end{axis}
+	
+	\begin{axis} [
+	width=1.00\textwidth,  height = 6cm, 
+	axis y line*=right,
+	xtick = data, 
+	symbolic x coords={Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec}, 
+	ylabel= {Difference (${\rm mg/m^3}$)},
+	ystep=0.1, 	ymax=0.4, 	ymin=-0.4,	
+	scaled y ticks = false,
+	legend style={at={(0.02,0.02)}},legend pos=north east]
+	\addplot [smooth,mark=x,black] table [x=Month, y=meanDIFF_2006] {./data/mon_over00_year.csv}; 
+	\addlegendentry {Difference}
+	\end{axis}
+	\end{tikzpicture}
+	
+	\begin{tikzpicture}	
+	\begin{axis} [
+	width=1.00\textwidth,   height = 6cm, 
+	major x tick style = transparent,
+	xtick = data,
+	symbolic x coords={Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec},
+	ybar=4*\pgflinewidth,
+	bar width=8pt,
+	ymajorgrids = true,
+	ylabel= {\sffamily\scriptsize Number of pixels ( > 10 ${\rm mg/m^3})$},
+	scaled y ticks = false,
+	ymin=0, ystep=1, %ymax=100,
+	ymode=log]
+	%nodes near coords,
+	\addplot[style={blue,fill=blue,mark=none}] table [x=Month, y=statipixLAC_2006] {./data/mon_over10_year.csv}; \addlegendentry{2006 LAC}
+	\addplot[style={red,fill=red,mark=none}] table [x=Month, y=statipixGAC_2006] {./data/mon_over10_year.csv}; \addlegendentry{2006 GAC}
+	\end{axis}
+	\end{tikzpicture}
+	\scriptsize\caption{(a) monthly mean values of chlorophyll-a concentration in 2006 using LAC (blue line) and GAC (red line) and its differences between the LAC and GAC data and (b) is shown a number of pixels with a vlaue over 10 ${\rm {mg/m^3}}$.}
+	\label{fig:diff_2006}
+\end{figure}

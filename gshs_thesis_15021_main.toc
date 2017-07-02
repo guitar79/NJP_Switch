@@ -9,8 +9,20 @@
 \contentsline {subsection}{\numberline {2.2}SeaWiFS data and Study period}{4}
 \contentsline {subsection}{\numberline {2.3}Deriving Chlorophyll-a Concentration using LAC data and GAC data}{6}
 \contentsline {section}{\numberline {3}Results}{8}
+<<<<<<< HEAD
 \contentsline {subsection}{\numberline {3.1}Calculation of the Monthly mean of Chlorophyll-a Concentration in the East Sea (Sea of Japan)}{8}
 \contentsline {subsection}{\numberline {3.2}The Annual Variability of Chlorophyll-a Concentration in the East Sea (Sea of Japan)}{9}
 \contentsline {subsection}{\numberline {3.3}The Effect of Spatial Resolution on the Data}{10}
 \contentsline {section}{\numberline {4}Results}{11}
 \contentsline {subsection}{\numberline {4.1}Calculation of the Monthly mean of Chlorophyll-a Concentration in the East Sea (Sea of Japan)}{11}
+=======
+\contentsline {subsection}{\numberline {3.1}Level-3 data of Chlorophyll-a Concentration in the East Sea (Sea of Japan).}{8}
+\contentsline {subsection}{\numberline {3.2}Analysis the monthly mean of Chlorophyll-a Concentration in the East Sea (Sea of Japan)}{16}
+\contentsline {subsection}{\numberline {3.3}The Annual Variability of Chlorophyll-a Concentration in the East Sea (Sea of Japan)}{17}
+\contentsline {subsection}{\numberline {3.4}Maximum values of the monthly mean chlorophyll-a concentration.}{22}
+\contentsline {subsection}{\numberline {3.5}TEST12}{23}
+\contentsline {section}{\numberline {4}Discussion}{24}
+\contentsline {section}{References}{25}
+\contentsline {section}{감사의 글}{26}
+\contentsline {section}{연구활동}{27}
+>>>>>>> a8e83f77b798df4d4d580c560733f21c1ae3bf4d

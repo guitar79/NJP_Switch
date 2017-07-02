@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/W32TeX) (preloaded format=xelatex 2017.3.16)  21 JUN 2017 12:55
+=======
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2017.5.29)  1 JUL 2017 19:41
+>>>>>>> a8e83f77b798df4d4d580c560733f21c1ae3bf4d
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -31,7 +35,11 @@ File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
+<<<<<<< HEAD
 (c:/texlive/2016/texmf-dist/tex/latex/geometry/geometry.sty
+=======
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+>>>>>>> a8e83f77b798df4d4d580c560733f21c1ae3bf4d
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
 (c:/texlive/2016/texmf-dist/tex/latex/graphics/keyval.sty
@@ -188,7 +196,11 @@ Package tocbibind Info: The document has section divisions on input line 50.
 
 Package tocbibind Note: Using section or other style headings.
 
+<<<<<<< HEAD
 ) (c:/texlive/2016/texmf-dist/tex/latex/titlesec/titlesec.sty
+=======
+) (/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
+>>>>>>> a8e83f77b798df4d4d580c560733f21c1ae3bf4d
 Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 \ttl@box=\box28
 \beforetitleunit=\skip55
@@ -747,12 +759,24 @@ LaTeX Info: Redefining \- on input line 3707.
 . 
 . Defining command \addhangulfontfeature with sig. 'm' on line 305.
 .................................................
+<<<<<<< HEAD
+=======
+)
+(/usr/share/texlive/texmf-dist/tex/xetex/xetexko/xetexko-vertical.sty
+Package: xetexko-vertical 2016/02/01 v2.14 Vertical environment for XeTeX-ko
+\verticalem=\dimen171
+)
+(/usr/share/texlive/texmf-dist/tex/latex/cjk-ko/kolabels-utf.sty
+Package: kolabels-utf 2015/03/20 v1.5 UTF-8 Hangul item labels
+))
+>>>>>>> a8e83f77b798df4d4d580c560733f21c1ae3bf4d
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
 . Defining command \addhanjafontfeature with sig. 'm' on line 326.
 .................................................
 .................................................
+<<<<<<< HEAD
 . LaTeX info: "xparse/define-command"
 . 
 . Defining command \defaulthangulfontfeatures with sig. 't+om' on line 345.
@@ -797,6 +821,8 @@ Package: kolabels-utf 2015/03/20 v1.5 UTF-8 Hangul item labels
 ))
 \g__fontspec_family_TimesNewRoman_int=\count158
 .................................................
+=======
+>>>>>>> a8e83f77b798df4d4d580c560733f21c1ae3bf4d
 . fontspec info: "defining-font"
 . 
 . Font family 'TimesNewRoman(0)' created for font 'Times New Roman' with
@@ -805,6 +831,7 @@ Package: kolabels-utf 2015/03/20 v1.5 UTF-8 Hangul item labels
 .  This font family consists of the following NFSS series/shapes:
 .  
 . - 'normal' (m/n) with NFSS spec.: <->"Times New
+<<<<<<< HEAD
 . Roman/OT:script=latn;language=DFLT;mapping=tex-text;"
 . - 'small caps'  (m/sc) with NFSS spec.: <->"Times New
 . Roman/OT:script=latn;language=DFLT;+smcp;mapping=tex-text;"
@@ -843,12 +870,26 @@ LaTeX Info: Redefining \rmfamily on input line 415.
 . 
 . Could not resolve font "Batang/BI" (it probably doesn't exist).
 .................................................
+=======
+. Roman/OT:mapping=tex-text;mapping=tex-text;"
+. - 'small caps'  (m/sc) with NFSS spec.: - 'bold' (bx/n) with NFSS spec.:
+. <->"Times New Roman/B/OT:mapping=tex-text;mapping=tex-text;"
+. - 'bold small caps'  (bx/sc) with NFSS spec.: - 'italic' (m/it) with NFSS
+. spec.: <->"Times New Roman/I/OT:mapping=tex-text;mapping=tex-text;"
+. - 'italic small caps'  (m/itsc) with NFSS spec.: - 'bold italic' (bx/it)
+. with NFSS spec.: <->"Times New
+. Roman/BI/OT:mapping=tex-text;mapping=tex-text;"
+. - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
+.................................................
+\g__fontspec_family_NanumMyeongjo_int=\count148
+>>>>>>> a8e83f77b798df4d4d580c560733f21c1ae3bf4d
 .................................................
 . fontspec info: "defining-font"
 . 
-. Font family 'Batang(0)' created for font 'Batang' with options
+. Font family 'NanumMyeongjo(0)' created for font 'NanumMyeongjo' with options
 . [Ligatures=TeX,BoldFont={*},BoldFeatures={FakeBold},ItalicFont={*},ItalicFeat
 ures={FakeSlant}].
+<<<<<<< HEAD
 .  
 .  This font family consists of the following NFSS series/shapes:
 .  
@@ -863,6 +904,25 @@ ures={FakeSlant}].
 .................................................
 )
 (c:/texlive/2016/texmf-dist/tex/latex/tools/verbatim.sty
+=======
+. 
+. This font family consists of the following NFSS series/shapes:
+. - 'normal' (m/n) with NFSS spec.:
+. <->"NanumMyeongjo/OT:script=latn;language=DFLT;mapping=tex-text;"
+. - 'small caps'  (m/sc) with NFSS spec.: - 'bold' (bx/n) with NFSS spec.:
+. <->"NanumMyeongjo/OT:script=latn;language=DFLT;mapping=tex-text;embolden=1.5;
+"
+. - 'bold small caps'  (bx/sc) with NFSS spec.: - 'italic' (m/it) with NFSS
+. spec.:
+. <->"NanumMyeongjo/OT:script=latn;language=DFLT;mapping=tex-text;slant=0.2;"
+. - 'italic small caps'  (m/itsc) with NFSS spec.: - 'bold italic' (bx/it)
+. with NFSS spec.:
+. <->"NanumMyeongjo/B/OT:script=latn;language=DFLT;mapping=tex-text;"
+. - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
+.................................................
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
+>>>>>>> a8e83f77b798df4d4d580c560733f21c1ae3bf4d
 Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks25
 \verbatim@line=\toks26
@@ -1144,6 +1204,7 @@ brarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
 ))) (c:/texlive/2016/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
+<<<<<<< HEAD
 \c@float@type=\count180
 \float@exts=\toks39
 \float@box=\box58
@@ -1151,11 +1212,22 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@floatcapt=\box59
 ) (c:/texlive/2016/texmf-dist/tex/latex/tools/tabularx.sty
 Package: tabularx 2016/02/03 v2.11 `tabularx' package (DPC)
+=======
+\c@float@type=\count169
+\float@exts=\toks41
+\float@box=\box57
+\@float@everytoks=\toks42
+\@floatcapt=\box58
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2014/10/28 v2.10 `tabularx' package (DPC)
+>>>>>>> a8e83f77b798df4d4d580c560733f21c1ae3bf4d
 \TX@col@width=\dimen274
 \TX@old@table=\dimen275
 \TX@old@col=\dimen276
 \TX@target=\dimen277
 \TX@delta=\dimen278
+<<<<<<< HEAD
 \TX@cols=\count181
 \TX@ftn=\toks41
 )
@@ -1168,6 +1240,16 @@ Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
 )
 (c:/texlive/2016/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2016/04/27 v1.618033 publication quality tables
+=======
+\TX@cols=\count170
+\TX@ftn=\toks43
+)
+(/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
+\bigstrutjot=\dimen279
+)
+(/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2005/04/14 v1.61803 publication quality tables
+>>>>>>> a8e83f77b798df4d4d580c560733f21c1ae3bf4d
 \heavyrulewidth=\dimen280
 \lightrulewidth=\dimen281
 \cmidrulewidth=\dimen282
@@ -1178,6 +1260,7 @@ Package: booktabs 2016/04/27 v1.618033 publication quality tables
 \cmidrulesep=\dimen287
 \cmidrulekern=\dimen288
 \defaultaddspace=\dimen289
+<<<<<<< HEAD
 \@cmidla=\count183
 \@cmidlb=\count184
 \@aboverulesep=\dimen290
@@ -1203,6 +1286,54 @@ Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
 \c@LT@tables=\count190
 \c@LT@chunks=\count191
 \LT@p@ftn=\toks42
+=======
+\@cmidla=\count171
+\@cmidlb=\count172
+\@aboverulesep=\dimen290
+\@belowrulesep=\dimen291
+\@thisruleclass=\count173
+\@lastruleclass=\count174
+\@thisrulewidth=\dimen292
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip99
+\LTright=\skip100
+\LTpre=\skip101
+\LTpost=\skip102
+\LTchunksize=\count175
+\LTcapwidth=\dimen293
+\LT@head=\box59
+\LT@firsthead=\box60
+\LT@foot=\box61
+\LT@lastfoot=\box62
+\LT@cols=\count176
+\LT@rows=\count177
+\c@LT@tables=\count178
+\c@LT@chunks=\count179
+\LT@p@ftn=\toks44
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgfplots/pgfplots.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
+Package: pgfplots 2016/01/06 v1.13 Data Visualization (1.13)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex
+\t@pgfplots@toka=\toks45
+\t@pgfplots@tokb=\toks46
+\t@pgfplots@tokc=\toks47
+\pgfplots@tmpa=\dimen294
+\c@pgfplots@coordindex=\count180
+\c@pgfplots@scanlineindex=\count181
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code
+.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/pgfplotslibrary.code.t
+ex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldp
+gfsupp_loader.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex
+>>>>>>> a8e83f77b798df4d4d580c560733f21c1ae3bf4d
 )
 (c:/texlive/2016/texmf-dist/tex/latex/pgfplots/pgfplots.sty
 (c:/texlive/2016/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
@@ -1226,6 +1357,7 @@ upp_loader.code.tex
 (c:/texlive/2016/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex)
 Package pgfplots: loading complementary arithmetics for your pgf version...
 
+<<<<<<< HEAD
 (c:/texlive/2016/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfs
 upp_pgflibraryfpu.code.tex)
 (c:/texlive/2016/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfs
@@ -1264,6 +1396,47 @@ ding.pgfsys-xetex.def
 (c:/texlive/2016/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surfsha
 ding.pgfsys-dvipdfmx.def
 \c@pgfplotslibrarysurf@streamlen=\count198
+=======
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldp
+gfsupp_pgflibraryfpu.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldp
+gfsupp_pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count182
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotslists
+tructure.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotslists
+tructureext.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsarray
+.code.tex
+\c@pgfplotsarray@tmp=\count183
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsmatri
+x.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstableshare
+d.code.tex
+\c@pgfplotstable@counta=\count184
+\t@pgfplotstable@a=\toks48
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsdeque
+.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.code.te
+x
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.data.co
+de.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.verb.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.sur
+fshading.code.tex
+\c@pgfplotslibrarysurf@no=\count185
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surf
+shading.pgfsys-xetex.def
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surf
+shading.pgfsys-dvipdfmx.def
+\c@pgfplotslibrarysurf@streamlen=\count186
+>>>>>>> a8e83f77b798df4d4d580c560733f21c1ae3bf4d
 ))))
 (c:/texlive/2016/texmf-dist/tex/generic/pgfplots/util/pgfplotscolormap.code.tex
 (c:/texlive/2016/texmf-dist/tex/generic/pgfplots/util/pgfplotscolor.code.tex))
@@ -1284,11 +1457,30 @@ ex)
 brarydecorations.code.tex
 (c:/texlive/2016/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.code.t
 ex
+<<<<<<< HEAD
+=======
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplothandler.cod
+e.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplotimage.code.
+tex)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.scaling.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotscoordprocessing.cod
+e.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.errorbars.code.tex
+) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.markers.code.tex
+) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsticks.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.paths.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarydecorations.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.cod
+e.tex
+>>>>>>> a8e83f77b798df4d4d580c560733f21c1ae3bf4d
 \pgfdecoratedcompleteddistance=\dimen295
 \pgfdecoratedremainingdistance=\dimen296
 \pgfdecoratedinputsegmentcompleteddistance=\dimen297
 \pgfdecoratedinputsegmentremainingdistance=\dimen298
 \pgf@decorate@distancetomove=\dimen299
+<<<<<<< HEAD
 \pgf@decorate@repeatstate=\count199
 \pgfdecorationsegmentamplitude=\dimen300
 \pgfdecorationsegmentlength=\dimen301
@@ -1304,6 +1496,23 @@ brarydecorations.pathreplacing.code.tex
 (c:/texlive/2016/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydec
 orations.pathreplacing.code.tex))
 \pgfplots@numplots=\count266
+=======
+\pgf@decorate@repeatstate=\count187
+\pgfdecorationsegmentamplitude=\dimen300
+\pgfdecorationsegmentlength=\dimen301
+)
+\tikz@lib@dec@box=\box63
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarydecorations.pathmorphing.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrary
+decorations.pathmorphing.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarydecorations.pathreplacing.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrary
+decorations.pathreplacing.code.tex))
+\pgfplots@numplots=\count188
+>>>>>>> a8e83f77b798df4d4d580c560733f21c1ae3bf4d
 \pgfplots@xmin@reg=\dimen302
 \pgfplots@xmax@reg=\dimen303
 \pgfplots@ymin@reg=\dimen304
@@ -1370,6 +1579,7 @@ File: tikzlibraryshapes.multipart.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1
 ultipart.code.tex
 File: pgflibraryshapes.multipart.code.tex 2010/01/07 v3.0.1a (rcs-revision 1.2)
 
+<<<<<<< HEAD
 \pgfnodepartlowerbox=\box65
 \pgfnodeparttwobox=\box66
 \pgfnodepartthreebox=\box67
@@ -1410,6 +1620,48 @@ File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 \c@lstnumber=\count273
 \lst@skipnumbers=\count274
 \lst@framebox=\box86
+=======
+\pgfnodepartlowerbox=\box64
+\pgfnodeparttwobox=\box65
+\pgfnodepartthreebox=\box66
+\pgfnodepartfourbox=\box67
+\pgfnodeparttwentybox=\box68
+\pgfnodepartnineteenbox=\box69
+\pgfnodeparteighteenbox=\box70
+\pgfnodepartseventeenbox=\box71
+\pgfnodepartsixteenbox=\box72
+\pgfnodepartfifteenbox=\box73
+\pgfnodepartfourteenbox=\box74
+\pgfnodepartthirteenbox=\box75
+\pgfnodeparttwelvebox=\box76
+\pgfnodepartelevenbox=\box77
+\pgfnodeparttenbox=\box78
+\pgfnodepartninebox=\box79
+\pgfnodeparteightbox=\box80
+\pgfnodepartsevenbox=\box81
+\pgfnodepartsixbox=\box82
+\pgfnodepartfivebox=\box83
+)))
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count189
+\lst@gtempboxa=\box84
+\lst@token=\toks49
+\lst@length=\count190
+\lst@currlwidth=\dimen308
+\lst@column=\count191
+\lst@pos=\count192
+\lst@lostspace=\dimen309
+\lst@width=\dimen310
+\lst@newlines=\count193
+\lst@lineno=\count194
+\lst@maxwidth=\dimen311
+
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+\c@lstnumber=\count195
+\lst@skipnumbers=\count196
+\lst@framebox=\box85
+>>>>>>> a8e83f77b798df4d4d580c560733f21c1ae3bf4d
 )
 (c:/texlive/2016/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2015/06/04 1.6 listings configuration
@@ -1455,6 +1707,7 @@ Package pdftexcmds Info: \pdfdraftmode not found.
 (c:/texlive/2016/texmf-dist/tex/latex/makecell/makecell.sty
 Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
 \rotheadsize=\dimen312
+<<<<<<< HEAD
 \c@nlinenum=\count275
 \TeXr@lab=\toks48
 ))
@@ -1500,8 +1753,16 @@ LaTeX Warning: Label `fig:annualmon' multiply defined.
 
 LaTeX Warning: Label `fig:annualmon' multiply defined.
 
+=======
+\c@nlinenum=\count197
+\TeXr@lab=\toks50
+))
+(./gshs_thesis_15021_main.aux (./sub/abstract.aux) (./sub/introduction.aux)
+(./sub/methodology.aux) (./sub/result1.aux) (./sub/result2.aux)
+(./sub/result3.aux) (./sub/result4.aux) (./sub/test12.aux
+>>>>>>> a8e83f77b798df4d4d580c560733f21c1ae3bf4d
 
-LaTeX Warning: Label `fig:annualmon' multiply defined.
+LaTeX Warning: Label `fig:diff_2003' multiply defined.
 
 ) (./sub/conclusion.aux) (./sub/footer.aux))
 \openout1 = `gshs_thesis_15021_main.aux'.
@@ -1559,7 +1820,11 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: longtable package is loaded.
+<<<<<<< HEAD
 (c:/texlive/2016/texmf-dist/tex/latex/caption/ltcaption.sty
+=======
+(/usr/share/texlive/texmf-dist/tex/latex/caption/ltcaption.sty
+>>>>>>> a8e83f77b798df4d4d580c560733f21c1ae3bf4d
 Package: ltcaption 2013/06/09 v1.4-94 longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
@@ -1568,7 +1833,11 @@ Package caption Info: End \AtBeginDocument code.
 . 
 . Font "NanumGothic" does not contain any OpenType `Script' information.
 .................................................
+<<<<<<< HEAD
 \g__fontspec_family_NanumGothic_int=\count276
+=======
+\g__fontspec_family_NanumGothic_int=\count198
+>>>>>>> a8e83f77b798df4d4d580c560733f21c1ae3bf4d
 .................................................
 . fontspec info: "no-font-shape"
 . 
@@ -1579,6 +1848,7 @@ Package caption Info: End \AtBeginDocument code.
 . 
 . Font family 'NanumGothic(0)' created for font 'NanumGothic' with options
 . [Ligatures=TeX,Renderer={OpenType}].
+<<<<<<< HEAD
 .  
 .  This font family consists of the following NFSS series/shapes:
 .  
@@ -1588,6 +1858,15 @@ Package caption Info: End \AtBeginDocument code.
 . - 'bold small caps'  (bx/sc) with NFSS spec.: 
 . - 'bold italic' (bx/it) with NFSS spec.:
 . <->"NanumGothic/BI/OT:mapping=tex-text;"
+=======
+. 
+. This font family consists of the following NFSS series/shapes:
+. - 'normal' (m/n) with NFSS spec.: <->"NanumGothic/OT:mapping=tex-text;"
+. - 'small caps'  (m/sc) with NFSS spec.: - 'bold' (bx/n) with NFSS spec.:
+. <->"NanumGothic/B/OT:mapping=tex-text;"
+. - 'bold small caps'  (bx/sc) with NFSS spec.: - 'bold italic' (bx/it) with
+. NFSS spec.: <->"NanumGothic/BI/OT:mapping=tex-text;"
+>>>>>>> a8e83f77b798df4d4d580c560733f21c1ae3bf4d
 . - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
 .................................................
 .................................................
@@ -1597,6 +1876,7 @@ Package caption Info: End \AtBeginDocument code.
 .................................................
 \symmathhangul=\mathgroup8
 LaTeX Font Info:    Overwriting symbol font `mathhangul' in version `bold'
+<<<<<<< HEAD
 (Font)                  TU/Batang(0)/m/n --> TU/Batang(0)/bx/n on input line 19
 .
 
@@ -1605,18 +1885,36 @@ Package pgfplots notification 'compat/show suggested version=true': document ha
 s been generated with the most recent feature set (\pgfplotsset{compat=1.14}).
 
 \c@lstlisting=\count277
+=======
+(Font)                  EU1/NanumMyeongjo(0)/m/n --> EU1/NanumMyeongjo(0)/bx/n 
+on input line 19.
+
+ABD: EveryShipout initializing macros
+Package pgfplots notification 'compat/show suggested version=true': document ha
+s been generated with the most recent feature set (\pgfplotsset{compat=1.13}).
+
+\c@lstlisting=\count199
+>>>>>>> a8e83f77b798df4d4d580c560733f21c1ae3bf4d
 \openout2 = `sub/abstract.aux'.
 
 (./sub/abstract.tex
 LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 1.
 
+<<<<<<< HEAD
  (c:/texlive/2016/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
+=======
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
+>>>>>>> a8e83f77b798df4d4d580c560733f21c1ae3bf4d
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
 LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 1.
 
+<<<<<<< HEAD
 
 (c:/texlive/2016/texmf-dist/tex/latex/psnfss/omlztmcm.fd
+=======
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlztmcm.fd
+>>>>>>> a8e83f77b798df4d4d580c560733f21c1ae3bf4d
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
 LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 1.
@@ -1645,6 +1943,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
  [1
 
 
+<<<<<<< HEAD
 
 
 ] [2]
@@ -3782,10 +4081,224 @@ NOTE: coordinate (Sep,22794.67173,-0.925785581,-0.206387847,-4.945769757,-79.07
 ords=jump). 
 
 Overfull \hbox (2.41309pt too wide) in paragraph at lines 166--167
+=======
+
+
+] [2]
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
+ [3] [4]
+[1] [2] (./gshs_thesis_15021_main.toc)
+\tf@toc=\write4
+\openout4 = `gshs_thesis_15021_main.toc'.
+
+ [3
+
+] (./gshs_thesis_15021_main.lot)
+\tf@lot=\write5
+\openout5 = `gshs_thesis_15021_main.lot'.
+
+
+[4
+
+
+] (./gshs_thesis_15021_main.lof
+Overfull \hbox (6.75784pt too wide) in paragraph at lines 2--2
+ [][] []\EU1/TimesNewRoman(0)/m/n/10.95 The monthly-mean chlorophyll-a distribu
+tion in the East Sea (Sea of Japan), 
+ []
+
+
+Overfull \hbox (6.75784pt too wide) in paragraph at lines 3--3
+ [][] []\EU1/TimesNewRoman(0)/m/n/10.95 The monthly-mean chlorophyll-a distribu
+tion in the East Sea (Sea of Japan), 
+ []
+
+
+Overfull \hbox (6.75784pt too wide) in paragraph at lines 4--4
+ [][] []\EU1/TimesNewRoman(0)/m/n/10.95 The monthly-mean chlorophyll-a distribu
+tion in the East Sea (Sea of Japan), 
+ []
+
+
+Overfull \hbox (6.75784pt too wide) in paragraph at lines 5--5
+ [][] []\EU1/TimesNewRoman(0)/m/n/10.95 The monthly-mean chlorophyll-a distribu
+tion in the East Sea (Sea of Japan), 
+ []
+
+
+Overfull \hbox (6.75784pt too wide) in paragraph at lines 6--6
+ [][] []\EU1/TimesNewRoman(0)/m/n/10.95 The monthly-mean chlorophyll-a distribu
+tion in the East Sea (Sea of Japan), 
+ []
+
+
+Overfull \hbox (6.75784pt too wide) in paragraph at lines 7--7
+ [][] []\EU1/TimesNewRoman(0)/m/n/10.95 The monthly-mean chlorophyll-a distribu
+tion in the East Sea (Sea of Japan), 
+ []
+
+[5
+
+
+])
+\tf@lof=\write6
+\openout6 = `gshs_thesis_15021_main.lof'.
+
+ [6])
+\openout2 = `sub/introduction.aux'.
+
+ (./sub/introduction.tex [1
+
+
+
+
+
+
+]) [2]
+\openout2 = `sub/methodology.aux'.
+
+ (./sub/methodology.tex
+File: images/Map_of_Research_Area.pdf Graphic file (type QTm)
+
+<use  "images/Map_of_Research_Area.pdf" > [3
+
+
+] [4]
+Overfull \hbox (12.27512pt too wide) in paragraph at lines 71--72
+\EU1/TimesNewRoman(0)/m/n/10.95 from the NASA Goddard Space Flight Center (GSFC
+) Distributed Active Archive Center (DAAC).
+ []
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 76.
+
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 116--117
+
+ []
+
+[6]) [7]
+\openout2 = `sub/result1.aux'.
+
+ (./sub/result1.tex
+Overfull \hbox (0.7259pt too wide) in paragraph at lines 10--11
+[]\EU1/TimesNewRoman(0)/m/n/10.95 High chlorophyll-a concentration was observed
+ at Wonsan, Vladivostok, and Pohang. Won-
+ []
+
+File: images/monLAC01.pdf Graphic file (type QTm)
+<use  "images/monLAC01.pdf" > [8
+
+
+]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: images/monLAC02.pdf Graphic file (type QTm)
+<use  "images/monLAC02.pdf" >
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: images/monLAC03.pdf Graphic file (type QTm)
+<use  "images/monLAC03.pdf" >
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: images/monGAC01.pdf Graphic file (type QTm)
+<use  "images/monGAC01.pdf" >
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: images/monGAC02.pdf Graphic file (type QTm)
+<use  "images/monGAC02.pdf" >
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: images/monGAC03.pdf Graphic file (type QTm)
+<use  "images/monGAC03.pdf" >
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [9] [10] [11] [12] [13] [14] [15]
+\openout2 = `sub/result2.aux'.
+
+ (./sub/result2.tex
+\pgf@layerbox@foreground=\box86
+\pgf@layerboxsaved@foreground=\box87
+Package pgfplots info on input line 29: Using 'lua backend=false' for axis: x c
+oord trafo unsupported.
+PGFPlots: reading {./data/mon_over00_year.csv}
+PGFPlots: reading {./data/mon_over00_year.csv}
+PGFPlots: reading {./data/mon_over00_year.csv}
+PGFPlots: reading {./data/mon_over00_year.csv}
+Package pgfplots info on input line 46: Using 'lua backend=false' for axis: x c
+oord trafo unsupported.
+PGFPlots: reading {./data/mon_over00_year.csv}
+PGFPlots: reading {./data/mon_over00_year.csv}
+PGFPlots: reading {./data/mon_over00_year.csv}
+PGFPlots: reading {./data/mon_over00_year.csv}
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--54
+[][]
+ []
+
+) [16
+
+
+]
+\openout2 = `sub/result3.aux'.
+
+ (./sub/result3.tex
+Package pgfplots info on input line 33: Using 'lua backend=false' for axis: x c
+oord trafo unsupported.
+PGFPlots: reading {./data/mon_over00_year.csv}
+PGFPlots: reading {./data/mon_over00_year.csv}
+Package pgfplots info on input line 46: Using 'lua backend=false' for axis: x c
+oord trafo unsupported.
+PGFPlots: reading {./data/mon_over00_year.csv}
+
+Overfull \hbox (29.47902pt too wide) in paragraph at lines 50--51
 [][] 
  []
 
 
+Package pgfplots Warning: Ignoring illegal input argument ymin=0: cannot apply 
+log. on input line 64.
+
+ [warning /pgfplots/warning/illegal user argument in log axis]
+Package pgfplots info on input line 64: Using 'lua backend=false' for axis: ymo
+de=log unsupported (yet).
+Package pgfplots info on input line 64: Using 'lua backend=false' for axis: x c
+oord trafo unsupported.
+PGFPlots: reading {./data/mon_over10_year.csv}
+PGFPlots: reading {./data/mon_over10_year.csv}
+NOTE: coordinate (May,0) has been dropped because it is unbounded (in y). (see 
+also unbounded coords=jump). 
+NOTE: coordinate (Jun,0) has been dropped because it is unbounded (in y). (see 
+also unbounded coords=jump). 
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+Package pgfplots info on input line 98: Using 'lua backend=false' for axis: x c
+oord trafo unsupported.
+PGFPlots: reading {./data/mon_over00_year.csv}
+PGFPlots: reading {./data/mon_over00_year.csv}
+Package pgfplots info on input line 111: Using 'lua backend=false' for axis: x 
+coord trafo unsupported.
+PGFPlots: reading {./data/mon_over00_year.csv}
+
+Overfull \hbox (29.47902pt too wide) in paragraph at lines 115--116
+>>>>>>> a8e83f77b798df4d4d580c560733f21c1ae3bf4d
+[][] 
+ []
+
+
+<<<<<<< HEAD
 ! LaTeX Error: Not in outer par mode.
 
 See the LaTeX manual or LaTeX Companion for explanation.
@@ -4351,10 +4864,150 @@ NOTE: coordinate (Aug,0,-15339) has been dropped because it is unbounded (in y)
 . (see also unbounded coords=jump). 
 )
 \openout2 = `sub/conclusion.aux'.
+=======
+Package pgfplots Warning: Ignoring illegal input argument ymin=0: cannot apply 
+log. on input line 129.
+
+ [warning /pgfplots/warning/illegal user argument in log axis]
+Package pgfplots info on input line 129: Using 'lua backend=false' for axis: ym
+ode=log unsupported (yet).
+Package pgfplots info on input line 129: Using 'lua backend=false' for axis: x 
+coord trafo unsupported.
+PGFPlots: reading {./data/mon_over10_year.csv}
+PGFPlots: reading {./data/mon_over10_year.csv}
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+Package pgfplots info on input line 160: Using 'lua backend=false' for axis: x 
+coord trafo unsupported.
+PGFPlots: reading {./data/mon_over00_year.csv}
+PGFPlots: reading {./data/mon_over00_year.csv}
+Package pgfplots info on input line 173: Using 'lua backend=false' for axis: x 
+coord trafo unsupported.
+PGFPlots: reading {./data/mon_over00_year.csv}
+
+Overfull \hbox (29.47902pt too wide) in paragraph at lines 177--178
+[][] 
+ []
+
+
+Package pgfplots Warning: Ignoring illegal input argument ymin=0: cannot apply 
+log. on input line 191.
+
+ [warning /pgfplots/warning/illegal user argument in log axis]
+Package pgfplots info on input line 191: Using 'lua backend=false' for axis: ym
+ode=log unsupported (yet).
+Package pgfplots info on input line 191: Using 'lua backend=false' for axis: x 
+coord trafo unsupported.
+PGFPlots: reading {./data/mon_over10_year.csv}
+PGFPlots: reading {./data/mon_over10_year.csv}
+NOTE: coordinate (May,0) has been dropped because it is unbounded (in y). (see 
+also unbounded coords=jump). 
+NOTE: coordinate (Jun,0) has been dropped because it is unbounded (in y). (see 
+also unbounded coords=jump). 
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+Package pgfplots info on input line 222: Using 'lua backend=false' for axis: x 
+coord trafo unsupported.
+PGFPlots: reading {./data/mon_over00_year.csv}
+PGFPlots: reading {./data/mon_over00_year.csv}
+Package pgfplots info on input line 235: Using 'lua backend=false' for axis: x 
+coord trafo unsupported.
+PGFPlots: reading {./data/mon_over00_year.csv}
+
+Overfull \hbox (29.47902pt too wide) in paragraph at lines 239--240
+[][] 
+ []
+
+
+Package pgfplots Warning: Ignoring illegal input argument ymin=0: cannot apply 
+log. on input line 253.
+
+ [warning /pgfplots/warning/illegal user argument in log axis]
+Package pgfplots info on input line 253: Using 'lua backend=false' for axis: ym
+ode=log unsupported (yet).
+Package pgfplots info on input line 253: Using 'lua backend=false' for axis: x 
+coord trafo unsupported.
+PGFPlots: reading {./data/mon_over10_year.csv}
+PGFPlots: reading {./data/mon_over10_year.csv}
+NOTE: coordinate (Jun,0) has been dropped because it is unbounded (in y). (see 
+also unbounded coords=jump). 
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [17
+
+
+] [18] [19] [20] [21]
+\openout2 = `sub/result4.aux'.
+
+ (./sub/result4.tex
+Overfull \hbox (5.64862pt too wide) in paragraph at lines 2--2
+|[]\EU1/TimesNewRoman(0)/bx/n/16 Maximum values of the monthly mean chlorophyll
+-a con-
+ []
+
+Package pgfplots info on input line 22: Using 'lua backend=false' for axis: x c
+oord trafo unsupported.
+PGFPlots: reading {./data/mon_over00_year.csv}
+PGFPlots: reading {./data/mon_over00_year.csv}
+PGFPlots: reading {./data/mon_over00_year.csv}
+PGFPlots: reading {./data/mon_over00_year.csv}
+PGFPlots: reading {./data/mon_over00_year.csv}
+PGFPlots: reading {./data/mon_over00_year.csv}
+PGFPlots: reading {./data/mon_over00_year.csv}
+PGFPlots: reading {./data/mon_over00_year.csv}
+) [22
+
+
+]
+\openout2 = `sub/test12.aux'.
+
+ (./sub/test12.tex
+Package pgfplots info on input line 21: Using 'lua backend=false' for axis: x c
+oord trafo unsupported.
+PGFPlots: reading {./data/mon_over00_year.csv}
+PGFPlots: reading {./data/mon_over00_year.csv}
+Package pgfplots info on input line 34: Using 'lua backend=false' for axis: x c
+oord trafo unsupported.
+PGFPlots: reading {./data/mon_over00_year.csv}
+
+Overfull \hbox (29.47902pt too wide) in paragraph at lines 38--39
+[][] 
+ []
+
+
+Package pgfplots Warning: Ignoring illegal input argument ymin=0: cannot apply 
+log. on input line 52.
+
+ [warning /pgfplots/warning/illegal user argument in log axis]
+Package pgfplots info on input line 52: Using 'lua backend=false' for axis: ymo
+de=log unsupported (yet).
+Package pgfplots info on input line 52: Using 'lua backend=false' for axis: x c
+oord trafo unsupported.
+PGFPlots: reading {./data/mon_over10_year.csv}
+PGFPlots: reading {./data/mon_over10_year.csv}
+NOTE: coordinate (May,0) has been dropped because it is unbounded (in y). (see 
+also unbounded coords=jump). 
+NOTE: coordinate (Jun,0) has been dropped because it is unbounded (in y). (see 
+also unbounded coords=jump). 
+) [23
+
+
+]
+\openout2 = `sub/conclusion.aux'.
+
+ (./sub/conclusion.tex) [24
+
+
+] (./gshs_thesis_15021_main.bbl) [25
+>>>>>>> a8e83f77b798df4d4d580c560733f21c1ae3bf4d
 
  (./sub/conclusion.tex) (./gshs_thesis_15021_main.bbl)
 \openout2 = `sub/footer.aux'.
 
+<<<<<<< HEAD
  (./sub/footer.tex)
 
 ! LaTeX Error: \begin{figure} on input line 672 ended by \end{document}.
@@ -4368,14 +5021,22 @@ l.68 \end{document}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
+=======
 
-(./gshs_thesis_15021_main.aux (./sub/abstract.aux) (./sub/introduction.aux)
-(./sub/methodology.aux) (./sub/body1.aux) (./sub/test6.aux)
+(./sub/footer.tex [26
+>>>>>>> a8e83f77b798df4d4d580c560733f21c1ae3bf4d
+
+] [27]) (./gshs_thesis_15021_main.aux (./sub/abstract.aux) (./sub/introduction.
+aux) (./sub/methodology.aux) (./sub/result1.aux)
+(./sub/result2.aux) (./sub/result3.aux) (./sub/result4.aux) (./sub/test12.aux)
 (./sub/conclusion.aux) (./sub/footer.aux))
 
+<<<<<<< HEAD
 LaTeX Warning: There were undefined references.
 
 
+=======
+>>>>>>> a8e83f77b798df4d4d580c560733f21c1ae3bf4d
 LaTeX Warning: There were multiply-defined labels.
 
 ! You can't use `\end' in internal vertical mode.
@@ -4420,6 +5081,7 @@ my insertion and my current dilemma will both disappear.
 
  
 Here is how much of TeX's memory you used:
+<<<<<<< HEAD
  41943 strings out of 493068
  975287 string characters out of 6138948
  1700966 words of memory out of 5000000
@@ -4428,3 +5090,14 @@ Here is how much of TeX's memory you used:
  1347 hyphenation exceptions out of 8191
  74i,19n,122p,10530b,2478s stack positions out of 5000i,500n,10000p,200000b,80000s
 Output written on gshs_thesis_15021_main.pdf (25 pages).
+=======
+ 45090 strings out of 493638
+ 1014420 string characters out of 6146796
+ 1334114 words of memory out of 5000000
+ 47730 multiletter control sequences out of 15000+600000
+ 26498 words of font info for 125 fonts, out of 8000000 for 9000
+ 1328 hyphenation exceptions out of 8191
+ 62i,18n,110p,10553b,2356s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on gshs_thesis_15021_main.pdf (37 pages).
+>>>>>>> a8e83f77b798df4d4d580c560733f21c1ae3bf4d
