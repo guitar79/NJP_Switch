@@ -1,0 +1,64 @@
+
+\subsection{Monthly maximum vlaues}
+ 
+Figure \ref{fig:monthly_max}. shows monthly maximum values of Chlorophyll-a Concentration in the East Sea (Sea of Japan). 
+대부분의 경우에 the LAC 자료로 구한 값이 GAC 자료로 구한 값 보다 월등히 크게 나타났다. 
+
+ 
+Figure \ref{fig:monthly_max}. shows monthly maximum values of chlorophyll-a concentration in the East Sea (Sea of Japan). LAC data was found out to have higher maximum value of chlorophyll-a concentration compared to the GAC data. The differences between the two data were large showing the maximum difference of 80 $\rm mg/m^3$ on June, 2003. The maximum value of the both LAC and the GAC data did not show a temporal tendency.
+
+
+
+\begin{figure}[h]	
+	\begin{tikzpicture}	
+	\begin{axis} [
+	width=1.00\textwidth,   height = 9cm, 
+	major x tick style = transparent,
+	xtick = data,%
+	symbolic x coords={Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec},%
+	%grid=major, 
+	scaled y ticks = false,
+	ymin=0, ystep=0.5, %ymax=2,
+	%ymode=log,
+	ybar=4*\pgflinewidth,
+	bar width=1.5pt,
+	ylabel= {Chlorophyll-a concentration (${\rm mg/m^3}$)},%
+	ymajorgrids = true,
+	%nodes near coords,
+	legend style={at={(0.9,-0.095)}},anchor=south,legend columns=-1]
+	\addplot[style={blue,fill=blue,mark=none}] table [x=Month, y=maxLAC_2003] {./data/mon_over00_year.csv}; \addlegendentry{2003 LAC}
+	\addplot[style={blue,fill=none,mark=none}] table [x=Month, y=maxGAC_2003] {./data/mon_over00_year.csv}; \addlegendentry{2003 GAC}
+	\addplot[style={red,fill=red,mark=none}] table [x=Month, y=maxLAC_2004] {./data/mon_over00_year.csv}; \addlegendentry{2004 LAC}
+	\addplot[style={red,fill=none,mark=none}] table [x=Month, y=maxGAC_2004] {./data/mon_over00_year.csv}; \addlegendentry{2004 GAC}
+	\addplot[style={green,fill=green,mark=none}] table [x=Month, y=maxLAC_2005] {./data/mon_over00_year.csv}; \addlegendentry{2005 LAC}
+	\addplot[style={green,fill=none,mark=none}] table [x=Month, y=maxGAC_2005] {./data/mon_over00_year.csv}; \addlegendentry{2005 GAC}
+	\addplot[style={orange,fill=orange,mark=none}] table [x=Month, y=maxLAC_2006] {./data/mon_over00_year.csv}; \addlegendentry{2006 LAC}
+	\addplot[style={orange,fill=none,mark=none}] table [x=Month, y=maxGAC_2006] {./data/mon_over00_year.csv}; \addlegendentry{2006 GAC}
+	\end{axis}
+	\end{tikzpicture}
+	\scriptsize\caption{(a) Comparison monthly maximum values of chlorophyll-a concentration between the LAC and GAC data.}
+	\label{fig:monthly_max}
+\end{figure}
+
+
+ \begin{table}[h]%[width=1.0\linewidth]
+	\caption{A frequency of monthly mean of the LAC and GAC data in Apr. 2004}
+	\label{frequency_04apr}
+	\centering
+	\begin{tabular}{c c c c c}%[width=1.0\linewidth]
+		\hline \setlength{\arrayrulewidth}{0.8pt}. 
+		&\multicolumn{2}{c}{LAC} 		&\multicolumn{2}{c}{GAC}\\ \hline
+			& pixel number & sum of consentration & pixel number & sum of consentration \\ \hline
+		0-5	&571512	&832500.36	&534732	&757353.17 \\ \hline
+		5-10	&20240	&129920.50	&23564	&159908.92 \\ \hline
+		10-15	&1121	&13058.07	&3507	&41654.51 \\ \hline
+		15-20	&112	&1890.09	&1037	&17506.49 \\ \hline
+		20-25	&25	&577.76	&112	&2382.42 \\ \hline
+		25-30	&9	&248.71	&34	&935.21 \\ \hline
+		30-35	&2	&61.17	&28	&864.28 \\ \hline 
+		35-40	&1	&37.39	&27	&952.98 \\ \hline
+		40-45	&0	&0	&0	&0 \\ \hline
+		45-50	&1	&47.95	&12	&541.82 \\ \hline
+%		50-55	&0	&0	&0	&0 \\ \hline
+		\end{tabular}
+\end{table}
