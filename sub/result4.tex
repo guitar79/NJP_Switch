@@ -1,7 +1,7 @@
 
-\subsection{Maximum values of the monthly mean chlorophyll-a concentration.}
+\subsection{Maximum monthly mean values of chlorophyll-a concentration.}
  
-Figure \ref{fig:monthly_max}. shows the maximum values of monthly mean chlorophyll-a concentration in the East Sea (Sea of Japan). It shows that the LAC data have higher maximum value in the monthly mean chlorophyll-a concentration compared to the GAC data. The maximum value of the differences between the LAC and GAC data were 80 $\rm mg/m^3$ on June, 2003. The maximum values of the both LAC and the GAC data did not have a temporal tendency.
+Figure \ref{fig:monthly_max} shows the maximum values of monthly mean chlorophyll-a concentration in the East Sea. It shows that the LAC data have higher maximum value in the monthly mean chlorophyll-a concentration compared to the GAC data. The maximum value of the differences between the LAC and GAC data was 80 $\rm mg~m^{-3}$ on June, 2003. The maximum values of both the LAC and GAC data did not show a strong realtionship with the seasons.
 
 \begin{figure}[h]	
 	\begin{tikzpicture}	
@@ -16,7 +16,7 @@ Figure \ref{fig:monthly_max}. shows the maximum values of monthly mean chlorophy
 	%ymode=log,
 	ybar=4*\pgflinewidth,
 	bar width=1.5pt,
-	ylabel= {Chlorophyll-a concentration (${\rm mg/m^3}$)},%
+	ylabel= {Chlorophyll-a concentration ($\rm mg~m^{-3}$)},%
 	ymajorgrids = true,
 	%nodes near coords,
 	legend style={at={(0.9,-0.095)}},anchor=south,legend columns=-1]
@@ -30,7 +30,7 @@ Figure \ref{fig:monthly_max}. shows the maximum values of monthly mean chlorophy
 	\addplot[style={orange,fill=none,mark=none}] table [x=Month, y=maxGAC_2006] {./data/mon_over00_year.csv}; \addlegendentry{2006 GAC}
 	\end{axis}
 	\end{tikzpicture}
-	\scriptsize\caption{(a) Comparison monthly maximum values of chlorophyll-a concentration between the LAC and GAC data.}
+	\scriptsize\caption{Comparison monthly maximum values of chlorophyll-a concentration between the LAC and GAC data.}
 	\label{fig:monthly_max}
 \end{figure}
 

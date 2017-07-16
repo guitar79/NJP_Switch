@@ -1,22 +1,28 @@
-\begin{thebibliography}{99}
+\begin{thebibliography}{10}
 
-\bibitem[1]{kyung2013characteristics}
+\bibitem[1]{Algae}
+Mann, K.~H., \& Lazier, J.~R. (2013).
+\newblock {\em Dynamics of marine ecosystems: biological-physical interactions
+  in the oceans}.
+\newblock John Wiley & Sons.
+
+\bibitem[2]{kyung2013characteristics}
 Kyung-Ae~Park, Hwa-Jeong~Chae, J.-E.~P. (2013).
 \newblock Characteristics of satellite chlorophyll-a concentration speckles and
   a removal method in a composite process in the east/japan sea.
 \newblock {\em International Journal of Remote Sensing}, {\em 34\/}(13),
   635--651.
 
-\bibitem[2]{hooker1992An}
+\bibitem[3]{hooker1992An}
 Hooker, S.~B., W. E. E. G. C. F. W. W.~G., \& McClain, C.~R. (1992).
 \newblock {\em An Overview of SeaWiFS and Ocean Color}.
 
-\bibitem[3]{kimhc2016surface}
+\bibitem[4]{kimhc2016surface}
 Kim, H.-c. (2006).
 \newblock (a) study of surface chlorophyll variation in the korean east sea
   using ocean color remote sensing data.
 
-\bibitem[4]{o2000ocean}
+\bibitem[5]{o2000ocean}
 O’Reilly, J.~E., Maritorena, S., Siegel, D.~A., O’Brien, M.~C., Toole, D.,
   Mitchell, B.~G., .~.~. et~al. (2000).
 \newblock Ocean color chlorophyll a algorithms for seawifs, oc2, and oc4:
@@ -24,31 +30,43 @@ O’Reilly, J.~E., Maritorena, S., Siegel, D.~A., O’Brien, M.~C., Toole, D.,
 \newblock {\em SeaWiFS postlaunch calibration and validation analyses, Part},
   {\em 3}, 9--23.
 
-\bibitem[5]{yamada2004seasonal}
+\bibitem[6]{yamada2004seasonal}
 Yamada, K., Ishizaka, J., Yoo, S., Kim, H.-c., \& Chiba, S. (2004).
 \newblock Seasonal and interannual variability of sea surface chlorophyll a
   concentration in the japan/east sea (jes).
 \newblock {\em Progress in oceanography}, {\em 61\/}(2), 193--211.
 
-\bibitem[6]{chae2009characteristics}
+\bibitem[7]{chae2009characteristics}
 Chae, H.-J., \& Park, K. (2009).
 \newblock Characteristics of speckle errors of seawifs chlorophyll-$\alpha$
   concentration in the east sea.
 \newblock {\em Journal of the Korean earth science society}, {\em 30\/}(2),
   234--246.
 
-\bibitem[7]{feldman2017ocean}
+\bibitem[8]{Seawifsres}
+Stanford B.~Hooker, W. E.~E. (1993).
+\newblock An overview of the seawifs project.
+\newblock {\em Eos, Transactions American Geophysical Union}, {\em 74\/}(21),
+  241--246.
+
+\bibitem[9]{feldman2017ocean}
 Feldman, G.~C. (2016).
 \newblock Sea-viewing wide field-of-view sensor (seawifs) ocean color data.
 
-\bibitem[8]{NASASeaFiWSdata}
+\bibitem[10]{NASASeaFiWSdata}
 NASA Goddard Space Flight~Center, Ocean Ecology~Laboratory, O. B. P.~G. (2014).
 \newblock Sea-viewing wide field-of-view sensor (seawifs) ocean color data.
 
-\bibitem[9]{hu2012chlorophyll}
+\bibitem[11]{hu2012chlorophyll}
 Hu, C., Lee, Z., \& Franz, B. (2012).
 \newblock Chlorophyll aalgorithms for oligotrophic oceans: A novel approach
   based on three-band reflectance difference.
 \newblock {\em Journal of Geophysical Research: Oceans}, {\em 117\/}(C1).
+
+\bibitem[12]{park2012comparison}
+Park, K.-A., Park, J.-E., Lee, M.-S., \& Kang, C.-K. (2012).
+\newblock Comparison of composite methods of satellite chlorophyll-a
+  concentration data in the east sea.
+\newblock {\em Korean Journal of Remote Sensing}, {\em 28\/}(6), 635--651.
 
 \end{thebibliography}
