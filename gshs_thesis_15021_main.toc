@@ -10,10 +10,10 @@
 \contentsline {subsection}{\numberline {2.3}Deriving chlorophyll-a concentration using LAC data and GAC data}{6}
 \contentsline {section}{\numberline {3}Results}{8}
 \contentsline {subsection}{\numberline {3.1}Level-3 data of chlorophyll-a concentration in the East Sea}{8}
-\contentsline {subsection}{\numberline {3.2}Analysis the monthly mean of chlorophyll-a concentration in the East Sea}{16}
-\contentsline {subsection}{\numberline {3.3}The annual variability of chlorophyll-a concentration in the East Sea}{17}
-\contentsline {subsection}{\numberline {3.4}Maximum monthly mean values of chlorophyll-a concentration.}{22}
-\contentsline {section}{\numberline {4}Discussion}{23}
-\contentsline {section}{References}{24}
-\contentsline {section}{감사의 글}{26}
-\contentsline {section}{연구활동}{27}
+\contentsline {subsection}{\numberline {3.2}Analysis the monthly mean of chlorophyll-a concentration in the East Sea}{15}
+\contentsline {subsection}{\numberline {3.3}The annual variability of chlorophyll-a concentration in the East Sea}{16}
+\contentsline {subsection}{\numberline {3.4}Maximum monthly mean values of chlorophyll-a concentration.}{21}
+\contentsline {section}{\numberline {4}Discussion}{22}
+\contentsline {section}{References}{23}
+\contentsline {section}{감사의 글}{25}
+\contentsline {section}{연구활동}{26}
