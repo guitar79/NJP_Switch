@@ -1,25 +1,28 @@
 
 \subsection{Maximum monthly mean values of chlorophyll-a concentration.}
  
-Figure \ref{fig:monthly_max} shows the maximum values of monthly mean chlorophyll-a concentration in the East Sea. It shows that the LAC data have higher maximum value in the monthly mean chlorophyll-a concentration compared to the GAC data. The maximum value of the differences between the LAC and GAC data was 80 $\rm mg~m^{-3}$ on June, 2003. The maximum values of both the LAC and GAC data did not show a strong realtionship with the seasons.
+Figure \ref{fig:monthly_max} shows the maximum values of monthly mean chlorophyll-a concentration in the East Sea. It shows that the LAC data have higher maximum value in the monthly mean chlorophyll-a concentration compared to the GAC data. The maximum value of the differences between the LAC and GAC data was 80 $\rm mg~m^{-3}$ on June, 2003. The maximum values of both the LAC and GAC data did not show a strong relationship with the seasons.
+
+
 
 \begin{figure}[h]	
 	\begin{tikzpicture}	
 	\begin{axis} [
-	width=1.00\textwidth,   height = 9cm, 
+	width=1.00\textwidth,   height = 10cm, 
 	major x tick style = transparent,
 	xtick = data,%
 	symbolic x coords={Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec},%
 	%grid=major, 
 	scaled y ticks = false,
-	ymin=0, ystep=0.5, %ymax=2,
+	ymin=0, ystep=0.5, ymax=120,
 	%ymode=log,
 	ybar=4*\pgflinewidth,
 	bar width=1.5pt,
 	ylabel= {Chlorophyll-a concentration ($\rm mg~m^{-3}$)},%
 	ymajorgrids = true,
 	%nodes near coords,
-	legend style={at={(0.9,-0.095)}},anchor=south,legend columns=-1]
+%	legend style={at={(0.9,-0.095)}, text width=2em},anchor=south,legend columns=-1]
+	legend style={text width=2.5em},legend columns=-1]
 	\addplot[style={blue,fill=blue,mark=none}] table [x=Month, y=maxLAC_2003] {./data/mon_over00_year.csv}; \addlegendentry{2003 LAC}
 	\addplot[style={blue,fill=none,mark=none}] table [x=Month, y=maxGAC_2003] {./data/mon_over00_year.csv}; \addlegendentry{2003 GAC}
 	\addplot[style={red,fill=red,mark=none}] table [x=Month, y=maxLAC_2004] {./data/mon_over00_year.csv}; \addlegendentry{2004 LAC}

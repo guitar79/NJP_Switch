@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/W32TeX) (preloaded format=xelatex 2017.6.4)  20 JUL 2017 12:46
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/W32TeX) (preloaded format=xelatex 2017.6.4)  22 JUL 2017 19:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1172,6 +1172,9 @@ Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
 \c@LT@chunks=\count191
 \LT@p@ftn=\toks42
 )
+(c:/texlive/2016/texmf-dist/tex/latex/was/gensymb.sty
+Package: gensymb 2003/07/02 v1.0 (WaS)
+)
 (c:/texlive/2016/texmf-dist/tex/latex/pgfplots/pgfplots.sty
 (c:/texlive/2016/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
 Package: pgfplots 2016/08/10 v1.14 Data Visualization (1.14)
@@ -1527,6 +1530,18 @@ LaTeX Font Info:    Overwriting symbol font `mathhangul' in version `bold'
  input line 19.
 
 ABD: EveryShipout initializing macros
+LaTeX Info: Redefining \celsius on input line 19.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 19.
+
+
+
+Package gensymb Warning: Not defining \perthousand.
+
+LaTeX Info: Redefining \ohm on input line 19.
+Package gensymb Info: Using \upOmega for \ohm on input line 19.
+
+Package gensymb Warning: Not defining \micro.
+
 Package pgfplots notification 'compat/show suggested version=true': document ha
 s been generated with the most recent feature set (\pgfplotsset{compat=1.14}).
 
@@ -1623,18 +1638,18 @@ File: images/Map_of_Research_Area.pdf Graphic file (type QTm)
 
 ]
 [4] [5]
-Underfull \hbox (badness 10000) in paragraph at lines 115--116
+Underfull \hbox (badness 10000) in paragraph at lines 119--120
 
  []
 
 
-Overfull \hbox (13.9727pt too wide) in paragraph at lines 120--121
+Overfull \hbox (13.9727pt too wide) in paragraph at lines 124--125
 \TU/TimesNewRoman(0)/m/n/10.95 NASA SeaDAS (SeaWiFS Data Analysis System) is us
 ed to process the level-2 data of chlorophyll-
  []
 
 
-Overfull \hbox (0.35085pt too wide) in paragraph at lines 120--121
+Overfull \hbox (0.35085pt too wide) in paragraph at lines 124--125
 \TU/TimesNewRoman(0)/m/n/10.95 a to level-3 data of monthly-mean and 8-day-mean
  of chlorophyll-a concentration data. Monthly
  []
@@ -1827,7 +1842,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 \openout2 = `sub/result4.aux'.
 
  (./sub/result4.tex
-Package pgfplots info on input line 22: Using 'lua backend=false' for axis: x c
+Package pgfplots info on input line 25: Using 'lua backend=false' for axis: x c
 oord trafo unsupported.
 PGFPlots: reading {./data/mon_over00_year.csv}
 PGFPlots: reading {./data/mon_over00_year.csv}
@@ -1847,37 +1862,23 @@ PGFPlots: reading {./data/mon_over00_year.csv}
 [22
 
 
-] (./gshs_thesis_15021_main.bbl
-! Misplaced alignment tab character &.
-l.7 \newblock John Wiley &
-                           Sons.
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-[23
+] (./gshs_thesis_15021_main.bbl [23
 
 ]) [24]
 \openout2 = `sub/footer.aux'.
 
  (./sub/footer.tex [25
 
-] [26]) (./gshs_thesis_15021_main.aux
-(./sub/abstract.aux) (./sub/introduction.aux) (./sub/methodology.aux)
-(./sub/result1.aux) (./sub/result2.aux) (./sub/result3.aux) (./sub/result4.aux)
-(./sub/conclusion.aux) (./sub/footer.aux))
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+] [26])
+(./gshs_thesis_15021_main.aux (./sub/abstract.aux) (./sub/introduction.aux)
+(./sub/methodology.aux) (./sub/result1.aux) (./sub/result2.aux)
+(./sub/result3.aux) (./sub/result4.aux) (./sub/conclusion.aux)
+(./sub/footer.aux)) ) 
 Here is how much of TeX's memory you used:
- 41891 strings out of 493068
- 976351 string characters out of 6138949
- 1365182 words of memory out of 5000000
- 45077 multiletter control sequences out of 15000+600000
+ 41932 strings out of 493068
+ 976902 string characters out of 6138949
+ 1364286 words of memory out of 5000000
+ 45114 multiletter control sequences out of 15000+600000
  25890 words of font info for 123 fonts, out of 8000000 for 9000
  1347 hyphenation exceptions out of 8191
  74i,18n,122p,10555b,2385s stack positions out of 5000i,500n,10000p,200000b,80000s
