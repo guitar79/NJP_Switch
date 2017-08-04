@@ -4,11 +4,11 @@
 
 The East Sea was chosen in order to calculate chlorophyll-a concentration using the ocean color data. The study area is shown in Figure \ref{fig:Map_of_Research_Area} as 34$\rm^{\circ}N$ - 44$\rm^{\circ}N$, 127$\rm^{\circ}E$ - 135$\rm^{\circ}E$ which covers the whole East Sea near Korea. 
 %%# The sea south from Korea - The southern sea of Korea 어느 표현이 맞을지 생각해 보자
-The sea south from Korea and the Yellow Sea has been excluded in the study area are because it is difficult to calculate the chlorophyll-a concentration using the ocean color algorithm due to its shallow depth. 
+The southern sea of Korea and the Yellow Sea has been excluded in the study area are because it is difficult to calculate the chlorophyll-a concentration using the ocean color algorithm due to its shallow depth. 
 
 The depth of the East Sea is rapidly increase from the east coast. Also, the East has a surface area of about 978,000 $\rm km^2$, a mean depth of 1,752 $\rm m $ and a maximum depth of 3,742 $\rm m$. The terrains under the East Sea near Korean Peninsula is complex and the area of the continental shelf is steep.
 
-\begin{figure}[h]
+\begin{figure}[b!]
 
 	\centering
 {\includegraphics[width=0.95\textwidth]	{Map_of_Research_Area} }
@@ -25,7 +25,7 @@ The depth of the East Sea is rapidly increase from the east coast. Also, the Eas
 
 This research used SeaWiFS ocean color data to derive chlorophyll-a concentration since SeaWiFS is a satellite designed to collect global ocean biological data. However, it was not able to obtain recent measurements since SeaWiFS had only activated from September 1997 to December 2010. {Table \ref{table01}} shows the mission characteristics of SeaWiFS and Table \ref{table02} shows the characteristics of the SeaWiFS ocean color sensor \cite{hooker1992An}.
 
- \begin{table}[h!]
+ \begin{table}[b!]
  	\caption{The mission characteristics of SeaWiFS}
  	\label{table01}
  	\centering
@@ -45,7 +45,7 @@ This research used SeaWiFS ocean color data to derive chlorophyll-a concentratio
  	\end{tabular}
  \end{table}
 
- \begin{table}[h!]%[width=1.0\linewidth]
+ \begin{table}[b!]%[width=1.0\linewidth]
 	\caption{Characteristics of the SeaWiFS ocean color sensor}
 	\label{table02}
 	\centering
@@ -70,7 +70,7 @@ This research used SeaWiFS ocean color data to derive chlorophyll-a concentratio
 
 The Ocean Biology Processing Group (OBPG) collects and processes data from Earth-viewing satellites. These data are organized in various ways reflecting different spatial, temporal, and parameter groupings. Level-0 is unprocessed data from remote sensing instruments at a full resolution. Level-1 data is obtained through radiometric and geometric calibration. Level-2 data is made of geophysical variables processed from level-1 data using developed algorithms. Level-3 data are derived geophysical variables that have been aggregated onto a well-defined over a well-defined time period and projected onto a well-defined spatial grid. These kinds of Level-3 data are useful for sensing temporal distribution of chlorophyll-a at a specific location \cite{feldman2017ocean}. In this research, chlorophyll-a concentration is the geophyscial variable chosen to process.
 
-The SeaWiFS Level-2 Ocean Color chlorophyll-a Data Version 2014 can be downloaded from the National Aeronautics and Space Administration (NASA) Goddard Space Flight Center (GSFC) Distributed Active Archive Center (DAAC). Processing Level-1 data to Level-2 data was conducted by NASA OBPG \cite{NASASeaFiWSdata}. OBPG used two algorithms to create chlorophyll-a concentration data from the Level-1 data of remote sensing reflectance ($\rm R_{rs}$); these algorithms are the OCx band ratio algorithm and the color index (CI) algorithm of Hu et al.\cite{hu2012chlorophyll}. 
+The SeaWiFS Level-2 ocean color chlorophyll-a data version 2014 can be downloaded from the National Aeronautics and Space Administration (NASA) Goddard Space Flight Center (GSFC) Distributed Active Archive Center (DAAC). Processing Level-1 data to Level-2 data was conducted by NASA OBPG \cite{NASASeaFiWSdata}. OBPG used two algorithms to create chlorophyll-a concentration data from the Level-1 data of remote sensing reflectance ($\rm R_{rs}$); these algorithms are the OCx band ratio algorithm and the color index (CI) algorithm of Hu et al.\cite{hu2012chlorophyll}. 
 
 The OCx band ratio algorithm use the ratio of two bands in a fourth-order polynomial equation in a relation with chlorophyll-a. It can be expressed as \eqref{eq:001}.
  
@@ -91,7 +91,7 @@ The CI algorithm uses three bands and can be expressed as \eqref{eq:002}.
 The $\rm {\lambda}_{blue}$, $\rm {\lambda}_{green}$, $\rm {\lambda}_{red}$ are wavelengths closest to 443 $\rm nm$, 555 $\rm nm$ and 670 $\rm nm$, different for each sensor. According to Hu et al, for the lower concentration of chlorophyll-a (less than 0.25 $\rm mg~m^{-3}$), it is more accurate to use CI algorithm \cite{hu2012chlorophyll}. The NASA SeaDAS software uses CI algorithm for chlorophyll retrievals below 0.15 $\rm mg~m^{-3}$, and OCx band ratio algorithm for retrievals above 0.2 $\rm mg~m^{-3}$. For the concentration between 0.15 $\rm mg~m^{-3}$ and 0.2 $\rm mg~m^{-3}$, it blends both algorithm \cite{NASASeaFiWSdata}.
 
 
-The level-2 GAC data of the East sea can be obtained from 1997 to 2010 but the level-2 LAC data can be obtained only from 2003 to 2006. Only a few LAC data files of the East Sea are available after 2007. That is why the study period was set from 2003 to 2006. The information of on used data is shown in Table \ref{data_information}.
+The level-2 GAC data of the East sea can be obtained from 1997 to 2010 but the level-2 LAC data can be obtained only from 2003 to 2006. Only few LAC data files of the East Sea are available after 2007. That is why the study period was set from 2003 to 2006. The information of on used data is shown in Table \ref{data_information}.
 
 
  \begin{table}[h]

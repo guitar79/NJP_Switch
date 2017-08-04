@@ -1,8 +1,8 @@
 \subsection{The annual variability of chlorophyll-a concentration in the East Sea}
  
-The GAC and the LAC data have been used to create monthly mean chlorophyll-a concentration and its difference from 2003 to 2006 as shown in Figure \ref{fig:diff_2003} - \ref{fig:diff_2006}. The difference between the LAC and GAC data was less than 0.21 $\rm mg~m^{-3}$ for every month and it was not a small value. It could be inferred that the spatial resolution of a data must be considered more deeply. The maximum difference between the LAC and GAC data appeared on April, 2004. 
+LAC data and GAC data have been used to create monthly mean chlorophyll-a concentration and its difference from 2003 to 2006 as shown in Figure \ref{fig:diff_2003} - \ref{fig:diff_2006}. The difference between the LAC and the GAC data was less than 0.21 $\rm mg~m^{-3}$ for every month and it was not a small value. It could be inferred that the spatial resolution of a data must be considered more deeply. The maximum difference between the LAC and the GAC data appeared on April, 2004. 
   
- The number of pixels with a value over 10 $\rm mg~m^{-3}$ is also shown in the Figures. It was discovered that the LAC data had more pixels over 10 $\rm mg~m^{-3}$, compared to the GAC data except on April 2003 and July 2006. The number of pixels did not show a clear tendency. This could mean these data include many speckles or the number of high chlorophyll-a concentration is just not consistent. The GAC data had dates which did not have any pixels over 10 $\rm mg~m^{-3}$. It was in May and June, when the chlorophyll-a concentration decreased. 
+ The number of pixels with a value over 10 $\rm mg~m^{-3}$ is also shown in the Figures. It was discovered that LAC data had more pixels over 10 $\rm mg~m^{-3}$, compared to GAC data except on April 2003 and July 2006. The number of pixels did not show a clear tendency. This could mean these data include many speckles or the number of high chlorophyll-a concentration is just not consistent. GAC data had dates which did not have any pixels over 10 $\rm mg~m^{-3}$. It was in May and June, when the chlorophyll-a concentration decreased. 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%   
 %7-1 7--1  7-1  7-1  7-1  
@@ -23,7 +23,7 @@ The GAC and the LAC data have been used to create monthly mean chlorophyll-a con
 	\begin{tikzpicture}
 	\begin{axis} [
 	width=1.00\textwidth,%
-	height = 6cm,%
+	height = 8cm,%
 	xtick = data,%
 	symbolic x coords={Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec},%
 	ylabel= {Chlorophyll-a concentration ( $\rm mg~m^{-3}$)},%
@@ -36,7 +36,7 @@ The GAC and the LAC data have been used to create monthly mean chlorophyll-a con
 	\end{axis}
 	
 	\begin{axis} [
-	width=1.00\textwidth,height=6cm,%
+	width=1.00\textwidth,height = 8cm,%
 	axis y line*=right,%
 	xtick=data,%
 	symbolic x coords={Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec},%
@@ -51,14 +51,14 @@ The GAC and the LAC data have been used to create monthly mean chlorophyll-a con
 	
 	\begin{tikzpicture}	
 	\begin{axis} [
-	width=1.00\textwidth,   height = 6cm, 
+	width=1.00\textwidth,   height = 8cm, 
 	major x tick style = transparent,
 	xtick = data,
 	symbolic x coords={Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec},
 	ybar=4*\pgflinewidth,
 	bar width=8pt,
 	ymajorgrids = true,
-	ylabel= {Number of pixels ( > 10 $\rm mg~m^{-3}$},
+	ylabel= {Number of pixels ( > 10 $\rm mg~m^{-3})$},
 	scaled y ticks = false,
 	ymin=0, ystep=1, %ymax=100,
 	ymode=log]
@@ -68,7 +68,7 @@ The GAC and the LAC data have been used to create monthly mean chlorophyll-a con
 	\end{axis}
 	\end{tikzpicture}
 	%	\end{pgfonlayer}
-	\scriptsize\caption{Variation of monthly mean values of (a) chlorophyll-a concentration in 2003 using LAC (blue line) and GAC (red line) and its differences between the LAC and GAC data and (b) the number of pixels with a value over 10 $\rm mg~m^{-3}$.}
+	\scriptsize\caption{Variation of monthly mean values of (a) chlorophyll-a concentration in 2003 using the LAC data (blue line) and the GAC data (red line) and its differences between the LAC and the GAC data and (b) the number of pixels with a value over 10 $\rm mg~m^{-3}$.}
 	\label{fig:diff_2003}
 \end{figure}
 
@@ -87,7 +87,7 @@ The GAC and the LAC data have been used to create monthly mean chlorophyll-a con
 	\begin{tikzpicture}
 	\begin{axis} [
 	width=1.00\textwidth,%
-	height = 6cm,%
+	height = 8cm,%
 	xtick = data,%
 	symbolic x coords={Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec},%
 	ylabel= {Chlorophyll-a concentration ($\rm mg~m^{-3}$)},%
@@ -100,7 +100,7 @@ The GAC and the LAC data have been used to create monthly mean chlorophyll-a con
 	\end{axis}
 	
 	\begin{axis} [
-	width=1.00\textwidth,height = 6cm,%
+	width=1.00\textwidth,height = 8cm,%
 	axis y line*=right,
 	xtick = data,%
 	symbolic x coords={Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec},%
@@ -115,14 +115,14 @@ The GAC and the LAC data have been used to create monthly mean chlorophyll-a con
 	
 	\begin{tikzpicture}	
 	\begin{axis} [
-	width=1.00\textwidth,   height = 6cm, 
+	width=1.00\textwidth,   height = 8cm, 
 	major x tick style = transparent,
 	xtick = data,
 	symbolic x coords={Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec},
 	ybar=4*\pgflinewidth,
 	bar width=8pt,
 	ymajorgrids = true,
-	ylabel= {Number of pixels ( > 10 $\rm mg~m^{-3}$},
+	ylabel= {Number of pixels ( > 10 $\rm mg~m^{-3})$},
 	scaled y ticks = false,
 	ymin=0, ystep=1, %ymax=100,
 	ymode=log]
@@ -131,7 +131,7 @@ The GAC and the LAC data have been used to create monthly mean chlorophyll-a con
 	\addplot[style={red,fill=red,mark=none}] table [x=Month, y=statipixGAC_2004] {./data/mon_over10_year.csv}; \addlegendentry{2004 GAC}
 	\end{axis}
 	\end{tikzpicture}
-	\scriptsize\caption{(a) Variation of monthly mean values of chlorophyll-a concentration in 2004 using LAC (blue line) and GAC (red line) and its differences between the LAC and GAC data and (b) the number of pixels with a value over 10 $\rm mg~m^{-3}$.}
+	\scriptsize\caption{(a) Variation of monthly mean values of chlorophyll-a concentration in 2004 using the LAC data (blue line) and the GAC data (red line) and its differences between the LAC and the GAC data and (b) the number of pixels with a value over 10 $\rm mg~m^{-3}$.}
 	\label{fig:diff_2004}
 \end{figure}
 
@@ -149,7 +149,7 @@ The GAC and the LAC data have been used to create monthly mean chlorophyll-a con
 	\begin{tikzpicture}
 	\begin{axis} [
 	width=1.00\textwidth,%
-	height = 6cm,%
+	height = 8cm,%
 	xtick = data,%
 	symbolic x coords={Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec},%
 	ylabel= {Chlorophyll-a concentration ( $\rm mg~m^{-3}$)},%
@@ -162,7 +162,7 @@ The GAC and the LAC data have been used to create monthly mean chlorophyll-a con
 	\end{axis}
 	
 	\begin{axis} [
-	width=1.00\textwidth,  height = 6cm, 
+	width=1.00\textwidth,  height = 8cm, 
 	axis y line*=right,
 	xtick = data, 
 	symbolic x coords={Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec}, 
@@ -177,14 +177,14 @@ The GAC and the LAC data have been used to create monthly mean chlorophyll-a con
 	
 	\begin{tikzpicture}	
 	\begin{axis} [
-	width=1.00\textwidth,   height = 6cm, 
+	width=1.00\textwidth,   height = 8cm, 
 	major x tick style = transparent,
 	xtick = data,
 	symbolic x coords={Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec},
 	ybar=4*\pgflinewidth,
 	bar width=8pt,
 	ymajorgrids = true,
-	ylabel= {Number of pixels ( > 10 $\rm mg~m^{-3}$},
+	ylabel= {Number of pixels ( > 10 $\rm mg~m^{-3})$},
 	scaled y ticks = false,
 	ymin=0, ystep=1, %ymax=100,
 	ymode=log]
@@ -193,7 +193,7 @@ The GAC and the LAC data have been used to create monthly mean chlorophyll-a con
 	\addplot[style={red,fill=red,mark=none}] table [x=Month, y=statipixGAC_2005] {./data/mon_over10_year.csv}; \addlegendentry{2005 GAC}
 	\end{axis}
 	\end{tikzpicture}
-	\scriptsize\caption{(a) Variation of monthly mean values of chlorophyll-a concentration in 2005 using LAC (blue line) and GAC (red line) and its differences between the LAC and GAC data and (b) the number of pixels with a value over 10 $\rm mg~m^{-3}$.}
+	\scriptsize\caption{(a) Variation of monthly mean values of chlorophyll-a concentration in 2005 using the LAC data (blue line) and the GAC data (red line) and its differences between the LAC and the GAC data and (b) the number of pixels with a value over 10 $\rm mg~m^{-3}$.}
 	\label{fig:diff_2005}
 \end{figure}
 
@@ -211,7 +211,7 @@ The GAC and the LAC data have been used to create monthly mean chlorophyll-a con
 	\begin{tikzpicture}
 	\begin{axis} [
 	width=1.00\textwidth,%
-	height = 6cm,%
+	height = 8cm,%
 	xtick = data,%
 	symbolic x coords={Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec},%
 	ylabel= {Chlorophyll-a concentration ( $\rm mg~m^{-3}$)},%
@@ -224,7 +224,7 @@ The GAC and the LAC data have been used to create monthly mean chlorophyll-a con
 	\end{axis}
 	
 	\begin{axis} [
-	width=1.00\textwidth,  height = 6cm, 
+	width=1.00\textwidth,  height = 8cm, 
 	axis y line*=right,
 	xtick = data, 
 	symbolic x coords={Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec}, 
@@ -239,14 +239,14 @@ The GAC and the LAC data have been used to create monthly mean chlorophyll-a con
 	
 	\begin{tikzpicture}	
 	\begin{axis} [
-	width=1.00\textwidth,   height = 6cm, 
+	width=1.00\textwidth,   height = 8cm, 
 	major x tick style = transparent,
 	xtick = data,
 	symbolic x coords={Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec},
 	ybar=4*\pgflinewidth,
 	bar width=8pt,
 	ymajorgrids = true,
-	ylabel= {\sffamily\scriptsize Number of pixels ( > 10 $\rm mg~m^{-3}$},
+	ylabel= {\sffamily\scriptsize Number of pixels ( > 10 $\rm mg~m^{-3})$},
 	scaled y ticks = false,
 	ymin=0, ystep=1, %ymax=100,
 	ymode=log]
@@ -255,6 +255,6 @@ The GAC and the LAC data have been used to create monthly mean chlorophyll-a con
 	\addplot[style={red,fill=red,mark=none}] table [x=Month, y=statipixGAC_2006] {./data/mon_over10_year.csv}; \addlegendentry{2006 GAC}
 	\end{axis}
 	\end{tikzpicture}
-	\scriptsize\caption{(a) Variation of monthly mean values of chlorophyll-a concentration in 2006 using LAC (blue line) and GAC (red line) and its differences between the LAC and GAC data and (b) the a number of pixels with a value over 10 $\rm mg~m^{-3}$.}
+	\scriptsize\caption{(a) Variation of monthly mean values of chlorophyll-a concentration in 2006 using the LAC data (blue line) and the GAC data (red line) and its differences between the LAC and the GAC data and (b) the number of pixels with a value over 10 $\rm mg~m^{-3}$.}
 	\label{fig:diff_2006}
 \end{figure}
