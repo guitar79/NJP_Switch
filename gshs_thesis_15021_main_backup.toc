@@ -1,0 +1,19 @@
+\contentsline {section}{Abstract}{i}
+\contentsline {section}{초록}{ii}
+\contentsline {section}{Contents}{iii}
+\contentsline {section}{List of Tables}{iv}
+\contentsline {section}{List of Figures}{v}
+\contentsline {section}{\numberline {I.}Introduction}{1}
+\contentsline {section}{\numberline {II.}Methodology}{3}
+\contentsline {subsection}{\numberline {II.1}Study area}{3}
+\contentsline {subsection}{\numberline {II.2}SeaWiFS data and study period}{4}
+\contentsline {subsection}{\numberline {II.3}Deriving chlorophyll-a concentration using LAC data and GAC data}{6}
+\contentsline {section}{\numberline {III.}Results}{8}
+\contentsline {subsection}{\numberline {III.1}Level-3 data of chlorophyll-a concentration in the East Sea}{8}
+\contentsline {subsection}{\numberline {III.2}Analysis the monthly mean of chlorophyll-a concentration in the East Sea}{15}
+\contentsline {subsection}{\numberline {III.3}The annual variability of chlorophyll-a concentration in the East Sea}{16}
+\contentsline {subsection}{\numberline {III.4}Maximum monthly mean values of chlorophyll-a concentration.}{21}
+\contentsline {section}{\numberline {IV.}Discussion}{22}
+\contentsline {section}{References}{23}
+\contentsline {section}{감사의 글}{25}
+\contentsline {section}{연구활동}{26}

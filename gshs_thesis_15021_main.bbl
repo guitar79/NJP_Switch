@@ -1,18 +1,19 @@
 \begin{thebibliography}{10}
 
 \bibitem[1]{kyung2013characteristics}
-Kyung-Ae~Park, Hwa-Jeong~Chae, J.-E.~P. (2013).
+Park, K.~A., Chae, H.~J., \& Park, J.~E. (2013).
 \newblock Characteristics of satellite chlorophyll-a concentration speckles and
   a removal method in a composite process in the east/japan sea.
-\newblock {\em International Journal of Remote Sensing}, {\em 34\/}(13),
-  635--651.
+\newblock {\em International journal of remote sensing}, {\em 34\/}(13),
+  4610--4635.
 
 \bibitem[2]{hooker1992An}
-Hooker, S.~B., W. E. E. G. C. F. W. W.~G., \& McClain, C.~R. (1992).
+Hooker, S.~B., Esaias, W.~E., Feldman, G.~C., Gregg, W.~W., \& McClain, C.~R.
+  (1992).
 \newblock {\em An Overview of SeaWiFS and Ocean Color}.
 
 \bibitem[3]{kimhc2016surface}
-Kim, H.-c. (2006).
+Kim, H.~C. (2006).
 \newblock (a) study of surface chlorophyll variation in the korean east sea
   using ocean color remote sensing data.
 
@@ -25,20 +26,20 @@ O’Reilly, J.~E., Maritorena, S., Siegel, D.~A., O’Brien, M.~C., Toole, D.,
   {\em 3}, 9--23.
 
 \bibitem[5]{yamada2004seasonal}
-Yamada, K., Ishizaka, J., Yoo, S., Kim, H.-c., \& Chiba, S. (2004).
+Yamada, K., Ishizaka, J., Yoo, S., Kim, H.~C., \& Chiba, S. (2004).
 \newblock Seasonal and interannual variability of sea surface chlorophyll a
   concentration in the japan/east sea (jes).
 \newblock {\em Progress in oceanography}, {\em 61\/}(2), 193--211.
 
 \bibitem[6]{chae2009characteristics}
-Chae, H.-J., \& Park, K. (2009).
+Chae, H.~J., \& Park, K.~A. (2009).
 \newblock Characteristics of speckle errors of seawifs chlorophyll-$\alpha$
   concentration in the east sea.
 \newblock {\em Journal of the Korean earth science society}, {\em 30\/}(2),
   234--246.
 
 \bibitem[7]{Seawifsres}
-Stanford B.~Hooker, W. E.~E. (1993).
+Hooker, S.~B., \& Esaias, W.~E. (1993).
 \newblock An overview of the seawifs project.
 \newblock {\em Eos, Transactions American Geophysical Union}, {\em 74\/}(21),
   241--246.
@@ -58,7 +59,7 @@ Hu, C., Lee, Z., \& Franz, B. (2012).
 \newblock {\em Journal of Geophysical Research: Oceans}, {\em 117\/}(C1).
 
 \bibitem[11]{park2012comparison}
-Park, K.-A., Park, J.-E., Lee, M.-S., \& Kang, C.-K. (2012).
+Park, K.~A., Park, J.~E., Lee, M.~S., \& Kang, C.~K. (2012).
 \newblock Comparison of composite methods of satellite chlorophyll-a
   concentration data in the east sea.
 \newblock {\em Korean Journal of Remote Sensing}, {\em 28\/}(6), 635--651.
